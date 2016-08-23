@@ -36,4 +36,5 @@ Data available since: UD v1.1
 License: CC BY-SA 4.0
 Genre: news wiki
 Contributors: Agić, Željko; Ljubešić, Nikola
+Contact:
 ===============================================================================
