@@ -22,7 +22,7 @@
     <tag name="PART">392</tag><!-- ne, li, sve, i, što, bilo, god, više, da, evo -->
     <tag name="PRON">4624</tag><!-- sebe, koji, taj, svoj, što, ovaj, on, njegov, oni, neki -->
     <tag name="PROPN">7413</tag><!-- Kosovo, EU, Srbija, BiH, Makedonija, Turska, SETimes, NATO, Bugarska, Hrvatska -->
-    <tag name="PUNCT">11370</tag><!-- ,, ., ", (, ), --, :, -, [, ] -->
+    <tag name="PUNCT">11370</tag><!-- ,, ., ", (, ), –, :, -, [, ] -->
     <tag name="SCONJ">1948</tag><!-- kako, da, kao, dok, jer, ako, iako, nego, ukoliko, ali -->
     <tag name="VERB">7312</tag><!-- kazati, izjaviti, moći, imati, reći, trebati, morati, očekivati, željeti, postati -->
     <tag name="X">253</tag><!-- de, A1, European, SETimes, Southeast, Times, bin, freedom, house, world -->
