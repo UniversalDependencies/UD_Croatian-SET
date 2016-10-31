@@ -1,31 +1,39 @@
-## Universal Dependencies for Croatian
+# Universal Dependencies for Croatian
 
-The Croatian UD treebank is built on top of the [SETimes.HR dependency treebank of Croatian](https://github.com/ffnlp/sethr).
-It comprises roughly 4,000 sentences of newspaper text from the
-[Southeast European Times](http://en.wikipedia.org/wiki/Southeast_European_Times) news website taken from the
-[SETimes parallel corpus](http://nlp.ffzg.hr/resources/corpora/setimes/).
+### Training set.
 
-The training set has 3,557 sentences (78,817 words) of newspaper text, while the development set contains 200 sentences
-(4,823 words) from the same source. The test set has 200 sentences (4,125 words): the first 100 sentences are newspaper text,
-while the other 100 sentences come from the Croatian Wikipedia.
+Contains 5,792 sentences (127,894 tokens) from two domains:
 
-Sentence and word segmentation was manually checked. The treebank does not include multiword tokens. No language-specific
-features and relations were used. The POS tags and features were converted from
-[Multext East v4](http://nlp.ffzg.hr/data/tagging/msd-hr.html) and manually checked.
-The syntactic annotation was done manually.
+1. Sentences 1-3557: Newspaper text from the [Southeast European Times](http://en.wikipedia.org/wiki/Southeast_European_Times) news website, obtained from the [SETimes parallel corpus](http://nlp.ffzg.hr/resources/corpora/setimes/). This part of the treebank is built on top of the [SETimes.HR dependency treebank of Croatian](https://github.com/ffnlp/sethr).
+2. Sentences 3558-5792: Text from various [Croatian web sources](http://nl.ijs.si/isjt14/proceedings/isjt2014_10.pdf).
 
-When using the Croatian UD treebank, please cite the
-[UD handle](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/LRT-1478) and the following paper:
+### Development set.
 
-* Željko Agić and Nikola Ljubešić. 2014.
-  [The SETimes.HR Linguistically Annotated Corpus of Croatian](http://www.lrec-conf.org/proceedings/lrec2014/pdf/690_Paper.pdf).
-  In Proc. LREC, pp. 1724--1727 ([bib](http://aclweb.org/anthology/L/L14/L14-1542.bib)).
+Contains 200 sentences (4,823 words) of newspaper text from the Croatian SETimes.
+
+### Test set.
+
+Contains 297 sentences (6,306 tokens) from three domains:
+
+1. Sentences 1-100: newspaper text, 
+2. Sentences 101-200: Wikipedia, 
+3. Sentences 201-297: web sources.
+
+### Details
+
+Sentence and word segmentation was manually checked. The treebank does not include multiword tokens. No language-specific features and relations were used. The POS tags and features were converted from [Multext East v4](http://nlp.ffzg.hr/data/tagging/msd-hr.html) and manually checked. The syntactic annotation was done manually.
+
+When using the Croatian UD treebank, please cite the following paper:
+
+* Željko Agić and Nikola Ljubešić. 2015. [Universal Dependencies for Croatian (that work for Serbian, too).](http://aclweb.org/anthology/W/W15/W15-5301.pdf). In Proc. BSNLP, pp. 1--8 ([bib](http://aclweb.org/anthology/W/W15/W15-5301.bib)).
 
 See file LICENSE.txt for further licensing information.
 
 ### Changelog
 
-No change since UD v1.1.
+2016-10-31
+
+* added 2223 new sentences to the training set, and 97 new sentences to the test set, from various Croatian web sources
 
 
 
@@ -34,7 +42,6 @@ Documentation status: stub
 Data source: semi-automatic
 Data available since: UD v1.1
 License: CC BY-SA 4.0
-Genre: news wiki
+Genre: news web wiki
 Contributors: Agić, Željko; Ljubešić, Nikola
-Contact:
 ===============================================================================
