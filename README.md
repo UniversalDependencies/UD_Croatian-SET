@@ -33,7 +33,7 @@ See file LICENSE.txt for further licensing information.
 
 2016-10-31
 
-* added 2223 new sentences to the training set, and 97 new sentences to the test set, from various Croatian web sources
+* added 2235 new sentences to the training set, and 97 new sentences to the test set, from various Croatian web sources
 
 
 
