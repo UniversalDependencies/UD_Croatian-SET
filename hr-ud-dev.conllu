@@ -768,7 +768,7 @@
 30	provesti	provesti	VERB	_	VerbForm=Inf	29	xcomp	_	_
 31	istragu	istraga	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	30	obj	_	_
 32	o	o	ADP	_	Case=Loc	35	case	_	_
-33	njegovoj	njegov	DET	_	Case=Loc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod	_	_
+33	njegovoj	njegov	DET	_	Case=Loc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod	_	_
 34	navodnoj	navodan	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	_
 35	upletenosti	upletenost	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	31	nmod	_	_
 36	u	u	ADP	_	Case=Acc	37	case	_	_
@@ -2730,7 +2730,7 @@
 
 # sent_id = dev-s99
 # text = Njegov prvi tekst na blogu bio je o proceduri odobravanja državnog proračuna za 2008. godinu.
-1	Njegov	njegov	DET	_	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod	_	_
+1	Njegov	njegov	DET	_	Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod	_	_
 2	prvi	prvi	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	nummod	_	_
 3	tekst	tekst	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 4	na	na	ADP	_	Case=Loc	5	case	_	_
@@ -3062,7 +3062,7 @@
 28	zadržan	zadržati	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	27	xcomp	_	_
 29	kako	kako	SCONJ	_	_	35	mark	_	_
 30	bi	biti	AUX	_	Number=Sing|Person=3|Tense=Past	35	aux	_	_
-31	njegov	njegov	DET	_	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod	_	_
+31	njegov	njegov	DET	_	Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod	_	_
 32	AAA	AAA	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	34	amod	_	_
 33	bonitetni	bonitetan	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
 34	rejting	rejting	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	_
@@ -3277,7 +3277,7 @@
 10	s	s	ADP	_	Case=Ins	11	case	_	_
 11	MMF-om	MMF	PROPN	_	Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	_
 12	o	o	ADP	_	Case=Loc	14	case	_	_
-13	njegovu	njegov	DET	_	Case=Loc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod	_	_
+13	njegovu	njegov	DET	_	Case=Loc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod	_	_
 14	doprinosu	doprinos	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
 15	novom	nov	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
 16	fondu	fond	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	14	nmod	_	_
@@ -3771,7 +3771,7 @@
 12	i	i	CCONJ	_	_	17	cc	_	_
 13	da	da	SCONJ	_	_	17	mark	_	_
 14	će	htjeti	AUX	_	Number=Sing|Person=3|Tense=Pres	17	aux	_	_
-15	njegova	njegov	DET	_	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod	_	_
+15	njegova	njegov	DET	_	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod	_	_
 16	stranka	stranka	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
 17	ostati	ostati	VERB	_	VerbForm=Inf	9	conj	_	_
 18	u	u	ADP	_	Case=Loc	19	case	_	_
@@ -6270,7 +6270,7 @@
 # text = Trgovina i njezini uvjeti, upozorava Bilić, poseban su problem.
 1	Trgovina	trgovina	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
 2	i	i	CCONJ	_	_	4	cc	_	_
-3	njezini	njezin	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|Poss=Yes	4	nmod	_	_
+3	njezini	njezin	DET	_	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod	_	_
 4	uvjeti	uvjet	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	upozorava	upozoravati	VERB	_	Number=Sing|Person=3|Tense=Pres	11	parataxis	_	_
@@ -9295,7 +9295,7 @@
 
 # sent_id = dev-s354
 # text = Njena pozitivna definicija preuzima problematiku intelektualne i moralne autonomije, onakve kakvom je nastoji promicati javno obrazovanje, ali i politika koja može osigurati svima egzistencijalne uvjete za dostatno samoispunjenje.
-1	Njena	njen	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes	3	nmod	_	_
+1	Njena	njen	DET	_	Case=Nom|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod	_	_
 2	pozitivna	pozitivan	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
 3	definicija	definicija	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 4	preuzima	preuzimati	VERB	_	Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -9770,7 +9770,7 @@
 13	kolika	koliki	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	15	mark	_	_
 14	će	htjeti	AUX	_	Number=Sing|Person=3|Tense=Pres	15	aux	_	_
 15	biti	biti	AUX	_	VerbForm=Inf	12	acl	_	_
-16	njegova	njegov	DET	_	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod	_	_
+16	njegova	njegov	DET	_	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod	_	_
 17	mirovina	mirovina	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
 18	u	u	ADP	_	Case=Loc	19	case	_	_
 19	slučaju	slučaj	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
@@ -13549,7 +13549,7 @@
 8	su	biti	AUX	_	Number=Plur|Person=3|Tense=Pres	32	aux	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	prema	prema	ADP	_	Case=Loc	12	case	_	_
-11	njegovim	njegov	DET	_	Case=Loc|Gender=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod	_	_
+11	njegovim	njegov	DET	_	Case=Loc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod	_	_
 12	riječima	riječ	NOUN	_	Case=Loc|Gender=Fem|Number=Plur	32	parataxis	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	hrvatski	hrvatski	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_
@@ -14181,7 +14181,7 @@
 11	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	16	aux	_	_
 12	početkom	početkom	ADP	_	Case=Gen	13	case	_	_
 13	tjedna	tjedan	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
-14	njegov	njegov	DET	_	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod	_	_
+14	njegov	njegov	DET	_	Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod	_	_
 15	tečaj	tečaj	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
 16	potonuo	potonuti	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	conj	_	_
 17	na	na	ADP	_	Case=Acc	20	case	_	_
@@ -16086,7 +16086,7 @@
 14	na	na	ADP	_	Case=Acc	15	case	_	_
 15	ravnatelja	ravnatelj	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
 16	i	i	CCONJ	_	_	18	cc	_	_
-17	njegova	njegov	DET	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod	_	_
+17	njegova	njegov	DET	_	Animacy=Anim|Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod	_	_
 18	zamjenika	zamjenik	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	28	punct	_	_
 20	u	u	ADP	_	Case=Loc	21	case	_	_
