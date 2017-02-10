@@ -30,7 +30,7 @@
     <tag name="X">253</tag><!-- de, A1, European, SETimes, Southeast, Times, bin, freedom, house, world -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="43">
+  <feats unique="44">
     <feat name="Animacy" value="Anim" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">597</feat><!-- kojeg, predsjednika, tko, nitko, jednog, kandidata, boga, ministra, premijera, najboljeg -->
     <feat name="Animacy" value="Inan" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">4548</feat><!-- što, SETimes, svoj, način, ponedjeljak, petak, koji, utorak, četvrtak, taj -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">26321</feat><!-- se, za, na, u, to, uz, koje, što, svoje, sve -->
@@ -66,7 +66,8 @@
     <feat name="Poss" value="Yes" upos="ADJ,DET">1908</feat><!-- svoje, svoj, svoju, svojim, njegova, svojih, njegov, naše, svojoj, njihov -->
     <feat name="PronType" value="Dem" upos="PRON">2444</feat><!-- to, ove, toga, tome, taj, te, ovog, tom, ovaj, ovo -->
     <feat name="PronType" value="Ind" upos="PRON">763</feat><!-- neki, sve, neke, ništa, nešto, svaki, nitko, svaka, nekim, svakog -->
-    <feat name="PronType" value="Int,Rel" upos="DET,PRON">3367</feat><!-- koji, što, koje, koja, kojima, koju, kojoj, kojem, kojim, kojeg -->
+    <feat name="PronType" value="Int" upos="DET">7</feat><!-- Koji, Kakav, Kakva, Kakvi, Kakvu, Koje -->
+    <feat name="PronType" value="Int,Rel" upos="DET,PRON">3360</feat><!-- koji, što, koje, koja, kojima, koju, kojoj, kojem, kojim, kojeg -->
     <feat name="PronType" value="Prs" upos="DET,PRON">5918</feat><!-- se, svoje, ih, mi, ga, im, mu, on, svoj, njih -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">3542</feat><!-- se, svoje, svoj, svoju, svojim, svojih, svojoj, svojeg, sebe, svog -->
     <feat name="Tense" value="Imp" upos="AUX">2</feat><!-- bijaše -->
