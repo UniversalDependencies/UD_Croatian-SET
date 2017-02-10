@@ -12,7 +12,7 @@
 10	da	da	SCONJ	_	_	11	mark	_	_
 11	ustroje	ustrojiti	VERB	_	Number=Plur|Person=3|Tense=Pres	6	ccomp	_	_
 12	timove	tim	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
-13	čiji	čiji	DET	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Int,Rel	17	mark	_	_
+13	čiji	čiji	DET	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Int,Rel	15	det	_	_
 14	će	htjeti	AUX	_	Number=Sing|Person=3|Tense=Pres	17	aux	_	_
 15	zadatak	zadatak	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
 16	biti	biti	AUX	_	VerbForm=Inf	17	cop	_	_
@@ -7632,7 +7632,7 @@
 12	)	)	PUNCT	_	_	11	punct	_	_
 13	potrebne	potreban	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_
 14	sitnice	sitnica	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	3	conj	_	_
-15	čija	čiji	DET	_	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Int,Rel	18	mark	_	_
+15	čija	čiji	DET	_	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Int,Rel	17	det	_	_
 16	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	18	aux	_	_
 17	cijena	cijena	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
 18	prelazila	prelaziti	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	14	acl	_	_
