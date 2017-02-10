@@ -30,7 +30,7 @@
     <tag name="X">253</tag><!-- de, A1, European, SETimes, Southeast, Times, bin, freedom, house, world -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="44">
+  <feats unique="45">
     <feat name="Animacy" value="Anim" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">597</feat><!-- kojeg, predsjednika, tko, nitko, jednog, kandidata, boga, ministra, premijera, najboljeg -->
     <feat name="Animacy" value="Inan" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">4527</feat><!-- što, SETimes, svoj, način, ponedjeljak, petak, koji, utorak, četvrtak, taj -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">26321</feat><!-- se, za, na, u, to, uz, koje, što, svoje, sve -->
@@ -75,6 +75,7 @@
     <feat name="Tense" value="Pres" upos="AUX,VERB">18143</feat><!-- je, su, će, nije, smo, može, ima, kaže, treba, sam -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">3892</feat><!-- biti, bit, imati, pomoći, raditi, pronaći, vidjeti, reći, nastaviti, dobiti -->
     <feat name="VerbForm" value="Part" upos="ADJ,ADV,AUX,VERB">8849</feat><!-- izjavio, bio, bilo, rekao, kazao, bila, bili, mogli, dodao, mogla -->
+    <feat name="Voice" value="Pass" upos="ADJ,AUX,VERB">996</feat><!-- održana, otvorena, održano, otvoren, postignut, povećana, ubijen, pronađeno, provedena, uhićen -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="40">
@@ -106,13 +107,13 @@
     <dep name="goeswith">138</dep>
     <dep name="iobj">689</dep>
     <dep name="list">24</dep>
-    <dep name="mark">5158</dep>
+    <dep name="mark">4949</dep>
     <dep name="nmod">22758</dep>
-    <dep name="nsubj">12513</dep>
+    <dep name="nsubj">12650</dep>
     <dep name="nsubj:pass">1037</dep>
     <dep name="nummod">4139</dep>
-    <dep name="obj">8672</dep>
-    <dep name="obl">9345</dep>
+    <dep name="obj">8682</dep>
+    <dep name="obl">9407</dep>
     <dep name="parataxis">2287</dep>
     <dep name="punct">23740</dep>
     <dep name="root">8889</dep>
