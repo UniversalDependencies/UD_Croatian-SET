@@ -2,22 +2,27 @@
 
 ### Training set.
 
-Contains 5,792 sentences (127,894 tokens) from two domains:
+Contains 7,689 sentences (169,283 tokens) from three sources:
 
-1. Sentences 1-3557: Newspaper text from the [Southeast European Times](http://en.wikipedia.org/wiki/Southeast_European_Times) news website, obtained from the [SETimes parallel corpus](http://nlp.ffzg.hr/resources/corpora/setimes/). This part of the treebank is built on top of the [SETimes.HR dependency treebank of Croatian](https://github.com/ffnlp/sethr).
+1. Sentences 0001-3557: Newspaper text from the [Southeast European Times](http://en.wikipedia.org/wiki/Southeast_European_Times) news website, obtained from the [SETimes parallel corpus](http://nlp.ffzg.hr/resources/corpora/setimes/). This part of the treebank is built on top of the [SETimes.HR dependency treebank of Croatian](https://github.com/ffnlp/sethr); 
 2. Sentences 3558-5792: Text from various [Croatian web sources](http://nl.ijs.si/isjt14/proceedings/isjt2014_10.pdf).
+3. Sentences 5793-7689: Croatian news web sources.
 
 ### Development set.
 
-Contains 200 sentences (4,823 words) of newspaper text from the Croatian SETimes.
+Contains 600 sentences (14,533 tokens) from two sources:
+
+1. 001-200: newspaper text from the Croatian SETimes, 
+2. 201-600: Croatian news web sources.
 
 ### Test set.
 
-Contains 297 sentences (6,306 tokens) from three domains:
+Contains 600 sentences (13,228 tokens) from three sources:
 
-1. Sentences 1-100: newspaper text, 
-2. Sentences 101-200: Wikipedia, 
-3. Sentences 201-297: web sources.
+1. sentences 001-100: newspaper text, 
+2. sentences 101-200: Wikipedia, 
+3. sentences 201-297: web sources, and
+4. sentences 298-600: Croatian news web sources.
 
 ### Details
 
@@ -30,6 +35,10 @@ When using the Croatian UD treebank, please cite the following paper:
 See file LICENSE.txt for further licensing information.
 
 ### Changelog
+
+2017-02-09
+
+* added new ud v1 sentences from news-hr to dev, test, and train set: 2600 sentences, out of which the last 703 went to dev (400) and test (303), and the remainder to the train set
 
 2016-10-31
 
