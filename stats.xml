@@ -107,9 +107,9 @@
     <dep name="goeswith">138</dep>
     <dep name="iobj">689</dep>
     <dep name="list">24</dep>
-    <dep name="mark">4949</dep>
+    <dep name="mark">4678</dep>
     <dep name="nmod">22758</dep>
-    <dep name="nsubj">12650</dep>
+    <dep name="nsubj">12921</dep>
     <dep name="nsubj:pass">1037</dep>
     <dep name="nummod">4139</dep>
     <dep name="obj">8682</dep>
