@@ -88,6 +88,7 @@
     <dep name="csubj">298</dep>
     <dep name="csubj:pass">61</dep>
     <dep name="dep">10</dep>
+    <dep name="dep:remnant">406</dep>
     <dep name="det">2051</dep>
     <dep name="discourse">2196</dep>
     <dep name="dislocated">8</dep>
@@ -108,7 +109,6 @@
     <dep name="obl">8961</dep>
     <dep name="parataxis">2287</dep>
     <dep name="punct">23740</dep>
-    <dep name="remnant">406</dep>
     <dep name="root">8889</dep>
     <dep name="vocative">23</dep>
     <dep name="xcomp">2949</dep>

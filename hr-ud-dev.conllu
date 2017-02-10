@@ -1826,7 +1826,7 @@
 13	ne	ne	PART	_	Polarity=Neg	16	advmod	_	_
 14	i	i	CCONJ	_	_	16	discourse	_	_
 15	u	u	ADP	_	Case=Loc	16	case	_	_
-16	Moldaviji	Moldavija	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	5	remnant	_	_
+16	Moldaviji	Moldavija	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	5	dep:remnant	_	_
 17	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	rekao	reći	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	parataxis	_	_
@@ -2243,7 +2243,7 @@
 26	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	27	aux	_	_
 27	trajao	trajati	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	22	acl	_	_
 28	do	do	ADP	_	Case=Gen	29	case	_	_
-29	1992.	1992.	NUM	_	NumType=Ord	31	remnant	_	_
+29	1992.	1992.	NUM	_	NumType=Ord	31	dep:remnant	_	_
 30	do	do	ADP	_	Case=Gen	32	case	_	_
 31	1995.	1995.	NUM	_	NumType=Ord	32	nummod	_	_
 32	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
@@ -2851,7 +2851,7 @@
 11	se	sebe	PRON	_	Case=Acc|Number=Sing|Reflex=Yes	9	obj	_	_
 12	za	za	ADP	_	Case=Acc	18	case	_	_
 13	oko	oko	ADV	_	Degree=Pos	17	advmod	_	_
-14	50	50	NUM	_	NumType=Card	16	remnant	_	_
+14	50	50	NUM	_	NumType=Card	16	dep:remnant	_	_
 15	do	do	ADP	_	Case=Gen	16	case	_	_
 16	70	70	NUM	_	NumType=Card	17	compound	_	_
 17	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	18	nummod	_	_
@@ -5941,17 +5941,17 @@
 23	tona	tona	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	21	obj	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	21	punct	_	_
 25	u	u	ADP	_	Case=Loc	26	case	_	_
-26	ostatku	ostatak	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	20	remnant	_	_
+26	ostatku	ostatak	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	20	dep:remnant	_	_
 27	bivše	bivši	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
 28	Jugoslavije	Jugoslavija	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
-29	68.100	68.100	NUM	_	NumType=Card	22	remnant	_	SpaceAfter=No
+29	68.100	68.100	NUM	_	NumType=Card	22	dep:remnant	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	21	punct	_	_
 31	a	a	CCONJ	_	_	21	cc	_	_
 32	u	u	ADP	_	Case=Loc	34	case	_	_
 33	trećim	treći	NUM	_	Case=Loc|Gender=Fem|Number=Plur|NumType=Ord	34	nummod	_	_
-34	zemljama	zemlja	NOUN	_	Case=Loc|Gender=Fem|Number=Plur	20	remnant	_	_
+34	zemljama	zemlja	NOUN	_	Case=Loc|Gender=Fem|Number=Plur	20	dep:remnant	_	_
 35	6127	6127	NUM	_	NumType=Card	36	nummod	_	_
-36	tona	tona	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	23	remnant	_	SpaceAfter=No
+36	tona	tona	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	23	dep:remnant	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = dev-s219
@@ -6008,15 +6008,15 @@
 15	tone	tona	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	12	punct	_	_
 17	na	na	ADP	_	Case=Loc	18	case	_	_
-18	tržištu	tržište	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	11	remnant	_	_
+18	tržištu	tržište	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	11	dep:remnant	_	_
 19	bivše	bivši	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
 20	države	država	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
-21	19.268	19.268	NUM	_	NumType=Card	14	remnant	_	_
+21	19.268	19.268	NUM	_	NumType=Card	14	dep:remnant	_	_
 22	i	i	CCONJ	_	_	12	punct	_	_
 23	na	na	ADP	_	Case=Loc	24	case	_	_
-24	svjetskom	svjetski	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	remnant	_	_
+24	svjetskom	svjetski	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	dep:remnant	_	_
 25	11.017	11.017	NUM	_	NumType=Card	26	nummod	_	_
-26	tona	tona	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	15	remnant	_	SpaceAfter=No
+26	tona	tona	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	15	dep:remnant	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = dev-s222
@@ -6067,9 +6067,9 @@
 30	tržišta	tržište	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	26	punct	_	_
 32	a	a	CCONJ	_	_	26	cc	_	_
-33	lani	lani	ADV	_	Degree=Pos	23	remnant	_	_
+33	lani	lani	ADV	_	Degree=Pos	23	dep:remnant	_	_
 34	37,2	37,2	NUM	_	NumType=Card	35	nummod	_	_
-35	%	%	PUNCT	_	_	28	remnant	_	SpaceAfter=No
+35	%	%	PUNCT	_	_	28	dep:remnant	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = dev-s224
@@ -6443,9 +6443,9 @@
 15	,	,	PUNCT	_	_	6	punct	_	_
 16	a	a	CCONJ	_	_	6	cc	_	_
 17	Croatia	Croatia	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	18	compound	_	_
-18	banka	banka	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	2	remnant	_	_
+18	banka	banka	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	2	dep:remnant	_	_
 19	s	sa	ADP	_	Case=Ins	20	case	_	_
-20	gubitkom	gubitak	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	8	remnant	_	_
+20	gubitkom	gubitak	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	8	dep:remnant	_	_
 21	od	od	ADP	_	Case=Gen	23	case	_	_
 22	25,2	25,2	NUM	_	NumType=Card	23	nummod	_	_
 23	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
@@ -6605,12 +6605,12 @@
 10	sustava	sustav	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	5	punct	_	_
 12	a	a	CCONJ	_	_	5	cc	_	_
-13	neke	neki	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	4	remnant	_	_
+13	neke	neki	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	4	dep:remnant	_	_
 14	od	od	ADP	_	Case=Gen	15	case	_	_
 15	njih	oni	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	13	nmod	_	_
 16	čak	čak	ADV	_	Degree=Pos	18	discourse	_	_
 17	i	i	PART	_	_	18	discourse	_	_
-18	pad	pad	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	remnant	_	_
+18	pad	pad	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	dep:remnant	_	_
 19	aktive	aktiva	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -6654,10 +6654,10 @@
 12	a	a	CCONJ	_	_	5	cc	_	_
 13	Hypo	Hypo	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	15	compound	_	_
 14	Alpe-Adria	Alpe-Adria	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	13	compound	_	_
-15	banka	banka	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	1	remnant	_	_
+15	banka	banka	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	1	dep:remnant	_	_
 16	tek	tek	ADV	_	Degree=Pos	17	advmod	_	_
 17	80	80	NUM	_	NumType=Card	18	nummod	_	_
-18	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	9	remnant	_	_
+18	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	9	dep:remnant	_	_
 19	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
 20	manju	mali	ADJ	_	Case=Acc|Definite=Def|Degree=Cmp|Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	5	punct	_	_
@@ -6698,7 +6698,7 @@
 19	u	u	ADP	_	Case=Acc	22	case	_	_
 20	prvih	prvi	NUM	_	Case=Gen|Gender=Masc|Number=Plur|NumType=Ord	21	nummod	_	_
 21	devet	devet	NUM	_	NumType=Card	22	nummod	_	_
-22	mjeseci	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	14	remnant	_	_
+22	mjeseci	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	14	dep:remnant	_	_
 23	prošle	prošli	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
 24	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	6	punct	_	_
@@ -7196,10 +7196,10 @@
 32	stanovništvo	stanovništvo	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	30	obl	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	30	punct	_	_
 34	a	a	CCONJ	_	_	30	cc	_	_
-35	ostatak	ostatak	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	29	remnant	_	_
+35	ostatak	ostatak	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	29	dep:remnant	_	_
 36	na	na	ADP	_	Case=Acc	38	case	_	_
 37	pravne	pravni	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	38	amod	_	_
-38	osobe	osoba	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	32	remnant	_	SpaceAfter=No
+38	osobe	osoba	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	32	dep:remnant	_	SpaceAfter=No
 39	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = dev-s266
@@ -7467,9 +7467,9 @@
 7	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	a	a	CCONJ	_	_	5	cc	_	_
-10	upisnina	upisnina	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	4	remnant	_	_
+10	upisnina	upisnina	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	4	dep:remnant	_	_
 11	45	45	NUM	_	NumType=Card	12	nummod	_	_
-12	kuna	kuna	PROPN	_	Case=Gen|Gender=Fem|Number=Plur	7	remnant	_	SpaceAfter=No
+12	kuna	kuna	PROPN	_	Case=Gen|Gender=Fem|Number=Plur	7	dep:remnant	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = dev-s275
@@ -8211,9 +8211,9 @@
 12	bolje	dobro	ADV	_	Degree=Cmp	5	advmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	u	u	ADP	_	Case=Loc	15	case	_	_
-15	selima	selo	NOUN	_	Case=Loc|Gender=Neut|Number=Plur	2	remnant	_	_
+15	selima	selo	NOUN	_	Case=Loc|Gender=Neut|Number=Plur	2	dep:remnant	_	_
 16	zemljoradničku	zemljoradnički	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
-17	zadrugu	zadruga	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	8	remnant	_	_
+17	zadrugu	zadruga	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	8	dep:remnant	_	_
 18	jer	jer	SCONJ	_	_	20	mark	_	_
 19	tada	tada	ADV	_	Degree=Pos	20	advmod	_	_
 20	dobivaju	dobivati	VERB	_	Number=Plur|Person=3|Tense=Pres	5	advcl	_	_
@@ -8404,7 +8404,7 @@
 9	bolje	dobro	ADV	_	Degree=Cmp	4	acl	_	_
 10	nego	nego	CCONJ	_	_	3	cc	_	_
 11	u	u	ADP	_	Case=Loc	12	case	_	_
-12	Austriji	Austrija	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	2	remnant	_	_
+12	Austriji	Austrija	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	2	dep:remnant	_	_
 13	jer	jer	SCONJ	_	_	16	mark	_	_
 14	dosta	dosta	ADV	_	Degree=Pos	15	advmod	_	_
 15	gradova	grad	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	16	nsubj	_	_
@@ -9091,10 +9091,10 @@
 5	jednog	jedan	NUM	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|NumType=Card	6	nummod	_	_
 6	boga	bog	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
-8	drugi	drugi	NUM	_	Case=Nom|Gender=Masc|Number=Plur|NumType=Ord	2	remnant	_	_
+8	drugi	drugi	NUM	_	Case=Nom|Gender=Masc|Number=Plur|NumType=Ord	2	dep:remnant	_	_
 9	u	u	ADP	_	Case=Acc	11	case	_	_
 10	više	mnogo	ADV	_	Degree=Cmp	11	advmod	_	_
-11	njih	oni	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	6	remnant	_	SpaceAfter=No
+11	njih	oni	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	6	dep:remnant	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = dev-s346
@@ -9668,8 +9668,8 @@
 18	u	u	ADP	_	Case=Acc	21	case	_	_
 19	15	15	NUM	_	NumType=Card	21	nummod	_	_
 20	zatvorenih	zatvoren	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	_
-21	DMF-ova	DMF	PROPN	_	Case=Gen|Gender=Masc|Number=Plur	6	remnant	_	_
-22	njih	oni	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	15	remnant	_	_
+21	DMF-ova	DMF	PROPN	_	Case=Gen|Gender=Masc|Number=Plur	6	dep:remnant	_	_
+22	njih	oni	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	15	dep:remnant	_	_
 23	tek	tek	ADV	_	Degree=Pos	24	advmod	_	_
 24	17.600	17.600	NUM	_	NumType=Card	22	nummod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	10	punct	_	_
@@ -11158,15 +11158,15 @@
 16	,	,	PUNCT	_	_	13	punct	_	_
 17	na	na	ADP	_	Case=Acc	19	case	_	_
 18	tri	tri	NUM	_	NumType=Card	19	nummod	_	_
-19	mjeseca	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	8	remnant	_	_
+19	mjeseca	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	8	dep:remnant	_	_
 20	4,7	4,7	NUM	_	NumType=Card	21	nummod	_	_
-21	posto	posto	ADV	_	Degree=Pos	15	remnant	_	SpaceAfter=No
+21	posto	posto	ADV	_	Degree=Pos	15	dep:remnant	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	13	punct	_	_
 23	na	na	ADP	_	Case=Acc	25	case	_	_
 24	pola	pola	ADV	_	Degree=Pos	25	advmod	_	_
-25	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	8	remnant	_	_
+25	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	8	dep:remnant	_	_
 26	5,2	5,2	NUM	_	NumType=Card	27	nummod	_	_
-27	posto	posto	ADV	_	Degree=Pos	15	remnant	_	_
+27	posto	posto	ADV	_	Degree=Pos	15	dep:remnant	_	_
 28	godišnje	godišnje	ADV	_	Degree=Pos	27	advmod	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -11214,17 +11214,17 @@
 14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	8	punct	_	_
 16	4,1	4,1	NUM	_	NumType=Card	17	nummod	_	_
-17	posto	posto	ADV	_	Degree=Pos	7	remnant	_	_
+17	posto	posto	ADV	_	Degree=Pos	7	dep:remnant	_	_
 18	na	na	ADP	_	Case=Acc	22	case	_	_
 19	više	mnogo	ADV	_	Degree=Cmp	20	advmod	_	_
 20	od	od	ADP	_	Case=Gen	21	case	_	_
 21	tri	tri	NUM	_	NumType=Card	22	nummod	_	_
-22	mjeseca	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	13	remnant	_	_
+22	mjeseca	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	13	dep:remnant	_	_
 23	pa	pa	CCONJ	_	_	8	cc	_	_
 24	sve	sve	PART	_	_	25	discourse	_	_
 25	do	do	ADP	_	Case=Gen	26	case	_	_
 26	6,25	6,25	NUM	_	NumType=Card	27	nummod	_	_
-27	posto	posto	ADV	_	Degree=Pos	7	remnant	_	_
+27	posto	posto	ADV	_	Degree=Pos	7	dep:remnant	_	_
 28	na	na	ADP	_	Case=Acc	29	case	_	_
 29	oročenja	oročenje	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	27	nmod	_	_
 30	iznad	iznad	ADP	_	Case=Gen	32	case	_	_
@@ -11354,24 +11354,24 @@
 39	posto	posto	ADV	_	Degree=Pos	37	advmod	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	37	punct	_	_
 41	tri	tri	NUM	_	NumType=Card	42	nummod	_	_
-42	mjeseca	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	36	remnant	_	_
+42	mjeseca	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	36	dep:remnant	_	_
 43	4,7	4,7	NUM	_	NumType=Card	44	nummod	_	_
-44	posto	posto	ADV	_	Degree=Pos	39	remnant	_	SpaceAfter=No
+44	posto	posto	ADV	_	Degree=Pos	39	dep:remnant	_	SpaceAfter=No
 45	,	,	PUNCT	_	_	37	punct	_	_
 46	više	mnogo	ADV	_	Degree=Cmp	49	advmod	_	_
 47	od	od	ADP	_	Case=Gen	48	case	_	_
 48	šest	šest	NUM	_	NumType=Card	49	nummod	_	_
-49	mjeseci	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	36	remnant	_	_
+49	mjeseci	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	36	dep:remnant	_	_
 50	4,8	4,8	NUM	_	NumType=Card	51	nummod	_	_
-51	posto	posto	ADV	_	Degree=Pos	39	remnant	_	SpaceAfter=No
+51	posto	posto	ADV	_	Degree=Pos	39	dep:remnant	_	SpaceAfter=No
 52	,	,	PUNCT	_	_	37	punct	_	_
 53	a	a	CCONJ	_	_	37	cc	_	_
 54	više	mnogo	ADV	_	Degree=Cmp	56	advmod	_	_
 55	od	od	ADP	_	Case=Gen	56	case	_	_
-56	godinu	godina	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	36	remnant	_	_
+56	godinu	godina	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	36	dep:remnant	_	_
 57	dana	dan	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	56	nmod	_	_
 58	5,25	5,25	NUM	_	NumType=Card	59	nummod	_	_
-59	posto	posto	ADV	_	Degree=Pos	39	remnant	_	SpaceAfter=No
+59	posto	posto	ADV	_	Degree=Pos	39	dep:remnant	_	SpaceAfter=No
 60	.	.	PUNCT	_	_	22	punct	_	_
 
 # sent_id = dev-s429
@@ -11410,10 +11410,10 @@
 32	posto	posto	ADV	_	Degree=Pos	30	advmod	_	_
 33	te	te	CCONJ	_	_	30	cc	_	_
 34	5,65	5,65	NUM	_	NumType=Card	35	nummod	_	_
-35	posto	posto	ADV	_	Degree=Pos	32	remnant	_	_
+35	posto	posto	ADV	_	Degree=Pos	32	dep:remnant	_	_
 36	na	na	ADP	_	Case=Acc	38	case	_	_
 37	tri	tri	NUM	_	NumType=Card	38	nummod	_	_
-38	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	29	remnant	_	SpaceAfter=No
+38	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	29	dep:remnant	_	SpaceAfter=No
 39	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = dev-s430
@@ -11543,13 +11543,13 @@
 19	a	a	CCONJ	_	_	9	cc	_	_
 20	na	na	ADP	_	Case=Loc	22	case	_	_
 21	pola	pola	ADV	_	Degree=Pos	22	advmod	_	_
-22	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	8	remnant	_	_
+22	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	8	dep:remnant	_	_
 23	2,2	2,2	NUM	_	NumType=Card	28	nummod	_	_
 24	pa	pa	CCONJ	_	_	27	cc	_	_
 25	sve	sve	PART	_	_	26	discourse	_	_
 26	do	do	ADP	_	Case=Gen	27	case	_	_
 27	3,6	3,6	NUM	_	NumType=Card	23	conj	_	_
-28	posto	posto	ADV	_	Degree=Pos	17	remnant	_	SpaceAfter=No
+28	posto	posto	ADV	_	Degree=Pos	17	dep:remnant	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = dev-s435
@@ -11615,27 +11615,27 @@
 17	,	,	PUNCT	_	_	14	punct	_	_
 18	na	na	ADP	_	Case=Acc	20	case	_	_
 19	tri	tri	NUM	_	NumType=Card	20	nummod	_	_
-20	mjeseca	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	13	remnant	_	_
+20	mjeseca	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	13	dep:remnant	_	_
 21	3,5	3,5	NUM	_	NumType=Card	22	nummod	_	_
-22	posto	posto	ADV	_	Degree=Pos	16	remnant	_	SpaceAfter=No
+22	posto	posto	ADV	_	Degree=Pos	16	dep:remnant	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	14	punct	_	_
 24	na	na	ADP	_	Case=Acc	26	case	_	_
 25	šest	šest	NUM	_	NumType=Card	26	nummod	_	_
-26	mjeseci	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	13	remnant	_	_
+26	mjeseci	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	13	dep:remnant	_	_
 27	4	4	NUM	_	NumType=Card	28	nummod	_	_
-28	posto	posto	ADV	_	Degree=Pos	16	remnant	_	SpaceAfter=No
+28	posto	posto	ADV	_	Degree=Pos	16	dep:remnant	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	14	punct	_	_
 30	na	na	ADP	_	Case=Acc	31	case	_	_
-31	godinu	godina	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	13	remnant	_	_
+31	godinu	godina	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	13	dep:remnant	_	_
 32	dana	dan	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	31	nmod	_	_
 33	4,5	4,5	NUM	_	NumType=Card	34	nummod	_	_
-34	posto	posto	ADV	_	Degree=Pos	16	remnant	_	_
+34	posto	posto	ADV	_	Degree=Pos	16	dep:remnant	_	_
 35	te	te	CCONJ	_	_	14	cc	_	_
 36	na	na	ADP	_	Case=Acc	38	case	_	_
 37	dvije	dva	NUM	_	Case=Acc|Gender=Fem|NumType=Card	38	nummod	_	_
-38	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	13	remnant	_	_
+38	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	13	dep:remnant	_	_
 39	5	5	NUM	_	NumType=Card	40	nummod	_	_
-40	posto	posto	ADV	_	Degree=Pos	16	remnant	_	SpaceAfter=No
+40	posto	posto	ADV	_	Degree=Pos	16	dep:remnant	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = dev-s437
@@ -12909,14 +12909,14 @@
 23	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	21	obj	_	_
 24	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	21	punct	_	_
-26	Sabor	Sabor	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	16	remnant	_	_
-27	177	177	NUM	_	NumType=Card	22	remnant	_	SpaceAfter=No
+26	Sabor	Sabor	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	16	dep:remnant	_	_
+27	177	177	NUM	_	NumType=Card	22	dep:remnant	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	21	punct	_	_
 29	a	a	CCONJ	_	_	21	cc	_	_
-30	Ured	ured	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	16	remnant	_	_
+30	Ured	ured	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	16	dep:remnant	_	_
 31	predsjednika	predsjednik	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
 32	55	55	NUM	_	NumType=Card	33	nummod	_	_
-33	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	23	remnant	_	_
+33	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	23	dep:remnant	_	_
 34	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	33	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -12950,9 +12950,9 @@
 26	,	,	PUNCT	_	_	22	punct	_	_
 27	a	a	CCONJ	_	_	22	cc	_	_
 28	Islamskoj	islamski	ADJ	_	Case=Dat|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
-29	zajednici	zajednica	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	25	remnant	_	_
+29	zajednici	zajednica	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	25	dep:remnant	_	_
 30	5,5	5	NUM	_	NumType=Card	31	nummod	_	_
-31	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	20	remnant	_	_
+31	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	20	dep:remnant	_	_
 32	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	31	nmod	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -15064,10 +15064,10 @@
 12	sata	sat	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	10	punct	_	_
 14	a	a	CCONJ	_	_	10	cc	_	_
-15	godinu	godina	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	remnant	_	_
+15	godinu	godina	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	dep:remnant	_	_
 16	prije	prije	ADV	_	Degree=Pos	15	advmod	_	_
 17	110	110	NUM	_	NumType=Card	18	nummod	_	_
-18	sati	sat	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	12	remnant	_	SpaceAfter=No
+18	sati	sat	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	12	dep:remnant	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = dev-s553
@@ -15852,9 +15852,9 @@
 31	milijardu	milijarda	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	29	obl	_	_
 32	te	te	CCONJ	_	_	52	cc	_	_
 33	1,2	1,2	NUM	_	NumType=Card	34	nummod	_	_
-34	milijarde	milijarda	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	31	remnant	_	_
+34	milijarde	milijarda	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	31	dep:remnant	_	_
 35	u	u	ADP	_	Case=Loc	36	case	_	_
-36	2007.	2007.	NUM	_	NumType=Ord	28	remnant	_	SpaceAfter=No
+36	2007.	2007.	NUM	_	NumType=Ord	28	dep:remnant	_	SpaceAfter=No
 37	,	,	PUNCT	_	_	52	punct	_	_
 38	dok	dok	SCONJ	_	_	52	cc	_	_
 39	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	52	aux	_	_
@@ -16326,8 +16326,8 @@
 7	pomoćnika	pomoćnik	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	4	punct	_	_
 9	u	u	ADP	_	Case=Loc	10	case	_	_
-10	KBC-u	KBC	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	2	remnant	_	_
+10	KBC-u	KBC	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	2	dep:remnant	_	_
 11	Split	Split	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	10	flat	_	_
-12	tri	tri	NUM	_	NumType=Card	5	remnant	_	SpaceAfter=No
+12	tri	tri	NUM	_	NumType=Card	5	dep:remnant	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
 
