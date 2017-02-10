@@ -22,23 +22,23 @@
     <tag name="NOUN">48062</tag><!-- godina, zemlja, posao, čovjek, predsjednik, vlada, država, milijun, stranka, dan -->
     <tag name="NUM">4687</tag><!-- jedan, dva, drugi, prvi, tri, pet, četiri, 20, 10, šest -->
     <tag name="PART">1817</tag><!-- ne, i, li, sve, ni, naime, bilo, niti, pak, što -->
-    <tag name="PRON">8422</tag><!-- sebe, taj, što, on, ovaj, oni, neki, mi, onaj, svaki -->
+    <tag name="PRON">8369</tag><!-- sebe, taj, što, on, ovaj, oni, neki, mi, onaj, svaki -->
     <tag name="PROPN">12692</tag><!-- Hrvatska, EU, Kosovo, Srbija, BiH, Makedonija, Turska, Europa, Bugarska, NATO -->
     <tag name="PUNCT">23982</tag><!-- ,, ., ", ), (, -, :, –, ', ? -->
-    <tag name="SCONJ">4709</tag><!-- da, kako, kao, jer, dok, ako, što, iako, ukoliko, nego -->
+    <tag name="SCONJ">4762</tag><!-- da, kako, kao, jer, dok, što, ako, iako, ukoliko, nego -->
     <tag name="VERB">17245</tag><!-- moći, imati, kazati, trebati, reći, morati, izjaviti, raditi, postojati, dobiti -->
     <tag name="X">253</tag><!-- de, A1, European, SETimes, Southeast, Times, bin, freedom, house, world -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
   <feats unique="44">
     <feat name="Animacy" value="Anim" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">597</feat><!-- kojeg, predsjednika, tko, nitko, jednog, kandidata, boga, ministra, premijera, najboljeg -->
-    <feat name="Animacy" value="Inan" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">4548</feat><!-- što, SETimes, svoj, način, ponedjeljak, petak, koji, utorak, četvrtak, taj -->
+    <feat name="Animacy" value="Inan" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">4527</feat><!-- što, SETimes, svoj, način, ponedjeljak, petak, koji, utorak, četvrtak, taj -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">26321</feat><!-- se, za, na, u, to, uz, koje, što, svoje, sve -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">2698</feat><!-- im, mu, nam, vam, mi, joj, unatoč, ka, EU, kojima -->
     <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">31996</feat><!-- od, iz, godine, do, nakon, zbog, milijuna, eura, godina, kuna -->
     <feat name="Case" value="Ins" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">6153</feat><!-- s, sa, među, pod, kojim, za, obzirom, kojima, tim, time -->
     <feat name="Case" value="Loc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">17395</feat><!-- u, na, o, prema, po, hrvatskoj, kojoj, kojem, tome, godini -->
-    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">30659</feat><!-- koji, što, to, koja, koje, predsjednik, jedan, hrvatska, vlada, svi -->
+    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">30606</feat><!-- koji, to, što, koja, koje, predsjednik, jedan, hrvatska, vlada, svi -->
     <feat name="Case" value="Voc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">35</feat><!-- gospodine, Bože, G., Isuse, Nespretni, Radoviću, Uzoriti, akademiče, braćo, budale -->
     <feat name="Definite" value="Def" upos="ADJ">11402</feat><!-- sve, svi, novi, svih, hrvatske, hrvatski, moguće, nove, svim, novih -->
     <feat name="Definite" value="Ind" upos="ADJ">1254</feat><!-- velik, sam, dobar, novi, prvi, gospodarski, značajan, čitav, poznat, rođen -->
@@ -47,7 +47,7 @@
     <feat name="Degree" value="Sup" upos="ADJ,ADV">914</feat><!-- uključujući, najveći, najviše, najbolje, najbolji, najmanje, najveća, najčešće, najveće, najvećih -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">36615</feat><!-- godine, koje, koja, EU, godina, zemlje, BiH, kuna, ove, bila -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">48274</feat><!-- koji, izjavio, bio, milijuna, rekao, eura, kazao, jedan, ljudi, dana -->
-    <feat name="Gender" value="Neut" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">14456</feat><!-- to, što, bilo, toga, Kosova, vrijeme, koje, sve, tome, Kosovo -->
+    <feat name="Gender" value="Neut" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">14403</feat><!-- to, što, bilo, toga, Kosova, vrijeme, koje, sve, tome, Kosovo -->
     <feat name="Gender[psor]" value="Fem" upos="DET">118</feat><!-- njezina, njezine, njezin, njen, njezinu, njezinih, njezino, njene, njena, njezinim -->
     <feat name="Gender[psor]" value="Masc,Neut" upos="DET">224</feat><!-- njegova, njegov, njegove, njegovu, njegovim, njegovoj, njegovog, njegovih, njegovo, njegovom -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">218</feat><!-- kliknite, recimo, izbjegavajte, koristite, potražite, pročitajte, čuvajte, daj, odaberite, otiđite -->
@@ -67,7 +67,7 @@
     <feat name="PronType" value="Dem" upos="PRON">2444</feat><!-- to, ove, toga, tome, taj, te, ovog, tom, ovaj, ovo -->
     <feat name="PronType" value="Ind" upos="PRON">763</feat><!-- neki, sve, neke, ništa, nešto, svaki, nitko, svaka, nekim, svakog -->
     <feat name="PronType" value="Int" upos="DET">7</feat><!-- Koji, Kakav, Kakva, Kakvi, Kakvu, Koje -->
-    <feat name="PronType" value="Int,Rel" upos="DET,PRON">3360</feat><!-- koji, što, koje, koja, kojima, koju, kojoj, kojem, kojim, kojeg -->
+    <feat name="PronType" value="Int,Rel" upos="DET,PRON">3307</feat><!-- koji, što, koje, koja, kojima, koju, kojoj, kojem, kojim, kojeg -->
     <feat name="PronType" value="Prs" upos="DET,PRON">5918</feat><!-- se, svoje, ih, mi, ga, im, mu, on, svoj, njih -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">3542</feat><!-- se, svoje, svoj, svoju, svojim, svojih, svojoj, svojeg, sebe, svog -->
     <feat name="Tense" value="Imp" upos="AUX">2</feat><!-- bijaše -->
@@ -106,9 +106,9 @@
     <dep name="goeswith">138</dep>
     <dep name="iobj">689</dep>
     <dep name="list">24</dep>
-    <dep name="mark">5125</dep>
+    <dep name="mark">5166</dep>
     <dep name="nmod">22758</dep>
-    <dep name="nsubj">12554</dep>
+    <dep name="nsubj">12513</dep>
     <dep name="nsubj:pass">1037</dep>
     <dep name="nummod">4139</dep>
     <dep name="obj">8672</dep>

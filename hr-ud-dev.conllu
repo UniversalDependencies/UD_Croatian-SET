@@ -4077,7 +4077,7 @@
 4	detalj	detalj	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 5	jest	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	6	cop	_	_
 6	to	taj	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	_
-7	što	što	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Int,Rel	10	mark	_	_
+7	što	što	SCONJ	_	_	10	mark	_	_
 8	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	10	aux:pass	_	_
 9	zakon	zakon	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	_
 10	povučen	povući	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	6	acl	_	_
@@ -4555,7 +4555,7 @@
 1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Razlog	razlog	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	0	root	_	_
-4	što	što	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Int,Rel	25	nsubj	_	_
+4	što	što	SCONJ	_	_	25	mark	_	_
 5	integraciju	integracija	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
 6	u	u	ADP	_	Case=Acc	7	case	_	_
 7	EU	EU	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
