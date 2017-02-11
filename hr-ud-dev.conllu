@@ -17,9 +17,9 @@
 15	zadatak	zadatak	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
 16	biti	biti	AUX	_	VerbForm=Inf	17	cop	_	_
 17	nadzor	nadzor	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	12	acl	_	_
-18	cijena	cijena	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_
+18	cijena	cijena	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	ToDo=nmod
 19	nakon	nakon	ADP	_	Case=Gen	20	case	_	_
-20	uvođenja	uvođenje	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+20	uvođenja	uvođenje	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	ToDo=nmod
 21	PDV-a	PDV	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
 22	i	i	CCONJ	_	_	23	cc	_	_
 23	sprječavanje	sprječavanje	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	17	conj	_	_
@@ -39,7 +39,7 @@
 5	tim	tim	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 6	ustrojen	ustrojiti	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 7	u	u	ADP	_	Case=Loc	8	case	_	_
-8	Federaciji	federacija	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
+8	Federaciji	federacija	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
 9	BiH	BiH	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -83,7 +83,7 @@
 5	raščišćavanju	raščišćavanje	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
 6	štete	šteta	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
 7	prouzročene	prouzročiti	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	6	acl	_	_
-8	poplavama	poplava	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	7	nmod	_	_
+8	poplavama	poplava	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	7	obl	_	_
 
 # sent_id = dev-s5
 # text = Bugarska vojska priključila se naporima na obnovi nakon razarajućih poplava koje su pogodile zemlju posljednjih tjedana i mjeseci.
@@ -128,7 +128,7 @@
 17	infrastrukture	infrastruktura	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	15	conj	_	_
 18	oštećenih	oštetiti	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	15	acl	_	_
 19	u	u	ADP	_	Case=Loc	20	case	_	_
-20	poplavama	poplava	NOUN	_	Case=Loc|Gender=Fem|Number=Plur	18	nmod	_	_
+20	poplavama	poplava	NOUN	_	Case=Loc|Gender=Fem|Number=Plur	18	obl	_	_
 21	koje	koji	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	23	nsubj	_	_
 22	su	biti	AUX	_	Number=Plur|Person=3|Tense=Pres	23	aux	_	_
 23	razorile	razoriti	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	20	acl	_	_
@@ -150,7 +150,7 @@
 8	osoblja	osoblje	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
 9	obučenog	obučiti	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	8	acl	_	_
 10	za	za	ADP	_	Case=Acc	11	case	_	_
-11	pružanje	pružanje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	9	nmod	_	_
+11	pružanje	pružanje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
 12	pomoći	pomoć	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
 13	stanovništvu	stanovništvo	NOUN	_	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	_
 14	u	u	ADP	_	Case=Loc	16	case	_	_
@@ -173,7 +173,7 @@
 31	obnove	obnova	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
 32	izrađen	izraditi	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	30	acl	_	_
 33	prošlog	prošli	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
-34	tjedna	tjedan	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+34	tjedna	tjedan	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = dev-s8
@@ -186,12 +186,12 @@
 6	150	150	NUM	_	NumType=Card	9	nummod	_	_
 7	posebnih	poseban	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	_
 8	transportnih	transportan	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	_
-9	vozila	vozilo	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	SpaceAfter=No
+9	vozila	vozilo	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	4	punct	_	_
 11	uključeno	uključiti	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 12	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	11	aux:pass	_	_
 13	u	u	ADP	_	Case=Acc	14	case	_	_
-14	operaciju	operacija	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	_
+14	operaciju	operacija	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 15	koja	koji	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	17	nsubj	_	_
 16	će	htjeti	AUX	_	Number=Sing|Person=3|Tense=Pres	17	aux	_	_
 17	trajati	trajati	VERB	_	VerbForm=Inf	14	acl	_	_
@@ -355,7 +355,7 @@
 12	prouzročene	prouzročiti	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	6	conj	_	_
 13	najgorim	zao	ADJ	_	Case=Ins|Degree=Sup|Gender=Fem|Number=Plur	15	amod	_	_
 14	kišnim	kišan	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
-15	olujama	oluja	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	12	nmod	_	_
+15	olujama	oluja	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	12	obl	_	_
 16	u	u	ADP	_	Case=Acc	19	case	_	_
 17	posljednjih	posljednji	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_
 18	50	50	NUM	_	NumType=Card	19	nummod	_	_
@@ -444,7 +444,7 @@
 2	14.000	14.000	NUM	_	NumType=Card	3	nummod	_	_
 3	kuća	kuća	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	8	nsubj	_	_
 4	diljem	diljem	ADV	_	Degree=Pos	5	case	_	_
-5	zemlje	zemlja	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+5	zemlje	zemlja	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
 6	ozbiljno	ozbiljno	ADV	_	Degree=Pos	8	advmod	_	_
 7	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	8	cop	_	_
 8	oštećeno	oštetiti	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No
@@ -506,7 +506,7 @@
 8	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	12	cop	_	_
 9	zbog	zbog	ADP	_	Case=Gen	11	case	_	_
 10	velikih	velik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_
-11	poplava	poplava	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+11	poplava	poplava	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	12	obl	_	_
 12	potrebna	potreban	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	acl	_	_
 13	hrana	hrana	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
@@ -539,7 +539,7 @@
 41	organizacije	organizacija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	_
 42	objavljenom	objaviti	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	39	acl	_	_
 43	u	u	ADP	_	Case=Acc	44	case	_	_
-44	četvrtak	četvrtak	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
+44	četvrtak	četvrtak	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	42	obl	_	SpaceAfter=No
 45	.	.	PUNCT	_	_	29	punct	_	_
 
 # sent_id = dev-s23
@@ -775,7 +775,7 @@
 37	zločine	zločin	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	35	nmod	_	_
 38	vezane	vezan	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	37	acl	_	_
 39	uz	uz	ADP	_	Case=Acc	40	case	_	_
-40	drogu	droga	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
+40	drogu	droga	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	38	obl	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = dev-s31
@@ -811,7 +811,7 @@
 1	Kao	kao	SCONJ	_	_	4	case	_	_
 2	visoko	visoko	ADV	_	Degree=Pos	3	advmod	_	_
 3	pozicionirani	pozicioniran	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
-4	član	član	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_
+4	član	član	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	14	obl	_	_
 5	Bugarske	bugarski	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	compound	_	_
 6	socijalističke	socijalistički	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	compound	_	_
 7	stranke	stranka	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
@@ -828,10 +828,10 @@
 18	u	u	ADP	_	Case=Loc	21	case	_	_
 19	tročlanoj	tročlan	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
 20	koalicijskoj	koalicijski	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
-21	vladi	vlada	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	_
+21	vladi	vlada	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	14	obl	_	_
 22	predvođenoj	predvoditi	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	21	acl	_	_
 23	od	od	ADP	_	Case=Gen	24	case	_	_
-24	strane	strana	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	strane	strana	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	22	obl	_	_
 25	socijalista	socijalist	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	33	punct	_	_
 27	koja	koji	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	33	nsubj	_	_
@@ -868,12 +868,12 @@
 9	u	u	ADP	_	Case=Acc	12	case	_	_
 10	to	taj	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	12	det	_	_
 11	su	biti	AUX	_	Number=Plur|Person=3|Tense=Pres	15	aux	_	_
-12	vrijeme	vrijeme	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	15	nmod	_	_
+12	vrijeme	vrijeme	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	15	nmod	_	ToDo=nmod
 13	bili	biti	AUX	_	Gender=Masc|Number=Plur|VerbForm=Part	15	cop	_	_
 14	pod	pod	ADP	_	Case=Ins	15	case	_	_
 15	istragom	istraga	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
 16	zbog	zbog	ADP	_	Case=Gen	17	case	_	_
-17	utaje	utaja	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	utaje	utaja	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	ToDo=nmod
 18	poreza	porez	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
 19	i	i	CCONJ	_	_	20	cc	_	_
 20	krijumčarenja	krijumčarenje	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	18	conj	_	_
@@ -979,12 +979,12 @@
 51	,	,	PUNCT	_	_	52	punct	_	_
 52	nazvane	nazvati	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	48	acl	_	_
 53	"	"	PUNCT	_	_	54	punct	_	SpaceAfter=No
-54	Hobotnica	hobotnica	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	52	nmod	_	SpaceAfter=No
+54	Hobotnica	hobotnica	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	52	obl	_	SpaceAfter=No
 55	"	"	PUNCT	_	_	54	punct	_	SpaceAfter=No
 56	,	,	PUNCT	_	_	57	punct	_	_
 57	nevezane	nevezan	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	48	acl	_	_
 58	uz	uz	ADP	_	Case=Acc	59	case	_	_
-59	događaje	događaj	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	57	nmod	_	_
+59	događaje	događaj	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	57	obl	_	_
 60	oko	oko	ADP	_	Case=Gen	61	case	_	_
 61	ostavke	ostavka	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	59	nmod	_	_
 62	Petkova	Petkov	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	61	nmod	_	SpaceAfter=No
@@ -1010,7 +1010,7 @@
 16	,	,	PUNCT	_	_	5	punct	_	_
 17	prošlog	prošli	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
 18	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	20	aux:pass	_	_
-19	mjeseca	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+19	mjeseca	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	20	obl	_	_
 20	pušten	pustiti	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 21	i	i	CCONJ	_	_	22	cc	_	_
 22	nalazi	nalaziti	VERB	_	Number=Sing|Person=3|Tense=Pres	20	conj	_	_
@@ -1034,7 +1034,7 @@
 40	koje	koji	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	45	nsubj	_	_
 41	su	biti	AUX	_	Number=Plur|Person=3|Tense=Pres	45	aux:pass	_	_
 42	protiv	protiv	ADP	_	Case=Gen	43	case	_	_
-43	njega	on	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	45	nmod	_	_
+43	njega	on	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	45	obl	_	_
 44	izvorno	izvorno	ADV	_	Degree=Pos	45	advmod	_	_
 45	podignute	podignuti	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	35	acl	_	SpaceAfter=No
 46	.	.	PUNCT	_	_	20	punct	_	_
@@ -1062,7 +1062,7 @@
 19	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	21	aux	_	_
 20	pravi	prav	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
 21	razlog	razlog	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	17	ccomp	_	_
-22	sastanka	sastanak	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+22	sastanka	sastanak	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	ToDo=nmod
 23	iz	iz	ADP	_	Case=Gen	24	case	_	_
 24	2006.	2006.	NUM	_	NumType=Ord	22	nummod	_	_
 25	bio	biti	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	21	cop	_	_
@@ -1087,7 +1087,7 @@
 7	jedinicu	jedinica	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
 8	zaduženu	zadužiti	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	7	acl	_	_
 9	za	za	ADP	_	Case=Acc	10	case	_	_
-10	borbu	borba	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	_
+10	borbu	borba	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
 11	protiv	protiv	ADP	_	Case=Gen	13	case	_	_
 12	organiziranog	organiziran	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
 13	kriminala	kriminal	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
@@ -1114,7 +1114,7 @@
 34	područje	područje	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	31	conj	_	_
 35	rezervirano	rezerviran	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	34	acl	_	_
 36	za	za	ADP	_	Case=Acc	37	case	_	_
-37	Zlatomira	Zlatomir	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	35	nmod	_	_
+37	Zlatomira	Zlatomir	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	35	obl	_	_
 38	Ivanova	Ivanov	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	37	flat	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	41	punct	_	_
 40	"	"	PUNCT	_	_	41	punct	_	SpaceAfter=No
@@ -1256,10 +1256,10 @@
 19	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	21	aux	_	_
 20	bio	biti	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	21	cop	_	_
 21	žrtva	žrtva	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	17	ccomp	_	_
-22	kampanje	kampanja	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+22	kampanje	kampanja	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	ToDo=nmod
 23	usmjerene	usmjeriti	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	22	acl	_	_
 24	na	na	ADP	_	Case=Acc	25	case	_	_
-25	svraćanje	svraćanje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	23	nmod	_	_
+25	svraćanje	svraćanje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	23	obl	_	_
 26	pažnje	pažnja	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
 27	javnosti	javnost	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
 28	s	s	ADP	_	Case=Gen	30	case	_	_
@@ -1322,10 +1322,10 @@
 18	istragu	istraga	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
 19	vezano	vezano	ADV	_	Degree=Pos	18	acl	_	_
 20	uz	uz	ADP	_	Case=Acc	21	case	_	_
-21	optužbe	optužba	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	19	nmod	_	_
+21	optužbe	optužba	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	19	obl	_	_
 22	iznesene	iznijeti	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	21	acl	_	_
 23	protiv	protiv	ADP	_	Case=Gen	24	case	_	_
-24	njega	on	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nmod	_	SpaceAfter=No
+24	njega	on	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obl	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = dev-s45
@@ -1387,7 +1387,7 @@
 16	u	u	ADP	_	Case=Acc	19	case	_	_
 17	proteklih	protekao	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	19	amod	_	_
 18	20	20	NUM	_	NumType=Card	19	nummod	_	_
-19	mjeseci	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	mjeseci	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No|ToDo=nmod
 20	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = dev-s49
@@ -1489,7 +1489,7 @@
 15	inženjer	inženjer	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
 16	nastanjen	nastaniti	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	15	acl	_	_
 17	u	u	ADP	_	Case=Loc	18	case	_	_
-18	Hancestiju	Hancesti	PROPN	_	Case=Loc|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	Hancestiju	Hancesti	PROPN	_	Case=Loc|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = dev-s54
@@ -1547,9 +1547,9 @@
 21	-	-	PUNCT	_	_	18	punct	_	_
 22	održan	održati	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	18	acl	_	_
 23	21.	21.	NUM	_	NumType=Ord	24	nummod	_	_
-24	studenog	studeni	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	studenog	studeni	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	22	obl	_	_
 25	u	u	ADP	_	Case=Loc	26	case	_	_
-26	središtu	središte	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	22	nmod	_	_
+26	središtu	središte	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	22	obl	_	_
 27	Kišinjeva	Kišinjevo	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	32	punct	_	_
 29	a	a	CCONJ	_	_	32	cc	_	_
@@ -1640,14 +1640,14 @@
 6	na	na	ADP	_	Case=Acc	9	case	_	_
 7	dvije	dva	NUM	_	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	9	nummod	_	_
 8	velike	velik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
-9	skupine	skupina	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+9	skupine	skupina	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
 10	:	:	PUNCT	_	_	11	punct	_	_
 11	proeuropski	proeuropski	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	9	appos	_	_
 12	i	i	CCONJ	_	_	13	cc	_	_
 13	oni	onaj	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	11	conj	_	_
 14	orijentirani	orijentiran	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	13	acl	_	_
 15	prema	prema	ADP	_	Case=Loc	16	case	_	_
-16	Moskvi	Moskva	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+16	Moskvi	Moskva	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = dev-s61
@@ -1712,7 +1712,7 @@
 4	vrlo	vrlo	ADV	_	Degree=Pos	5	advmod	_	_
 5	komplicirano	kompliciran	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 6	za	za	ADP	_	Case=Acc	7	case	_	_
-7	publiku	publika	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	publiku	publika	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	budući	budući	ADV	_	Degree=Pos	11	mark	_	_
 10	da	da	SCONJ	_	_	9	compound	_	_
@@ -1740,7 +1740,7 @@
 8	uključene	uključiti	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 9	u	u	ADP	_	Case=Acc	11	case	_	_
 10	predizborni	predizboran	ADJ	_	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
-11	proces	proces	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	proces	proces	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = dev-s65
@@ -1758,7 +1758,7 @@
 11	optuživani	optuživati	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	9	conj	_	_
 12	su	biti	AUX	_	Number=Plur|Person=3|Tense=Pres	11	aux:pass	_	_
 13	za	za	ADP	_	Case=Acc	14	case	_	_
-14	korupciju	korupcija	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	_
+14	korupciju	korupcija	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 15	ili	ili	CCONJ	_	_	18	cc	_	_
 16	nisu	biti	AUX	_	Number=Plur|Person=3|Polarity=Neg|Tense=Pres	18	aux	_	_
 17	pravilno	pravilno	ADV	_	Degree=Pos	18	advmod	_	_
@@ -1767,7 +1767,7 @@
 20	imovinu	imovina	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
 21	stečenu	steći	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	20	acl	_	_
 22	u	u	ADP	_	Case=Acc	23	case	_	_
-23	vrijeme	vrijeme	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	21	nmod	_	_
+23	vrijeme	vrijeme	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	21	obl	_	_
 24	dok	dok	SCONJ	_	_	26	mark	_	_
 25	su	biti	AUX	_	Number=Plur|Person=3|Tense=Pres	26	aux	_	_
 26	imali	imati	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	23	acl	_	_
@@ -1806,7 +1806,7 @@
 15	vezano	vezano	ADV	_	Degree=Pos	11	acl	_	_
 16	uz	uz	ADP	_	Case=Acc	18	case	_	_
 17	takve	takav	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	18	det	_	_
-18	političare	političar	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+18	političare	političar	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = dev-s67
@@ -1821,12 +1821,12 @@
 8	ogromnog	ogroman	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
 9	medijskog	medijski	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
 10	skandala	skandal	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	6	punct	_	_
-12	ali	ali	CCONJ	_	_	6	cc	_	_
+11	,	,	PUNCT	_	_	16	punct	_	_
+12	ali	ali	CCONJ	_	_	16	cc	_	_
 13	ne	ne	PART	_	Polarity=Neg	16	advmod	_	_
 14	i	i	CCONJ	_	_	16	discourse	_	_
 15	u	u	ADP	_	Case=Loc	16	case	_	_
-16	Moldaviji	Moldavija	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	5	dep:remnant	_	_
+16	Moldaviji	Moldavija	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	6	conj	_	orig_deprel=obl
 17	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	rekao	reći	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	parataxis	_	_
@@ -1907,7 +1907,7 @@
 20	važan	važan	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	parataxis	_	_
 21	samo	samo	ADV	_	Degree=Pos	23	advmod	_	_
 22	za	za	ADP	_	Case=Acc	23	case	_	_
-23	Moldaviju	Moldavija	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	Moldaviju	Moldavija	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	28	punct	_	_
 25	već	već	ADV	_	Degree=Pos	28	cc	_	_
 26	i	i	CCONJ	_	_	28	discourse	_	_
@@ -1952,7 +1952,7 @@
 21	vlada	vlada	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
 22	sposobna	sposoban	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	acl	_	_
 23	za	za	ADP	_	Case=Acc	24	case	_	_
-24	nastavak	nastavak	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	nmod	_	_
+24	nastavak	nastavak	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obl	_	_
 25	nužnih	nužan	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	_
 26	reformi	reforma	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
@@ -2000,7 +2000,7 @@
 12	spremna	spreman	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	xcomp	_	_
 13	na	na	ADP	_	Case=Acc	15	case	_	_
 14	sve	sav	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	15	det	_	_
-15	izazove	izazov	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+15	izazove	izazov	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
 16	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	rekao	reći	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	parataxis	_	_
@@ -2209,7 +2209,7 @@
 37	pojašnjeno	pojasniti	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	3	parataxis	_	_
 38	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	37	aux	_	_
 39	u	u	ADP	_	Case=Loc	40	case	_	_
-40	priopćenju	priopćenje	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	37	nmod	_	_
+40	priopćenju	priopćenje	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	37	obl	_	_
 41	OHR-a	OHR	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -2219,15 +2219,15 @@
 2	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	3	aux:pass	_	_
 3	uspostavljen	uspostaviti	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 4	u	u	ADP	_	Case=Loc	5	case	_	_
-5	prosincu	prosinac	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+5	prosincu	prosinac	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
 6	1995.	1995.	NUM	_	NumType=Ord	7	nummod	_	_
 7	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
 8	kao	kao	SCONJ	_	_	10	case	_	_
 9	privremena	privremen	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
-10	misija	misija	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	_
+10	misija	misija	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	3	obl	_	_
 11	zaduženu	zadužiti	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	10	acl	_	_
 12	za	za	ADP	_	Case=Acc	13	case	_	_
-13	provedbu	provedba	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	_
+13	provedbu	provedba	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 14	civilnih	civilan	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_
 15	aspekata	aspekt	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
 16	Daytonskog	daytonski	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
@@ -2243,7 +2243,7 @@
 26	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	27	aux	_	_
 27	trajao	trajati	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	22	acl	_	_
 28	do	do	ADP	_	Case=Gen	29	case	_	_
-29	1992.	1992.	NUM	_	NumType=Ord	31	dep:remnant	_	_
+29	1992.	1992.	NUM	_	NumType=Ord	32	conj	_	orig_deprel=nummod
 30	do	do	ADP	_	Case=Gen	32	case	_	_
 31	1995.	1995.	NUM	_	NumType=Ord	32	nummod	_	_
 32	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
@@ -2332,7 +2332,7 @@
 36	slučaj	slučaj	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	14	acl	_	_
 37	u	u	ADP	_	Case=Loc	39	case	_	_
 38	drugim	drugi	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	39	amod	_	_
-39	zemljama	zemlja	NOUN	_	Case=Loc|Gender=Fem|Number=Plur	36	nmod	_	_
+39	zemljama	zemlja	NOUN	_	Case=Loc|Gender=Fem|Number=Plur	36	nmod	_	ToDo=nmod
 40	u	u	ADP	_	Case=Loc	41	case	_	_
 41	tranziciji	tranzicija	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	39	nmod	_	SpaceAfter=No
 42	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
@@ -2355,7 +2355,7 @@
 3	trenutačno	trenutačno	ADV	_	Degree=Pos	5	advmod	_	_
 4	na	na	ADP	_	Case=Loc	5	case	_	_
 5	pragu	prag	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	0	root	_	_
-6	razgovora	razgovor	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+6	razgovora	razgovor	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	ToDo=nmod
 7	sa	s	ADP	_	Case=Ins	8	case	_	_
 8	EU	EU	PROPN	_	Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	_
 9	o	o	ADP	_	Case=Loc	10	case	_	_
@@ -2467,9 +2467,9 @@
 6	za	za	ADP	_	Case=Acc	9	case	_	_
 7	više	mnogo	ADV	_	Degree=Cmp	9	advmod	_	_
 8	od	od	ADP	_	Case=Gen	9	case	_	_
-9	trećine	trećina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+9	trećine	trećina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
 10	u	u	ADP	_	Case=Loc	11	case	_	_
-11	odnosu	odnos	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
+11	odnosu	odnos	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
 12	na	na	ADP	_	Case=Acc	14	case	_	_
 13	2002.	2002.	NUM	_	NumType=Ord	14	nummod	_	_
 14	godinu	godina	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	_
@@ -2486,7 +2486,7 @@
 25	ukazujući	ukazivati	ADV	_	Degree=Sup	20	xcomp	_	_
 26	također	također	ADV	_	Degree=Pos	25	advmod	_	_
 27	na	na	ADP	_	Case=Acc	28	case	_	_
-28	smanjenje	smanjenje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	25	nmod	_	_
+28	smanjenje	smanjenje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	25	obl	_	_
 29	u	u	ADP	_	Case=Loc	30	case	_	_
 30	iznosu	iznos	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	28	nmod	_	_
 31	više	mnogo	ADV	_	Degree=Cmp	35	advmod	_	_
@@ -2547,7 +2547,7 @@
 15	važna	važan	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
 16	prekretnica	prekretnica	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 17	u	u	ADP	_	Case=Loc	18	case	_	_
-18	razvitku	razvitak	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	16	nmod	_	_
+18	razvitku	razvitak	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	16	nmod	_	ToDo=nmod
 19	BiH	BiH	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
 20	--	--	PUNCT	_	_	21	punct	_	_
 21	točka	točka	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	16	parataxis	_	_
@@ -2721,7 +2721,7 @@
 16	izviješteno	izvijestiti	ADJ	_	Case=Voc|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	8	parataxis	_	_
 17	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	16	aux:pass	_	_
 18	u	u	ADP	_	Case=Acc	19	case	_	_
-19	petak	petak	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	_
+19	petak	petak	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obl	_	_
 20	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
 21	25.	25.	NUM	_	NumType=Ord	22	nummod	_	_
 22	siječanj	siječanj	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	19	parataxis	_	SpaceAfter=No
@@ -2739,7 +2739,7 @@
 7	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	9	aux	_	_
 8	o	o	ADP	_	Case=Loc	9	case	_	_
 9	proceduri	procedura	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	0	root	_	_
-10	odobravanja	odobravanje	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+10	odobravanja	odobravanje	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	ToDo=nmod
 11	državnog	državan	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
 12	proračuna	proračun	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
 13	za	za	ADP	_	Case=Acc	15	case	_	_
@@ -2787,7 +2787,7 @@
 1	Donacija	donacija	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	3	cop	_	_
 3	dio	dio	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-4	programa	program	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+4	programa	program	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	ToDo=nmod
 5	World	World	X	_	_	4	nmod	_	_
 6	Vision	Vision	X	_	_	5	compound	_	_
 7	Internationala	International	X	_	_	5	compound	_	_
@@ -2795,11 +2795,11 @@
 9	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	11	cop	_	_
 10	cilj	cilj	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 11	unaprjeđenje	unaprjeđenje	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	acl	_	_
-12	života	život	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+12	života	život	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	ToDo=nmod
 13	u	u	ADP	_	Case=Loc	14	case	_	_
 14	selima	selo	NOUN	_	Case=Loc|Gender=Neut|Number=Plur	12	nmod	_	_
 15	tijekom	tijekom	ADP	_	Case=Gen	16	case	_	_
-16	razdoblja	razdoblje	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+16	razdoblja	razdoblje	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	ToDo=nmod
 17	od	od	ADP	_	Case=Gen	18	case	_	_
 18	godinu	godina	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	_
 19	dana	dan	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
@@ -2851,7 +2851,7 @@
 11	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	9	obj	_	_
 12	za	za	ADP	_	Case=Acc	18	case	_	_
 13	oko	oko	ADV	_	Degree=Pos	17	advmod	_	_
-14	50	50	NUM	_	NumType=Card	16	dep:remnant	_	_
+14	50	50	NUM	_	NumType=Card	17	conj	_	orig_deprel=compound
 15	do	do	ADP	_	Case=Gen	16	case	_	_
 16	70	70	NUM	_	NumType=Card	17	compound	_	_
 17	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	18	nummod	_	_
@@ -2973,12 +2973,12 @@
 22	biti	biti	AUX	_	VerbForm=Inf	23	aux:pass	_	_
 23	uspostavljen	uspostaviti	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	16	acl	_	_
 24	unutar	unutar	ADP	_	Case=Gen	25	case	_	_
-25	skupine	skupina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	skupine	skupina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	23	obl	_	_
 26	17	17	NUM	_	NumType=Card	27	nummod	_	_
 27	zemalja	zemlja	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	_
 28	u	u	ADP	_	Case=Loc	30	case	_	_
 29	2013.	2013.	NUM	_	NumType=Ord	30	nummod	_	_
-30	godini	godina	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	23	nmod	_	_
+30	godini	godina	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	23	obl	_	_
 31	imati	imati	VERB	_	VerbForm=Inf	4	ccomp	_	_
 32	ukupno	ukupno	ADV	_	Degree=Pos	34	advmod	_	_
 33	500	500	NUM	_	NumType=Card	34	compound	_	_
@@ -3034,7 +3034,7 @@
 # text = Unatoč ukupnom iznosu od 440 milijardi eura, efektivni kapacitet pozajmljivanja EFSF-a ograničen je na samo oko 250 milijardi eura, jer preostali dio iznosa mora biti zadržan kako bi njegov AAA bonitetni rejting ostao nepromijenjen i osigurao da troškovi pozajmljivanja ostanu niski.
 1	Unatoč	unatoč	ADP	_	Case=Dat	3	case	_	_
 2	ukupnom	ukupan	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
-3	iznosu	iznos	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	_
+3	iznosu	iznos	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	_
 4	od	od	ADP	_	Case=Gen	7	case	_	_
 5	440	440	NUM	_	NumType=Card	6	compound	_	_
 6	milijardi	milijarda	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	7	nummod	_	_
@@ -3051,7 +3051,7 @@
 17	oko	oko	ADV	_	Degree=Pos	19	advmod	_	_
 18	250	250	NUM	_	NumType=Card	19	compound	_	_
 19	milijardi	milijarda	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	20	nummod	_	_
-20	eura	euro	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+20	eura	euro	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	26	punct	_	_
 22	jer	jer	SCONJ	_	_	26	mark	_	_
 23	preostali	preostao	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
@@ -3106,7 +3106,7 @@
 25	koji	koji	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	27	nsubj	_	_
 26	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	27	aux:pass	_	_
 27	zajamčen	zajamčiti	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	20	conj	_	_
-28	proračunom	proračun	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	27	nmod	_	_
+28	proračunom	proračun	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	27	obl	_	_
 29	EU	EU	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -3114,7 +3114,7 @@
 # text = Govoreći nakon sastanka ministara financija u Brusselsu u ponedjeljak, luksemburški premijer Jean-Claude Juncker, predsjedavajući eurozone, izjavio je novinarima kako će cjelokupan iznos dogovoren tijekom razgovora biti na raspolaganju za pozajmljivanje zemljama članicama koje su u poteškoćama.
 1	Govoreći	govoriti	ADV	_	Degree=Sup	19	xcomp	_	_
 2	nakon	nakon	ADP	_	Case=Gen	3	case	_	_
-3	sastanka	sastanak	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	sastanka	sastanak	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	1	obl	_	_
 4	ministara	ministar	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
 5	financija	financije	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
 6	u	u	ADP	_	Case=Loc	7	case	_	_
@@ -3128,7 +3128,7 @@
 14	Juncker	Juncker	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	predsjedavajući	predsjedavajući	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	appos	_	_
-17	eurozone	eurozona	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+17	eurozone	eurozona	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	16	punct	_	_
 19	izjavio	izjaviti	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
 20	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	19	aux	_	_
@@ -3139,12 +3139,12 @@
 25	iznos	iznos	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	_
 26	dogovoren	dogovoriti	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	25	acl	_	_
 27	tijekom	tijekom	ADP	_	Case=Gen	28	case	_	_
-28	razgovora	razgovor	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+28	razgovora	razgovor	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	26	obl	_	_
 29	biti	biti	AUX	_	VerbForm=Inf	31	cop	_	_
 30	na	na	ADP	_	Case=Loc	31	case	_	_
 31	raspolaganju	raspolaganje	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	19	ccomp	_	_
 32	za	za	ADP	_	Case=Acc	33	case	_	_
-33	pozajmljivanje	pozajmljivanje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	31	nmod	_	_
+33	pozajmljivanje	pozajmljivanje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	31	nmod	_	ToDo=nmod
 34	zemljama	zemlja	NOUN	_	Case=Dat|Gender=Fem|Number=Plur	33	nmod	_	_
 35	članicama	članica	NOUN	_	Case=Dat|Gender=Fem|Number=Plur	34	appos	_	_
 36	koje	koji	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	39	nsubj	_	_
@@ -3202,7 +3202,7 @@
 11	biti	biti	AUX	_	VerbForm=Inf	12	aux:pass	_	_
 12	dovoljno	dovoljan	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	acl	_	_
 13	za	za	ADP	_	Case=Acc	14	case	_	_
-14	pomoć	pomoć	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
+14	pomoć	pomoć	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
 15	rastućem	rastući	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
 16	broju	broj	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	14	nmod	_	_
 17	gospodarstva	gospodarstvo	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	16	nmod	_	_
@@ -3540,14 +3540,14 @@
 7	objavljen	objaviti	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	ccomp	_	_
 8	na	na	ADP	_	Case=Loc	10	case	_	_
 9	posebnom	poseban	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
-10	samitu	samit	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
+10	samitu	samit	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
 11	čelnika	čelnik	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
 12	17	17	NUM	_	NumType=Card	13	nummod	_	_
 13	zemalja	zemlja	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
 14	članica	članica	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	13	appos	_	_
 15	eurozone	eurozona	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
 16	11.	11.	NUM	_	NumType=Ord	17	nummod	_	_
-17	ožujka	ožujak	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+17	ožujka	ožujak	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = dev-s127
@@ -3619,7 +3619,7 @@
 8	razmijenjene	razmijeniti	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	5	acl	_	_
 9	unutar	unutar	ADP	_	Case=Gen	11	case	_	_
 10	vladajuće	vladajući	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
-11	koalicije	koalicija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	koalicije	koalicija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	3	punct	_	_
 13	srbijanski	srbijanski	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
 14	premijer	premijer	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
@@ -3658,7 +3658,7 @@
 12	djelovati	djelovati	VERB	_	VerbForm=Inf	11	xcomp	_	_
 13	zbog	zbog	ADP	_	Case=Gen	15	case	_	_
 14	unutarnjih	unutarnji	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_
-15	sukoba	sukob	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	sukoba	sukob	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No|ToDo=nmod
 16	,	,	PUNCT	_	_	19	punct	_	_
 17	te	te	CCONJ	_	_	19	cc	_	_
 18	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
@@ -3705,7 +3705,7 @@
 2	će	htjeti	AUX	_	Number=Sing|Person=3|Tense=Pres	3	aux	_	_
 3	glasovati	glasovati	VERB	_	VerbForm=Inf	0	root	_	_
 4	o	o	ADP	_	Case=Loc	6	case	_	_
-5	njihovoj	njihov	DET	_	Case=Loc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod	_	_
+5	njihovoj	njihov	DET	_	Case=Loc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod	_	ToDo=nmod
 6	smeni	smeni	X	_	_	3	obl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -3812,7 +3812,7 @@
 14	odluke	odluka	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	_
 15	važne	važan	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	14	acl	_	_
 16	za	za	ADP	_	Case=Acc	17	case	_	_
-17	državu	država	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	_
+17	državu	država	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	_
 18	ne	ne	PART	_	Polarity=Neg	19	advmod	_	_
 19	donose	donositi	VERB	_	Number=Plur|Person=3|Tense=Pres	11	ccomp	_	_
 20	na	na	ADP	_	Case=Loc	21	case	_	_
@@ -3856,14 +3856,14 @@
 8	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	9	aux:pass	_	_
 9	zadužen	zadužiti	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	_
 10	za	za	ADP	_	Case=Acc	11	case	_	_
-11	gospodarstvo	gospodarstvo	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+11	gospodarstvo	gospodarstvo	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	9	punct	_	_
 13	da	da	SCONJ	_	_	15	mark	_	_
 14	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	15	cop	_	_
 15	odgovoran	odgovoran	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	ccomp	_	_
 16	za	za	ADP	_	Case=Acc	18	case	_	_
 17	visoku	visok	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
-18	nezaposlenost	nezaposlenost	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	nezaposlenost	nezaposlenost	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	22	punct	_	_
 20	koja	koji	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	22	nsubj	_	_
 21	trenutačno	trenutačno	ADV	_	Degree=Pos	22	advmod	_	_
@@ -3938,7 +3938,7 @@
 3	na	na	ADP	_	Case=Loc	4	case	_	_
 4	ivici	ivica	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	0	root	_	_
 5	izvanrednih	izvanredan	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
-6	izbora	izbor	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+6	izbora	izbor	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No|ToDo=nmod
 7	,	,	PUNCT	_	_	15	punct	_	_
 8	jer	jer	SCONJ	_	_	15	mark	_	_
 9	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	15	cop	_	_
@@ -4064,7 +4064,7 @@
 7	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	9	cop	_	_
 8	to	taj	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	_
 9	uzrok	uzrok	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	ccomp	_	_
-10	sukoba	sukob	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+10	sukoba	sukob	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	ToDo=nmod
 11	unutar	unutar	ADP	_	Case=Gen	12	case	_	_
 12	vlade	vlada	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	_
@@ -4082,10 +4082,10 @@
 9	zakon	zakon	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	_
 10	povučen	povući	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	_
 11	dva	dva	NUM	_	Number=Plur|NumType=Card	12	nummod	_	_
-12	puta	put	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	puta	put	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
 13	s	s	ADP	_	Case=Gen	15	case	_	_
 14	dnevnog	dnevan	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
-15	reda	red	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+15	reda	red	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
 16	vlade	vlada	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	22	punct	_	_
 18	a	a	CCONJ	_	_	22	cc	_	_
@@ -4094,7 +4094,7 @@
 21	važan	važan	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
 22	zakon	zakon	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
 23	na	na	ADP	_	Case=Loc	24	case	_	_
-24	putu	put	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	22	nmod	_	_
+24	putu	put	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	22	nmod	_	ToDo=nmod
 25	Srbije	Srbija	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
 26	ka	k	ADP	_	Case=Dat	27	case	_	_
 27	EU	EU	PROPN	_	Case=Dat|Gender=Fem|Number=Sing	24	nmod	_	_
@@ -4309,7 +4309,7 @@
 7	prioritetima	prioritet	NOUN	_	Case=Ins|Gender=Masc|Number=Plur	0	root	_	_
 8	naše	naš	DET	_	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod	_	_
 9	vanjske	vanjski	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
-10	politike	politika	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	politike	politika	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No|ToDo=nmod
 11	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -4378,7 +4378,7 @@
 35	kao	kao	SCONJ	_	_	38	case	_	_
 36	"	"	PUNCT	_	_	38	punct	_	SpaceAfter=No
 37	blagi	blag	ADJ	_	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_
-38	utjecaj	utjecaj	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+38	utjecaj	utjecaj	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
 39	"	"	PUNCT	_	_	38	punct	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -4434,9 +4434,9 @@
 12	diplomatski	diplomatski	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_
 13	su	biti	AUX	_	Number=Plur|Person=3|Tense=Pres	14	cop	_	_
 14	ciljevi	cilj	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
-15	Ankare	Ankara	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+15	Ankare	Ankara	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	ToDo=nmod
 16	na	na	ADP	_	Case=Loc	17	case	_	_
-17	Balkanu	Balkan	PROPN	_	Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	Balkanu	Balkan	PROPN	_	Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No|ToDo=nmod
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	izjavio	izjaviti	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	14	parataxis	_	_
 20	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	19	aux	_	_
@@ -4624,7 +4624,7 @@
 9	odlučujuća	odlučujući	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	ccomp	_	_
 10	za	za	ADP	_	Case=Acc	12	case	_	_
 11	sveukupnu	sveukupan	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
-12	ulogu	uloga	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	_
+12	ulogu	uloga	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
 13	koju	koji	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	16	obj	_	_
 14	ta	taj	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
 15	zemlja	zemlja	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
@@ -4775,7 +4775,7 @@
 19	nedavno	nedavno	ADV	_	Degree=Pos	20	advmod	_	_
 20	objavljena	objaviti	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	acl	_	_
 21	kao	kao	SCONJ	_	_	22	case	_	_
-22	knjiga	knjiga	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+22	knjiga	knjiga	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = dev-s174
@@ -4783,7 +4783,7 @@
 1	Razvijajući	razvijati	ADV	_	Degree=Sup	20	xcomp	_	_
 2	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	1	expl:pv	_	_
 3	iz	iz	ADP	_	Case=Gen	4	case	_	_
-4	režima	režim	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	režima	režim	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	1	obl	_	_
 5	u	u	ADP	_	Case=Loc	6	case	_	_
 6	kojima	koji	DET	_	Case=Loc|Gender=Masc|Number=Plur|PronType=Int,Rel	10	obl	_	_
 7	privatno	privatan	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
@@ -4822,10 +4822,10 @@
 7	opisane	opisati	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 8	u	u	ADP	_	Case=Loc	10	case	_	_
 9	ekonomskoj	ekonomski	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
-10	literaturi	literatura	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+10	literaturi	literatura	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
 11	i	i	CCONJ	_	_	12	cc	_	_
 12	potkrijepljene	potkrijepiti	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	7	conj	_	_
-13	iskustvima	iskustvo	NOUN	_	Case=Ins|Gender=Neut|Number=Plur	12	nmod	_	_
+13	iskustvima	iskustvo	NOUN	_	Case=Ins|Gender=Neut|Number=Plur	12	obl	_	_
 14	zemalja	zemlja	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
 15	u	u	ADP	_	Case=Loc	16	case	_	_
 16	razvoju	razvoj	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	_
@@ -4870,7 +4870,7 @@
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	popraćen	popratiti	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	11	acl	_	_
 15	odgovarajućim	odgovarajući	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	_
-16	vještinama	vještina	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
+16	vještinama	vještina	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = dev-s178
@@ -4947,10 +4947,10 @@
 13	iz	iz	ADP	_	Case=Gen	16	case	_	_
 14	niže	nisko	ADV	_	Degree=Cmp	15	advmod	_	_
 15	priloženog	priložiti	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	16	amod	_	_
-16	grafikona	grafikon	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+16	grafikona	grafikon	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
 17	utemeljenog	utemeljiti	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	16	acl	_	_
 18	na	na	ADP	_	Case=Loc	19	case	_	_
-19	podacima	podatak	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	17	nmod	_	_
+19	podacima	podatak	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	17	obl	_	_
 20	EBRD-a	EBRD	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -5049,13 +5049,13 @@
 1	Gotovo	gotovo	ADV	_	Degree=Pos	4	advmod	_	_
 2	u	u	ADP	_	Case=Loc	4	case	_	_
 3	svim	sav	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	4	det	_	_
-4	državama	država	NOUN	_	Case=Loc|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+4	državama	država	NOUN	_	Case=Loc|Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	privatizacija	privatizacija	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	16	nsubj:pass	_	_
 7	zemljišta	zemljište	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
 8	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	16	aux	_	_
 9	u	u	ADP	_	Case=Loc	10	case	_	_
-10	slučajevima	slučaj	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	16	nmod	_	_
+10	slučajevima	slučaj	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	16	obl	_	_
 11	gdje	gdje	ADV	_	Degree=Pos	14	mark	_	_
 12	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	14	cop	_	_
 13	ovo	ovaj	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	14	nsubj	_	_
@@ -5102,7 +5102,7 @@
 8	od	od	ADP	_	Case=Gen	9	case	_	_
 9	1	1	NUM	_	NumType=Card	1	acl	_	_
 10	do	do	ADP	_	Case=Gen	11	case	_	_
-11	4	4	NUM	_	NumType=Card	9	nmod	_	SpaceAfter=No
+11	4	4	NUM	_	NumType=Card	9	nmod	_	SpaceAfter=No|ToDo=nmod
 12	,	,	PUNCT	_	_	9	punct	_	_
 13	dodjeljuje	dodjeljivati	VERB	_	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 14	visoke	visok	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
@@ -5230,16 +5230,16 @@
 # sent_id = dev-s193
 # text = Na Kosovu su, uslijed još neriješenih problema vezanih uz izgradnju nacije i opsežne reforme institucija, 99-godišnji ugovori o zakupu odabrani kao metoda privatizacije poduzeća u društvenom vlasništvu.
 1	Na	na	ADP	_	Case=Loc	2	case	_	_
-2	Kosovu	Kosovo	PROPN	_	Case=Loc|Gender=Neut|Number=Sing	22	nmod	_	_
+2	Kosovu	Kosovo	PROPN	_	Case=Loc|Gender=Neut|Number=Sing	22	obl	_	_
 3	su	biti	AUX	_	Number=Plur|Person=3|Tense=Pres	22	aux:pass	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	uslijed	uslijed	ADP	_	Case=Gen	8	case	_	_
 6	još	još	ADV	_	Degree=Pos	7	advmod	_	_
 7	neriješenih	neriješen	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
-8	problema	problem	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+8	problema	problem	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	22	obl	_	_
 9	vezanih	vezan	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	acl	_	_
 10	uz	uz	ADP	_	Case=Acc	11	case	_	_
-11	izgradnju	izgradnja	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	_
+11	izgradnju	izgradnja	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
 12	nacije	nacija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
 13	i	i	CCONJ	_	_	15	cc	_	_
 14	opsežne	opsežan	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
@@ -5252,7 +5252,7 @@
 21	zakupu	zakup	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	19	nmod	_	_
 22	odabrani	odabrati	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 23	kao	kao	SCONJ	_	_	24	case	_	_
-24	metoda	metoda	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	22	nmod	_	_
+24	metoda	metoda	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	22	obl	_	_
 25	privatizacije	privatizacija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
 26	poduzeća	poduzeće	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	25	nmod	_	_
 27	u	u	ADP	_	Case=Loc	29	case	_	_
@@ -5270,7 +5270,7 @@
 6	jedna	jedan	NUM	_	Case=Nom|Gender=Fem|Number=Sing|NumType=Card	8	nummod	_	_
 7	značajna	značajan	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 8	karakteristika	karakteristika	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
-9	privatizacije	privatizacija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+9	privatizacije	privatizacija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No|ToDo=nmod
 10	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = dev-s195
@@ -5365,7 +5365,7 @@
 7	triju	tri	NUM	_	Case=Gen|Number=Plur|NumType=Card	10	nummod	_	_
 8	privatnih	privatan	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
 9	austrijskih	austrijski	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
-10	investitora	investitor	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	investitora	investitor	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No|ToDo=nmod
 11	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = dev-s199
@@ -5428,7 +5428,7 @@
 3	Tab	Tab	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	1	compound	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	prozvan	prozvati	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
-6	iPad	iPad	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+6	iPad	iPad	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	obl	_	_
 7	killer	killer	ADP	_	_	6	compound	_	_
 8	kao	kao	SCONJ	_	_	12	case	_	_
 9	i	i	PART	_	_	10	discourse	_	_
@@ -5477,7 +5477,7 @@
 7	fotografiranje	fotografiranje	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	8	nsubj:pass	_	_
 8	omogućeno	omogućiti	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	2	conj	_	_
 9	sa	sa	ADP	_	Case=Ins	10	case	_	_
-10	fotoaparatom	fotoaparat	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	8	nmod	_	_
+10	fotoaparatom	fotoaparat	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
 11	od	od	ADP	_	Case=Gen	13	case	_	_
 12	tri	tri	NUM	_	NumType=Card	13	nummod	_	_
 13	megapiksela	megapiksel	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
@@ -5517,14 +5517,14 @@
 2	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	3	cop	_	_
 3	tanak	tanak	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
 4	14	14	NUM	_	NumType=Card	5	nummod	_	_
-5	mm	mm	NOUN	_	_	3	nmod	_	_
+5	mm	mm	NOUN	_	_	3	obl	_	_
 6	i	i	CCONJ	_	_	7	cc	_	_
 7	mase	masa	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	3	conj	_	_
 8	760	760	NUM	_	NumType=Card	9	nummod	_	_
 9	grama	gram	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	sa	sa	ADP	_	Case=Ins	12	case	_	_
-12	zaslonom	zaslon	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	3	nmod	_	_
+12	zaslonom	zaslon	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
 13	od	od	ADP	_	Case=Gen	15	case	_	_
 14	deset	deset	NUM	_	NumType=Card	15	nummod	_	_
 15	inča	inč	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
@@ -5538,7 +5538,7 @@
 4	Nvidia	Nvidia	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	7	nmod	_	_
 5	TegraTM	TegraTM	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	_
 6	2	2	NUM	_	NumType=Card	4	compound	_	_
-7	procesoru	procesor	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+7	procesoru	procesor	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = dev-s207
@@ -5604,10 +5604,10 @@
 # text = Od navedenih domena, u Hrvatskoj su najčešće smještene one sa nastavkom ".iz.hr" njih 70 posto, odmah iza njih su ".hr" sa 47 posto, dok su ".com.hr" najrjeđe smještene na poslužiteljima koji se nalaze u Hrvatskoj.
 1	Od	od	ADP	_	Case=Gen	3	case	_	_
 2	navedenih	naveden	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
-3	domena	domena	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+3	domena	domena	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	u	u	ADP	_	Case=Loc	6	case	_	_
-6	Hrvatskoj	Hrvatska	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	_
+6	Hrvatskoj	Hrvatska	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
 7	su	biti	AUX	_	Number=Plur|Person=3|Tense=Pres	9	aux:pass	_	_
 8	najčešće	često	ADV	_	Degree=Sup	9	advmod	_	_
 9	smještene	smjestiti	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -5640,7 +5640,7 @@
 36	najrjeđe	rijetko	ADV	_	Degree=Sup	37	advmod	_	_
 37	smještene	smjestiti	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	9	conj	_	_
 38	na	na	ADP	_	Case=Loc	39	case	_	_
-39	poslužiteljima	poslužitelj	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	37	nmod	_	_
+39	poslužiteljima	poslužitelj	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	37	obl	_	_
 40	koji	koji	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	42	nsubj	_	_
 41	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	42	obj	_	_
 42	nalaze	nalaziti	VERB	_	Number=Plur|Person=3|Tense=Pres	39	acl	_	_
@@ -5688,7 +5688,7 @@
 36	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	35	aux:pass	_	_
 37	u	u	ADP	_	Case=Loc	39	case	_	_
 38	Velikoj	velik	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	39	compound	_	_
-39	Britaniji	Britanija	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+39	Britaniji	Britanija	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	35	obl	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	41	punct	_	_
 41	Sloveniji	Slovenija	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	39	conj	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	43	punct	_	_
@@ -5709,7 +5709,7 @@
 2	su	biti	AUX	_	Number=Plur|Person=3|Tense=Pres	4	cop	_	_
 3	podaci	podatak	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 4	rezultat	rezultat	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-5	analize	analiza	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+5	analize	analiza	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	ToDo=nmod
 6	više	mnogo	ADV	_	Degree=Cmp	9	advmod	_	_
 7	od	od	ADP	_	Case=Gen	8	case	_	_
 8	50	50	NUM	_	NumType=Card	9	nummod	_	_
@@ -5734,7 +5734,7 @@
 5	domene	domena	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	6	nsubj:pass	_	_
 6	smještene	smjestiti	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	1	acl	_	_
 7	u	u	ADP	_	Case=Loc	8	case	_	_
-8	inozemstvu	inozemstvo	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	_
+8	inozemstvu	inozemstvo	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
 9	leži	ležati	VERB	_	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 10	u	u	ADP	_	Case=Loc	11	case	_	_
 11	činjenici	činjenica	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
@@ -5769,7 +5769,7 @@
 4	hosting	hosting	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 5	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	6	cop	_	_
 6	usluga	usluga	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
-7	iznajmljivanja	iznajmljivanje	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+7	iznajmljivanja	iznajmljivanje	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	ToDo=nmod
 8	diskovnog	diskovni	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
 9	prostora	prostor	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
 10	i	i	CCONJ	_	_	11	cc	_	_
@@ -5797,7 +5797,7 @@
 32	specijalizirane	specijaliziran	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	31	acl	_	_
 33	za	za	ADP	_	Case=Acc	35	case	_	_
 34	web	web	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	35	nmod	_	_
-35	hosting	hosting	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+35	hosting	hosting	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = dev-s215
@@ -5939,19 +5939,19 @@
 21	prodala	prodati	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	14	acl	_	_
 22	38.266	38.266	NUM	_	NumType=Card	23	nummod	_	_
 23	tona	tona	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	21	obj	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	21	punct	_	_
+24	,	,	PUNCT	_	_	21	punct	_	ToDo=punct-in-coord
 25	u	u	ADP	_	Case=Loc	26	case	_	_
-26	ostatku	ostatak	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	20	dep:remnant	_	_
+26	ostatku	ostatak	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	36	orphan	_	orig_deprel=obl
 27	bivše	bivši	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
 28	Jugoslavije	Jugoslavija	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
-29	68.100	68.100	NUM	_	NumType=Card	22	dep:remnant	_	SpaceAfter=No
-30	,	,	PUNCT	_	_	21	punct	_	_
-31	a	a	CCONJ	_	_	21	cc	_	_
+29	68.100	68.100	NUM	_	NumType=Card	36	orphan	_	orig_deprel=nummod|SpaceAfter=No
+30	,	,	PUNCT	_	_	36	punct	_	_
+31	a	a	CCONJ	_	_	36	cc	_	_
 32	u	u	ADP	_	Case=Loc	34	case	_	_
 33	trećim	treći	NUM	_	Case=Loc|Gender=Fem|Number=Plur|NumType=Ord	34	nummod	_	_
-34	zemljama	zemlja	NOUN	_	Case=Loc|Gender=Fem|Number=Plur	20	dep:remnant	_	_
+34	zemljama	zemlja	NOUN	_	Case=Loc|Gender=Fem|Number=Plur	36	orphan	_	orig_deprel=obl
 35	6127	6127	NUM	_	NumType=Card	36	nummod	_	_
-36	tona	tona	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	23	dep:remnant	_	SpaceAfter=No
+36	tona	tona	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	21	conj	_	orig_deprel=obj|SpaceAfter=No
 37	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = dev-s219
@@ -5979,7 +5979,7 @@
 # sent_id = dev-s220
 # text = U međuvremenu je proizvodnja prepolovljena, a potrošnja udvostručena.
 1	U	u	ADP	_	Case=Loc	2	case	_	_
-2	međuvremenu	međuvrijeme	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	5	nmod	_	_
+2	međuvremenu	međuvrijeme	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
 3	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	5	aux:pass	_	_
 4	proizvodnja	proizvodnja	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 5	prepolovljena	prepoloviti	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
@@ -6006,17 +6006,17 @@
 13	su	biti	AUX	_	Number=Plur|Person=3|Tense=Pres	12	aux	_	_
 14	31.284	31.284	NUM	_	NumType=Card	15	nummod	_	_
 15	tone	tona	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	12	punct	_	_
+16	,	,	PUNCT	_	_	12	punct	_	ToDo=punct-in-coord
 17	na	na	ADP	_	Case=Loc	18	case	_	_
-18	tržištu	tržište	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	11	dep:remnant	_	_
+18	tržištu	tržište	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	26	orphan	_	orig_deprel=obl
 19	bivše	bivši	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
 20	države	država	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
-21	19.268	19.268	NUM	_	NumType=Card	14	dep:remnant	_	_
+21	19.268	19.268	NUM	_	NumType=Card	26	orphan	_	orig_deprel=nummod
 22	i	i	CCONJ	_	_	12	punct	_	_
 23	na	na	ADP	_	Case=Loc	24	case	_	_
-24	svjetskom	svjetski	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	dep:remnant	_	_
+24	svjetskom	svjetski	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	26	orphan	_	orig_deprel=amod
 25	11.017	11.017	NUM	_	NumType=Card	26	nummod	_	_
-26	tona	tona	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	15	dep:remnant	_	SpaceAfter=No
+26	tona	tona	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	12	conj	_	orig_deprel=obj|SpaceAfter=No
 27	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = dev-s222
@@ -6025,9 +6025,9 @@
 2	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	8	aux:pass	_	_
 3	na	na	ADP	_	Case=Loc	5	case	_	_
 4	hrvatskom	hrvatski	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
-5	tržištu	tržište	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	_
+5	tržištu	tržište	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
 6	iz	iz	ADP	_	Case=Gen	7	case	_	_
-7	uvoza	uvoz	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+7	uvoza	uvoz	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
 8	prodano	prodati	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 9	52.817	52.817	NUM	_	NumType=Card	10	nummod	_	_
 10	tona	tona	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	8	nsubj:pass	_	SpaceAfter=No
@@ -6064,12 +6064,12 @@
 27	76,5	76,5	NUM	_	NumType=Card	28	nummod	_	_
 28	%	%	PUNCT	_	_	26	advmod	_	_
 29	domaćeg	domaći	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_
-30	tržišta	tržište	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	SpaceAfter=No
-31	,	,	PUNCT	_	_	26	punct	_	_
-32	a	a	CCONJ	_	_	26	cc	_	_
-33	lani	lani	ADV	_	Degree=Pos	23	dep:remnant	_	_
+30	tržišta	tržište	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	SpaceAfter=No|ToDo=nmod
+31	,	,	PUNCT	_	_	35	punct	_	_
+32	a	a	CCONJ	_	_	35	cc	_	_
+33	lani	lani	ADV	_	Degree=Pos	35	orphan	_	orig_deprel=nummod
 34	37,2	37,2	NUM	_	NumType=Card	35	nummod	_	_
-35	%	%	PUNCT	_	_	28	dep:remnant	_	SpaceAfter=No
+35	%	%	PUNCT	_	_	26	conj	_	orig_deprel=advmod|SpaceAfter=No
 36	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = dev-s224
@@ -6083,7 +6083,7 @@
 7	proizvoda	proizvod	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
 8	nije	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	9	cop	_	_
 9	rezultat	rezultat	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-10	nesposobnosti	nesposobnost	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+10	nesposobnosti	nesposobnost	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	ToDo=nmod
 11	konditora	konditor	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	već	već	ADV	_	Degree=Pos	15	cc	_	_
@@ -6116,7 +6116,7 @@
 40	jedna	jedan	NUM	_	Case=Nom|Gender=Fem|Number=Sing|NumType=Card	36	parataxis	_	_
 41	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	40	cop	_	_
 42	od	od	ADP	_	Case=Gen	43	case	_	_
-43	malobrojnih	malobrojan	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	40	nmod	_	_
+43	malobrojnih	malobrojan	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	40	nmod	_	ToDo=nmod
 44	koja	koji	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	45	nsubj	_	_
 45	ostvaruje	ostvarivati	VERB	_	Number=Sing|Person=3|Tense=Pres	40	acl	_	_
 46	suficit	suficit	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	45	obj	_	SpaceAfter=No
@@ -6159,10 +6159,10 @@
 18	dvostruko	dvostruko	ADV	_	Degree=Pos	20	advmod	_	_
 19	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	20	cop	_	_
 20	veći	velik	ADJ	_	Case=Nom|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	3	conj	_	_
-21	nego	nego	CCONJ	_	_	20	cc	_	_
+21	nego	nego	CCONJ	_	_	20	cc	_	ToDo=cc-without-conj
 22	prije	prije	ADP	_	Case=Gen	24	case	_	_
 23	20	20	NUM	_	NumType=Card	24	nummod	_	_
-24	godina	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+24	godina	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = dev-s226
@@ -6248,14 +6248,14 @@
 4	skuplje	skup	ADJ	_	Case=Nom|Definite=Def|Degree=Cmp|Gender=Fem|Number=Plur	0	root	_	_
 5	su	biti	AUX	_	Number=Plur|Person=3|Tense=Pres	4	cop	_	_
 6	od	od	ADP	_	Case=Gen	7	case	_	_
-7	cijena	cijena	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+7	cijena	cijena	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	4	obl	_	_
 8	koje	koji	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	9	obj	_	_
 9	plaća	plaćati	VERB	_	Number=Sing|Person=3|Tense=Pres	7	acl	_	_
 10	svjetska	svjetski	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
 11	konkurencija	konkurencija	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
 12	i	i	CCONJ	_	_	20	cc	_	_
 13	zbog	zbog	ADP	_	Case=Gen	14	case	_	_
-14	toga	taj	PRON	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	20	nmod	_	_
+14	toga	taj	PRON	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	20	obl	_	_
 15	su	biti	AUX	_	Number=Plur|Person=3|Tense=Pres	20	cop	_	_
 16	tvorničke	tvornički	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	_
 17	cijene	cijena	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	20	nsubj	_	_
@@ -6335,7 +6335,7 @@
 8	priznati	priznati	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	nametnuti	nametnuti	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	6	conj	_	_
-11	prisilom	prisila	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	10	nmod	_	_
+11	prisilom	prisila	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
 12	ili	ili	CCONJ	_	_	13	cc	_	_
 13	monopolom	monopol	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	11	conj	_	_
 14	i	i	CCONJ	_	_	19	cc	_	_
@@ -6382,7 +6382,7 @@
 # text = Još krajem lipnja, pokazuju privremeni podaci Hrvatske narodne banke (HNB), dobit prije oporezivanja ovih banaka bila je između jednog i pet milijuna kuna.
 1	Još	još	ADV	_	Degree=Pos	2	advmod	_	_
 2	krajem	krajem	ADP	_	Case=Gen	3	case	_	_
-3	lipnja	lipanj	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+3	lipnja	lipanj	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No|ToDo=nmod
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	pokazuju	pokazivati	VERB	_	Number=Plur|Person=3|Tense=Pres	26	parataxis	_	_
 6	privremeni	privremen	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
@@ -6406,7 +6406,7 @@
 24	i	i	CCONJ	_	_	25	cc	_	_
 25	pet	pet	NUM	_	NumType=Card	23	conj	_	_
 26	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	0	root	_	_
-27	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	SpaceAfter=No
+27	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	SpaceAfter=No|ToDo=nmod
 28	.	.	PUNCT	_	_	26	punct	_	_
 
 # sent_id = dev-s235
@@ -6440,12 +6440,12 @@
 12	37,6	37	NUM	_	NumType=Card	13	nummod	_	_
 13	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
 14	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	6	punct	_	_
-16	a	a	CCONJ	_	_	6	cc	_	_
+15	,	,	PUNCT	_	_	20	punct	_	_
+16	a	a	CCONJ	_	_	20	cc	_	_
 17	Croatia	Croatia	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	18	compound	_	_
-18	banka	banka	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	2	dep:remnant	_	_
+18	banka	banka	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	20	orphan	_	orig_deprel=nmod
 19	s	sa	ADP	_	Case=Ins	20	case	_	_
-20	gubitkom	gubitak	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	8	dep:remnant	_	_
+20	gubitkom	gubitak	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	6	conj	_	orig_deprel=obl
 21	od	od	ADP	_	Case=Gen	23	case	_	_
 22	25,2	25,2	NUM	_	NumType=Card	23	nummod	_	_
 23	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
@@ -6482,7 +6482,7 @@
 # sent_id = dev-s238
 # text = Na razini cijelog bankovnog sustava ta je mjera stabilnosti ponešto snižena u odnosu na kraj lipnja no još uvijek iznosi sasvim solidnih 18,67 posto.
 1	Na	na	ADP	_	Case=Loc	2	case	_	_
-2	razini	razina	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_
+2	razini	razina	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
 3	cijelog	cijel	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 4	bankovnog	bankovan	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 5	sustava	sustav	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
@@ -6495,7 +6495,7 @@
 12	u	u	ADP	_	Case=Loc	15	case	_	_
 13	odnosu	odnos	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	12	fixed	_	_
 14	na	na	ADP	_	Case=Acc	12	fixed	_	_
-15	kraj	kraj	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_
+15	kraj	kraj	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
 16	lipnja	lipanj	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
 17	no	no	CCONJ	_	_	20	cc	_	_
 18	još	još	ADV	_	Degree=Pos	19	advmod	_	_
@@ -6553,20 +6553,20 @@
 9	veću	velik	ADJ	_	Case=Acc|Definite=Def|Degree=Cmp|Gender=Fem|Number=Sing	8	amod	_	_
 10	od	od	ADP	_	Case=Gen	12	case	_	_
 11	25	25	NUM	_	NumType=Card	12	nummod	_	_
-12	milijardi	milijarda	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+12	milijardi	milijarda	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	9	obl	_	_
 13	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	7	punct	_	_
 15	rast	rast	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	20	obj	_	_
 16	veći	velik	ADJ	_	Case=Nom|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	15	amod	_	_
 17	od	od	ADP	_	Case=Gen	18	case	_	_
-18	prosjeka	prosjek	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	prosjeka	prosjek	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
 19	sustava	sustav	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
 20	zabilježila	zabilježiti	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
 21	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	20	aux	_	_
 22	samo	samo	ADV	_	Degree=Pos	23	advmod	_	_
 23	najveća	velik	ADJ	_	Case=Nom|Definite=Def|Degree=Sup|Gender=Fem|Number=Sing	20	nsubj	_	_
 24	među	među	ADP	_	Case=Ins	25	case	_	_
-25	njima	oni	PRON	_	Case=Ins|Number=Plur|Person=3|PronType=Prs	23	nmod	_	SpaceAfter=No
+25	njima	oni	PRON	_	Case=Ins|Number=Plur|Person=3|PronType=Prs	23	obl	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	28	punct	_	_
 27	Zagrebačka	zagrebački	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	28	compound	_	_
 28	banka	banka	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	23	appos	_	SpaceAfter=No
@@ -6601,16 +6601,16 @@
 6	rast	rast	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
 7	manji	mali	ADJ	_	Case=Nom|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	6	amod	_	_
 8	od	od	ADP	_	Case=Gen	9	case	_	_
-9	prosjeka	prosjek	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	prosjeka	prosjek	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
 10	sustava	sustav	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	5	punct	_	_
-12	a	a	CCONJ	_	_	5	cc	_	_
-13	neke	neki	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	4	dep:remnant	_	_
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	a	a	CCONJ	_	_	13	cc	_	_
+13	neke	neki	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	5	conj	_	orig_deprel=nsubj
 14	od	od	ADP	_	Case=Gen	15	case	_	_
 15	njih	oni	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	13	nmod	_	_
 16	čak	čak	ADV	_	Degree=Pos	18	discourse	_	_
 17	i	i	PART	_	_	18	discourse	_	_
-18	pad	pad	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	dep:remnant	_	_
+18	pad	pad	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	orphan	_	orig_deprel=obj
 19	aktive	aktiva	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -6650,14 +6650,14 @@
 8	39,04	39,04	NUM	_	NumType=Card	9	nummod	_	_
 9	milijardi	milijarda	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
 10	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	5	punct	_	_
-12	a	a	CCONJ	_	_	5	cc	_	_
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	a	a	CCONJ	_	_	15	cc	_	_
 13	Hypo	Hypo	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	15	compound	_	_
 14	Alpe-Adria	Alpe-Adria	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	13	compound	_	_
-15	banka	banka	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	1	dep:remnant	_	_
+15	banka	banka	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	orig_deprel=nsubj
 16	tek	tek	ADV	_	Degree=Pos	17	advmod	_	_
 17	80	80	NUM	_	NumType=Card	18	nummod	_	_
-18	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	9	dep:remnant	_	_
+18	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	15	orphan	_	orig_deprel=nmod
 19	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
 20	manju	mali	ADJ	_	Case=Acc|Definite=Def|Degree=Cmp|Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	5	punct	_	_
@@ -6665,7 +6665,7 @@
 # sent_id = dev-s246
 # text = Na polugodištu ta je razlika bila desetak puta veća.
 1	Na	na	ADP	_	Case=Loc	2	case	_	_
-2	polugodištu	polugodište	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	9	nmod	_	_
+2	polugodištu	polugodište	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
 3	ta	taj	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 4	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	9	aux	_	_
 5	razlika	razlika	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
@@ -6690,15 +6690,15 @@
 11	svih	sav	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	_
 12	banaka	banka	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
 13	ove	ovaj	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
-14	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+14	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
 15	desetak	desetak	NUM	_	NumType=Mult	16	nummod	_	_
 16	posto	posto	ADV	_	Degree=Pos	17	advmod	_	_
 17	niža	nizak	ADJ	_	Case=Nom|Definite=Def|Degree=Cmp|Gender=Fem|Number=Sing	6	ccomp	_	_
-18	nego	nego	CCONJ	_	_	17	cc	_	_
+18	nego	nego	CCONJ	_	_	22	cc	_	_
 19	u	u	ADP	_	Case=Acc	22	case	_	_
 20	prvih	prvi	NUM	_	Case=Gen|Gender=Masc|Number=Plur|NumType=Ord	21	nummod	_	_
 21	devet	devet	NUM	_	NumType=Card	22	nummod	_	_
-22	mjeseci	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	14	dep:remnant	_	_
+22	mjeseci	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	17	conj	_	orig_deprel=obl
 23	prošle	prošli	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
 24	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	6	punct	_	_
@@ -6742,7 +6742,7 @@
 14	bila	biti	AUX	_	Gender=Fem|Number=Sing|VerbForm=Part	15	cop	_	_
 15	viša	visok	ADJ	_	Case=Nom|Definite=Def|Degree=Cmp|Gender=Fem|Number=Sing	5	acl	_	_
 16	od	od	ADP	_	Case=Gen	17	case	_	_
-17	milijardu	milijarda	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	_
+17	milijardu	milijarda	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	_
 18	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -6778,7 +6778,7 @@
 5	među	među	ADP	_	Case=Ins	8	case	_	_
 6	najvećih	velik	ADJ	_	Case=Gen|Definite=Def|Degree=Sup|Gender=Fem|Number=Plur	8	amod	_	_
 7	šest	šest	NUM	_	NumType=Card	8	nummod	_	_
-8	banaka	banka	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+8	banaka	banka	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No|ToDo=nmod
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	već	već	ADV	_	Degree=Pos	11	advmod	_	_
 11	spomenute	spomenuti	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	16	amod	_	_
@@ -6869,7 +6869,7 @@
 4	posebno	posebno	ADV	_	Degree=Pos	5	advmod	_	_
 5	zabrinjavajuća	zabrinjavajući	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
 6	kod	kod	ADP	_	Case=Gen	7	case	_	_
-7	onih	onaj	PRON	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	5	nmod	_	_
+7	onih	onaj	PRON	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	5	obl	_	_
 8	koje	koji	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	11	nsubj	_	_
 9	te	taj	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
 10	gubitke	gubitka	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
@@ -6937,7 +6937,7 @@
 12	bolja	dobar	ADJ	_	Case=Nom|Definite=Def|Degree=Cmp|Gender=Neut|Number=Plur	7	conj	_	_
 13	od	od	ADP	_	Case=Gen	15	case	_	_
 14	beskonačne	beskonačan	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
-15	agonije	agonija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	agonije	agonija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
 16	i	i	CCONJ	_	_	17	cc	_	_
 17	gomilanja	gomilanje	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	15	conj	_	_
 18	gubitaka	gubitak	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
@@ -6955,7 +6955,7 @@
 8	za	za	ADP	_	Case=Acc	11	case	_	_
 9	čije	čiji	DET	_	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Int,Rel	11	det	_	_
 10	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	12	cop	_	_
-11	korištenje	korištenje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	12	nmod	_	_
+11	korištenje	korištenje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	_
 12	potrebno	potreban	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	6	acl	_	_
 13	biti	biti	AUX	_	VerbForm=Inf	12	xcomp	_	_
 14	vlasnik	vlasnik	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	13	xcomp	_	_
@@ -7174,7 +7174,7 @@
 10	a	a	CCONJ	_	_	17	cc	_	_
 11	prema	prema	ADP	_	Case=Loc	13	case	_	_
 12	posljednjim	posljednji	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_
-13	podacima	podatak	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+13	podacima	podatak	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	ukupno	ukupno	ADV	_	Degree=Pos	17	advmod	_	_
 16	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	17	aux:pass	_	_
@@ -7194,12 +7194,12 @@
 30	odnosi	odnositi	VERB	_	Number=Sing|Person=3|Tense=Pres	23	acl	_	_
 31	na	na	ADP	_	Case=Acc	32	case	_	_
 32	stanovništvo	stanovništvo	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	30	obl	_	SpaceAfter=No
-33	,	,	PUNCT	_	_	30	punct	_	_
-34	a	a	CCONJ	_	_	30	cc	_	_
-35	ostatak	ostatak	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	29	dep:remnant	_	_
+33	,	,	PUNCT	_	_	35	punct	_	_
+34	a	a	CCONJ	_	_	35	cc	_	_
+35	ostatak	ostatak	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	30	conj	_	orig_deprel=nsubj
 36	na	na	ADP	_	Case=Acc	38	case	_	_
 37	pravne	pravni	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	38	amod	_	_
-38	osobe	osoba	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	32	dep:remnant	_	SpaceAfter=No
+38	osobe	osoba	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	35	orphan	_	orig_deprel=obl|SpaceAfter=No
 39	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = dev-s266
@@ -7224,7 +7224,7 @@
 18	ciljano	ciljati	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	5	advcl	_	_
 19	na	na	ADP	_	Case=Acc	21	case	_	_
 20	pravne	pravni	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	_
-21	osobe	osoba	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	18	nmod	_	_
+21	osobe	osoba	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	18	obl	_	_
 22	koje	koji	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	25	nsubj	_	_
 23	sve	sve	PART	_	_	24	discourse	_	_
 24	više	mnogo	ADV	_	Degree=Cmp	25	advmod	_	_
@@ -7313,7 +7313,7 @@
 31	koja	koji	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	36	nsubj	_	_
 32	će	htjeti	AUX	_	Number=Sing|Person=3|Tense=Pres	36	aux	_	_
 33	početkom	početkom	ADP	_	Case=Gen	34	case	_	_
-34	prosinca	prosinac	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
+34	prosinca	prosinac	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	36	obl	_	_
 35	biti	biti	AUX	_	VerbForm=Inf	36	cop	_	_
 36	dostupna	dostupan	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	26	acl	_	_
 37	svim	sav	ADJ	_	Case=Dat|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	38	amod	_	_
@@ -7465,11 +7465,11 @@
 5	stoji	stajati	VERB	_	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 6	osam	osam	NUM	_	NumType=Card	7	nummod	_	_
 7	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	5	punct	_	_
-9	a	a	CCONJ	_	_	5	cc	_	_
-10	upisnina	upisnina	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	4	dep:remnant	_	_
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	a	a	CCONJ	_	_	10	cc	_	_
+10	upisnina	upisnina	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	orig_deprel=nsubj
 11	45	45	NUM	_	NumType=Card	12	nummod	_	_
-12	kuna	kuna	PROPN	_	Case=Gen|Gender=Fem|Number=Plur	7	dep:remnant	_	SpaceAfter=No
+12	kuna	kuna	PROPN	_	Case=Gen|Gender=Fem|Number=Plur	10	orphan	_	orig_deprel=obl|SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = dev-s275
@@ -7484,7 +7484,7 @@
 8	četiri	četiri	NUM	_	NumType=Card	9	nummod	_	_
 9	puta	put	ADV	_	Degree=Pos	4	advmod	_	_
 10	od	od	ADP	_	Case=Gen	11	case	_	_
-11	šalterskih	šalterski	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+11	šalterskih	šalterski	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = dev-s276
@@ -7542,7 +7542,7 @@
 1	Za	za	ADP	_	Case=Acc	4	case	_	_
 2	pravne	pravni	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
 3	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	10	cop	_	_
-4	osobe	osoba	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	10	nmod	_	_
+4	osobe	osoba	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	10	obl	_	_
 5	trošak	trošak	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 6	pristupnine	pristupnina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
 7	servisu	servis	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	_
@@ -7551,7 +7551,7 @@
 10	besplatan	besplatan	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
 11	u	u	ADP	_	Case=Loc	13	case	_	_
 12	Erste	Erste	PROPN	_	Case=Loc|Gender=Masc|Number=Sing	13	compound	_	_
-13	NetBankingu	NetBanking	PROPN	_	Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	NetBankingu	NetBanking	PROPN	_	Case=Loc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	servisu	servis	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	13	conj	_	_
 16	Volks@bank	Volks@bank	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	15	compound	_	_
@@ -7581,7 +7581,7 @@
 2	odnosu	odnos	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
 3	na	na	ADP	_	Case=Acc	1	fixed	_	_
 4	prethodni	prethodan	ADJ	_	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
-5	kolovoz	kolovoz	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	_
+5	kolovoz	kolovoz	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
 6	rujanski	rujanski	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
 7	promet	promet	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	_
 8	u	u	ADP	_	Case=Loc	9	case	_	_
@@ -7600,7 +7600,7 @@
 4	višestruko	višestruko	ADV	_	Degree=Pos	5	advmod	_	_
 5	iznad	iznad	ADP	_	Case=Gen	7	case	_	_
 6	osobnih	osoban	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
-7	mogućnosti	mogućnost	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+7	mogućnosti	mogućnost	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
 8	mnogi	mnogi	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	11	nsubj	_	_
 9	su	biti	AUX	_	Number=Plur|Person=3|Tense=Pres	11	aux	_	_
 10	godinama	godina	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	11	obl	_	_
@@ -7714,7 +7714,7 @@
 4	uzrok	uzrok	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 5	strah	strah	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 6	od	od	ADP	_	Case=Gen	7	case	_	_
-7	posljedica	posljedica	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	posljedica	posljedica	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	ToDo=nmod
 8	globalne	globalan	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
 9	krize	kriza	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
 10	ili	ili	CCONJ	_	_	12	cc	_	_
@@ -7763,7 +7763,7 @@
 6	brojna	brojan	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 7	tek	tek	ADV	_	Degree=Pos	8	advmod	_	_
 8	za	za	ADP	_	Case=Acc	9	case	_	_
-9	predgrađe	predgrađe	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	_
+9	predgrađe	predgrađe	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
 10	neke	neki	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind	13	det	_	_
 11	veće	velik	ADJ	_	Case=Gen|Definite=Def|Degree=Cmp|Gender=Fem|Number=Sing	13	amod	_	_
 12	europske	europski	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
@@ -7774,7 +7774,7 @@
 17	posto	posto	ADV	_	Degree=Pos	22	nsubj	_	_
 18	od	od	ADP	_	Case=Gen	20	case	_	_
 19	1,52	1,52	NUM	_	NumType=Card	20	nummod	_	_
-20	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+20	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	17	obl	_	_
 21	zaposlenih	zaposlen	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	20	amod	_	_
 22	ima	imati	VERB	_	Number=Sing|Person=3|Tense=Pres	1	conj	_	_
 23	mjesečna	mjesečan	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur	24	amod	_	_
@@ -7802,7 +7802,7 @@
 5	posto	posto	ADV	_	Degree=Pos	11	nsubj	_	_
 6	od	od	ADP	_	Case=Gen	8	case	_	_
 7	1,19	1,19	NUM	_	NumType=Card	8	nummod	_	_
-8	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
 9	umirovljenika	umirovljenik	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
 10	paralelno	paralelno	ADV	_	Degree=Pos	11	advmod	_	_
 11	dobije	dobiti	VERB	_	Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -7920,9 +7920,9 @@
 12	rangirane	rangirati	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	10	acl	_	_
 13	među	među	ADP	_	Case=Ins	15	case	_	_
 14	pet	pet	NUM	_	NumType=Card	15	nummod	_	_
-15	najvećih	velik	ADJ	_	Case=Gen|Definite=Def|Degree=Sup|Gender=Fem|Number=Plur	12	nmod	_	_
+15	najvećih	velik	ADJ	_	Case=Gen|Definite=Def|Degree=Sup|Gender=Fem|Number=Plur	12	obl	_	_
 16	unutar	unutar	ADP	_	Case=Gen	17	case	_	_
-17	grupacije	grupacija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+17	grupacije	grupacija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = dev-s296
@@ -7941,7 +7941,7 @@
 12	očekivati	očekivati	VERB	_	VerbForm=Inf	10	xcomp	_	_
 13	prije	prije	ADP	_	Case=Gen	15	case	_	_
 14	druge	drugi	NUM	_	Case=Gen|Gender=Fem|Number=Sing|NumType=Ord	15	nummod	_	_
-15	polovice	polovica	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+15	polovice	polovica	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
 16	2012.	2012.	NUM	_	NumType=Ord	15	nmod	_	_
 
 # sent_id = dev-s297
@@ -7949,7 +7949,7 @@
 1	Danas	danas	ADV	_	Degree=Pos	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	na	na	ADP	_	Case=Loc	4	case	_	_
-4	izmaku	izmak	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
+4	izmaku	izmak	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
 5	2010.	2010.	NUM	_	NumType=Ord	4	nmod	_	_
 6	vidljivo	vidljiv	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 7	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	6	cop	_	_
@@ -7998,7 +7998,7 @@
 # text = Prema njihovu istraživanju indeksa optimizma građana i zadovoljstva trgovačkim lancima, građani su najoptimističniji bili također u siječnju prošle godine kada je indeks iznosio 42,3, dok je najniži bio u studenom s vrijednošću 36,5.
 1	Prema	prema	ADP	_	Case=Loc	3	case	_	_
 2	njihovu	njihov	DET	_	Case=Loc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	3	nmod	_	_
-3	istraživanju	istraživanje	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	14	nmod	_	_
+3	istraživanju	istraživanje	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	14	obl	_	_
 4	indeksa	indeks	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 5	optimizma	optimizam	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 6	građana	građanin	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
@@ -8013,7 +8013,7 @@
 15	bili	biti	AUX	_	Gender=Masc|Number=Plur|VerbForm=Part	14	cop	_	_
 16	također	također	ADV	_	Degree=Pos	17	advmod	_	_
 17	u	u	ADP	_	Case=Loc	18	case	_	_
-18	siječnju	siječanj	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	_
+18	siječnju	siječanj	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
 19	prošle	prošli	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
 20	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
 21	kada	kada	ADV	_	Degree=Pos	24	mark	_	_
@@ -8027,16 +8027,16 @@
 29	najniži	nizak	ADJ	_	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	14	conj	_	_
 30	bio	biti	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	29	cop	_	_
 31	u	u	ADP	_	Case=Loc	32	case	_	_
-32	studenom	studeni	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	29	nmod	_	_
+32	studenom	studeni	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	29	obl	_	_
 33	s	sa	ADP	_	Case=Ins	34	case	_	_
-34	vrijednošću	vrijednost	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	29	nmod	_	_
+34	vrijednošću	vrijednost	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	29	obl	_	_
 35	36,5	36,5	NUM	_	NumType=Card	34	nummod	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = dev-s301
 # text = U prosincu prošle godine hrvatski kupci najzadovoljniji su bili trgovačkim lancem InterSpar koji je dobio prosječnu ocjenu 4,32.
 1	U	u	ADP	_	Case=Loc	2	case	_	_
-2	prosincu	prosinac	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
+2	prosincu	prosinac	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
 3	prošle	prošli	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
 4	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 5	hrvatski	hrvatski	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
@@ -8135,7 +8135,7 @@
 24	najzadovoljniji	zadovoljan	ADJ	_	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Plur	0	root	_	_
 25	s	sa	ADP	_	Case=Ins	27	case	_	_
 26	radnim	radni	ADJ	_	Case=Ins|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
-27	vremenom	vrijeme	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	24	nmod	_	_
+27	vremenom	vrijeme	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	24	obl	_	_
 28	koje	koji	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	32	nsubj	_	_
 29	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	32	aux	_	_
 30	u	u	ADP	_	Case=Loc	31	case	_	_
@@ -8152,7 +8152,7 @@
 3	anketa	anketa	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 4	provedena	provesti	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	advcl	_	_
 5	sredinom	sredinom	ADP	_	Case=Gen	6	case	_	_
-6	prosinca	prosinac	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	prosinca	prosinac	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	_
 8	ne	ne	PART	_	Polarity=Neg	9	advmod	_	_
 9	čudi	čuditi	VERB	_	Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -8187,11 +8187,11 @@
 # text = Nakon radnog vremena kupci su najzadovoljniji ljubaznošću osoblja.
 1	Nakon	nakon	ADP	_	Case=Gen	3	case	_	_
 2	radnog	radni	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
-3	vremena	vrijeme	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+3	vremena	vrijeme	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
 4	kupci	kupac	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
 5	su	biti	AUX	_	Number=Plur|Person=3|Tense=Pres	6	cop	_	_
 6	najzadovoljniji	zadovoljan	ADJ	_	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Plur	0	root	_	_
-7	ljubaznošću	ljubaznost	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	_
+7	ljubaznošću	ljubaznost	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
 8	osoblja	osoblje	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -8205,15 +8205,15 @@
 6	osnovati	osnovati	VERB	_	VerbForm=Inf	5	xcomp	_	_
 7	energetsku	energetski	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 8	tvrtku	tvrtka	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
-9	ili	ili	CCONJ	_	_	5	cc	_	SpaceAfter=No
+9	ili	ili	CCONJ	_	_	5	cc	_	SpaceAfter=No|ToDo=cc-in-coord
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	još	još	ADV	_	Degree=Pos	12	advmod	_	_
 12	bolje	dobro	ADV	_	Degree=Cmp	5	advmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	u	u	ADP	_	Case=Loc	15	case	_	_
-15	selima	selo	NOUN	_	Case=Loc|Gender=Neut|Number=Plur	2	dep:remnant	_	_
+15	selima	selo	NOUN	_	Case=Loc|Gender=Neut|Number=Plur	17	orphan	_	orig_deprel=obl
 16	zemljoradničku	zemljoradnički	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
-17	zadrugu	zadruga	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	8	dep:remnant	_	_
+17	zadrugu	zadruga	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	orig_deprel=obj
 18	jer	jer	SCONJ	_	_	20	mark	_	_
 19	tada	tada	ADV	_	Degree=Pos	20	advmod	_	_
 20	dobivaju	dobivati	VERB	_	Number=Plur|Person=3|Tense=Pres	5	advcl	_	_
@@ -8360,7 +8360,7 @@
 16	bilo	biti	AUX	_	Gender=Neut|Number=Sing|VerbForm=Part	17	aux:pass	_	_
 17	financirano	financirati	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	10	acl	_	_
 18	iz	iz	ADP	_	Case=Gen	19	case	_	_
-19	fondova	fond	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	fondova	fond	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	17	obl	_	_
 20	EU	EU	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -8402,9 +8402,9 @@
 7	možda	možda	ADV	_	Degree=Pos	9	advmod	_	_
 8	i	i	PART	_	_	9	discourse	_	_
 9	bolje	dobro	ADV	_	Degree=Cmp	4	acl	_	_
-10	nego	nego	CCONJ	_	_	3	cc	_	_
+10	nego	nego	CCONJ	_	_	12	cc	_	_
 11	u	u	ADP	_	Case=Loc	12	case	_	_
-12	Austriji	Austrija	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	2	dep:remnant	_	_
+12	Austriji	Austrija	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	3	conj	_	orig_deprel=obl
 13	jer	jer	SCONJ	_	_	16	mark	_	_
 14	dosta	dosta	ADV	_	Degree=Pos	15	advmod	_	_
 15	gradova	grad	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	16	nsubj	_	_
@@ -8505,7 +8505,7 @@
 9	investitor	investitor	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	acl	_	_
 10	u	u	ADP	_	Case=Acc	12	case	_	_
 11	dva	dva	NUM	_	NumType=Card	12	nummod	_	_
-12	postojenja	postojenje	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+12	postojenja	postojenje	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	ToDo=nmod
 13	za	za	ADP	_	Case=Acc	14	case	_	_
 14	grijanje	grijanje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	12	nmod	_	_
 15	neindustrijskih	neindustrijski	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_
@@ -8676,7 +8676,7 @@
 2	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	4	cop	_	_
 3	optimalna	optimalan	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
 4	veličina	veličina	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
-5	postrojenja	postrojenje	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+5	postrojenja	postrojenje	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	ToDo=nmod
 6	zato	zato	SCONJ	_	_	11	mark	_	_
 7	što	što	SCONJ	_	_	6	fixed	_	_
 8	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	11	obj	_	_
@@ -8694,7 +8694,7 @@
 # text = Protivnik sam gradnje velikih elektrana na šumsku biomasu zato što se ne može iskoristiti toplina koja se proizvodi nego se ona uništava.
 1	Protivnik	protivnik	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 2	sam	biti	AUX	_	Number=Sing|Person=1|Tense=Pres	1	cop	_	_
-3	gradnje	gradnja	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	gradnje	gradnja	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	ToDo=nmod
 4	velikih	velik	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
 5	elektrana	elektrana	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
 6	na	na	ADP	_	Case=Acc	8	case	_	_
@@ -8759,7 +8759,7 @@
 10	veličine	veličina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	0	root	_	_
 11	do	do	ADP	_	Case=Gen	12	case	_	_
 12	2,5	2,5	NUM	_	NumType=Card	13	nummod	_	_
-13	megavata	megavat	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	megavata	megavat	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	ToDo=nmod
 14	električne	električan	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	13	nmod	_	_
 15	i	i	CCONJ	_	_	18	cc	_	_
 16	do	do	ADP	_	Case=Gen	17	case	_	_
@@ -8917,7 +8917,7 @@
 4	optimalno	optimalan	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 5	i	i	CCONJ	_	_	10	cc	_	_
 6	s	sa	ADP	_	Case=Ins	7	case	_	_
-7	time	taj	PRON	_	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	10	nmod	_	_
+7	time	taj	PRON	_	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	10	obl	_	_
 8	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	10	cop	_	_
 9	recimo	reći	VERB	_	Mood=Imp|Number=Plur|Person=1	10	parataxis	_	_
 10	usporediv	usporediv	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	conj	_	_
@@ -9022,7 +9022,7 @@
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	FinvestCorp	FinvestCorp	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 7	u	u	ADP	_	Case=Loc	8	case	_	_
-8	Gerovu	Gerovo	PROPN	_	Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+8	Gerovu	Gerovo	PROPN	_	Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No|ToDo=nmod
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	PM	PM	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
 11	Lignum	Lignum	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	10	compound	_	_
@@ -9090,11 +9090,11 @@
 4	u	u	ADP	_	Case=Acc	6	case	_	_
 5	jednog	jedan	NUM	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|NumType=Card	6	nummod	_	_
 6	boga	bog	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	3	punct	_	_
-8	drugi	drugi	NUM	_	Case=Nom|Gender=Masc|Number=Plur|NumType=Ord	2	dep:remnant	_	_
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	drugi	drugi	NUM	_	Case=Nom|Gender=Masc|Number=Plur|NumType=Ord	3	conj	_	orig_deprel=nsubj
 9	u	u	ADP	_	Case=Acc	11	case	_	_
 10	više	mnogo	ADV	_	Degree=Cmp	11	advmod	_	_
-11	njih	oni	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	6	dep:remnant	_	SpaceAfter=No
+11	njih	oni	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	8	orphan	_	orig_deprel=obl|SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = dev-s346
@@ -9170,7 +9170,7 @@
 3	nespojiva	nespojiv	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
 4	s	sa	ADP	_	Case=Ins	6	case	_	_
 5	privilegiranim	privilegiran	ADJ	_	Case=Ins|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
-6	isticanjem	isticanje	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	3	nmod	_	_
+6	isticanjem	isticanje	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	3	obl	_	_
 7	jednog	jedan	NUM	_	Case=Gen|Gender=Masc|Number=Sing|NumType=Card	9	nummod	_	_
 8	religijskog	religijski	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
 9	vjerovanja	vjerovanje	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
@@ -9184,7 +9184,7 @@
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	stvar	stvar	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
 4	zajednička	zajednički	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
-5	svima	sav	ADJ	_	Case=Dat|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+5	svima	sav	ADJ	_	Case=Dat|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	_
 7	kao	kao	SCONJ	_	_	10	mark	_	_
 8	što	što	SCONJ	_	_	7	fixed	_	_
@@ -9200,7 +9200,7 @@
 18	neutralna	neutralan	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
 19	na	na	ADP	_	Case=Loc	21	case	_	_
 20	vjerskom	vjerski	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
-21	planu	plan	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	planu	plan	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
 22	:	:	PUNCT	_	_	29	punct	_	_
 23	neuter	neuter	ADP	_	_	29	nsubj	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	27	punct	_	_
@@ -9227,7 +9227,7 @@
 5	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	7	cop	_	_
 6	i	i	PART	_	_	7	discourse	_	_
 7	jamstvo	jamstvo	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
-8	nepristranosti	nepristranost	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+8	nepristranosti	nepristranost	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	ToDo=nmod
 9	i	i	CCONJ	_	_	10	cc	_	_
 10	uvjet	uvjet	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
 11	da	da	SCONJ	_	_	31	mark	_	_
@@ -9535,7 +9535,7 @@
 # text = Sudeći po izjavama njihovih dužnosnika, ne očekuju se nikakve promjene proizvodne politike.
 1	Sudeći	suditi	ADV	_	VerbForm=Part	8	xcomp	_	_
 2	po	po	ADP	_	Case=Loc	3	case	_	_
-3	izjavama	izjava	NOUN	_	Case=Loc|Gender=Fem|Number=Plur	1	nmod	_	_
+3	izjavama	izjava	NOUN	_	Case=Loc|Gender=Fem|Number=Plur	1	obl	_	_
 4	njihovih	njihov	DET	_	Case=Gen|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod	_	_
 5	dužnosnika	dužnosnik	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
@@ -9562,7 +9562,7 @@
 10	da	da	SCONJ	_	_	12	mark	_	_
 11	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	12	cop	_	_
 12	zadovoljan	zadovoljan	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	9	ccomp	_	_
-13	tržištem	tržište	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	12	nmod	_	_
+13	tržištem	tržište	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	12	obl	_	_
 14	nafte	nafta	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -9601,10 +9601,10 @@
 # text = Prema njegovom mišljenju, srpanjskim izmjenama poreznog zakona opet je uveden svojevrsni mišung koji nosi niz potencijalnih problema.
 1	Prema	prema	ADP	_	Case=Loc	3	case	_	_
 2	njegovom	njegov	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	3	nmod	_	_
-3	mišljenju	mišljenje	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+3	mišljenju	mišljenje	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	srpanjskim	srpanjski	ADJ	_	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
-6	izmjenama	izmjena	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	11	nmod	_	_
+6	izmjenama	izmjena	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	11	obl	_	_
 7	poreznog	porezni	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
 8	zakona	zakon	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
 9	opet	opet	ADV	_	Degree=Pos	11	advmod	_	_
@@ -9663,13 +9663,13 @@
 13	od	od	ADP	_	Case=Gen	14	case	_	_
 14	161.000	161.000	NUM	_	NumType=Card	15	nummod	_	_
 15	osiguranika	osiguranik	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	10	nsubj	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	10	punct	_	_
-17	a	a	CCONJ	_	_	10	cc	_	_
+16	,	,	PUNCT	_	_	22	punct	_	_
+17	a	a	CCONJ	_	_	22	cc	_	_
 18	u	u	ADP	_	Case=Acc	21	case	_	_
 19	15	15	NUM	_	NumType=Card	21	nummod	_	_
 20	zatvorenih	zatvoren	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	_
-21	DMF-ova	DMF	PROPN	_	Case=Gen|Gender=Masc|Number=Plur	6	dep:remnant	_	_
-22	njih	oni	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	15	dep:remnant	_	_
+21	DMF-ova	DMF	PROPN	_	Case=Gen|Gender=Masc|Number=Plur	22	orphan	_	orig_deprel=obl
+22	njih	oni	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	10	conj	_	orig_deprel=nsubj
 23	tek	tek	ADV	_	Degree=Pos	24	advmod	_	_
 24	17.600	17.600	NUM	_	NumType=Card	22	nummod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	10	punct	_	_
@@ -9825,17 +9825,17 @@
 21	3.	3.	NUM	_	NumType=Ord	22	nummod	_	_
 22	stup	stup	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	nmod	_	_
 23	za	za	ADP	_	Case=Acc	24	case	_	_
-24	poslodavca	poslodavac	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	25	nmod	_	_
+24	poslodavca	poslodavac	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	25	obl	_	_
 25	ukinuto	ukinuti	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	11	ccomp	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	30	punct	_	_
 27	a	a	CCONJ	_	_	30	cc	_	_
 28	za	za	ADP	_	Case=Acc	29	case	_	_
-29	zaposlenike	zaposlenik	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	30	nmod	_	_
+29	zaposlenike	zaposlenik	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	30	obl	_	_
 30	odgođeno	odgoditi	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	25	conj	_	_
 31	i	i	CCONJ	_	_	32	cc	_	_
 32	prebačeno	prebačen	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	30	conj	_	_
 33	u	u	ADP	_	Case=Acc	34	case	_	_
-34	budućnost	budućnost	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+34	budućnost	budućnost	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	32	obl	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	38	punct	_	_
 36	odnosno	odnosno	ADV	_	Degree=Pos	38	advmod	_	_
 37	u	u	ADP	_	Case=Acc	38	case	_	_
@@ -9913,7 +9913,7 @@
 11	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	10	aux:pass	_	_
 12	u	u	ADP	_	Case=Acc	14	case	_	_
 13	državne	državni	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_
-14	obveznice	obveznica	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+14	obveznice	obveznica	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = dev-s379
@@ -10082,7 +10082,7 @@
 34	prognoze	prognoza	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	36	nsubj	_	_
 35	sastavni	sastavan	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_
 36	dio	dio	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	8	advcl	_	_
-37	konferencije	konferencija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
+37	konferencije	konferencija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No|ToDo=nmod
 38	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = dev-s384
@@ -10135,7 +10135,7 @@
 1	U	u	ADP	_	Case=Acc	4	case	_	_
 2	protekle	protekao	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
 3	dvije	dva	NUM	_	Case=Acc|Gender=Fem|NumType=Card	4	nummod	_	_
-4	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+4	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
 5	ponovno	ponovno	ADV	_	Degree=Pos	7	advmod	_	_
 6	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	7	aux:pass	_	_
 7	pojačana	pojačati	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -10178,10 +10178,10 @@
 11	mnoge	mnogi	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_
 12	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	15	cop	_	_
 13	tržišne	tržišni	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_
-14	aktere	akter	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	15	nmod	_	_
+14	aktere	akter	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	15	nmod	_	ToDo=nmod
 15	razlog	razlog	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 16	za	za	ADP	_	Case=Acc	17	case	_	_
-17	zabrinutost	zabrinutost	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+17	zabrinutost	zabrinutost	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No|ToDo=nmod
 18	,	,	PUNCT	_	_	20	punct	_	_
 19	no	no	CCONJ	_	_	20	cc	_	_
 20	pitanje	pitanje	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	15	conj	_	_
@@ -10266,10 +10266,10 @@
 14	imovina	imovina	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
 15	u	u	ADP	_	Case=Loc	17	case	_	_
 16	najvećoj	najveći	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
-17	mjeri	mjera	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	19	nmod	_	_
+17	mjeri	mjera	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	19	nmod	_	ToDo=nmod
 18	nije	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	19	cop	_	_
 19	stvar	stvar	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	7	acl	_	_
-20	izbora	izbor	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+20	izbora	izbor	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	ToDo=nmod
 21	već	već	ADV	_	Degree=Pos	24	cc	_	_
 22	obveznog	obvezan	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
 23	mjesečnog	mjesečan	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
@@ -10351,7 +10351,7 @@
 25	onih	onaj	PRON	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	21	conj	_	_
 26	vezanih	vezan	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	25	acl	_	_
 27	uz	uz	ADP	_	Case=Acc	28	case	_	_
-28	modele	model	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	26	nmod	_	_
+28	modele	model	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	26	obl	_	_
 29	alokacije	alokacija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	15	punct	_	_
 
@@ -10392,7 +10392,7 @@
 8	iskazane	iskazati	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	4	acl	_	_
 9	kroz	kroz	ADP	_	Case=Acc	11	case	_	_
 10	burzovne	burzovni	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_
-11	promete	promet	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	promete	promet	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	odnosno	odnosno	ADV	_	Degree=Pos	14	advmod	_	_
 14	ekvivalent	ekvivalent	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	appos	_	_
@@ -10406,12 +10406,12 @@
 22	koji	koji	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	32	nsubj	_	_
 23	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	32	aux:pass	_	_
 24	s	sa	ADP	_	Case=Ins	25	case	_	_
-25	padom	pad	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	32	nmod	_	_
+25	padom	pad	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	32	obl	_	_
 26	prometa	promet	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
 27	u	u	ADP	_	Case=Acc	30	case	_	_
 28	protekle	protekao	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
 29	dvije	dva	NUM	_	Case=Nom|Gender=Fem|NumType=Card	30	nummod	_	_
-30	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	_
+30	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	32	obl	_	_
 31	višestruko	višestruko	ADV	_	Degree=Pos	32	advmod	_	_
 32	povećan	povećati	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	14	acl	_	_
 33	i	i	CCONJ	_	_	34	cc	_	_
@@ -10629,7 +10629,7 @@
 21	ključni	ključan	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
 22	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	23	cop	_	_
 23	element	element	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-24	spuštanja	spuštanje	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+24	spuštanja	spuštanje	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	ToDo=nmod
 25	rejtinga	rejting	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	23	punct	_	_
 
@@ -10772,7 +10772,7 @@
 11	agencija	agencija	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
 12	u	u	ADP	_	Case=Loc	14	case	_	_
 13	cijelom	cijel	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
-14	svijetu	svijet	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	15	nmod	_	_
+14	svijetu	svijet	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
 15	srozan	srozati	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	ccomp	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -11155,18 +11155,18 @@
 13	iznosi	iznositi	VERB	_	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 14	4,2	4,2	NUM	_	NumType=Card	15	nummod	_	_
 15	posto	posto	ADV	_	Degree=Pos	13	advmod	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	13	punct	_	_
+16	,	,	PUNCT	_	_	13	punct	_	ToDo=punct-in-coord
 17	na	na	ADP	_	Case=Acc	19	case	_	_
 18	tri	tri	NUM	_	NumType=Card	19	nummod	_	_
-19	mjeseca	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	8	dep:remnant	_	_
+19	mjeseca	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	27	orphan	_	orig_deprel=nmod
 20	4,7	4,7	NUM	_	NumType=Card	21	nummod	_	_
-21	posto	posto	ADV	_	Degree=Pos	15	dep:remnant	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	13	punct	_	_
+21	posto	posto	ADV	_	Degree=Pos	27	orphan	_	orig_deprel=advmod|SpaceAfter=No
+22	,	,	PUNCT	_	_	27	punct	_	_
 23	na	na	ADP	_	Case=Acc	25	case	_	_
 24	pola	pola	ADV	_	Degree=Pos	25	advmod	_	_
-25	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	8	dep:remnant	_	_
+25	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	27	orphan	_	orig_deprel=nmod
 26	5,2	5,2	NUM	_	NumType=Card	27	nummod	_	_
-27	posto	posto	ADV	_	Degree=Pos	15	dep:remnant	_	_
+27	posto	posto	ADV	_	Degree=Pos	13	conj	_	orig_deprel=advmod
 28	godišnje	godišnje	ADV	_	Degree=Pos	27	advmod	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -11212,21 +11212,21 @@
 12	jedan	jedan	NUM	_	Case=Nom|Gender=Masc|Number=Sing|NumType=Card	13	nummod	_	_
 13	mjesec	mjesec	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	parataxis	_	SpaceAfter=No
 14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	8	punct	_	_
+15	,	,	PUNCT	_	_	27	punct	_	_
 16	4,1	4,1	NUM	_	NumType=Card	17	nummod	_	_
-17	posto	posto	ADV	_	Degree=Pos	7	dep:remnant	_	_
+17	posto	posto	ADV	_	Degree=Pos	27	orphan	_	orig_deprel=advmod
 18	na	na	ADP	_	Case=Acc	22	case	_	_
 19	više	mnogo	ADV	_	Degree=Cmp	20	advmod	_	_
 20	od	od	ADP	_	Case=Gen	21	case	_	_
 21	tri	tri	NUM	_	NumType=Card	22	nummod	_	_
-22	mjeseca	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	13	dep:remnant	_	_
-23	pa	pa	CCONJ	_	_	8	cc	_	_
+22	mjeseca	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	27	orphan	_	orig_deprel=parataxis
+23	pa	pa	CCONJ	_	_	27	cc	_	_
 24	sve	sve	PART	_	_	25	discourse	_	_
 25	do	do	ADP	_	Case=Gen	26	case	_	_
 26	6,25	6,25	NUM	_	NumType=Card	27	nummod	_	_
-27	posto	posto	ADV	_	Degree=Pos	7	dep:remnant	_	_
+27	posto	posto	ADV	_	Degree=Pos	8	conj	_	orig_deprel=advmod
 28	na	na	ADP	_	Case=Acc	29	case	_	_
-29	oročenja	oročenje	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	27	nmod	_	_
+29	oročenja	oročenje	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	27	obl	_	_
 30	iznad	iznad	ADP	_	Case=Gen	32	case	_	_
 31	3	3	NUM	_	NumType=Card	32	nummod	_	_
 32	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
@@ -11352,26 +11352,26 @@
 37	iznosi	iznositi	VERB	_	Number=Sing|Person=3|Tense=Pres	22	conj	_	_
 38	4,5	4,5	NUM	_	NumType=Card	39	nummod	_	_
 39	posto	posto	ADV	_	Degree=Pos	37	advmod	_	SpaceAfter=No
-40	,	,	PUNCT	_	_	37	punct	_	_
+40	,	,	PUNCT	_	_	37	punct	_	ToDo=punct-in-coord
 41	tri	tri	NUM	_	NumType=Card	42	nummod	_	_
-42	mjeseca	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	36	dep:remnant	_	_
+42	mjeseca	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	59	orphan	_	orig_deprel=nmod
 43	4,7	4,7	NUM	_	NumType=Card	44	nummod	_	_
-44	posto	posto	ADV	_	Degree=Pos	39	dep:remnant	_	SpaceAfter=No
-45	,	,	PUNCT	_	_	37	punct	_	_
+44	posto	posto	ADV	_	Degree=Pos	59	orphan	_	orig_deprel=advmod|SpaceAfter=No
+45	,	,	PUNCT	_	_	37	punct	_	ToDo=punct-in-coord
 46	više	mnogo	ADV	_	Degree=Cmp	49	advmod	_	_
 47	od	od	ADP	_	Case=Gen	48	case	_	_
 48	šest	šest	NUM	_	NumType=Card	49	nummod	_	_
-49	mjeseci	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	36	dep:remnant	_	_
+49	mjeseci	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	59	orphan	_	orig_deprel=nmod
 50	4,8	4,8	NUM	_	NumType=Card	51	nummod	_	_
-51	posto	posto	ADV	_	Degree=Pos	39	dep:remnant	_	SpaceAfter=No
-52	,	,	PUNCT	_	_	37	punct	_	_
-53	a	a	CCONJ	_	_	37	cc	_	_
+51	posto	posto	ADV	_	Degree=Pos	59	orphan	_	orig_deprel=advmod|SpaceAfter=No
+52	,	,	PUNCT	_	_	59	punct	_	_
+53	a	a	CCONJ	_	_	59	cc	_	_
 54	više	mnogo	ADV	_	Degree=Cmp	56	advmod	_	_
 55	od	od	ADP	_	Case=Gen	56	case	_	_
-56	godinu	godina	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	36	dep:remnant	_	_
+56	godinu	godina	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	59	orphan	_	orig_deprel=nmod
 57	dana	dan	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	56	nmod	_	_
 58	5,25	5,25	NUM	_	NumType=Card	59	nummod	_	_
-59	posto	posto	ADV	_	Degree=Pos	39	dep:remnant	_	SpaceAfter=No
+59	posto	posto	ADV	_	Degree=Pos	37	conj	_	orig_deprel=advmod|SpaceAfter=No
 60	.	.	PUNCT	_	_	22	punct	_	_
 
 # sent_id = dev-s429
@@ -11379,7 +11379,7 @@
 1	Kao	kao	SCONJ	_	_	4	case	_	_
 2	i	i	PART	_	_	3	discourse	_	_
 3	druge	drugi	NUM	_	Case=Nom|Gender=Fem|Number=Plur|NumType=Ord	4	amod	_	_
-4	banke	banka	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+4	banke	banka	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	i	i	PART	_	_	7	obj	_	_
 7	RBA	RBA	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
@@ -11408,12 +11408,12 @@
 30	iznosi	iznositi	VERB	_	Number=Sing|Person=3|Tense=Pres	9	parataxis	_	_
 31	5,5	5,5	NUM	_	NumType=Card	32	nummod	_	_
 32	posto	posto	ADV	_	Degree=Pos	30	advmod	_	_
-33	te	te	CCONJ	_	_	30	cc	_	_
+33	te	te	CCONJ	_	_	35	cc	_	_
 34	5,65	5,65	NUM	_	NumType=Card	35	nummod	_	_
-35	posto	posto	ADV	_	Degree=Pos	32	dep:remnant	_	_
+35	posto	posto	ADV	_	Degree=Pos	30	conj	_	orig_deprel=advmod
 36	na	na	ADP	_	Case=Acc	38	case	_	_
 37	tri	tri	NUM	_	NumType=Card	38	nummod	_	_
-38	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	29	dep:remnant	_	SpaceAfter=No
+38	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	35	orphan	_	orig_deprel=nmod|SpaceAfter=No
 39	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = dev-s430
@@ -11458,7 +11458,7 @@
 20	duži	dug	ADJ	_	Animacy=Inan|Case=Acc|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	19	amod	_	_
 21	od	od	ADP	_	Case=Gen	23	case	_	_
 22	pola	pola	ADV	_	Degree=Pos	23	advmod	_	_
-23	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
 24	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -11529,7 +11529,7 @@
 5	oročen	oročiti	ADJ	_	Animacy=Inan|Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	4	acl	_	_
 6	na	na	ADP	_	Case=Acc	8	case	_	_
 7	tri	tri	NUM	_	NumType=Card	8	nummod	_	_
-8	mjeseca	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	mjeseca	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
 9	kreće	kretati	VERB	_	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 10	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	9	obj	_	_
 11	u	u	ADP	_	Case=Loc	12	case	_	_
@@ -11539,17 +11539,17 @@
 15	do	do	ADP	_	Case=Gen	16	case	_	_
 16	3,15	3,15	NUM	_	NumType=Card	17	nummod	_	_
 17	posto	posto	ADV	_	Degree=Pos	12	advmod	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	9	punct	_	_
-19	a	a	CCONJ	_	_	9	cc	_	_
+18	,	,	PUNCT	_	_	22	punct	_	_
+19	a	a	CCONJ	_	_	22	cc	_	_
 20	na	na	ADP	_	Case=Loc	22	case	_	_
 21	pola	pola	ADV	_	Degree=Pos	22	advmod	_	_
-22	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	8	dep:remnant	_	_
+22	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	9	conj	_	orig_deprel=obl
 23	2,2	2,2	NUM	_	NumType=Card	28	nummod	_	_
 24	pa	pa	CCONJ	_	_	27	cc	_	_
 25	sve	sve	PART	_	_	26	discourse	_	_
 26	do	do	ADP	_	Case=Gen	27	case	_	_
 27	3,6	3,6	NUM	_	NumType=Card	23	conj	_	_
-28	posto	posto	ADV	_	Degree=Pos	17	dep:remnant	_	SpaceAfter=No
+28	posto	posto	ADV	_	Degree=Pos	22	orphan	_	orig_deprel=advmod|SpaceAfter=No
 29	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = dev-s435
@@ -11604,7 +11604,7 @@
 6	manje	mali	ADJ	_	Case=Acc|Definite=Def|Degree=Cmp|Gender=Neut|Number=Sing	5	amod	_	_
 7	od	od	ADP	_	Case=Gen	9	case	_	_
 8	deset	deset	NUM	_	NumType=Card	9	nummod	_	_
-9	tisuća	tisuća	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+9	tisuća	tisuća	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	6	obl	_	_
 10	eura	euro	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
 11	na	na	ADP	_	Case=Acc	13	case	_	_
 12	jedan	jedan	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Card	13	nummod	_	_
@@ -11612,30 +11612,30 @@
 14	iznosi	iznositi	VERB	_	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 15	3	3	NUM	_	NumType=Card	16	nummod	_	_
 16	posto	posto	ADV	_	Degree=Pos	14	advmod	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	14	punct	_	_
+17	,	,	PUNCT	_	_	14	punct	_	ToDo=punct-in-coord
 18	na	na	ADP	_	Case=Acc	20	case	_	_
 19	tri	tri	NUM	_	NumType=Card	20	nummod	_	_
-20	mjeseca	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	13	dep:remnant	_	_
+20	mjeseca	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	40	orphan	_	orig_deprel=nmod
 21	3,5	3,5	NUM	_	NumType=Card	22	nummod	_	_
-22	posto	posto	ADV	_	Degree=Pos	16	dep:remnant	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	14	punct	_	_
+22	posto	posto	ADV	_	Degree=Pos	40	orphan	_	orig_deprel=advmod|SpaceAfter=No
+23	,	,	PUNCT	_	_	14	punct	_	ToDo=punct-in-coord
 24	na	na	ADP	_	Case=Acc	26	case	_	_
 25	šest	šest	NUM	_	NumType=Card	26	nummod	_	_
-26	mjeseci	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	13	dep:remnant	_	_
+26	mjeseci	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	40	orphan	_	orig_deprel=nmod
 27	4	4	NUM	_	NumType=Card	28	nummod	_	_
-28	posto	posto	ADV	_	Degree=Pos	16	dep:remnant	_	SpaceAfter=No
-29	,	,	PUNCT	_	_	14	punct	_	_
+28	posto	posto	ADV	_	Degree=Pos	40	orphan	_	orig_deprel=advmod|SpaceAfter=No
+29	,	,	PUNCT	_	_	40	punct	_	_
 30	na	na	ADP	_	Case=Acc	31	case	_	_
-31	godinu	godina	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	13	dep:remnant	_	_
+31	godinu	godina	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	40	orphan	_	orig_deprel=nmod
 32	dana	dan	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	31	nmod	_	_
 33	4,5	4,5	NUM	_	NumType=Card	34	nummod	_	_
-34	posto	posto	ADV	_	Degree=Pos	16	dep:remnant	_	_
-35	te	te	CCONJ	_	_	14	cc	_	_
+34	posto	posto	ADV	_	Degree=Pos	40	orphan	_	orig_deprel=advmod
+35	te	te	CCONJ	_	_	40	cc	_	_
 36	na	na	ADP	_	Case=Acc	38	case	_	_
 37	dvije	dva	NUM	_	Case=Acc|Gender=Fem|NumType=Card	38	nummod	_	_
-38	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	13	dep:remnant	_	_
+38	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	40	orphan	_	orig_deprel=nmod
 39	5	5	NUM	_	NumType=Card	40	nummod	_	_
-40	posto	posto	ADV	_	Degree=Pos	16	dep:remnant	_	SpaceAfter=No
+40	posto	posto	ADV	_	Degree=Pos	14	conj	_	orig_deprel=advmod|SpaceAfter=No
 41	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = dev-s437
@@ -11651,24 +11651,24 @@
 9	veće	velik	ADJ	_	Case=Acc|Definite=Def|Degree=Cmp|Gender=Masc|Number=Plur	8	amod	_	_
 10	od	od	ADP	_	Case=Gen	12	case	_	_
 11	deset	deset	NUM	_	NumType=Card	12	nummod	_	_
-12	tisuća	tisuća	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+12	tisuća	tisuća	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	9	obl	_	_
 13	eura	euro	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
 14	;	;	PUNCT	_	_	19	punct	_	_
 15	ona	on	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 16	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	19	cop	_	_
 17	u	u	ADP	_	Case=Loc	18	case	_	_
-18	startu	start	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	19	nmod	_	_
+18	startu	start	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
 19	viša	visok	ADJ	_	Case=Nom|Definite=Def|Degree=Cmp|Gender=Fem|Number=Sing	3	conj	_	_
 20	za	za	ADP	_	Case=Acc	23	case	_	_
 21	0,5	0,5	NUM	_	NumType=Card	23	nummod	_	_
 22	postotnih	postotan	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	_
-23	bodova	bod	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+23	bodova	bod	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	19	obl	_	_
 24	od	od	ADP	_	Case=Gen	25	case	_	_
-25	iznosa	iznos	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+25	iznosa	iznos	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	19	obl	_	_
 26	manjih	mali	ADJ	_	Case=Gen|Definite=Def|Degree=Cmp|Gender=Masc|Number=Plur	25	amod	_	_
 27	od	od	ADP	_	Case=Gen	29	case	_	_
 28	deset	deset	NUM	_	NumType=Card	29	nummod	_	_
-29	tisuća	tisuća	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	_
+29	tisuća	tisuća	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	26	obl	_	_
 30	eura	euro	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -11714,7 +11714,7 @@
 12	uloge	ulog	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	_
 13	oročene	oročiti	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	12	acl	_	_
 14	na	na	ADP	_	Case=Acc	15	case	_	_
-15	rok	rok	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	_
+15	rok	rok	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
 16	preko	preko	ADP	_	Case=Gen	17	case	_	_
 17	24	24	NUM	_	NumType=Card	20	nummod	_	_
 18	do	do	ADP	_	Case=Gen	19	case	_	_
@@ -11728,7 +11728,7 @@
 26	oročene	oročiti	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	25	acl	_	_
 27	do	do	ADP	_	Case=Gen	29	case	_	_
 28	60	60	NUM	_	NumType=Card	29	nummod	_	_
-29	mjeseci	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+29	mjeseci	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	26	obl	_	_
 30	te	te	CCONJ	_	_	34	cc	_	_
 31	20	20	NUM	_	NumType=Card	32	nummod	_	_
 32	posto	posto	ADV	_	Degree=Pos	34	advmod	_	_
@@ -11737,7 +11737,7 @@
 35	oročenu	oročiti	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	34	acl	_	_
 36	preko	preko	ADP	_	Case=Gen	38	case	_	_
 37	60	60	NUM	_	NumType=Card	38	nummod	_	_
-38	mjeseci	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	35	nmod	_	SpaceAfter=No
+38	mjeseci	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	35	obl	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	40	punct	_	_
 40	kažu	kazati	VERB	_	Number=Plur|Person=3|Tense=Pres	3	parataxis	_	_
 41	iz	iz	ADP	_	Case=Gen	42	case	_	_
@@ -11921,7 +11921,7 @@
 14	više	mnogo	ADV	_	Degree=Cmp	6	advcl	_	_
 15	od	od	ADP	_	Case=Gen	17	case	_	_
 16	ijedne	ijedan	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
-17	kamate	kamata	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	kamate	kamata	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	14	obl	_	_
 18	na	na	ADP	_	Case=Acc	20	case	_	_
 19	oročenu	oročiti	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	20	amod	_	_
 20	štednju	štednja	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	17	nmod	_	_
@@ -12003,7 +12003,7 @@
 20	smanjene	smanjiti	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	13	advcl	_	_
 21	zbog	zbog	ADP	_	Case=Gen	23	case	_	_
 22	globalne	globalan	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
-23	krize	kriza	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	krize	kriza	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = dev-s449
@@ -12011,7 +12011,7 @@
 1	Stoga	stoga	ADV	_	Degree=Pos	8	advmod	_	_
 2	će	htjeti	AUX	_	Number=Sing|Person=3|Tense=Pres	8	aux	_	_
 3	za	za	ADP	_	Case=Acc	4	case	_	_
-4	privlačenje	privlačenje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	8	nmod	_	_
+4	privlačenje	privlačenje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	_
 5	inozemnoga	inozemni	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 6	kapitala	kapital	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 7	biti	biti	AUX	_	VerbForm=Inf	8	cop	_	_
@@ -12019,7 +12019,7 @@
 9	uloga	uloga	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
 10	države	država	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
 11	kroz	kroz	ADP	_	Case=Acc	12	case	_	_
-12	osiguranje	osiguranje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	8	nmod	_	_
+12	osiguranje	osiguranje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	_
 13	dugoročne	dugoročan	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
 14	političke	politički	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
 15	i	i	CCONJ	_	_	16	cc	_	_
@@ -12050,7 +12050,7 @@
 10	veći	velik	ADJ	_	Animacy=Inan|Case=Acc|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	5	amod	_	_
 11	od	od	ADP	_	Case=Gen	13	case	_	_
 12	3,8	3,8	NUM	_	NumType=Card	13	nummod	_	_
-13	mlrd.	mlrd.	NOUN	_	_	10	nmod	_	_
+13	mlrd.	mlrd.	NOUN	_	_	10	obl	_	_
 14	eura	euro	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	19	punct	_	_
 16	a	a	CCONJ	_	_	19	cc	_	_
@@ -12082,7 +12082,7 @@
 16	a	a	CCONJ	_	_	23	cc	_	_
 17	proizvodnju	proizvodnja	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
 18	nakon	nakon	ADP	_	Case=Gen	19	case	_	_
-19	restrukturiranja	restrukturiranje	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+19	restrukturiranja	restrukturiranje	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	23	obl	_	_
 20	HEP-a	HEP	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
 21	bilo	biti	AUX	_	Gender=Neut|Number=Sing|VerbForm=Part	23	cop	_	_
 22	bi	biti	AUX	_	Number=Sing|Person=3|Tense=Past	23	aux	_	_
@@ -12144,7 +12144,7 @@
 5	relativno	relativno	ADV	_	Degree=Pos	6	advmod	_	_
 6	brz	brz	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
 7	razvoj	razvoj	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	root	_	_
-8	energetike	energetika	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+8	energetike	energetika	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No|ToDo=nmod
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = dev-s455
@@ -12231,13 +12231,13 @@
 # text = Za svaki projekt država bi bila partner u omjeru ne ispod 50 %, jamčeći pritom ulogom u zemljištu, infrastrukturi, spojem na HEP i dozvolama.
 1	Za	za	ADP	_	Case=Acc	3	case	_	_
 2	svaki	svaki	PRON	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
-3	projekt	projekt	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
+3	projekt	projekt	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	ToDo=nmod
 4	država	država	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 5	bi	biti	AUX	_	Number=Sing|Person=3|Tense=Past	7	aux	_	_
 6	bila	biti	AUX	_	Gender=Fem|Number=Sing|VerbForm=Part	7	cop	_	_
 7	partner	partner	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 8	u	u	ADP	_	Case=Loc	9	case	_	_
-9	omjeru	omjer	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
+9	omjeru	omjer	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	ToDo=nmod
 10	ne	ne	PART	_	Polarity=Neg	11	advmod	_	_
 11	ispod	ispod	ADP	_	Case=Gen	13	case	_	_
 12	50	50	NUM	_	NumType=Card	13	nummod	_	_
@@ -12245,7 +12245,7 @@
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	jamčeći	jamčiti	ADV	_	VerbForm=Part	7	xcomp	_	_
 16	pritom	pritom	ADV	_	Degree=Pos	15	advmod	_	_
-17	ulogom	ulog	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	15	nmod	_	_
+17	ulogom	ulog	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	15	obl	_	_
 18	u	u	ADP	_	Case=Loc	19	case	_	_
 19	zemljištu	zemljište	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
@@ -12373,7 +12373,7 @@
 5	primjerice	primjerice	ADV	_	Degree=Pos	7	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	iznos	iznos	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-8	potpora	potpora	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+8	potpora	potpora	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	ToDo=nmod
 9	namijenjenih	namijenjen	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	8	acl	_	_
 10	razvoju	razvoj	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	9	obj	_	_
 11	obrta	obrt	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
@@ -12383,16 +12383,16 @@
 15	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	23	aux:pass	_	_
 16	na	na	ADP	_	Case=Loc	18	case	_	_
 17	istoj	isti	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
-18	razini	razina	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	23	nmod	_	_
+18	razini	razina	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	23	obl	_	_
 19	od	od	ADP	_	Case=Gen	21	case	_	_
 20	6,5	6	NUM	_	NumType=Card	21	nummod	_	_
 21	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
 22	kuna	kuna	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
 23	prenijet	prenijeti	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	acl	_	_
 24	s	sa	ADP	_	Case=Gen	25	case	_	_
-25	Ministarstva	ministarstvo	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+25	Ministarstva	ministarstvo	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	23	obl	_	_
 26	na	na	ADP	_	Case=Acc	27	case	_	_
-27	HAMAG	HAMAG	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	HAMAG	HAMAG	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = dev-s466
@@ -12404,7 +12404,7 @@
 5	preneseno	prenesti	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 6	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	5	aux:pass	_	_
 7	na	na	ADP	_	Case=Acc	8	case	_	_
-8	HAMAG	HAMAG	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	HAMAG	HAMAG	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	22	punct	_	_
 10	no	no	CCONJ	_	_	22	cc	_	_
 11	koliko	koliko	ADV	_	Degree=Pos	13	mark	_	_
@@ -12420,7 +12420,7 @@
 21	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_
 22	podijeljena	podijeliti	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	conj	_	_
 23	između	između	ADP	_	Case=Gen	24	case	_	_
-24	HAMAG-a	HAMAG	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	HAMAG-a	HAMAG	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	22	obl	_	_
 25	i	i	CCONJ	_	_	26	cc	_	_
 26	Ministarstva	ministarstvo	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	24	conj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	31	punct	_	_
@@ -12517,7 +12517,7 @@
 16	HAMAG	HAMAG	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
 17	osigurao	osigurati	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	7	acl	_	_
 18	570	570	NUM	_	NumType=Card	19	nummod	_	_
-19	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+19	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	21	obl	_	_
 20	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
 21	vrijedne	vrijedan	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	_
 22	investicije	investicija	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	_
@@ -12560,28 +12560,28 @@
 10	što	što	PRON	_	Case=Nom|Gender=Neut|PronType=Int,Rel	12	nsubj	_	_
 11	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	12	cop	_	_
 12	smanjenje	smanjenje	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	1	advcl	_	_
-13	sredstava	sredstvo	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	_
+13	sredstava	sredstvo	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	ToDo=nmod
 14	namijenjenih	namijeniti	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur|VerbForm=Part	13	acl	_	_
 15	za	za	ADP	_	Case=Acc	21	case	_	_
 16	taj	taj	PRON	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
 17	u	u	ADP	_	Case=Loc	18	case	_	_
-18	HAMAG-u	HAMAG	PROPN	_	Case=Loc|Gender=Masc|Number=Sing	20	nmod	_	_
-19	godinama	godina	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	20	nmod	_	_
+18	HAMAG-u	HAMAG	PROPN	_	Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_
+19	godinama	godina	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	20	obl	_	_
 20	najznačajniji	značajan	ADJ	_	Animacy=Inan|Case=Acc|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	21	amod	_	_
-21	program	program	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+21	program	program	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = dev-s471
 # text = U 2009. je, primjerice, po tom programu poduzetnicima isplaćeno 55,7 milijuna kuna, a u ovoj godini već je plaćeno 61,6 milijuna kuna, od inače ukupno 89,9 milijuna kuna odobrenih sredstava po šest projekata koje je HAMAG provodio.
 1	U	u	ADP	_	Case=Loc	2	case	_	_
-2	2009.	2009.	NUM	_	NumType=Ord	11	nmod	_	_
+2	2009.	2009.	NUM	_	NumType=Ord	11	obl	_	_
 3	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	11	aux:pass	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	primjerice	primjerice	ADV	_	Degree=Pos	11	parataxis	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	po	po	ADP	_	Case=Loc	9	case	_	_
 8	tom	taj	PRON	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
-9	programu	program	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	_
+9	programu	program	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
 10	poduzetnicima	poduzetnik	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	11	obj	_	_
 11	isplaćeno	isplatiti	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 12	55,7	55,7	NUM	_	NumType=Card	13	nummod	_	_
@@ -12591,7 +12591,7 @@
 16	a	a	CCONJ	_	_	22	cc	_	_
 17	u	u	ADP	_	Case=Loc	19	case	_	_
 18	ovoj	ovaj	PRON	_	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
-19	godini	godina	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	22	nmod	_	_
+19	godini	godina	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	22	obl	_	_
 20	već	već	ADV	_	Degree=Pos	22	advmod	_	_
 21	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	22	aux:pass	_	_
 22	plaćeno	platiti	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	11	conj	_	_
@@ -12603,13 +12603,13 @@
 28	inače	inače	ADV	_	Degree=Pos	29	advmod	_	_
 29	ukupno	ukupno	ADV	_	Degree=Pos	30	advmod	_	_
 30	89,9	89	NUM	_	NumType=Card	31	nummod	_	_
-31	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+31	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	22	obl	_	_
 32	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	31	nmod	_	_
 33	odobrenih	odobren	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur	34	amod	_	_
 34	sredstava	sredstvo	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	32	nmod	_	_
 35	po	po	ADP	_	Case=Loc	37	case	_	_
 36	šest	šest	NUM	_	NumType=Card	37	nummod	_	_
-37	projekata	projekt	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+37	projekata	projekt	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	22	obl	_	_
 38	koje	koji	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Int,Rel	41	obj	_	_
 39	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	41	aux	_	_
 40	HAMAG	HAMAG	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	41	nsubj	_	_
@@ -12645,19 +12645,19 @@
 1	Primjerice	primjerice	ADV	_	Degree=Pos	19	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	u	u	ADP	_	Case=Loc	4	case	_	_
-4	proračunu	proračun	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	19	nmod	_	_
+4	proračunu	proračun	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
 5	Ministarstva	ministarstvo	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
 6	gospodarstva	gospodarstvo	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
 7	s	sa	ADP	_	Case=Gen	10	case	_	_
 8	ovogodišnjih	ovogodišnji	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
 9	326	326	NUM	_	NumType=Card	10	nummod	_	_
-10	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+10	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	19	obl	_	_
 11	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
 12	u	u	ADP	_	Case=Loc	14	case	_	_
 13	idućoj	idući	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
-14	godini	godina	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	19	nmod	_	_
+14	godini	godina	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	19	obl	_	_
 15	za	za	ADP	_	Case=Acc	16	case	_	_
-16	jačanje	jačanje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	19	nmod	_	_
+16	jačanje	jačanje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	19	obl	_	_
 17	konkurentnosti	konkurentnost	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
 18	poduzetništva	poduzetništvo	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
 19	namijenjeno	namijeniti	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -12682,7 +12682,7 @@
 10	preraspodjeli	preraspodjela	NOUN	_	Case=Loc|Gender=Fem|Number=Plur	5	ccomp	_	_
 11	na	na	ADP	_	Case=Acc	13	case	_	_
 12	druge	drugi	NUM	_	Case=Acc|Gender=Masc|Number=Plur|NumType=Ord	13	amod	_	_
-13	korisnike	korisnik	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	10	nmod	_	_
+13	korisnike	korisnik	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	10	nmod	_	ToDo=nmod
 14	poput	poput	ADP	_	Case=Gen	15	case	_	_
 15	HAMAG-a	HAMAG	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
 16	te	te	CCONJ	_	_	18	cc	_	_
@@ -12703,7 +12703,7 @@
 31	i	i	PART	_	_	32	discourse	_	_
 32	za	za	ADP	_	Case=Acc	33	case	_	_
 33	700.000	700.000	NUM	_	NumType=Card	34	nummod	_	_
-34	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	35	nmod	_	_
+34	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	35	nmod	_	ToDo=nmod
 35	iznad	iznad	ADP	_	Case=Gen	37	case	_	_
 36	ovogodišnje	ovogodišnji	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
 37	razine	razina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
@@ -12751,9 +12751,9 @@
 1	Poduzetnicima	poduzetnik	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	8	obj	_	_
 2	će	htjeti	AUX	_	Number=Sing|Person=3|Tense=Pres	8	aux	_	_
 3	u	u	ADP	_	Case=Loc	4	case	_	_
-4	2011.	2011.	NUM	_	NumType=Ord	8	nmod	_	_
+4	2011.	2011.	NUM	_	NumType=Ord	8	obl	_	_
 5	iz	iz	ADP	_	Case=Gen	6	case	_	_
-6	proračuna	proračun	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+6	proračuna	proračun	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
 7	biti	biti	AUX	_	VerbForm=Inf	8	cop	_	_
 8	dostupna	dostupan	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
 9	ista	isti	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
@@ -12779,7 +12779,7 @@
 29	nakon	nakon	ADP	_	Case=Gen	32	case	_	_
 30	lanjskoga	lanjskog	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	32	amod	_	_
 31	iznimnog	izniman	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
-32	interesa	interes	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
+32	interesa	interes	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	37	obl	_	_
 33	za	za	ADP	_	Case=Acc	35	case	_	_
 34	taj	taj	PRON	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	35	det	_	_
 35	program	program	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
@@ -12789,7 +12789,7 @@
 39	6	6	NUM	_	NumType=Card	42	nummod	_	_
 40	na	na	ADP	_	Case=Acc	41	case	_	_
 41	9,3	9	NUM	_	NumType=Card	42	nummod	_	_
-42	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
+42	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	37	obl	_	_
 43	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	42	nmod	_	SpaceAfter=No
 44	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -12818,7 +12818,7 @@
 21	smanjen	smanjiti	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	acl	_	_
 22	na	na	ADP	_	Case=Acc	24	case	_	_
 23	50	50	NUM	_	NumType=Card	24	nummod	_	_
-24	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+24	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	21	obl	_	_
 25	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -12827,10 +12827,10 @@
 1	Odgovor	odgovor	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 2	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	1	cop	_	_
 3	to	taj	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	_	_
-4	Vlade	vlada	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	Vlade	vlada	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	ToDo=nmod
 5	na	na	ADP	_	Case=Acc	7	case	_	_
 6	zastupničko	zastupnički	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
-7	pitanje	pitanje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	1	nmod	_	_
+7	pitanje	pitanje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	1	nmod	_	ToDo=nmod
 8	HNS-ove	HNS-ov	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	9	nmod	_	_
 9	zastupnice	zastupnica	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
 10	Vesne	Vesna	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	9	appos	_	_
@@ -12886,7 +12886,7 @@
 # text = Lošije od Kaptola u raspodjeli proračunskog novca 2008. godine prošli su, primjerice, i Vlada koja je na raspolaganju imala 289 milijuna kuna, Sabor 177, a Ured predsjednika 55 milijuna kuna.
 1	Lošije	loše	ADV	_	Degree=Cmp	10	advmod	_	_
 2	od	od	ADP	_	Case=Gen	3	case	_	_
-3	Kaptola	Kaptol	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Kaptola	Kaptol	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	1	obl	_	_
 4	u	u	ADP	_	Case=Loc	5	case	_	_
 5	raspodjeli	raspodjela	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
 6	proračunskog	proračunski	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
@@ -12909,14 +12909,14 @@
 23	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	21	obj	_	_
 24	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	21	punct	_	_
-26	Sabor	Sabor	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	16	dep:remnant	_	_
-27	177	177	NUM	_	NumType=Card	22	dep:remnant	_	SpaceAfter=No
+26	Sabor	Sabor	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	30	orphan	_	orig_deprel=nsubj
+27	177	177	NUM	_	NumType=Card	30	orphan	_	orig_deprel=nummod|SpaceAfter=No
 28	,	,	PUNCT	_	_	21	punct	_	_
-29	a	a	CCONJ	_	_	21	cc	_	_
-30	Ured	ured	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	16	dep:remnant	_	_
+29	a	a	CCONJ	_	_	21	cc	_	ToDo=cc-without-conj
+30	Ured	ured	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	orig_deprel=nsubj
 31	predsjednika	predsjednik	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
 32	55	55	NUM	_	NumType=Card	33	nummod	_	_
-33	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	23	dep:remnant	_	_
+33	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	30	orphan	_	orig_deprel=obj
 34	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	33	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -12947,12 +12947,12 @@
 23	Srpskoj	srpski	ADJ	_	Case=Dat|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
 24	pravoslavnoj	pravoslavan	ADJ	_	Case=Dat|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
 25	crkvi	crkva	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
-26	,	,	PUNCT	_	_	22	punct	_	_
-27	a	a	CCONJ	_	_	22	cc	_	_
+26	,	,	PUNCT	_	_	31	punct	_	_
+27	a	a	CCONJ	_	_	31	cc	_	_
 28	Islamskoj	islamski	ADJ	_	Case=Dat|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
-29	zajednici	zajednica	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	25	dep:remnant	_	_
+29	zajednici	zajednica	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	31	orphan	_	orig_deprel=obj
 30	5,5	5	NUM	_	NumType=Card	31	nummod	_	_
-31	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	20	dep:remnant	_	_
+31	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	22	conj	_	orig_deprel=nsubj
 32	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	31	nmod	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -12980,7 +12980,7 @@
 20	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
 21	donacije	donacija	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	11	conj	_	_
 22	su	biti	AUX	_	Number=Plur|Person=3|Tense=Pres	21	cop	_	_
-23	Ministarstava	ministarstvo	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+23	Ministarstava	ministarstvo	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	ToDo=nmod
 24	kulture	kultura	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	znanosti	znanost	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	24	conj	_	_
@@ -13064,7 +13064,7 @@
 5	Pusić	Pusić	PROPN	_	Case=Dat|Gender=Fem|Number=Sing	4	flat	_	_
 6	u	u	ADP	_	Case=Loc	8	case	_	_
 7	Vladinom	vladin	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	8	nmod	_	_
-8	odgovoru	odgovor	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+8	odgovoru	odgovor	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
 9	nisu	biti	AUX	_	Number=Plur|Person=3|Tense=Pres	10	aux:pass	_	_
 10	dostavljeni	dostaviti	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	1	csubj	_	_
 11	podaci	podatak	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	10	nsubj:pass	_	_
@@ -13080,7 +13080,7 @@
 21	koji	koji	DET	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	27	mark	_	_
 22	su	biti	AUX	_	Number=Plur|Person=3|Tense=Pres	27	cop	_	_
 23	prema	prema	ADP	_	Case=Loc	24	case	_	_
-24	sporazumu	sporazum	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	27	nmod	_	_
+24	sporazumu	sporazum	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	27	obl	_	_
 25	s	sa	ADP	_	Case=Ins	26	case	_	_
 26	Vatikanom	Vatikan	PROPN	_	Case=Ins|Gender=Masc|Number=Sing	24	nmod	_	_
 27	dužni	dužan	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	19	acl	_	_
@@ -13090,7 +13090,7 @@
 # sent_id = dev-s486
 # text = U proračunu Ministarstva unutarnjih poslova samo je navedeno milijun kuna za ordinarijat, dok smo naknadno iz Ministarstva obrane dobili informaciju da je za funkcioniranje Vojnog ordinarijata izdvojeno oko 6,4 milijuna kuna, i to bez iznosa za plaće na Ksaveru, koje su i dalje nedostupne javnosti.
 1	U	u	ADP	_	Case=Loc	2	case	_	_
-2	proračunu	proračun	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_
+2	proračunu	proračun	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
 3	Ministarstva	ministarstvo	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
 4	unutarnjih	unutarnji	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
 5	poslova	posao	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
@@ -13113,7 +13113,7 @@
 22	da	da	SCONJ	_	_	28	mark	_	_
 23	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	28	aux:pass	_	_
 24	za	za	ADP	_	Case=Acc	25	case	_	_
-25	funkcioniranje	funkcioniranje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	28	nmod	_	_
+25	funkcioniranje	funkcioniranje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	28	obl	_	_
 26	Vojnog	vojni	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
 27	ordinarijata	ordinarijat	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
 28	izdvojeno	izdvojiti	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	21	acl	_	_
@@ -13125,7 +13125,7 @@
 34	i	i	PART	_	_	35	discourse	_	_
 35	to	taj	PART	_	_	36	discourse	_	_
 36	bez	bez	ADP	_	Case=Gen	37	case	_	_
-37	iznosa	iznos	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+37	iznosa	iznos	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	28	obl	_	_
 38	za	za	ADP	_	Case=Acc	39	case	_	_
 39	plaće	plaća	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	37	nmod	_	_
 40	na	na	ADP	_	Case=Loc	41	case	_	_
@@ -13208,7 +13208,7 @@
 34	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	35	obj	_	_
 35	založivši	založiti	ADV	_	VerbForm=Part	29	xcomp	_	_
 36	za	za	ADP	_	Case=Acc	37	case	_	_
-37	pokretanje	pokretanje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	35	nmod	_	_
+37	pokretanje	pokretanje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	35	obl	_	_
 38	novog	nov	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	_
 39	investicijskog	investicijski	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	_
 40	ciklusa	ciklus	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
@@ -13346,13 +13346,13 @@
 1	Suprotno	suprotno	ADV	_	Degree=Pos	2	advmod	_	_
 2	od	od	ADP	_	Case=Gen	4	case	_	_
 3	socijalne	socijalan	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
-4	politike	politika	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+4	politike	politika	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
 5	pomaganja	pomaganje	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
 6	nejakih	nejak	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	_
 8	u	u	ADP	_	Case=Loc	10	case	_	_
 9	gospodarskoj	gospodarski	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
-10	politici	politika	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_
+10	politici	politika	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
 11	intuitivno	intuitivno	ADV	_	Degree=Pos	0	root	_	_
 12	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	11	cop	_	_
 13	pomagati	pomagati	VERB	_	VerbForm=Inf	11	xcomp	_	_
@@ -13409,7 +13409,7 @@
 9	aktivirani	aktivirati	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	6	acl	_	_
 10	u	u	ADP	_	Case=Loc	12	case	_	_
 11	hrvatskom	hrvatski	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
-12	gospodarstvu	gospodarstvo	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	9	nmod	_	_
+12	gospodarstvu	gospodarstvo	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
 13	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	rekao	reći	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	parataxis	_	_
@@ -13530,7 +13530,7 @@
 31	gospodarstva	gospodarstvo	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	_
 32	naslijeđene	naslijediti	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	29	acl	_	_
 33	iz	iz	ADP	_	Case=Gen	34	case	_	_
-34	prošlosti	prošlost	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	_
+34	prošlosti	prošlost	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	32	obl	_	_
 35	koje	koji	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Int,Rel	37	obj	_	_
 36	naprosto	naprosto	ADV	_	Degree=Pos	37	advmod	_	_
 37	treba	trebati	VERB	_	Number=Sing|Person=3|Tense=Pres	29	acl	_	_
@@ -13635,7 +13635,7 @@
 1	Glavni	glavni	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	distributer	distributer	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 3	školskih	školski	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
-4	udžbenika	udžbenik	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	udžbenika	udžbenik	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	ToDo=nmod
 5	bit	biti	AUX	_	VerbForm=Inf	2	cop	_	_
 6	će	htjeti	AUX	_	Number=Sing|Person=3|Tense=Pres	2	aux	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	14	punct	_	_
@@ -13679,7 +13679,7 @@
 24	institucije	institucija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	18	appos	_	_
 25	nadležne	nadležan	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	24	acl	_	_
 26	za	za	ADP	_	Case=Acc	27	case	_	_
-27	nabavu	nabava	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	25	nmod	_	_
+27	nabavu	nabava	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	25	obl	_	_
 28	i	i	CCONJ	_	_	29	cc	_	_
 29	distribuciju	distribucija	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	27	conj	_	_
 30	školskih	školski	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	31	amod	_	_
@@ -13692,7 +13692,7 @@
 2	će	htjeti	AUX	_	Number=Sing|Person=3|Tense=Pres	4	aux	_	_
 3	biti	biti	AUX	_	VerbForm=Inf	4	cop	_	_
 4	vrijednost	vrijednost	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	7	csubj	_	_
-5	distribucije	distribucija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+5	distribucije	distribucija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No|ToDo=nmod
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	znat	znati	VERB	_	VerbForm=Inf	0	root	_	_
 8	će	htjeti	AUX	_	Number=Sing|Person=3|Tense=Pres	7	aux	_	_
@@ -13729,7 +13729,7 @@
 8	jedina	jedini	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
 9	tvrtka	tvrtka	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 10	u	u	ADP	_	Case=Loc	11	case	_	_
-11	Hrvatskoj	Hrvatska	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	_
+11	Hrvatskoj	Hrvatska	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	ToDo=nmod
 12	koja	koji	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	13	nsubj	_	_
 13	može	moći	VERB	_	Number=Sing|Person=3|Tense=Pres	9	acl	_	_
 14	zajamčiti	zajamčiti	VERB	_	VerbForm=Inf	13	xcomp	_	_
@@ -13751,10 +13751,10 @@
 30	distribuirano	distribuirati	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	14	ccomp	_	_
 31	u	u	ADP	_	Case=Loc	33	case	_	_
 32	2505	2505	NUM	_	NumType=Card	33	nummod	_	_
-33	škola	škola	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	30	nmod	_	_
+33	škola	škola	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	30	obl	_	_
 34	do	do	ADP	_	Case=Gen	36	case	_	_
 35	31.	31.	NUM	_	NumType=Ord	36	nummod	_	_
-36	kolovoza	kolovoz	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+36	kolovoza	kolovoz	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = dev-s509
@@ -13872,7 +13872,7 @@
 32	tvrtka	tvrtka	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	24	conj	_	_
 33	od	od	ADP	_	Case=Gen	35	case	_	_
 34	javnog	javan	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
-35	interesa	interes	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+35	interesa	interes	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No|ToDo=nmod
 36	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -13913,7 +13913,7 @@
 33	uskladištiti	uskladištiti	VERB	_	VerbForm=Inf	29	conj	_	_
 34	na	na	ADP	_	Case=Loc	38	case	_	_
 35	za	za	ADP	_	Case=Acc	36	case	_	_
-36	to	taj	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	37	nmod	_	_
+36	to	taj	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	37	obl	_	_
 37	predviđenim	predviđen	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur|VerbForm=Part	38	amod	_	_
 38	mjestima	mjesto	NOUN	_	Case=Loc|Gender=Neut|Number=Plur	33	obl	_	SpaceAfter=No
 39	.	.	PUNCT	_	_	5	punct	_	_
@@ -14028,7 +14028,7 @@
 6	bio	biti	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	8	cop	_	_
 7	glavni	glavni	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
 8	kritičar	kritičar	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-9	Agencije	agencija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+9	Agencije	agencija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	ToDo=nmod
 10	ističući	isticati	ADV	_	VerbForm=Part	8	xcomp	_	_
 11	kako	kako	SCONJ	_	_	21	mark	_	_
 12	će	htjeti	AUX	_	Number=Sing|Person=3|Tense=Pres	21	aux	_	_
@@ -14081,7 +14081,7 @@
 34	to	taj	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	36	nsubj	_	_
 35	posljednja	posljednji	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
 36	slamka	slamka	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	29	advcl	_	_
-37	spasa	spas	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+37	spasa	spas	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No|ToDo=nmod
 38	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = dev-s519
@@ -14109,7 +14109,7 @@
 # sent_id = dev-s520
 # text = Početkom tjedna euro je bio pod snažnim pritiskom dužničkih problema Irske.
 1	Početkom	početkom	ADP	_	Case=Gen	2	case	_	_
-2	tjedna	tjedan	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+2	tjedna	tjedan	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	ToDo=nmod
 3	euro	euro	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 4	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	8	aux	_	_
 5	bio	biti	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	8	cop	_	_
@@ -14117,7 +14117,7 @@
 7	snažnim	snažan	ADJ	_	Case=Ins|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
 8	pritiskom	pritisak	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
 9	dužničkih	dužnički	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
-10	problema	problem	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	problema	problem	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	ToDo=nmod
 11	Irske	Irska	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -14169,7 +14169,7 @@
 # sent_id = dev-s523
 # text = Zbog toga je euro bio pod snažnim pritiskom, pa je početkom tjedna njegov tečaj potonuo na samo 1,3446 dolara, najnižu razinu u 7 tjedana.
 1	Zbog	zbog	ADP	_	Case=Gen	2	case	_	_
-2	toga	taj	PRON	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	8	nmod	_	_
+2	toga	taj	PRON	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	8	nmod	_	ToDo=nmod
 3	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	8	aux	_	_
 4	euro	euro	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 5	bio	biti	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	8	cop	_	_
@@ -14258,7 +14258,7 @@
 15	bila	biti	AUX	_	Gender=Fem|Number=Sing|VerbForm=Part	16	cop	_	_
 16	spremna	spreman	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	7	advcl	_	_
 17	u	u	ADP	_	Case=Loc	18	case	_	_
-18	slučaju	slučaj	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	16	nmod	_	_
+18	slučaju	slučaj	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
 19	da	da	SCONJ	_	_	23	mark	_	_
 20	je	on	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
 21	Dublin	Dublin	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
@@ -14486,7 +14486,7 @@
 15	dijelom	dio	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	1	ccomp	_	_
 16	ruske	ruski	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
 17	kapitalističke	kapitalistički	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
-18	revolucije	revolucija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	revolucije	revolucija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No|ToDo=nmod
 19	,	,	PUNCT	_	_	24	punct	_	_
 20	ali	ali	CCONJ	_	_	24	cc	_	_
 21	smo	biti	AUX	_	Number=Plur|Person=1|Tense=Pres	24	aux	_	_
@@ -14509,7 +14509,7 @@
 3	knjiga	knjiga	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 4	izvrstan	izvrstan	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 5	prikaz	prikaz	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-6	Rusije	Rusija	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+6	Rusije	Rusija	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	ToDo=nmod
 7	proteklih	protekao	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur	8	amod	_	_
 8	desetljeća	desetljeće	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
@@ -14551,7 +14551,7 @@
 8	prva	prvi	NUM	_	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	1	ccomp	_	_
 9	u	u	ADP	_	Case=Loc	11	case	_	_
 10	novoj	nov	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
-11	biblioteci	biblioteka	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	_
+11	biblioteci	biblioteka	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	ToDo=nmod
 12	jer	jer	SCONJ	_	_	18	mark	_	_
 13	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	18	cop	_	_
 14	Poslovni	poslovan	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
@@ -14560,7 +14560,7 @@
 17	hrvatske	hrvatski	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	_
 18	novine	novina	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	8	advcl	_	_
 19	u	u	ADP	_	Case=Loc	20	case	_	_
-20	čijem	čiji	DET	_	Case=Loc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Int,Rel	21	nmod	_	_
+20	čijem	čiji	DET	_	Case=Loc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Int,Rel	21	nmod	_	ToDo=nmod
 21	fokusu	fokus	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	18	acl	_	_
 22	uistinu	uistinu	ADV	_	Degree=Pos	23	advmod	_	_
 23	nije	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	21	cop	_	_
@@ -14593,7 +14593,7 @@
 21	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	20	cop	_	_
 22	o	o	ADP	_	Case=Loc	24	case	_	_
 23	logičnom	logičan	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
-24	nastavku	nastavak	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	20	nmod	_	_
+24	nastavku	nastavak	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	20	nmod	_	ToDo=nmod
 25	suradnje	suradnja	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	29	punct	_	_
 27	ali	ali	CCONJ	_	_	29	cc	_	_
@@ -14878,12 +14878,12 @@
 8	još	još	ADV	_	Degree=Pos	12	advmod	_	_
 9	nije	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	12	aux	_	_
 10	u	u	ADP	_	Case=Loc	12	case	_	_
-11	našim	naš	DET	_	Case=Loc|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod	_	_
+11	našim	naš	DET	_	Case=Loc|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod	_	ToDo=nmod
 12	kriterijima	kriterij	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	2	ccomp	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	19	punct	_	_
 14	ali	ali	CCONJ	_	_	19	cc	_	_
 15	za	za	ADP	_	Case=Acc	16	case	_	_
-16	njih	oni	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	nmod	_	_
+16	njih	oni	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	nmod	_	ToDo=nmod
 17	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	19	cop	_	_
 18	strašan	strašan	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
 19	posao	posao	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	12	conj	_	_
@@ -14900,7 +14900,7 @@
 # text = Gledano ruskim očima, ističe, Putin je uspio vratiti ruski ponos i uspostaviti vertikalu vlasti.
 1	Gledano	gledati	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	9	parataxis	_	_
 2	ruskim	ruski	ADJ	_	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
-3	očima	oko	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+3	očima	oko	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	ističe	isticati	VERB	_	Number=Sing|Person=3|Tense=Pres	9	parataxis	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
@@ -14922,7 +14922,7 @@
 2	o	o	ADP	_	Case=Loc	5	case	_	_
 3	aktualnim	aktualan	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
 4	ekonomskim	ekonomski	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
-5	odnosima	odnos	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	1	nmod	_	_
+5	odnosima	odnos	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	1	obl	_	_
 6	Hrvatske	Hrvatska	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
 7	i	i	CCONJ	_	_	8	cc	_	_
 8	Rusije	Rusija	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
@@ -14985,7 +14985,7 @@
 3	od	od	ADP	_	Case=Gen	5	case	_	_
 4	glavnih	glavni	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
 5	prednosti	prednost	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	0	root	_	_
-6	sektora	sektor	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+6	sektora	sektor	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	ToDo=nmod
 7	malih	mali	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
 8	samoposluga	samoposluga	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
 9	to	taj	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
@@ -15062,12 +15062,12 @@
 10	radila	raditi	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
 11	113,3	113,3	NUM	_	NumType=Card	12	nummod	_	_
 12	sata	sat	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	10	punct	_	_
-14	a	a	CCONJ	_	_	10	cc	_	_
-15	godinu	godina	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	dep:remnant	_	_
+13	,	,	PUNCT	_	_	18	punct	_	_
+14	a	a	CCONJ	_	_	18	cc	_	_
+15	godinu	godina	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	18	orphan	_	orig_deprel=obl
 16	prije	prije	ADV	_	Degree=Pos	15	advmod	_	_
 17	110	110	NUM	_	NumType=Card	18	nummod	_	_
-18	sati	sat	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	12	dep:remnant	_	SpaceAfter=No
+18	sati	sat	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	10	conj	_	orig_deprel=obl|SpaceAfter=No
 19	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = dev-s553
@@ -15149,7 +15149,7 @@
 # sent_id = dev-s555
 # text = U Europi su lanci poput 7 Elevena i Alberta Heijna bili među prvima koji su pokrenuli ovu vrstu tehnologije i stvorili napredne pretraživače prodavaonica te alate osmišljene za čitanje bar kodova i sastavljanje popisa za kupnju.
 1	U	u	ADP	_	Case=Loc	2	case	_	_
-2	Europi	Europa	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	_
+2	Europi	Europa	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	ToDo=nmod
 3	su	biti	AUX	_	Number=Plur|Person=3|Tense=Pres	13	aux	_	_
 4	lanci	lanac	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
 5	poput	poput	ADP	_	Case=Gen	7	case	_	_
@@ -15176,7 +15176,7 @@
 26	alate	alat	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	23	conj	_	_
 27	osmišljene	osmišiti	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	26	acl	_	_
 28	za	za	ADP	_	Case=Acc	29	case	_	_
-29	čitanje	čitanje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	27	nmod	_	_
+29	čitanje	čitanje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	27	obl	_	_
 30	bar	bar	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	_
 31	kodova	kod	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	30	compound	_	_
 32	i	i	CCONJ	_	_	33	cc	_	_
@@ -15189,10 +15189,10 @@
 # sent_id = dev-s556
 # text = U Engleskoj su ove godine Tesco, Sainsbury's i Waitrose bili aktivni na tržištu mobilne telefonije, a nedavno je i The Co-operative Group osmislila aplikaciju koja kupcima omogućuje da provjere podrijetlo hrane.
 1	U	u	ADP	_	Case=Loc	2	case	_	_
-2	Engleskoj	Engleska	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	_
+2	Engleskoj	Engleska	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
 3	su	biti	AUX	_	Number=Plur|Person=3|Tense=Pres	12	aux	_	_
 4	ove	ovaj	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
-5	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+5	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
 6	Tesco	Tesco	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	Sainsbury's	Sainsbury's	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
@@ -15201,7 +15201,7 @@
 11	bili	biti	AUX	_	Gender=Masc|Number=Plur|VerbForm=Part	12	cop	_	_
 12	aktivni	aktivan	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	_
 13	na	na	ADP	_	Case=Loc	14	case	_	_
-14	tržištu	tržište	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	12	nmod	_	_
+14	tržištu	tržište	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
 15	mobilne	mobilan	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
 16	telefonije	telefonija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	25	punct	_	_
@@ -15303,7 +15303,7 @@
 13	su	biti	AUX	_	Number=Plur|Person=3|Tense=Pres	12	cop	_	_
 14	u	u	ADP	_	Case=Loc	16	case	_	_
 15	cijelom	cijel	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
-16	sektoru	sektor	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	sektoru	sektor	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No|ToDo=nmod
 17	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = dev-s560
@@ -15356,7 +15356,7 @@
 24	aspekt	aspekt	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_
 25	njihovih	njihov	DET	_	Case=Gen|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	27	nmod	_	_
 26	Express	express	ADP	_	_	27	amod	_	_
-27	trgovina	trgovina	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
+27	trgovina	trgovina	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No|ToDo=nmod
 28	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = dev-s562
@@ -15399,7 +15399,7 @@
 10	biti	biti	AUX	_	VerbForm=Inf	11	cop	_	_
 11	značajan	značajan	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
 12	za	za	ADP	_	Case=Acc	13	case	_	_
-13	razvoj	razvoj	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_
+13	razvoj	razvoj	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
 14	samonaplate	samonaplata	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	ali	ali	CCONJ	_	_	17	cc	_	_
@@ -15424,7 +15424,7 @@
 1	Po	po	ADP	_	Case=Loc	4	case	_	_
 2	samoj	sam	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
 3	svojoj	svoj	DET	_	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	4	nmod	_	_
-4	prirodi	priroda	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+4	prirodi	priroda	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	sektor	sektor	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 7	malih	mali	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
@@ -15512,7 +15512,7 @@
 18	učinili	učiniti	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	11	advcl	_	_
 19	pristupačnijom	pristupačan	ADJ	_	Case=Ins|Definite=Def|Degree=Cmp|Gender=Fem|Number=Sing	18	xcomp	_	_
 20	lokalnim	lokalan	ADJ	_	Case=Dat|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	_
-21	kupcima	kupac	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+21	kupcima	kupac	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = dev-s568
@@ -15532,7 +15532,7 @@
 13	zaslonima	zaslon	NOUN	_	Case=Ins|Gender=Masc|Number=Plur	11	nmod	_	_
 14	osjetljivima	osjetljiv	ADJ	_	Case=Ins|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	13	acl	_	_
 15	na	na	ADP	_	Case=Acc	16	case	_	_
-16	dodir	dodir	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	nmod	_	_
+16	dodir	dodir	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
 17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 18	touchscreen	touchscreen	ADP	_	_	13	appos	_	SpaceAfter=No
 19	)	)	PUNCT	_	_	18	punct	_	_
@@ -15645,7 +15645,7 @@
 18	privlačniji	privlačan	ADJ	_	Case=Nom|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	14	conj	_	_
 19	svojoj	svoj	DET	_	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	21	nmod	_	_
 20	ciljanoj	ciljan	ADJ	_	Case=Dat|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
-21	publici	publika	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	publici	publika	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = dev-s574
@@ -15681,7 +15681,7 @@
 # sent_id = dev-s576
 # text = Prema rujnu 2009. promet je realno bio veći tek 0,4 %, dok je u odnosu na kolovoz 2010. realno pao gotovo 11 %.
 1	Prema	prema	ADP	_	Case=Loc	2	case	_	_
-2	rujnu	rujan	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_
+2	rujnu	rujan	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
 3	2009.	2009.	NUM	_	NumType=Ord	2	nummod	_	_
 4	promet	promet	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 5	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	8	aux	_	_
@@ -15852,9 +15852,9 @@
 31	milijardu	milijarda	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	29	obl	_	_
 32	te	te	CCONJ	_	_	52	cc	_	_
 33	1,2	1,2	NUM	_	NumType=Card	34	nummod	_	_
-34	milijarde	milijarda	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	31	dep:remnant	_	_
+34	milijarde	milijarda	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	29	conj	_	orig_deprel=obl
 35	u	u	ADP	_	Case=Loc	36	case	_	_
-36	2007.	2007.	NUM	_	NumType=Ord	28	dep:remnant	_	SpaceAfter=No
+36	2007.	2007.	NUM	_	NumType=Ord	34	orphan	_	orig_deprel=nummod|SpaceAfter=No
 37	,	,	PUNCT	_	_	52	punct	_	_
 38	dok	dok	SCONJ	_	_	52	cc	_	_
 39	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	52	aux	_	_
@@ -15877,7 +15877,7 @@
 56	samo	samo	ADV	_	Degree=Pos	59	advmod	_	_
 57	po	po	ADP	_	Case=Acc	59	case	_	_
 58	200.000	200.000	NUM	_	NumType=Card	59	nummod	_	_
-59	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	55	nmod	_	SpaceAfter=No
+59	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	55	obl	_	SpaceAfter=No
 60	.	.	PUNCT	_	_	20	punct	_	_
 
 # sent_id = dev-s583
@@ -15887,7 +15887,7 @@
 3	uglavnom	uglavnom	ADV	_	Degree=Pos	4	advmod	_	_
 4	oprezni	oprezan	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	_
 5	u	u	ADP	_	Case=Loc	6	case	_	_
-6	procjenama	procjena	NOUN	_	Case=Loc|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+6	procjenama	procjena	NOUN	_	Case=Loc|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = dev-s584
@@ -15922,7 +15922,7 @@
 # text = Ni u Konzumu nisu veliki optimisti.
 1	Ni	ni	PART	_	_	3	discourse	_	_
 2	u	u	ADP	_	Case=Loc	3	case	_	_
-3	Konzumu	Konzum	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
+3	Konzumu	Konzum	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	ToDo=nmod
 4	nisu	biti	AUX	_	Number=Plur|Person=3|Tense=Pres	6	cop	_	_
 5	veliki	velik	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
 6	optimisti	optimist	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
@@ -16057,7 +16057,7 @@
 11	40	40	NUM	_	NumType=Card	12	nummod	_	_
 12	%	%	PUNCT	_	_	8	advmod	_	_
 13	u	u	ADP	_	Case=Loc	14	case	_	_
-14	odnosu	odnos	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	_
+14	odnosu	odnos	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	ToDo=nmod
 15	na	na	ADP	_	Case=Acc	16	case	_	_
 16	studeni	studeni	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	nmod	_	_
 17	te	te	CCONJ	_	_	20	cc	_	_
@@ -16065,7 +16065,7 @@
 19	10	10	NUM	_	NumType=Card	20	nummod	_	_
 20	%	%	PUNCT	_	_	12	conj	_	_
 21	naspram	naspram	ADV	_	Degree=Pos	22	case	_	_
-22	prosinca	prosinac	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	prosinca	prosinac	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	ToDo=nmod
 23	2009.	2009.	NUM	_	NumType=Ord	22	nummod	_	_
 
 # sent_id = dev-s592
@@ -16214,7 +16214,7 @@
 12	menadžeri	menadžer	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	8	ccomp	_	_
 13	samo	samo	ADV	_	Degree=Pos	15	advmod	_	_
 14	na	na	ADP	_	Case=Loc	15	case	_	_
-15	papiru	papir	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	_
+15	papiru	papir	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	ToDo=nmod
 16	i	i	CCONJ	_	_	18	cc	_	_
 17	po	po	ADP	_	Case=Loc	18	case	_	_
 18	plaći	plaća	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
@@ -16281,7 +16281,7 @@
 2	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	3	cop	_	_
 3	rok	rok	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	12	advcl	_	_
 4	za	za	ADP	_	Case=Acc	5	case	_	_
-5	prilagodbu	prilagodba	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	_
+5	prilagodbu	prilagodba	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	ToDo=nmod
 6	lipanj	lipanj	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	većina	većina	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
@@ -16324,10 +16324,10 @@
 5	sedam	sedam	NUM	_	NumType=Card	7	nummod	_	_
 6	suvišnih	suvišan	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
 7	pomoćnika	pomoćnik	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	4	punct	_	_
+8	,	,	PUNCT	_	_	10	punct	_	_
 9	u	u	ADP	_	Case=Loc	10	case	_	_
-10	KBC-u	KBC	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	2	dep:remnant	_	_
+10	KBC-u	KBC	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	4	conj	_	orig_deprel=obl
 11	Split	Split	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	10	flat	_	_
-12	tri	tri	NUM	_	NumType=Card	5	dep:remnant	_	SpaceAfter=No
+12	tri	tri	NUM	_	NumType=Card	10	orphan	_	orig_deprel=nummod|SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
 
