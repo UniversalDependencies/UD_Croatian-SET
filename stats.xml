@@ -92,7 +92,7 @@
     <dep name="cc">7410</dep>
     <dep name="ccomp">1764</dep>
     <dep name="compound">2284</dep>
-    <dep name="conj">9407</dep>
+    <dep name="conj">9408</dep>
     <dep name="cop">3478</dep>
     <dep name="csubj">298</dep>
     <dep name="csubj:pass">61</dep>
@@ -109,15 +109,15 @@
     <dep name="goeswith">138</dep>
     <dep name="iobj">689</dep>
     <dep name="list">24</dep>
-    <dep name="mark">4502</dep>
+    <dep name="mark">4501</dep>
     <dep name="nmod">20027</dep>
     <dep name="nsubj">12921</dep>
     <dep name="nsubj:pass">1037</dep>
     <dep name="nummod">4139</dep>
     <dep name="obj">8719</dep>
     <dep name="obl">12221</dep>
-    <dep name="orphan">144</dep>
-    <dep name="parataxis">2287</dep>
+    <dep name="orphan">145</dep>
+    <dep name="parataxis">2286</dep>
     <dep name="punct">23740</dep>
     <dep name="root">8889</dep>
     <dep name="vocative">23</dep>
