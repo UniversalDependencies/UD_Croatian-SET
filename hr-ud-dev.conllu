@@ -9259,7 +9259,7 @@
 37	ili	ili	CCONJ	_	_	38	cc	_	_
 38	državi	država	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	35	conj	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	45	punct	_	_
-40	čiji	čiji	DET	_	Case=Nom|Gender=Masc|Number=Plur|Poss=Yes|PronType=Int,Rel	45	mark	_	_
+40	čiji	čiji	DET	_	Case=Nom|Gender=Masc|Number=Plur|Poss=Yes|PronType=Int,Rel	43	det	_	_
 41	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	45	obj	_	_
 42	svi	sav	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	43	amod	_	_
 43	pripadnici	pripadnik	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	45	nsubj	_	_
