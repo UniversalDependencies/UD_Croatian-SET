@@ -9767,7 +9767,7 @@
 10	adresu	adresa	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 11	poslala	poslati	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
 12	projekciju	projekcija	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
-13	kolika	koliki	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	15	mark	_	_
+13	kolika	koliki	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	17	det	_	_
 14	će	htjeti	AUX	_	Number=Sing|Person=3|Tense=Pres	15	aux	_	_
 15	biti	biti	AUX	_	VerbForm=Inf	12	acl	_	_
 16	njegova	njegov	DET	_	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod	_	_
@@ -13688,7 +13688,7 @@
 
 # sent_id = dev-s507
 # text = Kolika će biti vrijednost distribucije, znat će se tek za nekoliko tjedana, a nagađa se da bi to porezne obveznike moglo stajati 300 milijuna kuna.
-1	Kolika	koliki	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	4	amod	_	_
+1	Kolika	koliki	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	4	amod	_	_
 2	će	htjeti	AUX	_	Number=Sing|Person=3|Tense=Pres	4	aux	_	_
 3	biti	biti	AUX	_	VerbForm=Inf	4	cop	_	_
 4	vrijednost	vrijednost	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	7	csubj	_	_
