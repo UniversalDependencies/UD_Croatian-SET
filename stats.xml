@@ -74,8 +74,8 @@
     <feat name="Tense" value="Past" upos="AUX,VERB">779</feat><!-- bi, biste, bih, bismo, može, dogodi, hoće, iznosi, osigura, pobuni -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">18143</feat><!-- je, su, će, nije, smo, može, ima, kaže, treba, sam -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">3892</feat><!-- biti, bit, imati, pomoći, raditi, pronaći, vidjeti, reći, nastaviti, dobiti -->
-    <feat name="VerbForm" value="Part" upos="ADJ,ADV,AUX,VERB">8849</feat><!-- izjavio, bio, bilo, rekao, kazao, bila, bili, mogli, dodao, mogla -->
-    <feat name="Voice" value="Pass" upos="ADJ,AUX,VERB">996</feat><!-- održana, otvorena, održano, otvoren, postignut, povećana, ubijen, pronađeno, provedena, uhićen -->
+    <feat name="VerbForm" value="Part" upos="ADJ,ADV,AUX,VERB">8852</feat><!-- izjavio, bio, bilo, rekao, kazao, bila, bili, mogli, dodao, mogla -->
+    <feat name="Voice" value="Pass" upos="ADJ,AUX,VERB">998</feat><!-- održana, otvorena, održano, otvoren, postignut, povećana, ubijen, pronađeno, provedena, uhićen -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="41">
@@ -107,13 +107,13 @@
     <dep name="goeswith">138</dep>
     <dep name="iobj">689</dep>
     <dep name="list">24</dep>
-    <dep name="mark">4574</dep>
+    <dep name="mark">4537</dep>
     <dep name="nmod">20028</dep>
     <dep name="nsubj">12921</dep>
     <dep name="nsubj:pass">1037</dep>
     <dep name="nummod">4139</dep>
-    <dep name="obj">8683</dep>
-    <dep name="obl">12215</dep>
+    <dep name="obj">8719</dep>
+    <dep name="obl">12216</dep>
     <dep name="orphan">144</dep>
     <dep name="parataxis">2287</dep>
     <dep name="punct">23740</dep>
