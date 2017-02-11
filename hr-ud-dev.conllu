@@ -2791,7 +2791,7 @@
 5	World	World	X	_	_	4	nmod	_	_
 6	Vision	Vision	X	_	_	5	compound	_	_
 7	Internationala	International	X	_	_	5	compound	_	_
-8	čiji	čiji	DET	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Int,Rel	11	mark	_	_
+8	čiji	čiji	DET	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Int,Rel	10	det	_	_
 9	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	11	cop	_	_
 10	cilj	cilj	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 11	unaprjeđenje	unaprjeđenje	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	acl	_	_

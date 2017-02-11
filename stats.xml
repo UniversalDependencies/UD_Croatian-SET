@@ -34,9 +34,9 @@
     <feat name="Animacy" value="Anim" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">597</feat><!-- kojeg, predsjednika, tko, nitko, jednog, kandidata, boga, ministra, premijera, najboljeg -->
     <feat name="Animacy" value="Inan" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">4527</feat><!-- što, SETimes, svoj, način, ponedjeljak, petak, koji, utorak, četvrtak, taj -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN">26321</feat><!-- se, za, na, u, to, uz, koje, što, svoje, sve -->
-    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">2702</feat><!-- im, mu, nam, vam, mi, joj, unatoč, ka, EU, kojima -->
+    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">2700</feat><!-- im, mu, nam, vam, mi, joj, unatoč, ka, EU, kojima -->
     <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">31996</feat><!-- od, iz, godine, do, nakon, zbog, milijuna, eura, godina, kuna -->
-    <feat name="Case" value="Ins" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">6151</feat><!-- s, sa, među, pod, kojim, za, obzirom, kojima, tim, time -->
+    <feat name="Case" value="Ins" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">6153</feat><!-- s, sa, među, pod, kojim, za, obzirom, kojima, tim, time -->
     <feat name="Case" value="Loc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">17393</feat><!-- u, na, o, prema, po, hrvatskoj, kojoj, kojem, tome, godini -->
     <feat name="Case" value="Nom" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN">30606</feat><!-- koji, to, što, koja, koje, predsjednik, jedan, hrvatska, vlada, svi -->
     <feat name="Case" value="Voc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">35</feat><!-- gospodine, Bože, G., Isuse, Nespretni, Radoviću, Uzoriti, akademiče, braćo, budale -->
@@ -96,7 +96,7 @@
     <dep name="csubj:pass">61</dep>
     <dep name="dep">10</dep>
     <dep name="dep:remnant">28</dep>
-    <dep name="det">2059</dep>
+    <dep name="det">2067</dep>
     <dep name="discourse">2196</dep>
     <dep name="dislocated">8</dep>
     <dep name="expl">12</dep>
@@ -107,7 +107,7 @@
     <dep name="goeswith">138</dep>
     <dep name="iobj">689</dep>
     <dep name="list">24</dep>
-    <dep name="mark">4599</dep>
+    <dep name="mark">4591</dep>
     <dep name="nmod">20028</dep>
     <dep name="nsubj">12921</dep>
     <dep name="nsubj:pass">1037</dep>
