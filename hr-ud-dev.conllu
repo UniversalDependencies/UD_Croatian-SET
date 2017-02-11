@@ -502,7 +502,7 @@
 4	ljudi	čovjek	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	29	obl	_	_
 5	u	u	ADP	_	Case=Loc	6	case	_	_
 6	Bugarskoj	Bugarska	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
-7	kojima	koji	DET	_	Case=Loc|Gender=Masc|Number=Plur|PronType=Int,Rel	12	mark	_	_
+7	kojima	koji	DET	_	Case=Dat|Gender=Masc|Number=Plur|PronType=Int,Rel	12	obl	_	_
 8	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	12	cop	_	_
 9	zbog	zbog	ADP	_	Case=Gen	11	case	_	_
 10	velikih	velik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_
@@ -3207,7 +3207,7 @@
 16	broju	broj	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	14	nmod	_	_
 17	gospodarstva	gospodarstvo	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	16	nmod	_	_
 18	eurozone	eurozona	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
-19	kojima	koji	DET	_	Case=Dat|Gender=Neut|Number=Plur|PronType=Int,Rel	22	mark	_	_
+19	kojima	koji	DET	_	Case=Dat|Gender=Neut|Number=Plur|PronType=Int,Rel	22	obl	_	_
 20	je	biti	AUX	_	Number=Sing|Person=3|Tense=Pres	22	cop	_	_
 21	možda	možda	ADV	_	Degree=Pos	22	advmod	_	_
 22	potrebna	potreban	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	acl	_	_
@@ -10075,7 +10075,7 @@
 27	recesije	recesija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	36	punct	_	_
 29	zbog	zbog	ADP	_	Case=Gen	30	case	_	_
-30	čega	što	PRON	_	Case=Gen|Gender=Neut|PronType=Int,Rel	36	mark	_	_
+30	čega	što	PRON	_	Case=Gen|Gender=Neut|PronType=Int,Rel	36	nmod	_	ToDo=nmod
 31	su	biti	AUX	_	Number=Plur|Person=3|Tense=Pres	36	cop	_	_
 32	i	i	PART	_	_	34	discourse	_	_
 33	te	taj	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	34	det	_	_
@@ -13077,7 +13077,7 @@
 18	Vojni	vojni	ADJ	_	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
 19	ordinarijat	ordinarijat	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	27	punct	_	_
-21	koji	koji	DET	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	27	mark	_	_
+21	koji	koji	DET	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	27	obl	_	_
 22	su	biti	AUX	_	Number=Plur|Person=3|Tense=Pres	27	cop	_	_
 23	prema	prema	ADP	_	Case=Loc	24	case	_	_
 24	sporazumu	sporazum	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	27	obl	_	_
