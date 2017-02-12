@@ -41,6 +41,7 @@ See file LICENSE.txt for further licensing information.
 * converted to UD v2 standard
   * nmod vs. obl under non-verbal predicates should be checked manually (see the ToDo attribute in the MISC column)
   * by UD guidelines, reflexive pronouns with inherently reflexive verbs are now attached as expl:pv, not compound
+  * adverbial participles (converbs) are marked by VerbForm=Conv
 * a number of enhancements and bug fixes
   * all pronouns, determiners and pronominal adverbs have PronType
   * all verbs have VerbForm; all finite verbs have Mood
@@ -63,5 +64,7 @@ Data source: semi-automatic
 Data available since: UD v1.1
 License: CC BY-SA 4.0
 Genre: news web wiki
-Contributors: Agić, Željko; Ljubešić, Nikola
+Contributors: Agić, Željko; Ljubešić, Nikola; Zeman, Daniel
+Contact: zeljko.agic@gmail.com
 ===============================================================================
+

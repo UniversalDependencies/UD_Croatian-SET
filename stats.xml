@@ -31,7 +31,7 @@
     <tag name="X">253</tag><!-- de, A1, European, SETimes, Southeast, Times, bin, freedom, house, world -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="50">
+  <feats unique="52">
     <feat name="Animacy" value="Anim" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">597</feat><!-- kojeg, predsjednika, tko, nitko, jednog, kandidata, boga, ministra, premijera, najboljeg -->
     <feat name="Animacy" value="Inan" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">4527</feat><!-- što, SETimes, svoj, način, ponedjeljak, petak, koji, utorak, četvrtak, taj -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN">26321</feat><!-- se, za, na, u, to, uz, koje, što, svoje, sve -->
@@ -76,12 +76,14 @@
     <feat name="PronType" value="Tot" upos="ADV,DET,PRON">869</feat><!-- sve, uvijek, svi, svih, svim, svaki, svaka, sva, svega, svakog -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">3542</feat><!-- se, svoje, svoj, svoju, svojim, svojih, svojoj, svojeg, sebe, svog -->
     <feat name="Tense" value="Imp" upos="AUX">2</feat><!-- bijaše -->
-    <feat name="Tense" value="Past" upos="AUX,VERB">779</feat><!-- bi, biste, bih, bismo, može, dogodi, hoće, iznosi, osigura, pobuni -->
-    <feat name="Tense" value="Pres" upos="AUX,VERB">18144</feat><!-- je, su, će, nije, smo, može, ima, kaže, treba, sam -->
+    <feat name="Tense" value="Past" upos="ADV,AUX,VERB">7482</feat><!-- bi, izjavio, bio, bilo, rekao, kazao, bila, bili, mogli, dodao -->
+    <feat name="Tense" value="Pres" upos="ADV,AUX,VERB">18262</feat><!-- je, su, će, nije, smo, može, ima, kaže, treba, sam -->
+    <feat name="VerbForm" value="Conv" upos="ADV">155</feat><!-- zahvaljujući, uključujući, govoreći, Budući, dodavši, koristeći, sudeći, tražeći, Komentirajući, baveći -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">19143</feat><!-- je, su, će, bi, nije, smo, može, ima, kaže, treba -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">3892</feat><!-- biti, bit, imati, pomoći, raditi, pronaći, vidjeti, reći, nastaviti, dobiti -->
-    <feat name="VerbForm" value="Part" upos="ADJ,ADV,AUX,VERB">8859</feat><!-- izjavio, bio, bilo, rekao, kazao, bila, bili, mogli, dodao, mogla -->
-    <feat name="Voice" value="Pass" upos="ADJ,AUX,VERB">1000</feat><!-- održana, otvorena, održano, otvoren, postignut, povećana, ubijen, pronađeno, provedena, uhićen -->
+    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">8704</feat><!-- izjavio, bio, bilo, rekao, kazao, bila, bili, mogli, dodao, mogla -->
+    <feat name="Voice" value="Act" upos="AUX,VERB">6666</feat><!-- izjavio, bio, bilo, rekao, kazao, bila, bili, mogli, dodao, mogla -->
+    <feat name="Voice" value="Pass" upos="ADJ">928</feat><!-- održana, otvorena, održano, otvoren, postignut, povećana, ubijen, pronađeno, provedena, uhićen -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="41">
