@@ -40,7 +40,6 @@ See file LICENSE.txt for further licensing information.
 
 * converted to UD v2 standard
   * nmod vs. obl under non-verbal predicates should be checked manually (see the ToDo attribute in the MISC column)
-  * a few remnant relations could not be converted and wait for manual solution (renamed to dep:remnant)
   * by UD guidelines, reflexive pronouns with inherently reflexive verbs are now attached as expl:pv, not compound
 * a number of enhancements and bug fixes
   * all pronouns, determiners and pronominal adverbs have PronType

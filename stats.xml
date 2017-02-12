@@ -84,25 +84,24 @@
     <feat name="Voice" value="Pass" upos="ADJ,AUX,VERB">1000</feat><!-- održana, otvorena, održano, otvoren, postignut, povećana, ubijen, pronađeno, provedena, uhićen -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="42">
+  <deps unique="41">
     <dep name="acl">3817</dep>
-    <dep name="advcl">1752</dep>
-    <dep name="advmod">8057</dep>
+    <dep name="advcl">1753</dep>
+    <dep name="advmod">8060</dep>
     <dep name="advmod:emph">43</dep>
     <dep name="amod">17945</dep>
     <dep name="appos">2894</dep>
     <dep name="aux">7534</dep>
     <dep name="aux:pass">998</dep>
     <dep name="case">18936</dep>
-    <dep name="cc">7374</dep>
-    <dep name="ccomp">1764</dep>
+    <dep name="cc">7373</dep>
+    <dep name="ccomp">1766</dep>
     <dep name="compound">2275</dep>
-    <dep name="conj">9404</dep>
+    <dep name="conj">9414</dep>
     <dep name="cop">3478</dep>
     <dep name="csubj">298</dep>
     <dep name="csubj:pass">61</dep>
     <dep name="dep">9</dep>
-    <dep name="dep:remnant">27</dep>
     <dep name="det">2070</dep>
     <dep name="discourse">2195</dep>
     <dep name="dislocated">8</dep>
@@ -114,14 +113,14 @@
     <dep name="goeswith">57</dep>
     <dep name="iobj">689</dep>
     <dep name="list">24</dep>
-    <dep name="mark">3939</dep>
+    <dep name="mark">3941</dep>
     <dep name="nmod">20012</dep>
-    <dep name="nsubj">12920</dep>
+    <dep name="nsubj">12922</dep>
     <dep name="nsubj:pass">1037</dep>
     <dep name="nummod">2888</dep>
     <dep name="obj">8719</dep>
     <dep name="obl">12234</dep>
-    <dep name="orphan">144</dep>
+    <dep name="orphan">152</dep>
     <dep name="parataxis">2268</dep>
     <dep name="punct">23907</dep>
     <dep name="root">8889</dep>
