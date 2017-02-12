@@ -325,7 +325,7 @@
 4	nekoliko	nekoliko	ADV	_	Degree=Pos	5	det	_	_
 5	vježbi	vježba	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	3	obj	_	_
 6	kako	kako	SCONJ	_	_	12	mark	_	_
-7	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+7	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
 8	za	za	ADP	_	Case=Acc	9	case	_	_
 9	potrebe	potreba	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	12	obl	_	_
 10	potpore	potpora	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
@@ -472,7 +472,7 @@
 13	domova	dom	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	18	punct	_	_
 15	kako	kako	SCONJ	_	_	18	mark	_	_
-16	bi	biti	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
+16	bi	biti	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
 17	im	oni	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	18	iobj	_	_
 18	pomogle	pomoći	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	5	advcl	_	_
 19	pokriti	pokriti	VERB	_	VerbForm=Inf	18	xcomp	_	_
@@ -725,7 +725,7 @@
 20	organiziranog	organiziran	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
 21	kriminala	kriminal	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
 22	kako	kako	SCONJ	_	_	24	mark	_	_
-23	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux	_	_
+23	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux	_	_
 24	raspravljao	raspravljati	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	17	advcl	_	_
 25	o	o	ADP	_	Case=Loc	26	case	_	_
 26	preraspodjeli	preraspodjela	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	24	obl	_	_
@@ -762,7 +762,7 @@
 24	član	član	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	19	obl	_	_
 25	parlamenta	parlament	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
 26	da	da	SCONJ	_	_	29	mark	_	_
-27	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	aux	_	_
+27	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	aux	_	_
 28	tužiteljstvo	tužiteljstvo	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	29	nsubj	_	_
 29	moglo	moći	VERB	_	Gender=Neut|Number=Sing|VerbForm=Part	18	advcl	_	_
 30	provesti	provesti	VERB	_	VerbForm=Inf	29	xcomp	_	_
@@ -785,7 +785,7 @@
 3	ću	htjeti	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
 4	to	taj	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	_
 5	kako	kako	SCONJ	_	_	8	mark	_	_
-6	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+6	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
 7	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	8	expl:pv	_	_
 8	mogla	moći	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	advcl	_	_
 9	otkriti	otkriti	VERB	_	VerbForm=Inf	8	xcomp	_	_
@@ -1166,7 +1166,7 @@
 11	čvrstih	čvrst	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
 12	dokaza	dokaz	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	21	obl	_	_
 13	koji	koji	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	15	nsubj	_	_
-14	bi	biti	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	_
+14	bi	biti	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	_
 15	poduprli	poduprijeti	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	12	acl	_	_
 16	njihove	njihov	DET	_	Case=Acc|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	17	nmod	_	_
 17	optužbe	optužba	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
@@ -1408,7 +1408,7 @@
 14	bila	biti	AUX	_	Gender=Fem|Number=Sing|VerbForm=Part	15	cop	_	_
 15	dostatna	dostatan	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	conj	_	_
 16	da	da	SCONJ	_	_	18	mark	_	_
-17	bi	biti	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
+17	bi	biti	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
 18	imenovali	imenovati	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	15	ccomp	_	_
 19	svog	svoj	DET	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	20	nmod	_	_
 20	predsjednika	predsjednik	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
@@ -1423,7 +1423,7 @@
 5	referendum	referendum	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
 6	o	o	ADP	_	Case=Loc	7	case	_	_
 7	tome	taj	DET	_	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	5	nmod	_	_
-8	bi	biti	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+8	bi	biti	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
 9	li	li	PART	_	_	11	mark	_	_
 10	građani	građanin	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
 11	trebali	trebati	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	7	acl	_	_
@@ -1612,7 +1612,7 @@
 # sent_id = dev-s59
 # text = Morala bih napustiti posao i djecu i mjesec dana proučavati kako bih shvatila tko što radi."
 1	Morala	morati	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
-2	bih	biti	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	aux	_	_
+2	bih	biti	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	aux	_	_
 3	napustiti	napustiti	VERB	_	VerbForm=Inf	1	xcomp	_	_
 4	posao	posao	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
 5	i	i	CCONJ	_	_	6	cc	_	_
@@ -1622,7 +1622,7 @@
 9	dana	dan	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
 10	proučavati	proučavati	VERB	_	VerbForm=Inf	1	conj	_	_
 11	kako	kako	SCONJ	_	_	13	mark	_	_
-12	bih	biti	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	aux	_	_
+12	bih	biti	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	aux	_	_
 13	shvatila	shvatiti	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	10	advcl	_	_
 14	tko	tko	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|PronType=Int,Rel	16	nsubj	_	_
 15	što	što	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|PronType=Int,Rel	16	obj	_	_
@@ -1722,7 +1722,7 @@
 14	TV	TV	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	15	amod	_	_
 15	postaja	postaja	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	12	obj	_	_
 16	da	da	SCONJ	_	_	18	mark	_	_
-17	bi	biti	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
+17	bi	biti	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
 18	shvatili	shvatiti	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	12	advcl	_	_
 19	vijesti	vijest	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	18	obj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
@@ -1796,7 +1796,7 @@
 5	dug	dug	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
 6	i	i	CCONJ	_	_	9	cc	_	_
 7	rado	rado	ADV	_	Degree=Pos	9	advmod	_	_
-8	bismo	biti	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	9	aux	_	_
+8	bismo	biti	AUX	_	Mood=Cnd|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	9	aux	_	_
 9	imali	imati	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	5	conj	_	_
 10	jasne	jasan	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_
 11	pozicije	pozicija	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
@@ -1813,7 +1813,7 @@
 # text = U svakoj bi drugoj zemlji došlo do ogromnog medijskog skandala, ali ne i u Moldaviji ", rekao je.
 1	U	u	ADP	_	Case=Loc	5	case	_	_
 2	svakoj	svaki	DET	_	Case=Loc|Gender=Fem|Number=Sing|PronType=Tot	5	det	_	_
-3	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+3	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
 4	drugoj	drugi	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	zemlji	zemlja	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
 6	došlo	doći	VERB	_	Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	_
@@ -1895,7 +1895,7 @@
 8	političke	politički	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	6	conj	_	_
 9	izazove	izazov	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
 10	kako	kako	SCONJ	_	_	13	mark	_	_
-11	bi	biti	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
+11	bi	biti	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
 12	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	13	expl:pv	_	_
 13	održali	održati	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	4	advcl	_	_
 14	ovi	ovaj	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	15	det	_	_
@@ -2421,7 +2421,7 @@
 8	ureda	ured	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
 9	OHR-a	OHR	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
 10	kako	kako	SCONJ	_	_	12	mark	_	_
-11	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+11	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
 12	predstavio	predstaviti	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	advcl	_	_
 13	plan	plan	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
 14	tranzicije	tranzicija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
@@ -2597,7 +2597,7 @@
 5	u	u	ADP	_	Case=Loc	6	case	_	_
 6	Ateni	Atena	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
 7	kako	kako	SCONJ	_	_	9	mark	_	_
-8	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+8	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
 9	obilježio	obilježiti	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	advcl	_	_
 10	otvaranje	otvaranje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
 11	novog	nov	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
@@ -3061,7 +3061,7 @@
 27	biti	biti	AUX	_	VerbForm=Inf	26	xcomp	_	_
 28	zadržan	zadržati	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	27	xcomp	_	_
 29	kako	kako	SCONJ	_	_	35	mark	_	_
-30	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	35	aux	_	_
+30	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	35	aux	_	_
 31	njegov	njegov	DET	_	Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod	_	_
 32	AAA	AAA	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	34	amod	_	_
 33	bonitetni	bonitetan	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
@@ -3296,7 +3296,7 @@
 29	sugerirao	sugerirati	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
 30	je	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
 31	kako	kako	SCONJ	_	_	37	mark	_	_
-32	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	37	aux	_	_
+32	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	37	aux	_	_
 33	preko	preko	ADP	_	Case=Gen	35	advmod	_	_
 34	250	250	NUM	_	NumType=Card	35	compound	_	_
 35	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	36	nummod	_	_
@@ -3602,7 +3602,7 @@
 7	vladajućoj	vladajući	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 8	koaliciji	koalicija	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
 9	mogle	moći	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	0	root	_	_
-10	bi	biti	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+10	bi	biti	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
 11	dosegnuti	dosegnuti	VERB	_	VerbForm=Inf	9	xcomp	_	_
 12	vrhunac	vrhunac	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	9	punct	_	_
@@ -3748,7 +3748,7 @@
 15	24	24	NUM	_	NumType=Card	16	nummod	_	_
 16	zastupnika	zastupnik	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	12	appos	_	_
 17	ne	ne	PART	_	Polarity=Neg	19	advmod	_	_
-18	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
+18	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
 19	imalo	imati	VERB	_	Gender=Neut|Number=Sing|VerbForm=Part	3	conj	_	_
 20	poteškoća	poteškoća	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	19	obj	_	_
 21	srušiti	srušiti	VERB	_	VerbForm=Inf	19	xcomp	_	_
@@ -4252,7 +4252,7 @@
 # text = "Turska bi bila sretna samo da više pridonese i posreduje u bilateralnim razgovorima između balkanskih zemalja", izjavio je za SETimes Geybulla Ramazanoglu, savjetnik premijera Recepa Tayyipa Erdogana.
 1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 2	Turska	Turska	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
-3	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
 4	bila	biti	AUX	_	Gender=Fem|Number=Sing|VerbForm=Part	5	cop	_	_
 5	sretna	sretan	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
 6	samo	samo	ADV	_	Degree=Pos	7	discourse	_	_
@@ -4495,7 +4495,7 @@
 13	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	14	expl:pv	_	_
 14	slaže	slagati	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	da	da	SCONJ	_	_	32	mark	_	_
-16	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	aux	_	_
+16	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	aux	_	_
 17	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	32	expl:pv	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	21	punct	_	_
 19	ako	ako	CCONJ	_	_	21	mark	_	_
@@ -6898,7 +6898,7 @@
 # sent_id = dev-s256
 # text = Najbolja bi bila da se te banke spoje s nekim većim bankama koje bi možda mogle imati interesa u ovakvom načinu širenja.
 1	Najbolja	dobar	ADJ	_	Case=Nom|Definite=Def|Degree=Sup|Gender=Fem|Number=Sing	0	root	_	_
-2	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	aux	_	_
+2	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	aux	_	_
 3	bila	biti	AUX	_	Gender=Fem|Number=Sing|VerbForm=Part	1	cop	_	_
 4	da	da	SCONJ	_	_	8	mark	_	_
 5	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	8	obj	_	_
@@ -6910,7 +6910,7 @@
 11	većim	velik	ADJ	_	Case=Ins|Definite=Def|Degree=Cmp|Gender=Fem|Number=Plur	12	amod	_	_
 12	bankama	banka	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	8	obl	_	_
 13	koje	koji	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	16	nsubj	_	_
-14	bi	biti	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
+14	bi	biti	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
 15	možda	možda	ADV	_	Degree=Pos	16	advmod	_	_
 16	mogle	moći	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	12	acl	_	_
 17	imati	imati	VERB	_	VerbForm=Inf	16	xcomp	_	_
@@ -7652,7 +7652,7 @@
 # sent_id = dev-s282
 # text = Kako bi se okruženju svjedočio visoki standard i provocirala zavist.
 1	Kako	kako	SCONJ	_	_	5	mark	_	_
-2	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+2	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
 3	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	5	expl:pv	_	_
 4	okruženju	okruženje	NOUN	_	Case=Dat|Gender=Neut|Number=Sing	5	obj	_	_
 5	svjedočio	svjedočiti	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -8413,7 +8413,7 @@
 18	mreže	mreža	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
 19	i	i	CCONJ	_	_	20	cc	_	_
 20	mogli	moći	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	16	conj	_	_
-21	bi	biti	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	_
+21	bi	biti	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	_
 22	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	23	expl:pv	_	_
 23	zamijeniti	zamijeniti	VERB	_	VerbForm=Inf	20	xcomp	_	_
 24	samo	samo	ADV	_	Degree=Pos	25	advmod	_	_
@@ -8430,7 +8430,7 @@
 4	Slavonskom	slavonski	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	compound	_	_
 5	Brodu	Brod	PROPN	_	Case=Loc|Gender=Masc|Number=Sing	1	obl	_	_
 6	gdje	gdje	ADV	_	Degree=Pos	10	mark	_	_
-7	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+7	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
 8	to	taj	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	_
 9	bilo	biti	AUX	_	Gender=Neut|Number=Sing|VerbForm=Part	10	cop	_	_
 10	idealno	idealan	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	5	acl	_	SpaceAfter=No
@@ -8646,7 +8646,7 @@
 6	takvog	takav	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	proizvođača	proizvođač	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	5	obj	_	_
 8	koji	koji	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	10	nsubj	_	_
-9	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+9	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
 10	prodavao	prodavati	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	7	acl	_	_
 11	struju	struja	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
 12	HEP-u	HEP	PROPN	_	Case=Dat|Gender=Masc|Number=Sing	10	iobj	_	SpaceAfter=No
@@ -8876,7 +8876,7 @@
 7	od	od	ADP	_	Case=Gen	8	case	_	_
 8	njih	oni	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	6	nmod	_	_
 9	mogle	moći	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	2	conj	_	_
-10	bi	biti	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+10	bi	biti	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
 11	također	također	ADV	_	Degree=Pos	9	advmod	_	_
 12	koristiti	koristiti	VERB	_	VerbForm=Inf	9	xcomp	_	_
 13	biomasu	biomasa	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
@@ -8887,7 +8887,7 @@
 1	Govori	govoriti	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	1	expl:pv	_	_
 3	da	da	SCONJ	_	_	9	mark	_	_
-4	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+4	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
 5	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	9	expl:pv	_	_
 6	u	u	ADP	_	Case=Loc	8	case	_	_
 7	Velikoj	velik	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	8	compound	_	_
@@ -8912,7 +8912,7 @@
 # sent_id = dev-s339
 # text = To bi bilo optimalno i s time je recimo usporediv grad Lienz u istočnom Tirolu koji se grije na biomasu i ima dvije kogeneracije koje rade cijele godine.
 1	To	taj	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
-2	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+2	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
 3	bilo	biti	AUX	_	Gender=Neut|Number=Sing|VerbForm=Part	4	cop	_	_
 4	optimalno	optimalan	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 5	i	i	CCONJ	_	_	10	cc	_	_
@@ -9379,7 +9379,7 @@
 1	U	u	ADP	_	Case=Loc	2	case	_	_
 2	2011.	2011.	ADJ	_	NumType=Ord	5	obl	_	_
 3	potražnja	potražnja	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
-4	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
 5	trebala	trebati	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
 6	rasti	rasti	VERB	_	VerbForm=Inf	5	xcomp	_	_
 7	za	za	ADP	_	Case=Acc	9	case	_	_
@@ -11856,7 +11856,7 @@
 27	promjenjiva	promjenjiv	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	25	conj	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	6	punct	_	_
 29	uskoro	uskoro	ADV	_	Degree=Pos	36	advmod	_	_
-30	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	aux	_	_
+30	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	aux	_	_
 31	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	36	expl:pv	_	_
 32	u	u	ADP	_	Case=Acc	33	case	_	_
 33	jednadžbu	jednadžba	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	36	obl	_	_
@@ -11886,7 +11886,7 @@
 14	i	i	PART	_	_	15	discourse	_	_
 15	ono	onaj	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	12	obj	_	_
 16	da	da	SCONJ	_	_	19	mark	_	_
-17	bi	biti	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
+17	bi	biti	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
 18	građani	građanin	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
 19	mogli	moći	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	15	acl	_	_
 20	početi	početi	VERB	_	VerbForm=Inf	19	xcomp	_	_
@@ -11895,7 +11895,7 @@
 23	iz	iz	ADP	_	Case=Gen	24	case	_	_
 24	banaka	banka	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	21	obl	_	_
 25	jer	jer	SCONJ	_	_	29	mark	_	_
-26	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	aux	_	_
+26	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	aux	_	_
 27	visoka	visok	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
 28	inflacija	inflacija	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	_
 29	istopila	istopiti	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	19	advcl	_	_
@@ -12073,7 +12073,7 @@
 7	prijenos	prijenos	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
 8	energije	energija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
 9	država	država	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
-10	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+10	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
 11	trebala	trebati	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
 12	zadržati	zadržati	VERB	_	VerbForm=Inf	11	xcomp	_	_
 13	kontrolni	kontrolan	ADJ	_	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
@@ -12085,7 +12085,7 @@
 19	restrukturiranja	restrukturiranje	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	23	obl	_	_
 20	HEP-a	HEP	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
 21	bilo	biti	AUX	_	Gender=Neut|Number=Sing|VerbForm=Part	23	cop	_	_
-22	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux	_	_
+22	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux	_	_
 23	dobro	dobro	ADV	_	Degree=Pos	11	conj	_	_
 24	potpuno	potpuno	ADV	_	Degree=Pos	25	advmod	_	_
 25	privatizirati	privatizirati	VERB	_	VerbForm=Inf	23	xcomp	_	SpaceAfter=No
@@ -12165,7 +12165,7 @@
 14	Ine	Ina	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	11	punct	_	_
 16	ne	ne	PART	_	Polarity=Neg	18	advmod	_	_
-17	bih	biti	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	18	aux	_	_
+17	bih	biti	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	18	aux	_	_
 18	govorio	govoriti	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	18	punct	_	_
 
@@ -12233,7 +12233,7 @@
 2	svaki	svaki	DET	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	3	det	_	_
 3	projekt	projekt	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	ToDo=nmod
 4	država	država	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
-5	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+5	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
 6	bila	biti	AUX	_	Gender=Fem|Number=Sing|VerbForm=Part	7	cop	_	_
 7	partner	partner	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 8	u	u	ADP	_	Case=Loc	9	case	_	_
@@ -13248,7 +13248,7 @@
 19	trebaju	trebati	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
 20	veliki	velik	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	19	nsubj	_	_
 21	kako	kako	SCONJ	_	_	23	mark	_	_
-22	bi	biti	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	aux	_	_
+22	bi	biti	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	aux	_	_
 23	živjeli	živjeti	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	19	advcl	_	_
 24	i	i	PART	_	_	25	discourse	_	_
 25	mali	mali	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	23	nsubj	_	SpaceAfter=No
@@ -13311,7 +13311,7 @@
 7	napraviti	napraviti	VERB	_	VerbForm=Inf	6	xcomp	_	_
 8	analizu	analiza	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
 9	koja	koji	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	11	nsubj	_	_
-10	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+10	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
 11	razlučila	razlučiti	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	8	acl	_	_
 12	neuspješne	neuspješan	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	11	obj	_	_
 13	od	od	ADP	_	Case=Gen	14	case	_	_
@@ -13418,7 +13418,7 @@
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	dodajući	dodavati	ADV	_	VerbForm=Part	15	xcomp	_	_
 20	kako	kako	SCONJ	_	_	22	mark	_	_
-21	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	_
+21	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	_
 22	trebalo	trebati	VERB	_	Gender=Neut|Number=Sing|VerbForm=Part	19	ccomp	_	_
 23	aktivirati	aktivirati	VERB	_	VerbForm=Inf	22	xcomp	_	_
 24	potencijale	potencijal	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	23	obj	_	_
@@ -13706,7 +13706,7 @@
 16	nagađa	nagađati	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 17	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	16	expl:pv	_	_
 18	da	da	SCONJ	_	_	23	mark	_	_
-19	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux	_	_
+19	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux	_	_
 20	to	taj	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	23	nsubj	_	_
 21	porezne	porezni	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	22	amod	_	_
 22	obveznike	obveznik	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	24	obj	_	_
@@ -13926,7 +13926,7 @@
 4	prvi	prvi	ADJ	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
 5	put	put	ADV	_	Degree=Pos	8	advmod	_	_
 6	ne	ne	PART	_	Polarity=Neg	8	advmod	_	_
-7	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+7	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
 8	trebalo	trebati	VERB	_	Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	_
 9	biti	biti	AUX	_	VerbForm=Inf	8	xcomp	_	_
 10	redova	red	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	9	xcomp	_	_
@@ -14253,7 +14253,7 @@
 10	te	taj	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
 11	zemlje	zemlja	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
 12	kako	kako	SCONJ	_	_	16	mark	_	_
-13	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
+13	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
 14	pomoć	pomoć	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
 15	bila	biti	AUX	_	Gender=Fem|Number=Sing|VerbForm=Part	16	cop	_	_
 16	spremna	spreman	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	7	advcl	_	_
@@ -14280,7 +14280,7 @@
 10	analitičari	analitičar	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
 11	ističu	isticati	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 12	da	da	SCONJ	_	_	18	mark	_	_
-13	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
+13	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
 14	dogovor	dogovor	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
 15	o	o	ADP	_	Case=Loc	16	case	_	_
 16	paketu	paket	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	_
@@ -14298,7 +14298,7 @@
 3	izostane	izostati	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	euro	euro	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
-6	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+6	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
 7	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	8	expl:pv	_	_
 8	mogao	moći	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
 9	ponovno	ponovno	ADV	_	Degree=Pos	10	advmod	_	_
@@ -14372,7 +14372,7 @@
 24	eura	euro	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	28	punct	_	_
 26	koji	koji	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	28	nsubj	_	_
-27	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	aux	_	_
+27	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	aux	_	_
 28	mogao	moći	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	24	acl	_	_
 29	dosegnuti	dosegnuti	VERB	_	VerbForm=Inf	28	xcomp	_	_
 30	i	i	PART	_	_	32	discourse	_	_
@@ -14496,7 +14496,7 @@
 25	svojim	svoj	DET	_	Case=Ins|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	26	nmod	_	_
 26	problemima	problem	NOUN	_	Case=Ins|Gender=Masc|Number=Plur	24	obj	_	_
 27	da	da	SCONJ	_	_	31	mark	_	_
-28	bismo	biti	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	31	aux	_	_
+28	bismo	biti	AUX	_	Mood=Cnd|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	31	aux	_	_
 29	je	on	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
 30	bitnije	bitno	ADV	_	Degree=Cmp	31	advmod	_	_
 31	uočili	uočiti	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	24	advcl	_	SpaceAfter=No
@@ -14969,7 +14969,7 @@
 22	Rusija	Rusija	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	21	punct	_	_
 24	jer	jer	SCONJ	_	_	28	mark	_	_
-25	bi	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	aux	_	_
+25	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	aux	_	_
 26	bila	biti	AUX	_	Gender=Fem|Number=Sing|VerbForm=Part	28	cop	_	_
 27	velika	velik	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
 28	pogreška	pogreška	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	9	advcl	_	_
@@ -15271,7 +15271,7 @@
 12	,	,	PUNCT	_	_	20	punct	_	_
 13	a	a	CCONJ	_	_	20	cc	_	_
 14	kako	kako	SCONJ	_	_	18	mark	_	_
-15	bi	biti	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
+15	bi	biti	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
 16	te	taj	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	17	det	_	_
 17	ciljeve	cilj	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	18	obj	_	_
 18	ostvarili	ostvariti	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	20	advcl	_	SpaceAfter=No
@@ -15457,7 +15457,7 @@
 12	kućne	kućni	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
 13	dostave	dostava	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
 14	ne	ne	PART	_	Polarity=Neg	19	advmod	_	_
-15	bi	biti	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
+15	bi	biti	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
 16	li	li	SCONJ	_	_	19	mark	_	_
 17	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	19	expl:pv	_	_
 18	dodatno	dodatno	ADV	_	Degree=Pos	19	advmod	_	_
@@ -15506,7 +15506,7 @@
 12	slične	sličan	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_
 13	usluge	usluga	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
 14	kako	kako	SCONJ	_	_	18	mark	_	_
-15	bi	biti	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
+15	bi	biti	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
 16	svoju	svoj	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	17	nmod	_	_
 17	ponudu	ponuda	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
 18	učinili	učiniti	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	11	advcl	_	_

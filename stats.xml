@@ -31,7 +31,7 @@
     <tag name="X">253</tag><!-- de, A1, European, SETimes, Southeast, Times, bin, freedom, house, world -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="49">
+  <feats unique="50">
     <feat name="Animacy" value="Anim" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">597</feat><!-- kojeg, predsjednika, tko, nitko, jednog, kandidata, boga, ministra, premijera, najboljeg -->
     <feat name="Animacy" value="Inan" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">4527</feat><!-- što, SETimes, svoj, način, ponedjeljak, petak, koji, utorak, četvrtak, taj -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN">26321</feat><!-- se, za, na, u, to, uz, koje, što, svoje, sve -->
@@ -51,8 +51,9 @@
     <feat name="Gender" value="Neut" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">14402</feat><!-- to, što, bilo, toga, Kosova, vrijeme, koje, sve, tome, Kosovo -->
     <feat name="Gender[psor]" value="Fem" upos="DET">118</feat><!-- njezina, njezine, njezin, njen, njezinu, njezinih, njezino, njene, njena, njezinim -->
     <feat name="Gender[psor]" value="Masc,Neut" upos="DET">224</feat><!-- njegova, njegov, njegove, njegovu, njegovim, njegovoj, njegovog, njegovih, njegovo, njegovom -->
+    <feat name="Mood" value="Cnd" upos="AUX">772</feat><!-- bi, biste, bih, bismo -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">218</feat><!-- kliknite, recimo, izbjegavajte, koristite, potražite, pročitajte, čuvajte, daj, odaberite, otiđite -->
-    <feat name="Mood" value="Ind" upos="AUX,VERB">18925</feat><!-- je, su, će, bi, nije, smo, može, ima, kaže, treba -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">18153</feat><!-- je, su, će, nije, smo, može, ima, kaže, treba, sam -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">32971</feat><!-- su, koji, koje, smo, će, bi, milijuna, godina, eura, kuna -->
     <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">85641</feat><!-- je, će, to, koji, godine, bi, nije, koja, EU, može -->
     <feat name="Number[psor]" value="Plur" upos="DET">402</feat><!-- naše, njihov, njihova, naš, njihove, naša, njihovu, naših, našim, njihovo -->
