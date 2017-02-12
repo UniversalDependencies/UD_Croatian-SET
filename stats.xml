@@ -87,7 +87,7 @@
   <deps unique="42">
     <dep name="acl">3817</dep>
     <dep name="advcl">1752</dep>
-    <dep name="advmod">7497</dep>
+    <dep name="advmod">8057</dep>
     <dep name="advmod:emph">41</dep>
     <dep name="amod">17945</dep>
     <dep name="appos">2894</dep>
@@ -114,7 +114,7 @@
     <dep name="goeswith">57</dep>
     <dep name="iobj">689</dep>
     <dep name="list">24</dep>
-    <dep name="mark">4499</dep>
+    <dep name="mark">3939</dep>
     <dep name="nmod">20012</dep>
     <dep name="nsubj">12920</dep>
     <dep name="nsubj:pass">1037</dep>

@@ -964,7 +964,7 @@
 36	prošle	prošli	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
 37	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	34	obl	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	41	punct	_	_
-39	kada	kada	ADV	_	Degree=Pos|PronType=Int,Rel	41	mark	_	_
+39	kada	kada	ADV	_	Degree=Pos|PronType=Int,Rel	41	advmod	_	_
 40	je	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux	_	_
 41	završio	završiti	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	37	acl	_	_
 42	u	u	ADP	_	Case=Loc	43	case	_	_
@@ -1714,7 +1714,7 @@
 6	za	za	ADP	_	Case=Acc	7	case	_	_
 7	publiku	publika	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
-9	budući	budući	ADV	_	Degree=Pos	11	mark	_	_
+9	budući	budući	ADV	_	Degree=Pos	11	advmod	_	_
 10	da	da	SCONJ	_	_	9	compound	_	_
 11	moraju	morati	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
 12	pratiti	pratiti	VERB	_	VerbForm=Inf	11	xcomp	_	_
@@ -2473,7 +2473,7 @@
 12	na	na	ADP	_	Case=Acc	14	case	_	_
 13	2002.	2002.	ADJ	_	NumType=Ord	14	amod	_	_
 14	godinu	godina	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	_
-15	kada	kada	ADV	_	Degree=Pos|PronType=Int,Rel	18	mark	_	_
+15	kada	kada	ADV	_	Degree=Pos|PronType=Int,Rel	18	advmod	_	_
 16	je	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
 17	bio	biti	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	18	cop	_	_
 18	najveći	velik	ADJ	_	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	14	acl	_	SpaceAfter=No
@@ -3374,7 +3374,7 @@
 14	nije	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	15	cop	_	_
 15	konačan	konačan	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	ccomp	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	20	punct	_	_
-17	budući	budući	ADV	_	Degree=Pos	20	mark	_	_
+17	budući	budući	ADV	_	Degree=Pos	20	advmod	_	_
 18	da	da	SCONJ	_	_	17	fixed	_	_
 19	su	biti	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 20	potrebni	potreban	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	15	advcl	_	_
@@ -3573,7 +3573,7 @@
 19	25.	25.	ADJ	_	NumType=Ord	17	conj	_	_
 20	ožujka	ožujak	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	24	punct	_	_
-22	kada	kada	ADV	_	Degree=Pos|PronType=Int,Rel	24	mark	_	_
+22	kada	kada	ADV	_	Degree=Pos|PronType=Int,Rel	24	advmod	_	_
 23	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	24	expl:pv	_	_
 24	očekuje	očekivati	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	_
 25	postizanje	postizanje	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	24	nsubj	_	_
@@ -4238,7 +4238,7 @@
 13	BiH	BiH	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	9	parataxis	_	SpaceAfter=No
 14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
-16	gdje	gdje	ADV	_	Degree=Pos|PronType=Int,Rel	18	mark	_	_
+16	gdje	gdje	ADV	_	Degree=Pos|PronType=Int,Rel	18	advmod	_	_
 17	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	18	expl:pv	_	_
 18	sastao	sastati	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	acl	_	_
 19	sa	s	ADP	_	Case=Ins	23	case	_	_
@@ -5056,7 +5056,7 @@
 8	je	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 9	u	u	ADP	_	Case=Loc	10	case	_	_
 10	slučajevima	slučaj	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	16	obl	_	_
-11	gdje	gdje	ADV	_	Degree=Pos|PronType=Int,Rel	14	mark	_	_
+11	gdje	gdje	ADV	_	Degree=Pos|PronType=Int,Rel	14	advmod	_	_
 12	je	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 13	ovo	ovaj	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	14	nsubj	_	_
 14	primjenjivo	primjenjiv	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	acl	_	_
@@ -6184,7 +6184,7 @@
 15	razliku	razlika	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	_
 16	od	od	ADP	_	Case=Gen	17	case	_	_
 17	matičnog	matičan	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	15	nmod	_	_
-18	gdje	gdje	ADV	_	Degree=Pos|PronType=Int,Rel	21	mark	_	_
+18	gdje	gdje	ADV	_	Degree=Pos|PronType=Int,Rel	21	advmod	_	_
 19	mu	on	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	iobj	_	_
 20	poziciju	pozicija	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
 21	ugrožava	ugrožavati	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl	_	_
@@ -6754,7 +6754,7 @@
 4	razliku	razlika	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
 5	od	od	ADP	_	Case=Gen	6	case	_	_
 6	lani	lani	ADV	_	Degree=Pos	4	nmod	_	_
-7	kad	kad	ADV	_	Degree=Pos|PronType=Int,Rel	9	mark	_	_
+7	kad	kad	ADV	_	Degree=Pos|PronType=Int,Rel	9	advmod	_	_
 8	je	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	iznosila	iznositi	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	6	advcl	_	_
 10	1,4	1,4	NUM	_	NumType=Card	11	nummod	_	_
@@ -7954,7 +7954,7 @@
 6	vidljivo	vidljiv	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 7	je	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 8	doista	doista	ADV	_	Degree=Pos	6	advmod	_	_
-9	koliko	koliko	ADV	_	Degree=Pos	12	mark	_	_
+9	koliko	koliko	ADV	_	Degree=Pos	12	advmod	_	_
 10	je	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 11	kriza	kriza	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
 12	ohladila	ohladiti	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	6	csubj	_	_
@@ -8016,7 +8016,7 @@
 18	siječnju	siječanj	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
 19	prošle	prošli	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
 20	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
-21	kada	kada	ADV	_	Degree=Pos|PronType=Int,Rel	24	mark	_	_
+21	kada	kada	ADV	_	Degree=Pos|PronType=Int,Rel	24	advmod	_	_
 22	je	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
 23	indeks	indeks	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
 24	iznosio	iznositi	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	14	advcl	_	_
@@ -8109,7 +8109,7 @@
 
 # sent_id = dev-s305
 # text = Kada su se morali izjasniti o osobinama trgovačkog lanca zbog kojih su ga ocijenili višom ili nižom ocjenom, potrošači su općenito bili najzadovoljniji s radnim vremenom koje je u istraživanju dobilo ocjenu 4,2.
-1	Kada	kada	ADV	_	Degree=Pos|PronType=Int,Rel	4	mark	_	_
+1	Kada	kada	ADV	_	Degree=Pos|PronType=Int,Rel	4	advmod	_	_
 2	su	biti	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	5	obj	_	_
 4	morali	morati	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	24	advcl	_	_
@@ -8223,7 +8223,7 @@
 24	Ministarstva	ministarstvo	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	20	obl	_	_
 25	poljoprivrede	poljoprivreda	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	29	punct	_	_
-27	kada	kada	ADV	_	Degree=Pos|PronType=Int,Rel	29	mark	_	_
+27	kada	kada	ADV	_	Degree=Pos|PronType=Int,Rel	29	advmod	_	_
 28	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	29	obj	_	_
 29	odluče	odlučiti	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
 30	na	na	ADP	_	Case=Acc	32	case	_	_
@@ -8429,7 +8429,7 @@
 3	u	u	ADP	_	Case=Loc	5	case	_	_
 4	Slavonskom	slavonski	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	compound	_	_
 5	Brodu	Brod	PROPN	_	Case=Loc|Gender=Masc|Number=Sing	1	obl	_	_
-6	gdje	gdje	ADV	_	Degree=Pos|PronType=Int,Rel	10	mark	_	_
+6	gdje	gdje	ADV	_	Degree=Pos|PronType=Int,Rel	10	advmod	_	_
 7	bi	biti	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
 8	to	taj	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	_
 9	bilo	biti	AUX	_	Gender=Neut|Number=Sing|VerbForm=Part	10	cop	_	_
@@ -8518,7 +8518,7 @@
 2	su	biti	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	u	u	ADP	_	Case=Loc	4	case	_	_
 4	Ogulinu	Ogulin	PROPN	_	Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
-5	gdje	gdje	ADV	_	Degree=Pos|PronType=Int,Rel	7	mark	_	_
+5	gdje	gdje	ADV	_	Degree=Pos|PronType=Int,Rel	7	advmod	_	_
 6	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	7	obj	_	_
 7	griju	grijati	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	_
 8	uprava	uprava	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -8529,7 +8529,7 @@
 13	te	te	CCONJ	_	_	15	cc	_	_
 14	u	u	ADP	_	Case=Loc	15	case	_	_
 15	Gospiću	Gospić	PROPN	_	Case=Loc|Gender=Masc|Number=Sing	4	conj	_	_
-16	gdje	gdje	ADV	_	Degree=Pos|PronType=Int,Rel	18	mark	_	_
+16	gdje	gdje	ADV	_	Degree=Pos|PronType=Int,Rel	18	advmod	_	_
 17	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	18	obj	_	_
 18	griju	grijati	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	_
 19	isto	isto	ADV	_	Degree=Pos	20	advmod	_	_
@@ -8638,7 +8638,7 @@
 
 # sent_id = dev-s326
 # text = Koliko znam ovdje još nema takvog proizvođača koji bi prodavao struju HEP-u.
-1	Koliko	koliko	ADV	_	Degree=Pos	2	mark	_	_
+1	Koliko	koliko	ADV	_	Degree=Pos	2	advmod	_	_
 2	znam	znati	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	advcl	_	_
 3	ovdje	ovdje	ADV	_	Degree=Pos|PronType=Dem	5	advmod	_	_
 4	još	još	ADV	_	Degree=Pos	5	advmod	_	_
@@ -9840,7 +9840,7 @@
 36	odnosno	odnosno	ADV	_	Degree=Pos	38	advmod	_	_
 37	u	u	ADP	_	Case=Acc	38	case	_	_
 38	vrijeme	vrijeme	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	34	appos	_	_
-39	kada	kada	ADV	_	Degree=Pos|PronType=Int,Rel	43	mark	_	_
+39	kada	kada	ADV	_	Degree=Pos|PronType=Int,Rel	43	advmod	_	_
 40	će	htjeti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	_
 41	mu	on	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	43	obj	_	_
 42	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	43	expl:pv	_	_
@@ -9891,7 +9891,7 @@
 18	i	i	PART	_	_	19	discourse	_	_
 19	u	u	ADP	_	Case=Acc	20	case	_	_
 20	razdoblje	razdoblje	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	10	nmod	_	_
-21	kada	kada	ADV	_	Degree=Pos|PronType=Int,Rel	25	mark	_	_
+21	kada	kada	ADV	_	Degree=Pos|PronType=Int,Rel	25	advmod	_	_
 22	porezno	porezni	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
 23	opterećenje	opterećenje	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	25	nsubj	_	_
 24	bude	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
@@ -10046,7 +10046,7 @@
 
 # sent_id = dev-s383
 # text = Koliko će to potaknuti razvoj tog segmenta ovisit će, kao i ukupne perspektive fondovske industrije, o oporavku sektora poduzeća i putu izlaska gospodarstva iz recesije, zbog čega su i te prognoze sastavni dio konferencije.
-1	Koliko	koliko	ADV	_	Degree=Pos	4	mark	_	_
+1	Koliko	koliko	ADV	_	Degree=Pos	4	advmod	_	_
 2	će	htjeti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	to	taj	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 4	potaknuti	potaknuti	VERB	_	VerbForm=Inf	8	csubj	_	_
@@ -10439,7 +10439,7 @@
 4	prošlošću	prošlost	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	5	xcomp	_	_
 5	čini	činiti	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	vrijeme	vrijeme	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
-7	kad	kad	ADV	_	Degree=Pos|PronType=Int,Rel	12	mark	_	_
+7	kad	kad	ADV	_	Degree=Pos|PronType=Int,Rel	12	advmod	_	_
 8	su	biti	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 9	domaći	domaći	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
 10	OIF-ovi	OIF	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
@@ -10637,7 +10637,7 @@
 # text = Zanimljivo je zašto se ocjene dviju najuglednijih svjetskih bonitetnih kuća razlikuju, iako su dosad imali istovjetne rejtinge za Holding.
 1	Zanimljivo	zanimljiv	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 2	je	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
-3	zašto	zašto	ADV	_	Degree=Pos|PronType=Int,Rel	11	mark	_	_
+3	zašto	zašto	ADV	_	Degree=Pos|PronType=Int,Rel	11	advmod	_	_
 4	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	11	obj	_	_
 5	ocjene	ocjena	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
 6	dviju	dva	NUM	_	Case=Gen|Gender=Fem|NumType=Card	10	nummod	_	_
@@ -10764,7 +10764,7 @@
 3	primjer	primjer	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	samo	samo	ADV	_	Degree=Pos	5	advmod	_	_
 5	potvrđuje	potvrđivati	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	zašto	zašto	ADV	_	Degree=Pos|PronType=Int,Rel	15	mark	_	_
+6	zašto	zašto	ADV	_	Degree=Pos|PronType=Int,Rel	15	advmod	_	_
 7	je	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
 8	rejting	rejting	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	15	nsubj:pass	_	_
 9	samih	sam	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_
@@ -12274,7 +12274,7 @@
 12	s	sa	ADP	_	Case=Ins	14	case	_	_
 13	transnacionalnim	transnacionalan	ADJ	_	Case=Ins|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_
 14	projektima	projekt	NOUN	_	Case=Ins|Gender=Masc|Number=Plur	11	nmod	_	_
-15	gdje	gdje	ADV	_	Degree=Pos|PronType=Int,Rel	18	mark	_	_
+15	gdje	gdje	ADV	_	Degree=Pos|PronType=Int,Rel	18	advmod	_	_
 16	je	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
 17	još	još	ADV	_	Degree=Pos	18	advmod	_	_
 18	moguće	moguć	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	14	acl	_	SpaceAfter=No
@@ -12407,7 +12407,7 @@
 8	HAMAG	HAMAG	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	22	punct	_	_
 10	no	no	CCONJ	_	_	22	cc	_	_
-11	koliko	koliko	ADV	_	Degree=Pos	13	mark	_	_
+11	koliko	koliko	ADV	_	Degree=Pos	13	advmod	_	_
 12	je	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 13	vidljivo	vidljiv	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	22	parataxis	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
@@ -12456,7 +12456,7 @@
 15	kreditorima	kreditor	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	14	obj	_	_
 16	u	u	ADP	_	Case=Loc	17	case	_	_
 17	slučajevima	slučaj	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	14	obl	_	_
-18	kada	kada	ADV	_	Degree=Pos|PronType=Int,Rel	21	mark	_	_
+18	kada	kada	ADV	_	Degree=Pos|PronType=Int,Rel	21	advmod	_	_
 19	poduzetnici	poduzetnik	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
 20	ne	ne	PART	_	Polarity=Neg	21	advmod	_	_
 21	raspolažu	raspolagati	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl	_	_
@@ -12722,7 +12722,7 @@
 9	bit	biti	AUX	_	VerbForm=Inf	11	cop	_	_
 10	će	htjeti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	vidljivija	vidljiv	ADJ	_	Case=Nom|Definite=Def|Degree=Cmp|Gender=Fem|Number=Sing	0	root	_	_
-12	kada	kada	ADV	_	Degree=Pos|PronType=Int,Rel	17	mark	_	_
+12	kada	kada	ADV	_	Degree=Pos|PronType=Int,Rel	17	advmod	_	_
 13	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	17	expl:pv	_	_
 14	bude	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 15	početkom	početkom	ADP	_	Case=Gen	16	case	_	_
@@ -13068,7 +13068,7 @@
 9	nisu	biti	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
 10	dostavljeni	dostaviti	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	1	csubj	_	_
 11	podaci	podatak	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	10	nsubj:pass	_	_
-12	koliko	koliko	ADV	_	Degree=Pos	16	mark	_	_
+12	koliko	koliko	ADV	_	Degree=Pos	16	advmod	_	_
 13	MUP	MUP	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
 14	i	i	CCONJ	_	_	15	cc	_	_
 15	MORH	MORH	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_
