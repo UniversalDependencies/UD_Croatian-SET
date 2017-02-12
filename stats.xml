@@ -96,7 +96,7 @@
     <dep name="aux">7534</dep>
     <dep name="aux:pass">998</dep>
     <dep name="case">18936</dep>
-    <dep name="cc">7373</dep>
+    <dep name="cc">7528</dep>
     <dep name="ccomp">1766</dep>
     <dep name="compound">2275</dep>
     <dep name="conj">9414</dep>
@@ -105,7 +105,7 @@
     <dep name="csubj:pass">61</dep>
     <dep name="dep">9</dep>
     <dep name="det">2070</dep>
-    <dep name="discourse">2195</dep>
+    <dep name="discourse">2040</dep>
     <dep name="dislocated">8</dep>
     <dep name="expl">12</dep>
     <dep name="expl:pv">2161</dep>

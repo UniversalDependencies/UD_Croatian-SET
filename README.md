@@ -46,7 +46,8 @@ See file LICENSE.txt for further licensing information.
   * all pronouns, determiners and pronominal adverbs have PronType
   * all verbs have VerbForm; all finite verbs have Mood
   * ordinal numerals are ADJ like elsewhere in UD, not NUM (but they keep NumType=Ord)
-  * relative pronouns and determiners are not attached as mark (subordinating conjunctions keep the mark relation)
+  * relative pronouns, determiners and adverbs are not attached as mark (subordinating conjunctions keep the mark relation)
+  * coordinating conjunctions at the beginning of sentence are attached as cc, not discourse
 
 2017-02-09
 
