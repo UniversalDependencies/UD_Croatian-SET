@@ -91,7 +91,7 @@
     <dep name="advcl">1753</dep>
     <dep name="advmod">8060</dep>
     <dep name="advmod:emph">43</dep>
-    <dep name="amod">17945</dep>
+    <dep name="amod">18228</dep>
     <dep name="appos">2894</dep>
     <dep name="aux">7534</dep>
     <dep name="aux:pass">998</dep>
@@ -104,7 +104,7 @@
     <dep name="csubj">298</dep>
     <dep name="csubj:pass">61</dep>
     <dep name="dep">9</dep>
-    <dep name="det">2070</dep>
+    <dep name="det">3518</dep>
     <dep name="discourse">2040</dep>
     <dep name="dislocated">8</dep>
     <dep name="expl">12</dep>
@@ -116,12 +116,12 @@
     <dep name="iobj">689</dep>
     <dep name="list">24</dep>
     <dep name="mark">3941</dep>
-    <dep name="nmod">20012</dep>
+    <dep name="nmod">18289</dep>
     <dep name="nsubj">12922</dep>
     <dep name="nsubj:pass">1037</dep>
     <dep name="nummod">2888</dep>
     <dep name="obj">8719</dep>
-    <dep name="obl">12234</dep>
+    <dep name="obl">12226</dep>
     <dep name="orphan">152</dep>
     <dep name="parataxis">2268</dep>
     <dep name="punct">23907</dep>
