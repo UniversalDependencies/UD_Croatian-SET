@@ -43,7 +43,7 @@ See file LICENSE.txt for further licensing information.
   * a few remnant relations could not be converted and wait for manual solution (renamed to dep:remnant)
   * by UD guidelines, reflexive pronouns with inherently reflexive verbs are now attached as expl:pv, not compound
 * a number of enhancements and bug fixes
-  * all pronouns and determiners have PronType
+  * all pronouns, determiners and pronominal adverbs have PronType
   * all verbs have VerbForm; all finite verbs have Mood
   * ordinal numerals are ADJ like elsewhere in UD, not NUM (but they keep NumType=Ord)
   * relative pronouns and determiners are not attached as mark (subordinating conjunctions keep the mark relation)

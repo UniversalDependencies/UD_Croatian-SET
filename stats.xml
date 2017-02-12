@@ -67,13 +67,13 @@
     <feat name="Polarity" value="Neg" upos="ADP,AUX,CCONJ,NOUN,PART,PROPN">1150</feat><!-- ne, nije, neće, nisu, ni, niti, nisam, nismo, nećemo, neću -->
     <feat name="Polarity" value="Pos" upos="PART">11</feat><!-- da -->
     <feat name="Poss" value="Yes" upos="ADJ,DET">1908</feat><!-- svoje, svoj, svoju, svojim, njegova, svojih, njegov, naše, svojoj, njihov -->
-    <feat name="PronType" value="Dem" upos="DET,PRON">2444</feat><!-- to, ove, toga, tome, taj, te, ovog, tom, ovaj, ovo -->
-    <feat name="PronType" value="Ind" upos="DET,PRON">365</feat><!-- neki, neke, nešto, nekim, neka, nekog, netko, nekih, neku, nekoga -->
+    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">2973</feat><!-- to, sada, tako, ove, toga, tome, taj, te, ovog, tom -->
+    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">397</feat><!-- neki, neke, nešto, nekim, neka, nekog, netko, nekih, ponekad, neku -->
     <feat name="PronType" value="Int" upos="DET">7</feat><!-- Koji, Kakav, Kakva, Kakvi, Kakvu, Koje -->
-    <feat name="PronType" value="Int,Rel" upos="DET,PRON">3312</feat><!-- koji, što, koje, koja, kojima, koju, kojoj, kojem, kojim, kojeg -->
-    <feat name="PronType" value="Neg" upos="DET,PRON">118</feat><!-- ništa, nitko, nikome, nikakve, nikakvu, nikakvih, nikoga, nikakvi, ničeg, NIKOG -->
+    <feat name="PronType" value="Int,Rel" upos="ADV,DET,PRON">3835</feat><!-- koji, što, koje, koja, kada, kojima, kad, koju, kako, kojoj -->
+    <feat name="PronType" value="Neg" upos="ADV,DET,PRON">138</feat><!-- ništa, nitko, nikako, nikome, nikakve, nigdje, ikad, nikakvu, nikakvih, nikoga -->
     <feat name="PronType" value="Prs" upos="DET,PRON">5918</feat><!-- se, svoje, ih, mi, ga, im, mu, on, svoj, njih -->
-    <feat name="PronType" value="Tot" upos="DET,PRON">725</feat><!-- sve, svi, svih, svim, svaki, svaka, sva, svega, svakog, svake -->
+    <feat name="PronType" value="Tot" upos="ADV,DET,PRON">869</feat><!-- sve, uvijek, svi, svih, svim, svaki, svaka, sva, svega, svakog -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">3542</feat><!-- se, svoje, svoj, svoju, svojim, svojih, svojoj, svojeg, sebe, svog -->
     <feat name="Tense" value="Imp" upos="AUX">2</feat><!-- bijaše -->
     <feat name="Tense" value="Past" upos="AUX,VERB">779</feat><!-- bi, biste, bih, bismo, može, dogodi, hoće, iznosi, osigura, pobuni -->
