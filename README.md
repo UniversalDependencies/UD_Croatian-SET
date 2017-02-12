@@ -47,6 +47,7 @@ See file LICENSE.txt for further licensing information.
   * all verbs have VerbForm; all finite verbs have Mood
   * ordinal numerals are ADJ like elsewhere in UD, not NUM (but they keep NumType=Ord)
   * relative pronouns, determiners and adverbs are not attached as mark (subordinating conjunctions keep the mark relation)
+  * possessive adjectives and determiners are amod and det respectively; not nmod
   * coordinating conjunctions at the beginning of sentence are attached as cc, not discourse
 
 2017-02-09
