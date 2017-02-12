@@ -4,7 +4,7 @@
 
 Contains 7,689 sentences (169,283 tokens) from three sources:
 
-1. Sentences 0001-3557: Newspaper text from the [Southeast European Times](http://en.wikipedia.org/wiki/Southeast_European_Times) news website, obtained from the [SETimes parallel corpus](http://nlp.ffzg.hr/resources/corpora/setimes/). This part of the treebank is built on top of the [SETimes.HR dependency treebank of Croatian](https://github.com/ffnlp/sethr); 
+1. Sentences 0001-3557: Newspaper text from the [Southeast European Times](http://en.wikipedia.org/wiki/Southeast_European_Times) news website, obtained from the [SETimes parallel corpus](http://nlp.ffzg.hr/resources/corpora/setimes/). This part of the treebank is built on top of the [SETimes.HR dependency treebank of Croatian](https://github.com/ffnlp/sethr);
 2. Sentences 3558-5792: Text from various [Croatian web sources](http://nl.ijs.si/isjt14/proceedings/isjt2014_10.pdf).
 3. Sentences 5793-7689: Croatian news web sources.
 
@@ -12,15 +12,15 @@ Contains 7,689 sentences (169,283 tokens) from three sources:
 
 Contains 600 sentences (14,533 tokens) from two sources:
 
-1. 001-200: newspaper text from the Croatian SETimes, 
+1. 001-200: newspaper text from the Croatian SETimes,
 2. 201-600: Croatian news web sources.
 
 ### Test set.
 
 Contains 600 sentences (13,228 tokens) from three sources:
 
-1. sentences 001-100: newspaper text, 
-2. sentences 101-200: Wikipedia, 
+1. sentences 001-100: newspaper text,
+2. sentences 101-200: Wikipedia,
 3. sentences 201-297: web sources, and
 4. sentences 298-600: Croatian news web sources.
 
@@ -35,6 +35,18 @@ When using the Croatian UD treebank, please cite the following paper:
 See file LICENSE.txt for further licensing information.
 
 ### Changelog
+
+2017-02-15
+
+* converted to UD v2 standard
+  * nmod vs. obl under non-verbal predicates should be checked manually (see the ToDo attribute in the MISC column)
+  * a few remnant relations could not be converted and wait for manual solution (renamed to dep:remnant)
+  * by UD guidelines, reflexive pronouns with inherently reflexive verbs are now attached as expl:pv, not compound
+* a number of enhancements and bug fixes
+  * all pronouns and determiners have PronType
+  * all verbs have VerbForm; all finite verbs have Mood
+  * ordinal numerals are ADJ like elsewhere in UD, not NUM (but they keep NumType=Ord)
+  * relative pronouns and determiners are not attached as mark (subordinating conjunctions keep the mark relation)
 
 2017-02-09
 
