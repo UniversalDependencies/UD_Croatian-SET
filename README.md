@@ -1,4 +1,9 @@
-# Universal Dependencies for Croatian
+# Summary
+
+The Croatian UD treebank is based on the SETimes-HR corpus.
+
+
+# Introduction
 
 ### Training set.
 
@@ -28,13 +33,17 @@ Contains 600 sentences (13,228 tokens) from three sources:
 
 Sentence and word segmentation was manually checked. The treebank does not include multiword tokens. No language-specific features and relations were used. The POS tags and features were converted from [Multext East v4](http://nlp.ffzg.hr/data/tagging/msd-hr.html) and manually checked. The syntactic annotation was done manually.
 
+
+# Acknowledgments
+
 When using the Croatian UD treebank, please cite the following paper:
 
 * Željko Agić and Nikola Ljubešić. 2015. [Universal Dependencies for Croatian (that work for Serbian, too).](http://aclweb.org/anthology/W/W15/W15-5301.pdf). In Proc. BSNLP, pp. 1--8 ([bib](http://aclweb.org/anthology/W/W15/W15-5301.bib)).
 
 See file LICENSE.txt for further licensing information.
 
-### Changelog
+
+# Changelog
 
 2017-02-15
 
@@ -60,13 +69,19 @@ See file LICENSE.txt for further licensing information.
 
 
 
+<pre>
 === Machine-readable metadata =================================================
-Documentation status: stub
-Data source: semi-automatic
 Data available since: UD v1.1
 License: CC BY-SA 4.0
+Includes text: yes
 Genre: news web wiki
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual native
+Features: converted from manual
+Relations: manual native
 Contributors: Agić, Željko; Ljubešić, Nikola; Zeman, Daniel
+Contributing: elsewhere
 Contact: zeljko.agic@gmail.com
 ===============================================================================
-
+</pre>
