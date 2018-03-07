@@ -2243,10 +2243,10 @@
 26	je	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
 27	trajao	trajati	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	22	acl	_	_
 28	do	do	ADP	_	Case=Gen	29	case	_	_
-29	1992.	1992.	ADJ	_	NumType=Ord	32	conj	_	orig_deprel=amod
+29	1992.	1992.	ADJ	_	NumType=Ord	27	obl	_	orig_deprel=amod
 30	do	do	ADP	_	Case=Gen	32	case	_	_
 31	1995.	1995.	ADJ	_	NumType=Ord	32	amod	_	_
-32	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+32	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	29	conj	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = dev-s82
@@ -2851,10 +2851,10 @@
 11	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	9	obj	_	_
 12	za	za	ADP	_	Case=Acc	18	case	_	_
 13	oko	oko	ADV	_	Degree=Pos	17	advmod	_	_
-14	50	50	NUM	_	NumType=Card	17	conj	_	orig_deprel=compound
+14	50	50	NUM	_	NumType=Card	18	nummod	_	orig_deprel=compound
 15	do	do	ADP	_	Case=Gen	16	case	_	_
 16	70	70	NUM	_	NumType=Card	17	compound	_	_
-17	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	18	nummod	_	_
+17	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	14	conj	_	_
 18	godina	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	22	punct	_	_
 20	što	što	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Int,Rel	22	nsubj	_	_
@@ -5939,19 +5939,19 @@
 21	prodala	prodati	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	14	acl	_	_
 22	38.266	38.266	NUM	_	NumType=Card	23	nummod	_	_
 23	tona	tona	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	21	obj	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	21	punct	_	ToDo=punct-in-coord
+24	,	,	PUNCT	_	_	36	punct	_	ToDo=punct-in-coord
 25	u	u	ADP	_	Case=Loc	26	case	_	_
 26	ostatku	ostatak	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	36	orphan	_	orig_deprel=obl
 27	bivše	bivši	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
 28	Jugoslavije	Jugoslavija	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
-29	68.100	68.100	NUM	_	NumType=Card	36	orphan	_	orig_deprel=nummod|SpaceAfter=No
+29	68.100	68.100	NUM	_	NumType=Card	36	orphan	_	SpaceAfter=No|orig_deprel=nummod
 30	,	,	PUNCT	_	_	36	punct	_	_
 31	a	a	CCONJ	_	_	36	cc	_	_
 32	u	u	ADP	_	Case=Loc	34	case	_	_
 33	trećim	treći	ADJ	_	Case=Loc|Gender=Fem|Number=Plur|NumType=Ord	34	amod	_	_
 34	zemljama	zemlja	NOUN	_	Case=Loc|Gender=Fem|Number=Plur	36	orphan	_	orig_deprel=obl
 35	6127	6127	NUM	_	NumType=Card	36	nummod	_	_
-36	tona	tona	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	21	conj	_	orig_deprel=obj|SpaceAfter=No
+36	tona	tona	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	21	conj	_	SpaceAfter=No|orig_deprel=obj
 37	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = dev-s219
@@ -6006,17 +6006,17 @@
 13	su	biti	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 14	31.284	31.284	NUM	_	NumType=Card	15	nummod	_	_
 15	tone	tona	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	12	punct	_	ToDo=punct-in-coord
+16	,	,	PUNCT	_	_	26	punct	_	ToDo=punct-in-coord
 17	na	na	ADP	_	Case=Loc	18	case	_	_
 18	tržištu	tržište	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	26	orphan	_	orig_deprel=obl
 19	bivše	bivši	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
 20	države	država	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
 21	19.268	19.268	NUM	_	NumType=Card	26	orphan	_	orig_deprel=nummod
-22	i	i	CCONJ	_	_	12	punct	_	_
+22	i	i	CCONJ	_	_	26	punct	_	_
 23	na	na	ADP	_	Case=Loc	24	case	_	_
 24	svjetskom	svjetski	ADJ	_	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	26	orphan	_	orig_deprel=amod
 25	11.017	11.017	NUM	_	NumType=Card	26	nummod	_	_
-26	tona	tona	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	12	conj	_	orig_deprel=obj|SpaceAfter=No
+26	tona	tona	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	12	conj	_	SpaceAfter=No|orig_deprel=obj
 27	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = dev-s222
@@ -6069,7 +6069,7 @@
 32	a	a	CCONJ	_	_	35	cc	_	_
 33	lani	lani	ADV	_	Degree=Pos	35	orphan	_	orig_deprel=amod
 34	37,2	37,2	NUM	_	NumType=Card	35	nummod	_	_
-35	%	%	SYM	_	_	26	conj	_	orig_deprel=advmod|SpaceAfter=No
+35	%	%	SYM	_	_	26	conj	_	SpaceAfter=No|orig_deprel=advmod
 36	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = dev-s224
@@ -7199,7 +7199,7 @@
 35	ostatak	ostatak	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	30	conj	_	orig_deprel=nsubj
 36	na	na	ADP	_	Case=Acc	38	case	_	_
 37	pravne	pravni	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	38	amod	_	_
-38	osobe	osoba	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	35	orphan	_	orig_deprel=obl|SpaceAfter=No
+38	osobe	osoba	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	35	orphan	_	SpaceAfter=No|orig_deprel=obl
 39	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = dev-s266
@@ -7469,7 +7469,7 @@
 9	a	a	CCONJ	_	_	10	cc	_	_
 10	upisnina	upisnina	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	orig_deprel=nsubj
 11	45	45	NUM	_	NumType=Card	12	nummod	_	_
-12	kuna	kuna	PROPN	_	Case=Gen|Gender=Fem|Number=Plur	10	orphan	_	orig_deprel=obl|SpaceAfter=No
+12	kuna	kuna	PROPN	_	Case=Gen|Gender=Fem|Number=Plur	10	orphan	_	SpaceAfter=No|orig_deprel=obl
 13	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = dev-s275
@@ -8205,7 +8205,7 @@
 6	osnovati	osnovati	VERB	_	VerbForm=Inf	5	xcomp	_	_
 7	energetsku	energetski	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 8	tvrtku	tvrtka	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
-9	ili	ili	CCONJ	_	_	5	cc	_	SpaceAfter=No|ToDo=cc-in-coord
+9	ili	ili	CCONJ	_	_	17	cc	_	SpaceAfter=No|ToDo=cc-in-coord
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	još	još	ADV	_	Degree=Pos	12	advmod	_	_
 12	bolje	dobro	ADV	_	Degree=Cmp	5	advmod	_	SpaceAfter=No
@@ -9094,7 +9094,7 @@
 8	drugi	drugi	ADJ	_	Case=Nom|Gender=Masc|Number=Plur|NumType=Ord	3	conj	_	orig_deprel=nsubj
 9	u	u	ADP	_	Case=Acc	11	case	_	_
 10	više	mnogo	ADV	_	Degree=Cmp|NumType=Card|PronType=Ind	11	advmod	_	_
-11	njih	oni	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	8	orphan	_	orig_deprel=obl|SpaceAfter=No
+11	njih	oni	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	8	orphan	_	SpaceAfter=No|orig_deprel=obl
 12	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = dev-s346
@@ -11155,12 +11155,12 @@
 13	iznosi	iznositi	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	4,2	4,2	NUM	_	NumType=Card	15	nummod	_	_
 15	posto	posto	ADV	_	Degree=Pos	13	advmod	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	13	punct	_	ToDo=punct-in-coord
+16	,	,	PUNCT	_	_	27	punct	_	ToDo=punct-in-coord
 17	na	na	ADP	_	Case=Acc	19	case	_	_
 18	tri	tri	NUM	_	NumType=Card	19	nummod	_	_
 19	mjeseca	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	27	orphan	_	orig_deprel=nmod
 20	4,7	4,7	NUM	_	NumType=Card	21	nummod	_	_
-21	posto	posto	ADV	_	Degree=Pos	27	orphan	_	orig_deprel=advmod|SpaceAfter=No
+21	posto	posto	ADV	_	Degree=Pos	27	orphan	_	SpaceAfter=No|orig_deprel=advmod
 22	,	,	PUNCT	_	_	27	punct	_	_
 23	na	na	ADP	_	Case=Acc	25	case	_	_
 24	pola	pola	ADV	_	Degree=Pos	25	advmod	_	_
@@ -11300,11 +11300,11 @@
 39	rok	rok	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	40	obl	_	_
 40	nude	nuditi	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	acl	_	_
 41	isključivo	isključivo	ADV	_	Degree=Pos	40	advmod	_	_
-42	a	a	ADP	_	_	43	flat:foreign	_	_
-43	vista	vist	ADP	_	_	44	flat:foreign	_	_
-44	štednju	štednja	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	40	obj	_	_
+42	a	a	ADP	_	_	40	obj	_	_
+43	vista	vist	ADP	_	_	42	flat:foreign	_	_
+44	štednju	štednja	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	42	flat:foreign	_	_
 45	uz	uz	ADP	_	Case=Acc	46	case	_	_
-46	kamatu	kamata	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	44	nmod	_	_
+46	kamatu	kamata	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	42	nmod	_	ToDo=nmod
 47	nižu	nizak	ADJ	_	Case=Acc|Definite=Def|Degree=Cmp|Gender=Fem|Number=Sing	46	amod	_	_
 48	od	od	ADP	_	Case=Gen	49	case	_	_
 49	0,5	0,5	NUM	_	NumType=Card	50	nummod	_	_
@@ -11352,18 +11352,18 @@
 37	iznosi	iznositi	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
 38	4,5	4,5	NUM	_	NumType=Card	39	nummod	_	_
 39	posto	posto	ADV	_	Degree=Pos	37	advmod	_	SpaceAfter=No
-40	,	,	PUNCT	_	_	37	punct	_	ToDo=punct-in-coord
+40	,	,	PUNCT	_	_	59	punct	_	ToDo=punct-in-coord
 41	tri	tri	NUM	_	NumType=Card	42	nummod	_	_
 42	mjeseca	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	59	orphan	_	orig_deprel=nmod
 43	4,7	4,7	NUM	_	NumType=Card	44	nummod	_	_
-44	posto	posto	ADV	_	Degree=Pos	59	orphan	_	orig_deprel=advmod|SpaceAfter=No
-45	,	,	PUNCT	_	_	37	punct	_	ToDo=punct-in-coord
+44	posto	posto	ADV	_	Degree=Pos	59	orphan	_	SpaceAfter=No|orig_deprel=advmod
+45	,	,	PUNCT	_	_	59	punct	_	ToDo=punct-in-coord
 46	više	mnogo	ADV	_	Degree=Cmp|NumType=Card|PronType=Ind	49	advmod	_	_
 47	od	od	ADP	_	Case=Gen	48	case	_	_
 48	šest	šest	NUM	_	NumType=Card	49	nummod	_	_
 49	mjeseci	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	59	orphan	_	orig_deprel=nmod
 50	4,8	4,8	NUM	_	NumType=Card	51	nummod	_	_
-51	posto	posto	ADV	_	Degree=Pos	59	orphan	_	orig_deprel=advmod|SpaceAfter=No
+51	posto	posto	ADV	_	Degree=Pos	59	orphan	_	SpaceAfter=No|orig_deprel=advmod
 52	,	,	PUNCT	_	_	59	punct	_	_
 53	a	a	CCONJ	_	_	59	cc	_	_
 54	više	mnogo	ADV	_	Degree=Cmp|NumType=Card|PronType=Ind	56	advmod	_	_
@@ -11371,7 +11371,7 @@
 56	godinu	godina	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	59	orphan	_	orig_deprel=nmod
 57	dana	dan	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	56	nmod	_	_
 58	5,25	5,25	NUM	_	NumType=Card	59	nummod	_	_
-59	posto	posto	ADV	_	Degree=Pos	37	conj	_	orig_deprel=advmod|SpaceAfter=No
+59	posto	posto	ADV	_	Degree=Pos	37	conj	_	SpaceAfter=No|orig_deprel=advmod
 60	.	.	PUNCT	_	_	22	punct	_	_
 
 # sent_id = dev-s429
@@ -11413,7 +11413,7 @@
 35	posto	posto	ADV	_	Degree=Pos	30	conj	_	orig_deprel=advmod
 36	na	na	ADP	_	Case=Acc	38	case	_	_
 37	tri	tri	NUM	_	NumType=Card	38	nummod	_	_
-38	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	35	orphan	_	orig_deprel=nmod|SpaceAfter=No
+38	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	35	orphan	_	SpaceAfter=No|orig_deprel=nmod
 39	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = dev-s430
@@ -11549,7 +11549,7 @@
 25	sve	sve	PART	_	_	26	discourse	_	_
 26	do	do	ADP	_	Case=Gen	27	case	_	_
 27	3,6	3,6	NUM	_	NumType=Card	23	conj	_	_
-28	posto	posto	ADV	_	Degree=Pos	22	orphan	_	orig_deprel=advmod|SpaceAfter=No
+28	posto	posto	ADV	_	Degree=Pos	22	orphan	_	SpaceAfter=No|orig_deprel=advmod
 29	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = dev-s435
@@ -11612,18 +11612,18 @@
 14	iznosi	iznositi	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	3	3	NUM	_	NumType=Card	16	nummod	_	_
 16	posto	posto	ADV	_	Degree=Pos	14	advmod	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	14	punct	_	ToDo=punct-in-coord
+17	,	,	PUNCT	_	_	40	punct	_	ToDo=punct-in-coord
 18	na	na	ADP	_	Case=Acc	20	case	_	_
 19	tri	tri	NUM	_	NumType=Card	20	nummod	_	_
 20	mjeseca	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	40	orphan	_	orig_deprel=nmod
 21	3,5	3,5	NUM	_	NumType=Card	22	nummod	_	_
-22	posto	posto	ADV	_	Degree=Pos	40	orphan	_	orig_deprel=advmod|SpaceAfter=No
-23	,	,	PUNCT	_	_	14	punct	_	ToDo=punct-in-coord
+22	posto	posto	ADV	_	Degree=Pos	40	orphan	_	SpaceAfter=No|orig_deprel=advmod
+23	,	,	PUNCT	_	_	40	punct	_	ToDo=punct-in-coord
 24	na	na	ADP	_	Case=Acc	26	case	_	_
 25	šest	šest	NUM	_	NumType=Card	26	nummod	_	_
 26	mjeseci	mjesec	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	40	orphan	_	orig_deprel=nmod
 27	4	4	NUM	_	NumType=Card	28	nummod	_	_
-28	posto	posto	ADV	_	Degree=Pos	40	orphan	_	orig_deprel=advmod|SpaceAfter=No
+28	posto	posto	ADV	_	Degree=Pos	40	orphan	_	SpaceAfter=No|orig_deprel=advmod
 29	,	,	PUNCT	_	_	40	punct	_	_
 30	na	na	ADP	_	Case=Acc	31	case	_	_
 31	godinu	godina	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	40	orphan	_	orig_deprel=nmod
@@ -11635,7 +11635,7 @@
 37	dvije	dva	NUM	_	Case=Acc|Gender=Fem|NumType=Card	38	nummod	_	_
 38	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	40	orphan	_	orig_deprel=nmod
 39	5	5	NUM	_	NumType=Card	40	nummod	_	_
-40	posto	posto	ADV	_	Degree=Pos	14	conj	_	orig_deprel=advmod|SpaceAfter=No
+40	posto	posto	ADV	_	Degree=Pos	14	conj	_	SpaceAfter=No|orig_deprel=advmod
 41	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = dev-s437
@@ -12908,9 +12908,9 @@
 22	289	289	NUM	_	NumType=Card	23	nummod	_	_
 23	milijuna	milijun	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	21	obj	_	_
 24	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	21	punct	_	_
+25	,	,	PUNCT	_	_	30	punct	_	_
 26	Sabor	Sabor	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	30	orphan	_	orig_deprel=nsubj
-27	177	177	NUM	_	NumType=Card	30	orphan	_	orig_deprel=nummod|SpaceAfter=No
+27	177	177	NUM	_	NumType=Card	30	orphan	_	SpaceAfter=No|orig_deprel=nummod
 28	,	,	PUNCT	_	_	21	punct	_	_
 29	a	a	CCONJ	_	_	21	cc	_	ToDo=cc-without-conj
 30	Ured	ured	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	orig_deprel=nsubj
@@ -14716,7 +14716,7 @@
 7	prisjetio	prisjetiti	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	parataxis	_	_
 8	se	sebe	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	7	expl:pv	_	_
 9	Štern	Štern	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	7	punct	_	_
+10	,	,	PUNCT	_	_	14	punct	_	_
 11	ili	ili	CCONJ	_	_	14	cc	_	_
 12	točnije	točno	ADV	_	Degree=Cmp	14	advmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
@@ -15067,7 +15067,7 @@
 15	godinu	godina	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	18	orphan	_	orig_deprel=obl
 16	prije	prije	ADV	_	Degree=Pos	15	advmod	_	_
 17	110	110	NUM	_	NumType=Card	18	nummod	_	_
-18	sati	sat	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	10	conj	_	orig_deprel=obl|SpaceAfter=No
+18	sati	sat	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No|orig_deprel=obl
 19	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = dev-s553
@@ -15854,7 +15854,7 @@
 33	1,2	1,2	NUM	_	NumType=Card	34	nummod	_	_
 34	milijarde	milijarda	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	29	conj	_	orig_deprel=obl
 35	u	u	ADP	_	Case=Loc	36	case	_	_
-36	2007.	2007.	ADJ	_	NumType=Ord	34	orphan	_	orig_deprel=amod|SpaceAfter=No
+36	2007.	2007.	ADJ	_	NumType=Ord	34	orphan	_	SpaceAfter=No|orig_deprel=amod
 37	,	,	PUNCT	_	_	52	punct	_	_
 38	dok	dok	SCONJ	_	_	52	cc	_	_
 39	je	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	aux	_	_
@@ -16328,6 +16328,6 @@
 9	u	u	ADP	_	Case=Loc	10	case	_	_
 10	KBC-u	KBC	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	4	conj	_	orig_deprel=obl
 11	Split	Split	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	10	flat	_	_
-12	tri	tri	NUM	_	NumType=Card	10	orphan	_	orig_deprel=nummod|SpaceAfter=No
+12	tri	tri	NUM	_	NumType=Card	10	orphan	_	SpaceAfter=No|orig_deprel=nummod
 13	.	.	PUNCT	_	_	4	punct	_	_
 

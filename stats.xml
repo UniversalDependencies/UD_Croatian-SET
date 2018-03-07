@@ -53,7 +53,7 @@
     <feat name="Gender[psor]" value="Masc,Neut" upos="DET">224</feat><!-- njegova, njegov, njegove, njegovu, njegovim, njegovoj, njegovog, njegovih, njegovo, njegovom -->
     <feat name="Mood" value="Cnd" upos="AUX">772</feat><!-- bi, biste, bih, bismo -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">218</feat><!-- kliknite, recimo, izbjegavajte, koristite, potražite, pročitajte, čuvajte, daj, odaberite, otiđite -->
-    <feat name="Mood" value="Ind" upos="AUX,VERB">18153</feat><!-- je, su, će, nije, smo, može, ima, kaže, treba, sam -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">18156</feat><!-- je, su, će, nije, smo, može, ima, kaže, treba, sam -->
     <feat name="Number" value="Plur" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">32971</feat><!-- su, koji, koje, smo, će, bi, milijuna, godina, eura, kuna -->
     <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">85641</feat><!-- je, će, to, koji, godine, bi, nije, koja, EU, može -->
     <feat name="Number[psor]" value="Plur" upos="DET">402</feat><!-- naše, njihov, njihova, naš, njihove, naša, njihovu, naših, našim, njihovo -->
@@ -79,7 +79,7 @@
     <feat name="Tense" value="Past" upos="ADV,AUX,VERB">7482</feat><!-- bi, izjavio, bio, bilo, rekao, kazao, bila, bili, mogli, dodao -->
     <feat name="Tense" value="Pres" upos="ADV,AUX,VERB">18262</feat><!-- je, su, će, nije, smo, može, ima, kaže, treba, sam -->
     <feat name="VerbForm" value="Conv" upos="ADV">155</feat><!-- zahvaljujući, uključujući, govoreći, Budući, dodavši, koristeći, sudeći, tražeći, Komentirajući, baveći -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">19143</feat><!-- je, su, će, bi, nije, smo, može, ima, kaže, treba -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">19146</feat><!-- je, su, će, bi, nije, smo, može, ima, kaže, treba -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">3892</feat><!-- biti, bit, imati, pomoći, raditi, pronaći, vidjeti, reći, nastaviti, dobiti -->
     <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">8704</feat><!-- izjavio, bio, bilo, rekao, kazao, bila, bili, mogli, dodao, mogla -->
     <feat name="Voice" value="Act" upos="AUX,VERB">6666</feat><!-- izjavio, bio, bilo, rekao, kazao, bila, bili, mogli, dodao, mogla -->

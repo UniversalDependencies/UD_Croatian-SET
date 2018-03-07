@@ -1236,12 +1236,12 @@
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	2004.	2004.	ADJ	_	NumType=Ord	14	amod	_	_
 14	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	7	conj	_	orig_deprel=obl
-15	15	15	NUM	_	NumType=Card	14	orphan	_	orig_deprel=nummod|SpaceAfter=No
+15	15	15	NUM	_	NumType=Card	14	orphan	_	SpaceAfter=No|orig_deprel=nummod
 16	,	,	PUNCT	_	_	19	punct	_	_
 17	a	a	CCONJ	_	_	19	cc	_	_
 18	ove	ovaj	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
 19	godine	godina	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	7	conj	_	orig_deprel=obl
-20	21	21	NUM	_	NumType=Card	19	orphan	_	orig_deprel=nummod|SpaceAfter=No
+20	21	21	NUM	_	NumType=Card	19	orphan	_	SpaceAfter=No|orig_deprel=nummod
 21	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = test-s49
@@ -3125,11 +3125,11 @@
 3	graniči	graničiti	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	s	s	ADP	_	Case=Ins	5	case	_	_
 5	Mađarskom	Mađarska	PROPN	_	Case=Ins|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	8	punct	_	_
+6	,	,	PUNCT	_	_	10	punct	_	_
 7	na	na	ADP	_	Case=Loc	8	case	_	_
 8	zapadu	zapad	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	10	orphan	_	orig_deprel=obl
 9	s	s	ADP	_	Case=Ins	10	case	_	_
-10	Hrvatskom	Hrvatska	PROPN	_	Case=Ins|Gender=Fem|Number=Sing	3	conj	_	orig_deprel=obl|SpaceAfter=No
+10	Hrvatskom	Hrvatska	PROPN	_	Case=Ins|Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No|orig_deprel=obl
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	Bosnom	Bosna	PROPN	_	Case=Ins|Gender=Fem|Number=Sing	10	conj	_	_
 13	i	i	CCONJ	_	_	12	flat	_	_
@@ -3137,7 +3137,7 @@
 15	i	i	CCONJ	_	_	17	cc	_	_
 16	Crnom	Crna	PROPN	_	Case=Ins|Gender=Fem|Number=Sing	17	compound	_	_
 17	Gorom	Gora	PROPN	_	Case=Ins|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	20	punct	_	_
+18	,	,	PUNCT	_	_	22	punct	_	_
 19	na	na	ADP	_	Case=Loc	20	case	_	_
 20	istoku	istok	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	22	orphan	_	orig_deprel=obl
 21	s	s	ADP	_	Case=Ins	22	case	_	_
@@ -3569,11 +3569,11 @@
 3	nasljednica	nasljednica	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 4	Zdravstvene	zdravstven	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	compound	_	_
 5	organizacije	organizacija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	ToDo=nmod
-6	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
-7	engleski	engleski	ADV	_	Degree=Pos	9	advmod	_	_
-8	Health	health	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	9	flat:foreign	_	_
-9	Organisation	Organisation	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
-10	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+6	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+7	engleski	engleski	ADV	_	Degree=Pos	8	advmod	_	_
+8	Health	health	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+9	Organisation	Organisation	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	8	flat:foreign	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	agencije	agencija	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	5	appos	_	_
 13	Lige	liga	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
@@ -3760,14 +3760,14 @@
 3	organizacija	organizacija	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	SZO	SZO	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	_
-6	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
-7	engl.	engl.	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	advmod	_	_
-8	World	World	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	10	flat:foreign	_	_
-9	Health	Health	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	10	flat:foreign	_	_
-10	Organization	Organisation	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+6	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+7	engl.	engl.	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	advmod	_	_
+8	World	World	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+9	Health	Health	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	8	flat:foreign	_	_
+10	Organization	Organisation	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	8	flat:foreign	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	WHO	WHO	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
-13	)	)	PUNCT	_	_	10	punct	_	_
+12	WHO	WHO	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	8	punct	_	_
 14	posebna	poseban	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
 15	je	biti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 16	organizacija	organizacija	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
@@ -4908,20 +4908,20 @@
 15	)	)	PUNCT	_	_	12	punct	_	_
 16	verzijama	verzija	NOUN	_	Case=Loc|Gender=Fem|Number=Plur	8	obl	_	_
 17	Biblije	Biblija	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	31	punct	_	_
-19	no	no	CCONJ	_	_	31	cc	_	_
+18	,	,	PUNCT	_	_	29	punct	_	_
+19	no	no	CCONJ	_	_	29	cc	_	_
 20	zahtjevi	zahtjev	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	31	nsubj	_	_
 21	tiskanja	tiskanje	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	29	punct	_	_
 23	možda	možda	ADV	_	Degree=Pos	24	advmod	_	_
-24	više	mnogo	ADV	_	Degree=Cmp|NumType=Card|PronType=Ind	31	cc	_	_
+24	više	mnogo	ADV	_	Degree=Cmp|NumType=Card|PronType=Ind	29	cc	_	_
 25	nego	nego	CCONJ	_	_	24	compound	_	_
 26	drugi	drugi	ADJ	_	Case=Nom|Gender=Masc|Number=Plur|NumType=Ord	29	nmod	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	29	punct	_	_
 28	teološki	teološki	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	29	amod	_	_
-29	zahtjevi	zahtjev	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	31	conj	_	orig_deprel=nsubj|SpaceAfter=No
-30	,	,	PUNCT	_	_	29	punct	_	_
-31	primorali	primorati	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	8	conj	_	_
+29	zahtjevi	zahtjev	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No|orig_deprel=nsubj
+30	,	,	PUNCT	_	_	31	punct	_	_
+31	primorali	primorati	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	29	conj	_	_
 32	su	biti	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
 33	ih	oni	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	31	obj	_	_
 34	da	da	SCONJ	_	_	35	mark	_	_
@@ -4952,7 +4952,7 @@
 13	stanovnika	stanovnik	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
 14	kao	kao	SCONJ	_	_	16	cc	_	_
 15	i	i	CCONJ	_	_	14	compound	_	_
-16	Hrvatska	Hrvatska	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	10	conj	_	orig_deprel=nsubj|SpaceAfter=No
+16	Hrvatska	Hrvatska	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No|orig_deprel=nsubj
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = test-s209
@@ -5025,7 +5025,7 @@
 13	iščekivanje	iščekivanje	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	11	conj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	nestrpljivost	nestrpljivost	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	11	punct	_	_
+16	,	,	PUNCT	_	_	20	punct	_	_
 17	a	a	CCONJ	_	_	20	cc	_	_
 18	katkada	katkada	ADV	_	Degree=Pos	20	advmod	_	_
 19	i	i	CCONJ	_	_	20	discourse	_	_
@@ -6474,10 +6474,10 @@
 # text = Klape pjevaju u a capella formi bez instrumentalne pratnje.
 1	Klape	Klape	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	pjevaju	pjevati	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	u	u	ADP	_	Case=Loc	6	case	_	_
-4	a	a	ADP	_	_	5	flat:foreign	_	_
-5	capella	capella	ADP	_	_	6	flat:foreign	_	_
-6	formi	forma	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+3	u	u	ADP	_	Case=Loc	4	case	_	_
+4	a	a	ADP	_	_	2	obl	_	_
+5	capella	capella	ADP	_	_	4	flat:foreign	_	_
+6	formi	forma	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	4	flat:foreign	_	_
 7	bez	bez	ADP	_	Case=Gen	9	case	_	_
 8	instrumentalne	instrumentalan	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
 9	pratnje	pratnja	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
@@ -7649,7 +7649,7 @@
 15	razdobljima	razdoblje	NOUN	_	Case=Loc|Gender=Neut|Number=Plur	7	parataxis	_	_
 16	gospodarskog	gospodarski	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
 17	vrhunca	vrhunac	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	15	punct	_	_
+18	,	,	PUNCT	_	_	22	punct	_	_
 19	i	i	CCONJ	_	_	22	cc	_	_
 20	nikada	nikada	ADV	_	Degree=Pos	22	advmod	_	_
 21	nisu	biti	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
@@ -8024,7 +8024,7 @@
 8	političke	politički	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	4	parataxis	_	_
 9	i	i	CCONJ	_	_	10	cc	_	_
 10	tematske	tematski	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	8	punct	_	_
+11	,	,	PUNCT	_	_	14	punct	_	_
 12	te	te	CCONJ	_	_	14	cc	_	_
 13	grafičke	grafički	ADJ	_	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_
 14	priloge	prilog	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
@@ -10027,7 +10027,7 @@
 23	1,7	1,7	NUM	_	NumType=Card	24	nummod	_	_
 24	posto	posto	ADV	_	Degree=Pos	20	conj	_	_
 25	više	mnogo	ADV	_	Degree=Cmp|NumType=Card|PronType=Ind	24	advmod	_	_
-26	nego	nego	CCONJ	_	_	18	cc	_	ToDo=cc-in-coord
+26	nego	nego	CCONJ	_	_	43	cc	_	ToDo=cc-in-coord
 27	u	u	ADP	_	Case=Loc	28	case	_	_
 28	mjesecu	mjesec	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	43	orphan	_	orig_deprel=obl
 29	prije	prije	ADV	_	Degree=Pos	28	advmod	_	SpaceAfter=No
@@ -11473,7 +11473,7 @@
 7	rad	rad	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	orig_deprel=nsubj
 8	s	sa	ADP	_	Case=Ins	9	case	_	_
 9	ljudima	čovjek	NOUN	_	Case=Ins|Gender=Masc|Number=Plur	7	nmod	_	_
-10	teret	teret	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	orphan	_	orig_deprel=obj|SpaceAfter=No
+10	teret	teret	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	orphan	_	SpaceAfter=No|orig_deprel=obj
 11	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = test-s467
@@ -12322,7 +12322,7 @@
 37	a	a	CCONJ	_	_	38	cc	_	_
 38	Wüstenrotova	Wüstenrotov	ADJ	_	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	33	conj	_	orig_deprel=nsubj
 39	782.000	782.000	NUM	_	NumType=Card	40	nummod	_	_
-40	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	38	orphan	_	orig_deprel=obj|SpaceAfter=No
+40	kuna	kuna	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	38	orphan	_	SpaceAfter=No|orig_deprel=obj
 41	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = test-s496
@@ -13059,10 +13059,10 @@
 15	da	da	SCONJ	_	_	17	mark	_	_
 16	Slovenija	Slovenija	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
 17	ima	imati	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	csubj	_	_
-18	takozvani	takozvani	ADJ	_	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
-19	optimal	optimal	ADP	_	_	21	flat:foreign	_	_
-20	currency	currency	ADP	_	_	21	flat:foreign	_	_
-21	area	are	ADP	_	_	17	obj	_	_
+18	takozvani	takozvani	ADJ	_	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	optimal	optimal	ADP	_	_	17	obj	_	_
+20	currency	currency	ADP	_	_	19	flat:foreign	_	_
+21	area	are	ADP	_	_	19	flat:foreign	_	_
 22	s	sa	ADP	_	Case=Ins	23	case	_	_
 23	područjem	područje	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	17	obl	_	_
 24	eura	euro	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
@@ -13135,14 +13135,14 @@
 4	da	da	SCONJ	_	_	20	mark	_	_
 5	će	htjeti	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
 6	ulaskom	ulazak	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	20	obl	_	_
-7	u	u	ADP	_	Case=Acc	11	case	_	_
-8	europski	europski	ADJ	_	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
-9	exchange	exchange	ADP	_	_	11	flat:foreign	_	_
-10	rate	rate	ADP	_	_	11	flat:foreign	_	_
-11	mechanism	mechanism	ADP	_	_	6	nmod	_	_
-12	II	II	ADJ	_	NumType=Ord	11	amod	_	_
+7	u	u	ADP	_	Case=Acc	9	case	_	_
+8	europski	europski	ADJ	_	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	exchange	exchange	ADP	_	_	6	nmod	_	_
+10	rate	rate	ADP	_	_	9	flat:foreign	_	_
+11	mechanism	mechanism	ADP	_	_	9	flat:foreign	_	_
+12	II	II	ADJ	_	NumType=Ord	9	amod	_	_
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
-14	ERM	ERM	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_
+14	ERM	ERM	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	9	appos	_	_
 15	II	II	ADJ	_	NumType=Ord	14	amod	_	SpaceAfter=No
 16	)	)	PUNCT	_	_	14	punct	_	_
 17	zbog	zbog	ADP	_	Case=Gen	18	case	_	_
@@ -13602,7 +13602,7 @@
 7	Austrija	Austrija	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
 8	ne	ne	PART	_	Polarity=Neg	9	case	_	_
 9	potvrđuje	potvrđivati	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	samo	samo	ADV	_	Degree=Pos	9	cc	_	ToDo=cc-in-coord
+10	samo	samo	ADV	_	Degree=Pos	16	cc	_	ToDo=cc-in-coord
 11	kvantitativnim	kvantitativan	ADJ	_	Case=Ins|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
 12	kriterijima	kriterij	NOUN	_	Case=Ins|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
