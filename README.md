@@ -45,6 +45,9 @@ See file LICENSE.txt for further licensing information.
 
 # Changelog
 
+* 2018-04-15 v2.2
+  * Repository renamed from UD_Croatian to UD_Croatian-SET.
+
 2017-02-15
 
 * converted to UD v2 standard
