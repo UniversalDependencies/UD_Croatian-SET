@@ -5,6 +5,22 @@ The Croatian UD treebank is based on the SETimes-HR corpus.
 
 # Introduction
 
+The sentences are partially parallel with the smaller Serbian UD treebank, which
+comes from the Serbian edition of SETimes. For the CoNLL 2018 shared task in parsing
+(and for UD release 2.2), the Croatian corpus was re-split so that corresponding
+sentences are in the same section (train/dev/test) in Croatian and Serbian.
+The re-split had to be done on the Croatian side because the Serbian corpus is smaller
+and most of it correspond to what used to be training data in Croatian.
+
+For the time being, sentence ids have not been changed although they contain references
+to train/dev/test. Therefore it is now possible that e.g. sentence id "train-s2852"
+occurs in the development data, not in training data. This may be changed in future
+releases.
+
+Also note that the following description of data split and sources refers to the _old_
+data split. Thus, sentences 0001-3557 of the "training set" have ids "train-s1" to
+"train-s3557" but some of them are now in the dev file and some in the test file.
+
 ### Training set.
 
 Contains 7,689 sentences (169,283 tokens) from three sources:
@@ -47,28 +63,23 @@ See file LICENSE.txt for further licensing information.
 
 * 2018-04-15 v2.2
   * Repository renamed from UD_Croatian to UD_Croatian-SET.
-
-2017-02-15
-
-* converted to UD v2 standard
-  * nmod vs. obl under non-verbal predicates should be checked manually (see the ToDo attribute in the MISC column)
-  * by UD guidelines, reflexive pronouns with inherently reflexive verbs are now attached as expl:pv, not compound
-  * adverbial participles (converbs) are marked by VerbForm=Conv
-* a number of enhancements and bug fixes
-  * all pronouns, determiners and pronominal adverbs have PronType
-  * all verbs have VerbForm; all finite verbs have Mood
-  * ordinal numerals are ADJ like elsewhere in UD, not NUM (but they keep NumType=Ord)
-  * relative pronouns, determiners and adverbs are not attached as mark (subordinating conjunctions keep the mark relation)
-  * possessive adjectives and determiners are amod and det respectively; not nmod
-  * coordinating conjunctions at the beginning of sentence are attached as cc, not discourse
-
-2017-02-09
-
-* added new ud v1 sentences from news-hr to dev, test, and train set: 2600 sentences, out of which the last 703 went to dev (400) and test (303), and the remainder to the train set
-
-2016-10-31
-
-* added 2235 new sentences to the training set, and 97 new sentences to the test set, from various Croatian web sources
+  * Data split made compatible with the parallel data in UD_Serbian-SET.
+* 2017-02-15
+  * converted to UD v2 standard
+    * nmod vs. obl under non-verbal predicates should be checked manually (see the ToDo attribute in the MISC column)
+    * by UD guidelines, reflexive pronouns with inherently reflexive verbs are now attached as expl:pv, not compound
+    * adverbial participles (converbs) are marked by VerbForm=Conv
+  * a number of enhancements and bug fixes
+    * all pronouns, determiners and pronominal adverbs have PronType
+    * all verbs have VerbForm; all finite verbs have Mood
+    * ordinal numerals are ADJ like elsewhere in UD, not NUM (but they keep NumType=Ord)
+    * relative pronouns, determiners and adverbs are not attached as mark (subordinating conjunctions keep the mark relation)
+    * possessive adjectives and determiners are amod and det respectively; not nmod
+    * coordinating conjunctions at the beginning of sentence are attached as cc, not discourse
+* 2017-02-09
+  * added new ud v1 sentences from news-hr to dev, test, and train set: 2600 sentences, out of which the last 703 went to dev (400) and test (303), and the remainder to the train set
+* 2016-10-31
+  * added 2235 new sentences to the training set, and 97 new sentences to the test set, from various Croatian web sources
 
 
 
