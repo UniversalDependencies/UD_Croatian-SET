@@ -1,11 +1,11 @@
 Running the following version of tools/evaluate_treebank.pl:
-commit 95f84696ecc537764b7772395d073132bd715b77
+commit 87d374bbd458d29331d76014d05c52eaac32518d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Apr 11 08:54:01 2018 +0200
+Date:   Wed Apr 11 09:21:53 2018 +0200
 Evaluating the following revision of UD_Croatian-SET:
-commit c68aeaeac6c88a0377d4fd43d53385a080fea885
-Merge: fef56cd f6f6381
+commit 066333d34c1a51e74c73e9ab9d6d42bb81f3d6ab
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Wed Apr 11 09:15:41 2018 +0200
 Size: counted 197044 of 197044 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.5668541081057.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,7 +19,7 @@ Features: 158211 out of 197044 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 0 bugs.
+Udapi: found 1299 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 197044 words.
 Genres: found 3 out of 14 known.
 validate.py --lang hr --max-err=10 UD_Croatian-SET/hr_set-ud-dev.conllu
@@ -35,8 +35,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.764854405037834) = 0.196116514112265
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=1) = 0.307692307692308
+(weight=0.307692307692308) * (score{udapi}=0.934075637928585) = 0.287407888593411
 (weight=0.0769230769230769) * (score{udeprels}=0.945945945945946) = 0.0727650727650728
-(TOTAL score=0.828954846950598) * (availability=1) * (validity=1) = 0.828954846950598
+(TOTAL score=0.808670427851701) * (availability=1) * (validity=1) = 0.808670427851701
 STARS = 4
-UD_Croatian-SET	0.828954846950598	4
+UD_Croatian-SET	0.808670427851701	4
