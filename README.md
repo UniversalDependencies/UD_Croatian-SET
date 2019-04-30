@@ -1,54 +1,47 @@
 # Summary
 
-The Croatian UD treebank is based on the SETimes-HR corpus.
+The Croatian UD treebank is based on the extension of the SETimes-HR corpus, the [hr500k](http://hdl.handle.net/11356/1183) corpus.
 
 
 # Introduction
 
 The sentences are partially parallel with the smaller Serbian UD treebank, which
-comes from the Serbian edition of SETimes. For the CoNLL 2018 shared task in parsing
-(and for UD release 2.2), the Croatian corpus was re-split so that corresponding
-sentences are in the same section (train/dev/test) in Croatian and Serbian.
-The re-split had to be done on the Croatian side because the Serbian corpus is smaller
-and most of it correspond to what used to be training data in Croatian.
+comes from the Serbian edition of SETimes. For the UD release 2.4, the Croatian and Serbian 
+corpus were enriched with ```newdoc``` metadata and re-split so that the corresponding
+documents are in the same section (train/dev/test) in Croatian and Serbian.
 
-For the time being, sentence ids have not been changed although they contain references
-to train/dev/test. Therefore it is now possible that e.g. sentence id "train-s2852"
-occurs in the development data, not in training data. This may be changed in future
-releases.
-
-Also note that the following description of data split and sources refers to the _old_
-data split. Thus, sentences 0001-3557 of the "training set" have ids "train-s1" to
-"train-s3557" but some of them are now in the dev file and some in the test file.
+Sentence ids have also been changed to reflect the domain / source the data comes from,
+and not the dependence to one of the sections (train/dev/test), as was the case
+in previous releases. 
 
 ### Training set.
 
-Contains 7,689 sentences (169,283 tokens) from three sources:
+Contains 6,844 sentences (151,226 tokens) from three sources:
 
-1. Sentences 0001-3557: Newspaper text from the [Southeast European Times](http://en.wikipedia.org/wiki/Southeast_European_Times) news website, obtained from the [SETimes parallel corpus](http://nlp.ffzg.hr/resources/corpora/setimes/). This part of the treebank is built on top of the [SETimes.HR dependency treebank of Croatian](https://github.com/ffnlp/sethr);
-2. Sentences 3558-5792: Text from various [Croatian web sources](http://nl.ijs.si/isjt14/proceedings/isjt2014_10.pdf).
-3. Sentences 5793-7689: Croatian news web sources.
+1. sentence ids ```set.hr*```: pseudorandom 80% of documents of newspaper text from the [Southeast European Times](http://en.wikipedia.org/wiki/Southeast_European_Times) news website, obtained from the [SETimes parallel corpus](http://nlp.ffzg.hr/resources/corpora/setimes/). This part of the treebank is built on top of the [SETimes.HR dependency treebank of Croatian](https://github.com/ffnlp/sethr);
+2. sentence ids ```news.hr*```: pseudorandom 80% of documents of Croatian news web sources.
+3. sentence ids ```web.hr*``` : pseudorandom 80% of sentences of [Croatian web sources](http://nl.ijs.si/isjt14/proceedings/isjt2014_10.pdf).
 
 ### Development set.
 
-Contains 600 sentences (14,533 tokens) from two sources:
+Contains 954 sentences (21,952 tokens) from three sources:
 
-1. 001-200: newspaper text from the Croatian SETimes,
-2. 201-600: Croatian news web sources.
+1. sentence ids ```set.hr*```: pseudorandom 10% of documents of newspaper text from the Southeast European Times.
+2. sentence ids ```news.hr*```: pseudorandom 10% of documents of Croatian news web sources.
+3. sentence ids ```web.hr*``` : pseudorandom 10% of sentences of Croatian web sources.
 
 ### Test set.
 
-Contains 600 sentences (13,228 tokens) from three sources:
+Contains 1214 sentences (26,263 tokens) from four sources:
 
-1. sentences 001-100: newspaper text,
-2. sentences 101-200: Wikipedia,
-3. sentences 201-297: web sources, and
-4. sentences 298-600: Croatian news web sources.
+1. sentence ids ```set.hr*```: pseudorandom 10% of documents of newspaper text from the Southeast European Times (+ the previous test set from the same source).
+2. sentence ids ```wiki.hr*```: old Wikipedia-based test set.
+2. sentence ids ```news.hr*```: pseudorandom 10% of documents of Croatian news web sources.
+3. sentence ids ```web.hr*``` : pseudorandom 10% of sentences of Croatian web sources.
 
 ### Details
 
-Sentence and word segmentation was manually checked. The treebank does not include multiword tokens. No language-specific features and relations were used. The POS tags and features were converted from [Multext East v4](http://nlp.ffzg.hr/data/tagging/msd-hr.html) and manually checked. The syntactic annotation was done manually.
-
+Sentence and word segmentation was manually checked. The treebank does not include multiword tokens. No language-specific features and relations were used. The POS tags and features were converted from [Multext East v6](http://nl.ijs.si/ME/V6/msd/html/msd-hbs.html) (present in the XPOS column) and manually checked. The syntactic annotation was done manually.
 
 # Acknowledgments
 
@@ -60,6 +53,10 @@ See file LICENSE.txt for further licensing information.
 
 
 # Changelog
+
+* 2018-04-30 v2.4
+  * Sentences renamed so that not the old split is encoded, but the source of the data
+  * Data split made compatible on the document level with the parallel data in UD_Serbian-SET.
 
 * 2018-04-15 v2.2
   * Repository renamed from UD_Croatian to UD_Croatian-SET.
