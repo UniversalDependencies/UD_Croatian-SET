@@ -117,9 +117,9 @@
 20	znače	značiti	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
 21	"	"	PUNCT	Z	_	26	punct	_	SpaceAfter=No
 22	niti	niti	PART	Qo	_	23	discourse	_	_
-23	eksplicitno	eksplicitan	ADJ	Agpnsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	26	conj	_	orig_deprel=amod
+23	eksplicitno	eksplicitan	ADJ	Agpnsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	orig_deprel=amod
 24	niti	niti	PART	Qo	_	25	discourse	_	_
-25	implicitno	implicitan	ADJ	Agpnsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+25	implicitno	implicitan	ADJ	Agpnsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	23	conj	_	_
 26	priznanje	priznanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
 27	neovisnosti	neovisnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
 28	Kosova	Kosovo	PROPN	Npnsg	Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	SpaceAfter=No
@@ -2258,11 +2258,11 @@
 1	Banke	banka	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
 2	očekuju	očekivati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	da	da	SCONJ	Cs	_	11	mark	_	_
-4	kreditne	kreditan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	9	conj	_	orig_deprel=amod|SpaceAfter=No
+4	kreditne	kreditan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	orig_deprel=amod|SpaceAfter=No
 5	,	,	PUNCT	Z	_	9	punct	_	_
 6	prije	prije	SCONJ	Cs	_	9	case	_	_
 7	nego	nego	SCONJ	Cs	_	6	fixed	_	_
-8	debitne	debitni	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
+8	debitne	debitni	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	4	conj	_	_
 9	kartice	kartica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
 10	,	,	PUNCT	Z	_	9	punct	_	_
 11	dožive	doživjeti	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
@@ -3495,10 +3495,10 @@
 
 # sent_id = set.hr-s752
 # text = Osam od 11 sudaca postavio je bivši predsjednik Ahmet Necdet Sezer, nepokolebljivi sekularist.
-1	Osam	osam	NUM	Mlc	NumType=Card	4	conj	_	orig_deprel=nummod
-2	od	od	ADP	Sg	Case=Gen	3	case	_	_
+1	Osam	osam	NUM	Mlc	NumType=Card	5	obj	_	orig_deprel=nummod
+2	od	od	ADP	Sg	Case=Gen	4	case	_	_
 3	11	11	NUM	Mdc	NumType=Card	4	nummod	_	_
-4	sudaca	sudac	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	obj	_	_
+4	sudaca	sudac	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
 5	postavio	postaviti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 6	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 7	bivši	bivši	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
@@ -9059,8 +9059,8 @@
 7	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	9	nsubj	_	_
 8	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	trajao	trajati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	acl	_	_
-10	od	od	ADP	Sg	Case=Gen	11	orphan	_	orig_deprel=case
-11	1992.	1992.	ADJ	Mdo	NumType=Ord	14	conj	_	orig_deprel=amod
+10	od	od	ADP	Sg	Case=Gen	11	case	_	orig_deprel=case
+11	1992.	1992.	ADJ	Mdo	NumType=Ord	9	obl	_	orig_deprel=amod
 12	do	do	ADP	Sg	Case=Gen	14	case	_	_
 13	1995.	1995.	ADJ	Mdo	NumType=Ord	14	amod	_	_
 14	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
