@@ -1471,7 +1471,7 @@
 18	i	i	CCONJ	Cc	_	19	cc	_	_
 19	okupio	okupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	conj	_	_
 20	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
-21	46	46	NUM	Mdc	NumType=Card	22	nummod:gov	_	_
+21	46	46	NUM	Mdc	NumType=Card	22	nummod	_	_
 22	šefova	šef	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	19	obj	_	_
 23	država	država	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_
 24	i	i	CCONJ	Cc	_	25	cc	_	_
@@ -11296,7 +11296,7 @@
 14	postrojba	postrojba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	16	nsubj:pass	_	_
 15	biti	biti	AUX	Van	VerbForm=Inf	16	aux:pass	_	_
 16	korištena	koristiti	ADJ	Appfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	csubj:pass	_	_
-17	60	60	NUM	Mdc	NumType=Card	18	nummod:gov	_	_
+17	60	60	NUM	Mdc	NumType=Card	18	nummod	_	_
 18	puta	puta	ADV	Rgp	Degree=Pos	16	obl	_	_
 19	tijekom	tijekom	ADP	Sg	Case=Gen	21	case	_	_
 20	sljedeće	sljedeći	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_

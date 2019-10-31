@@ -28,7 +28,7 @@
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	privatiziran	privatizirati	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 4	prije	prije	ADP	Sg	Case=Gen	6	case	_	_
-5	pet	pet	NUM	Mlc	NumType=Card	6	nummod:gov	_	_
+5	pet	pet	NUM	Mlc	NumType=Card	6	nummod	_	_
 6	godina	godina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
 7	i	i	CCONJ	Cc	_	10	cc	_	_
 8	još	još	ADV	Rgp	Degree=Pos	9	advmod	_	_
@@ -8169,7 +8169,7 @@
 3	u	u	ADP	Sl	Case=Loc	4	case	_	_
 4	Istanbulu	Istanbul	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	Z	_	10	punct	_	_
-6	jednoj	jedan	NUM	Mlcfsl	Case=Loc|Gender=Fem|Number=Sing|NumType=Card	10	nummod:gov	_	_
+6	jednoj	jedan	NUM	Mlcfsl	Case=Loc|Gender=Fem|Number=Sing|NumType=Card	10	nummod	_	_
 7	od	od	ADP	Sg	Case=Gen	10	case	_	_
 8	europskih	europski	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
 9	"	"	PUNCT	Z	_	10	punct	_	SpaceAfter=No
@@ -8191,7 +8191,7 @@
 25	haute	haute	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	26	nmod	_	_
 26	couture	couture	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	27	nmod	_	_
 27	inovacije	inovacija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	18	conj	_	_
-28	dvadesetak	dvadesetak	NUM	Mls	NumType=Mult	30	nummod:gov	_	_
+28	dvadesetak	dvadesetak	NUM	Mls	NumType=Mult	30	nummod	_	_
 29	turskih	turski	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	30	amod	_	_
 30	dizajnera	dizajner	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	Z	_	16	punct	_	_
@@ -11852,7 +11852,7 @@
 22	stoke	stoka	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	Z	_	27	punct	_	_
 24	a	a	CCONJ	Cc	_	27	cc	_	_
-25	14.000	14.000	NUM	Mdc	NumType=Card	26	nummod:gov	_	_
+25	14.000	14.000	NUM	Mdc	NumType=Card	26	nummod	_	_
 26	ljudi	čovjek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	27	nsubj	_	_
 27	ostalo	ostati	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	conj	_	_
 28	bez	bez	ADP	Sg	Case=Gen	29	case	_	_

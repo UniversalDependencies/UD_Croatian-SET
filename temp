@@ -1,0 +1,803 @@
+[Line 293 Sent set.hr-s45 Node 6]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 582 Sent set.hr-s54 Node 5]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 968 Sent set.hr-s70 Node 11]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADP'
+[Line 1008 Sent set.hr-s71 Node 36]: [L3 Syntax leaf-cc] 'cc' not expected to have children (36:i:cc --> 35:kao:compound)
+[Line 1042 Sent set.hr-s73 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 1183 Sent set.hr-s80 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 1318 Sent set.hr-s87 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 1385 Sent set.hr-s90 Node 10]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 1534 Sent set.hr-s98 Node 14]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [15]
+[Line 1534 Sent set.hr-s98 Node 14]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [15]
+[Line 1685 Sent set.hr-s104 Node 6]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 1936 Sent set.hr-s116 Node 24]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 1947 Sent set.hr-s117 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 2274 Sent set.hr-s133 Node 11]: [L3 Syntax rel-upos-case] 'case' should not be 'PROPN'
+[Line 2403 Sent set.hr-s138 Node 24]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (24:vezano:case --> 25:uz:compound)
+[Line 2467 Sent set.hr-s141 Node 8]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 2546 Sent set.hr-s145 Node 11]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 2582 Sent set.hr-s147 Node 10]: [L3 Syntax leaf-cc] 'cc' not expected to have children (10:kao:cc --> 11:i:compound)
+[Line 2931 Sent set.hr-s163 Node 14]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 2933 Sent set.hr-s163 Node 14]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (14:dajemo:cop --> 16:obol:obj)
+[Line 2934 Sent set.hr-s163 Node 14]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (14:dajemo:cop --> 17:operacijama:iobj)
+[Line 2982 Sent set.hr-s165 Node 5]: [L3 Syntax rel-upos-case] 'case' should not be 'PROPN'
+[Line 3115 Sent set.hr-s171 Node 22]: [L3 Syntax leaf-cc] 'cc' not expected to have children (22:kao:cc --> 23:i:compound)
+[Line 3171 Sent set.hr-s174 Node 10]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 3201 Sent set.hr-s176 Node 7]: [L3 Syntax rel-upos-cc] 'cc' should not be 'ADJ'
+[Line 3455 Sent set.hr-s191 Node 12]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (12:s:case --> 13:ciljem:compound)
+[Line 3500 Sent set.hr-s193 Node 18]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (18:s:case --> 19:ciljem:compound)
+[Line 3652 Sent set.hr-s198 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 3706 Sent set.hr-s201 Node 14]: [L3 Syntax leaf-cc] 'cc' not expected to have children (14:kao:cc --> 15:i:compound)
+[Line 4052 Sent set.hr-s215 Node 21]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NUM'
+[Line 4072 Sent set.hr-s216 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 4154 Sent set.hr-s218 Node 11]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 4490 Sent set.hr-s229 Node 14]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (14:biti:cop --> 13:neće:aux)
+[Line 4496 Sent set.hr-s229 Node 20]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (20:biti:cop --> 19:će:aux)
+[Line 4499 Sent set.hr-s229 Node 22]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 4780 Sent set.hr-s239 Node 13]: [L3 Syntax rel-upos-case] 'case' should not be 'PROPN'
+[Line 4921 Sent set.hr-s245 Node 20]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 4938 Sent set.hr-s246 Node 13]: [L3 Syntax leaf-punct] 'punct' not expected to have children (13:.:punct --> 8:i:cc)
+[Line 6062 Sent set.hr-s295 Node 15]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 6658 Sent set.hr-s343 Node 57]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55]
+[Line 7994 Sent set.hr-s389 Node 1]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PART'
+[Line 8057 Sent set.hr-s390 Node 35]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [37]
+[Line 8057 Sent set.hr-s390 Node 35]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [36, 37]
+[Line 8151 Sent set.hr-s393 Node 10]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 8391 Sent set.hr-s399 Node 71]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [72]
+[Line 9466 Sent set.hr-s534 Node 25]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (25:do:case --> 24:sve:discourse)
+[Line 9556 Sent set.hr-s538 Node 18]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADP'
+[Line 9808 Sent set.hr-s549 Node 1]: [L3 Syntax rel-upos-case] 'case' should not be 'ADJ'
+[Line 9864 Sent set.hr-s550 Node 11]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 11123 Sent set.hr-s621 Node 6]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [5]
+[Line 11261 Sent set.hr-s628 Node 6]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 11462 Sent set.hr-s637 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NUM'
+[Line 11833 Sent set.hr-s653 Node 18]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NUM'
+[Line 12080 Sent set.hr-s665 Node 11]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NUM'
+[Line 12101 Sent set.hr-s666 Node 17]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 12146 Sent set.hr-s668 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NUM'
+[Line 12711 Sent set.hr-s692 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 13161 Sent set.hr-s707 Node 12]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 13273 Sent set.hr-s711 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 13634 Sent set.hr-s777 Node 11]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 13673 Sent set.hr-s778 Node 19]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 13734 Sent set.hr-s780 Node 9]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 14043 Sent set.hr-s792 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 14532 Sent set.hr-s858 Node 11]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [12]
+[Line 14780 Sent set.hr-s866 Node 10]: [L3 Syntax leaf-cc] 'cc' not expected to have children (10:i:cc --> 9:kao:discourse)
+[Line 15504 Sent set.hr-s891 Node 30]: [L3 Syntax leaf-cc] 'cc' not expected to have children (30:i:cc --> 29:kao:advmod)
+[Line 15957 Sent set.hr-s910 Node 19]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (19:kao:case --> 20:i:discourse)
+[Line 16205 Sent set.hr-s918 Node 31]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [33]
+[Line 16246 Sent set.hr-s919 Node 34]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [35]
+[Line 16397 Sent set.hr-s946 Node 18]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 16394 Sent set.hr-s946 Node 18]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (18:teže:cop --> 15:Albanija:nsubj)
+[Line 16398 Sent set.hr-s946 Node 18]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (18:teže:cop --> 19:izgradnji:obj)
+[Line 16732 Sent set.hr-s957 Node 2]: [L3 Syntax rel-upos-case] 'case' should not be 'AUX'
+[Line 16931 Sent set.hr-s964 Node 9]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [5, 7]
+[Line 16931 Sent set.hr-s964 Node 9]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3, 4, 5, 6, 7]
+[Line 17519 Sent set.hr-s987 Node 1]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 17933 Sent set.hr-s1010 Node 7]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (7:transporta:case --> 8:izložaka:nmod)
+[Line 17952 Sent set.hr-s1011 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 18761 Sent set.hr-s1066 Node 27]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [30, 32]
+[Line 19539 Sent set.hr-s1097 Node 9]: [L3 Syntax leaf-cc] 'cc' not expected to have children (9:ni:cc --> 8:pa:discourse)
+[Line 20456 Sent set.hr-s1153 Node 24]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
+[Line 20513 Sent set.hr-s1155 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'AUX'
+[Line 20887 Sent set.hr-s1171 Node 29]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADP'
+[Line 21630 Sent set.hr-s1246 Node 7]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 21681 Sent set.hr-s1248 Node 6]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 21779 Sent set.hr-s1251 Node 27]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 21799 Sent set.hr-s1252 Node 4]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 22004 Sent set.hr-s1261 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 22199 Sent set.hr-s1265 Node 25]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (25:u:case --> 26:skladu:compound)
+[Line 22200 Sent set.hr-s1265 Node 25]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (25:u:case --> 27:sa:compound)
+[Line 22324 Sent set.hr-s1270 Node 6]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADP'
+[Line 22439 Sent set.hr-s1273 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 22514 Sent set.hr-s1276 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 22558 Sent set.hr-s1278 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 22679 Sent set.hr-s1282 Node 37]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 22775 Sent set.hr-s1286 Node 20]: [L3 Syntax leaf-cc] 'cc' not expected to have children (20:i:cc --> 19:kao:discourse)
+[Line 22821 Sent set.hr-s1288 Node 20]: [L3 Syntax rel-upos-case] 'case' should not be 'ADJ'
+[Line 22834 Sent set.hr-s1289 Node 9]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (9:spota:case --> 8:video:amod)
+[Line 22852 Sent set.hr-s1290 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 22931 Sent set.hr-s1294 Node 10]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 23412 Sent set.hr-s1316 Node 1]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (1:S:mark --> 2:obzirom:compound)
+[Line 23413 Sent set.hr-s1316 Node 1]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (1:S:mark --> 3:da:compound)
+[Line 23435 Sent set.hr-s1317 Node 1]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (1:S:mark --> 2:obzirom:compound)
+[Line 23436 Sent set.hr-s1317 Node 1]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (1:S:mark --> 3:da:compound)
+[Line 23727 Sent set.hr-s1327 Node 13]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (13:s:mark --> 14:obzirom:compound)
+[Line 23728 Sent set.hr-s1327 Node 13]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (13:s:mark --> 15:da:compound)
+[Line 23859 Sent set.hr-s1333 Node 7]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 23892 Sent set.hr-s1334 Node 8]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (8:s:mark --> 9:obzirom:compound)
+[Line 23893 Sent set.hr-s1334 Node 8]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (8:s:mark --> 10:da:compound)
+[Line 23930 Sent set.hr-s1335 Node 11]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 24148 Sent set.hr-s1366 Node 16]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON'
+[Line 24161 Sent set.hr-s1366 Node 30]: [L3 Syntax leaf-cc] 'cc' not expected to have children (30:i:cc --> 29:kao:discourse)
+[Line 24220 Sent set.hr-s1370 Node 9]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 24343 Sent set.hr-s1374 Node 28]: [L3 Syntax leaf-cc] 'cc' not expected to have children (28:i:cc --> 27:već:discourse)
+[Line 24565 Sent set.hr-s1384 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 24710 Sent set.hr-s1389 Node 3]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (3:Kao:mark --> 4:što:compound)
+[Line 24840 Sent set.hr-s1394 Node 19]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'DET'
+[Line 24845 Sent set.hr-s1394 Node 24]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 25387 Sent set.hr-s1416 Node 20]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (20:nakon:mark --> 21:što:compound)
+[Line 25590 Sent set.hr-s1425 Node 29]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (29:unatoč:mark --> 30:tome:compound)
+[Line 25671 Sent set.hr-s1427 Node 17]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 25689 Sent set.hr-s1427 Node 35]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 25744 Sent set.hr-s1430 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 26382 Sent set.hr-s1456 Node 12]: [L3 Syntax leaf-cc] 'cc' not expected to have children (12:i:cc --> 11:tako:discourse)
+[Line 26620 Sent set.hr-s1464 Node 5]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (5:je:cop --> 6:zadaća:nsubj)
+[Line 26954 Sent set.hr-s1508 Node 11]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (11:trebala:case --> 9:bi:aux)
+[Line 26955 Sent set.hr-s1508 Node 11]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (11:trebala:case --> 10:država:nsubj)
+[Line 26957 Sent set.hr-s1508 Node 11]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (11:trebala:case --> 12:usvojiti:xcomp)
+[Line 26967 Sent set.hr-s1508 Node 11]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (11:trebala:case --> 22:učinjeno:advcl)
+[Line 27241 Sent set.hr-s1516 Node 21]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [22]
+[Line 27241 Sent set.hr-s1516 Node 21]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [22, 23]
+[Line 27587 Sent set.hr-s1552 Node 30]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]
+[Line 27620 Sent set.hr-s1555 Node 4]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 28568 Sent set.hr-s1590 Node 6]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADP'
+[Line 29890 Sent set.hr-s1646 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADP'
+[Line 30172 Sent set.hr-s1655 Node 11]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADP'
+[Line 30186 Sent set.hr-s1655 Node 25]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PROPN'
+[Line 30187 Sent set.hr-s1655 Node 25]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (25:Dimitar:aux --> 26:Conev:flat)
+[Line 30394 Sent set.hr-s1662 Node 15]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (15:prije:mark --> 16:nego:compound)
+[Line 30397 Sent set.hr-s1662 Node 19]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 30588 Sent set.hr-s1669 Node 8]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 30666 Sent set.hr-s1672 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 30865 Sent set.hr-s1679 Node 28]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 31091 Sent set.hr-s1689 Node 4]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 31175 Sent set.hr-s1691 Node 38]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [39]
+[Line 31244 Sent set.hr-s1694 Node 25]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 31300 Sent set.hr-s1697 Node 6]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADV'
+[Line 31299 Sent set.hr-s1697 Node 6]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (6:isto:aux --> 5:doslovno:advmod)
+[Line 31303 Sent set.hr-s1697 Node 6]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (6:isto:aux --> 9:rekao:acl)
+[Line 31381 Sent set.hr-s1699 Node 13]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [15]
+[Line 31400 Sent set.hr-s1699 Node 33]: [L3 Syntax leaf-cc] 'cc' not expected to have children (33:i:cc --> 32:kao:compound)
+[Line 31407 Sent set.hr-s1699 Node 39]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 31426 Sent set.hr-s1700 Node 7]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 31769 Sent set.hr-s1716 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 32120 Sent set.hr-s1731 Node 7]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [10]
+[Line 32137 Sent set.hr-s1732 Node 6]: [L3 Syntax rel-upos-case] 'case' should not be 'PROPN'
+[Line 32512 Sent set.hr-s1744 Node 8]: [L3 Syntax leaf-cc] 'cc' not expected to have children (8:i:cc --> 7:ali:discourse)
+[Line 32587 Sent set.hr-s1747 Node 12]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 32883 Sent set.hr-s1759 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 33551 Sent set.hr-s1781 Node 13]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 33625 Sent set.hr-s1784 Node 16]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (16:dok:mark --> 15:sve:discourse)
+[Line 34137 Sent set.hr-s1800 Node 37]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 34176 Sent set.hr-s1801 Node 30]: [L3 Syntax leaf-cc] 'cc' not expected to have children (30:i:cc --> 29:kao:discourse)
+[Line 34280 Sent set.hr-s1805 Node 10]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (10:ako:mark --> 9:samo:compound)
+[Line 34789 Sent set.hr-s1821 Node 12]: [L3 Syntax leaf-cc] 'cc' not expected to have children (12:i:cc --> 11:ali:compound)
+[Line 34849 Sent set.hr-s1822 Node 21]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON'
+[Line 34866 Sent set.hr-s1822 Node 38]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 34931 Sent set.hr-s1824 Node 13]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (13:kao:mark --> 14:što:compound)
+[Line 35160 Sent set.hr-s1831 Node 20]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (20:u:case --> 21:svezi:compound)
+[Line 36157 Sent set.hr-s1982 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
+[Line 36230 Sent set.hr-s1986 Node 5]: [L3 Syntax leaf-cc] 'cc' not expected to have children (5:i:cc --> 4:kao:discourse)
+[Line 36701 Sent set.hr-s2005 Node 30]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [32]
+[Line 37042 Sent set.hr-s2018 Node 6]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (6:u:case --> 5:i:discourse)
+[Line 37522 Sent set.hr-s2040 Node 31]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 37743 Sent set.hr-s2050 Node 12]: [L3 Syntax leaf-cc] 'cc' not expected to have children (12:i:cc --> 11:kao:discourse)
+[Line 38732 Sent set.hr-s2182 Node 12]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'SYM'
+[Line 39308 Sent set.hr-s2199 Node 31]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADP'
+[Line 39551 Sent set.hr-s2208 Node 1]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'amod'.
+[Line 39774 Sent set.hr-s2219 Node 15]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'amod'.
+[Line 40106 Sent set.hr-s2231 Node 16]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [17, 18]
+[Line 40126 Sent set.hr-s2231 Node 36]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34]
+[Line 41418 Sent set.hr-s2335 Node 26]: [L3 Syntax rel-upos-compound] 'compound' should not be 'AUX'
+[Line 41481 Sent set.hr-s2337 Node 7]: [L3 Syntax leaf-cc] 'cc' not expected to have children (7:i:cc --> 6:kao:discourse)
+[Line 41661 Sent set.hr-s2344 Node 19]: [L3 Syntax leaf-cc] 'cc' not expected to have children (19:i:cc --> 18:kao:discourse)
+[Line 41765 Sent set.hr-s2348 Node 5]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADP'
+[Line 41778 Sent set.hr-s2348 Node 19]: [L3 Syntax leaf-cc] 'cc' not expected to have children (19:i:cc --> 18:kao:discourse)
+[Line 41834 Sent set.hr-s2350 Node 28]: [L3 Syntax rel-upos-compound] 'compound' should not be 'AUX'
+[Line 41961 Sent set.hr-s2354 Node 44]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [45]
+[Line 42154 Sent set.hr-s2362 Node 12]: [L3 Syntax leaf-cc] 'cc' not expected to have children (12:i:cc --> 11:kao:discourse)
+[Line 42540 Sent set.hr-s2377 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 43469 Sent set.hr-s2412 Node 10]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [11, 12]
+[Line 43730 Sent set.hr-s2422 Node 10]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [14, 17]
+[Line 43737 Sent set.hr-s2422 Node 17]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [10]
+[Line 44257 Sent set.hr-s2472 Node 35]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (35:dok:mark --> 34:sve:discourse)
+[Line 44726 Sent set.hr-s2497 Node 14]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (14:bilo:mark --> 15:da:compound)
+[Line 44761 Sent set.hr-s2498 Node 6]: [L3 Syntax rel-upos-compound] 'compound' should not be 'AUX'
+[Line 44900 Sent set.hr-s2505 Node 5]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (5:sve:mark --> 6:dok:compound)
+[Line 45036 Sent set.hr-s2510 Node 8]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 45060 Sent set.hr-s2511 Node 10]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [15]
+[Line 45062 Sent set.hr-s2511 Node 11]: [L3 Syntax leaf-cc] 'cc' not expected to have children (11:kao:cc --> 12:i:compound)
+[Line 45097 Sent set.hr-s2512 Node 13]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 45171 Sent set.hr-s2515 Node 9]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 45229 Sent set.hr-s2518 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 45422 Sent set.hr-s2526 Node 2]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (2:dok:mark --> 1:Sve:det)
+[Line 45675 Sent set.hr-s2538 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 46204 Sent set.hr-s2560 Node 12]: [L3 Syntax rel-upos-case] 'case' should not be 'AUX'
+[Line 46314 Sent set.hr-s2566 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 46694 Sent set.hr-s2583 Node 19]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (19:kao:case --> 20:u:compound)
+[Line 46846 Sent set.hr-s2613 Node 13]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (13:prije:mark --> 14:no:compound)
+[Line 46873 Sent set.hr-s2614 Node 18]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (18:prije:case --> 17:još:discourse)
+[Line 46875 Sent set.hr-s2614 Node 19]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 47019 Sent set.hr-s2622 Node 2]: [L3 Syntax rel-upos-compound] 'compound' should not be 'AUX'
+[Line 47812 Sent set.hr-s2654 Node 7]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 48067 Sent set.hr-s2665 Node 9]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 48227 Sent set.hr-s2674 Node 2]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (2:Kao:mark --> 3:što:compound)
+[Line 48348 Sent set.hr-s2679 Node 9]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (9:u:case --> 10:svezi:compound)
+[Line 48518 Sent set.hr-s2688 Node 8]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (8:u:case --> 9:odnosu:compound)
+[Line 48737 Sent set.hr-s2696 Node 14]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [15]
+[Line 48737 Sent set.hr-s2696 Node 14]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [15]
+[Line 49267 Sent set.hr-s2715 Node 21]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [23]
+[Line 49374 Sent set.hr-s2719 Node 6]: [L3 Syntax rel-upos-case] 'case' should not be 'DET'
+[Line 49856 Sent set.hr-s2762 Node 6]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [9]
+[Line 49856 Sent set.hr-s2762 Node 6]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [9]
+[Line 50125 Sent set.hr-s2774 Node 10]: [L3 Syntax rel-upos-case] 'case' should not be 'AUX'
+[Line 50547 Sent set.hr-s2788 Node 42]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'SYM'
+[Line 51024 Sent set.hr-s2809 Node 4]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [5]
+[Line 51024 Sent set.hr-s2809 Node 4]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [5]
+[Line 52469 Sent set.hr-s2862 Node 22]: [L3 Syntax leaf-cc] 'cc' not expected to have children (22:kao:cc --> 21:upravo:discourse)
+[Line 53978 Sent set.hr-s2923 Node 23]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [25]
+[Line 53978 Sent set.hr-s2923 Node 23]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [25]
+[Line 53998 Sent set.hr-s2924 Node 11]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [7]
+[Line 53998 Sent set.hr-s2924 Node 11]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [6, 7, 8, 9]
+[Line 54617 Sent set.hr-s2950 Node 18]: [L3 Syntax leaf-cc] 'cc' not expected to have children (18:i:cc --> 17:kao:discourse)
+[Line 55075 Sent set.hr-s2967 Node 6]: [L3 Syntax leaf-cc] 'cc' not expected to have children (6:no:cc --> 5:više:advmod)
+[Line 55384 Sent set.hr-s2980 Node 19]: [L3 Syntax rel-upos-case] 'case' should not be 'AUX'
+[Line 55679 Sent set.hr-s3022 Node 45]: [L3 Syntax leaf-cc] 'cc' not expected to have children (45:i:cc --> 44:kao:discourse)
+[Line 55887 Sent set.hr-s3031 Node 15]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADP'
+[Line 56512 Sent set.hr-s3055 Node 1]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'PART'
+[Line 56515 Sent set.hr-s3055 Node 4]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADP'
+[Line 57001 Sent set.hr-s3101 Node 2]: [L3 Syntax rel-upos-case] 'case' should not be 'AUX'
+[Line 57140 Sent set.hr-s3106 Node 4]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADP'
+[Line 57274 Sent set.hr-s3111 Node 19]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [21]
+[Line 57279 Sent set.hr-s3111 Node 24]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 57858 Sent set.hr-s3133 Node 3]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'PRON'
+[Line 58657 Sent set.hr-s3163 Node 20]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 59252 Sent set.hr-s3231 Node 2]: [L3 Syntax rel-upos-case] 'case' should not be 'AUX'
+[Line 60008 Sent set.hr-s3263 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 60181 Sent set.hr-s3270 Node 35]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADP'
+[Line 60418 Sent set.hr-s3280 Node 20]: [L3 Syntax leaf-cc] 'cc' not expected to have children (20:i:cc --> 19:čak:discourse)
+[Line 61112 Sent set.hr-s3304 Node 29]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (29:da:mark --> 28:samo:discourse)
+[Line 61535 Sent set.hr-s3327 Node 7]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON'
+[Line 62449 Sent set.hr-s3367 Node 22]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (22:bez:case --> 21:i:discourse)
+[Line 62785 Sent set.hr-s3378 Node 21]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (21:dok:mark --> 20:sve:discourse)
+[Line 64574 Sent set.hr-s3450 Node 16]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'SCONJ'
+[Line 65176 Sent set.hr-s3490 Node 7]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'NOUN'
+[Line 65175 Sent set.hr-s3490 Node 7]: [L3 Syntax leaf-punct] 'punct' not expected to have children (7:godine:punct --> 6:ove:det)
+[Line 65183 Sent set.hr-s3490 Node 14]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [17]
+[Line 65183 Sent set.hr-s3490 Node 14]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [15, 16, 17]
+[Line 65523 Sent set.hr-s3506 Node 14]: [L3 Syntax leaf-cc] 'cc' not expected to have children (14:i:cc --> 13:kao:discourse)
+[Line 65639 Sent set.hr-s3512 Node 4]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 66077 Sent set.hr-s3532 Node 12]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 66086 Sent set.hr-s3532 Node 20]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (20:u:case --> 21:svezi:compound)
+[Line 66274 Sent set.hr-s3538 Node 39]: [L3 Syntax leaf-cc] 'cc' not expected to have children (39:i:cc --> 38:tako:discourse)
+[Line 66514 Sent set.hr-s3577 Node 6]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (6:od:mark --> 7:kada:compound)
+[Line 66600 Sent set.hr-s3580 Node 9]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 66656 Sent set.hr-s3582 Node 13]: [L3 Syntax leaf-cc] 'cc' not expected to have children (13:kao:cc --> 14:i:compound)
+[Line 66718 Sent set.hr-s3585 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 66759 Sent set.hr-s3586 Node 6]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (6:od:mark --> 7:kada:compound)
+[Line 66925 Sent set.hr-s3593 Node 26]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (26:kao:mark --> 27:što:compound)
+[Line 67096 Sent set.hr-s3623 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 67132 Sent set.hr-s3624 Node 19]: [L3 Syntax leaf-cc] 'cc' not expected to have children (19:kao:cc --> 20:i:compound)
+[Line 67247 Sent set.hr-s3629 Node 19]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'amod'.
+[Line 67281 Sent set.hr-s3630 Node 9]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 67463 Sent set.hr-s3638 Node 11]: [L3 Syntax leaf-cc] 'cc' not expected to have children (11:kao:cc --> 12:i:compound)
+[Line 67827 Sent set.hr-s3653 Node 15]: [L3 Syntax leaf-cc] 'cc' not expected to have children (15:kao:cc --> 16:i:compound)
+[Line 67872 Sent set.hr-s3655 Node 11]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (11:kao:mark --> 12:što:compound)
+[Line 67907 Sent set.hr-s3656 Node 17]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (17:u:case --> 18:skladu:compound)
+[Line 68003 Sent set.hr-s3660 Node 8]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 68006 Sent set.hr-s3660 Node 10]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (10:kao:case --> 11:i:discourse)
+[Line 68007 Sent set.hr-s3660 Node 10]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (10:kao:case --> 12:u:compound)
+[Line 68410 Sent set.hr-s3698 Node 34]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (34:nakon:mark --> 35:što:compound)
+[Line 68633 Sent set.hr-s3703 Node 28]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (28:nakon:mark --> 29:što:compound)
+[Line 68751 Sent set.hr-s3706 Node 9]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (9:kako:mark --> 8:i:discourse)
+[Line 68916 Sent set.hr-s3711 Node 4]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (4:kako:mark --> 3:i:discourse)
+[Line 69222 Sent set.hr-s3726 Node 7]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 69369 Sent set.hr-s3732 Node 13]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 69947 Sent set.hr-s3752 Node 8]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADP'
+[Line 71153 Sent set.hr-s3792 Node 12]: [L3 Syntax rel-upos-case] 'case' should not be 'AUX'
+[Line 71510 Sent set.hr-s3808 Node 20]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [23]
+[Line 71510 Sent set.hr-s3808 Node 20]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [22, 23, 24, 25]
+[Line 71729 Sent set.hr-s3816 Node 6]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 72008 Sent set.hr-s3828 Node 7]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (7:da:mark --> 6:samo:discourse)
+[Line 72320 Sent set.hr-s3838 Node 16]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [17]
+[Line 72320 Sent set.hr-s3838 Node 16]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [17]
+[Line 72896 Sent set.hr-s3861 Node 16]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (16:do:case --> 17:sada:amod)
+[Line 73581 Sent news.hr-s8 Node 6]: [L3 Syntax leaf-cc] 'cc' not expected to have children (6:ali:cc --> 7:i:compound)
+[Line 73609 Sent news.hr-s9 Node 12]: [L3 Syntax leaf-cc] 'cc' not expected to have children (12:nego:cc --> 13:i:compound)
+[Line 73746 Sent news.hr-s16 Node 9]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (9:kada:mark --> 8:od:case)
+[Line 73811 Sent news.hr-s17 Node 30]: [L3 Syntax leaf-cc] 'cc' not expected to have children (30:ali:cc --> 31:i:compound)
+[Line 74260 Sent news.hr-s36 Node 23]: [L3 Syntax leaf-cc] 'cc' not expected to have children (23:ali:cc --> 24:i:compound)
+[Line 74381 Sent news.hr-s42 Node 21]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (21:kako:mark --> 20:i:discourse)
+[Line 74513 Sent news.hr-s48 Node 13]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (13:da:mark --> 12:i:discourse)
+[Line 74940 Sent news.hr-s69 Node 7]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (7:na:case --> 6:i:discourse)
+[Line 75282 Sent news.hr-s82 Node 17]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (17:je:aux --> 15:čiji:det)
+[Line 75398 Sent news.hr-s86 Node 5]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (5:je:aux --> 3:čiji:det)
+[Line 75515 Sent news.hr-s97 Node 38]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (38:na:case --> 37:i:discourse)
+[Line 75657 Sent news.hr-s101 Node 21]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (21:u:case --> 20:i:discourse)
+[Line 75673 Sent news.hr-s101 Node 37]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (37:u:case --> 36:i:discourse)
+[Line 75827 Sent news.hr-s107 Node 13]: [L3 Syntax leaf-cc] 'cc' not expected to have children (13:i:cc --> 12:čak:discourse)
+[Line 76587 Sent news.hr-s129 Node 15]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (15:na:case --> 14:i:discourse)
+[Line 76756 Sent news.hr-s135 Node 2]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (2:zato:mark --> 1:Samo:discourse)
+[Line 76774 Sent news.hr-s135 Node 19]: [L3 Syntax rel-upos-mark] 'mark' should not be 'NOUN'
+[Line 76773 Sent news.hr-s135 Node 19]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (19:obzirom:mark --> 18:s:case)
+[Line 76775 Sent news.hr-s135 Node 19]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (19:obzirom:mark --> 20:koliko:compound)
+[Line 77926 Sent news.hr-s179 Node 10]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (10:u:case --> 9:kao:compound)
+[Line 79838 Sent news.hr-s239 Node 63]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (63:nije:cop --> 62:i:discourse)
+[Line 82132 Sent news.hr-s314 Node 25]: [L3 Syntax rel-upos-case] 'case' should not be 'AUX'
+[Line 82653 Sent news.hr-s335 Node 22]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 82678 Sent news.hr-s336 Node 7]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADP'
+[Line 82691 Sent news.hr-s336 Node 20]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [21, 23, 25]
+[Line 82691 Sent news.hr-s336 Node 20]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [21, 22, 23, 24, 25]
+[Line 82730 Sent news.hr-s337 Node 26]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 82759 Sent news.hr-s338 Node 6]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (6:bilo:cop --> 13:velika:csubj)
+[Line 83443 Sent news.hr-s404 Node 7]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 83491 Sent news.hr-s407 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PART'
+[Line 84163 Sent news.hr-s448 Node 18]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 84164 Sent news.hr-s448 Node 19]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PART'
+[Line 84515 Sent news.hr-s467 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 84688 Sent news.hr-s475 Node 34]: [L3 Syntax rel-upos-compound] 'compound' should not be 'AUX'
+[Line 84891 Sent news.hr-s482 Node 16]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 85614 Sent news.hr-s507 Node 24]: [L3 Syntax leaf-cc] 'cc' not expected to have children (24:kao:cc --> 23:baš:discourse)
+[Line 86695 Sent news.hr-s550 Node 8]: [L3 Syntax rel-upos-expl] 'expl' should normally be 'PRON' but it is 'ADV'
+[Line 86711 Sent news.hr-s551 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 87177 Sent news.hr-s572 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 87358 Sent news.hr-s581 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PART'
+[Line 87652 Sent news.hr-s597 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 87729 Sent news.hr-s599 Node 15]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PART'
+[Line 88197 Sent news.hr-s621 Node 14]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [26]
+[Line 88201 Sent news.hr-s621 Node 18]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [17, 26]
+[Line 88689 Sent news.hr-s638 Node 51]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [46, 47, 48, 49]
+[Line 88948 Sent news.hr-s645 Node 25]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [22, 23]
+[Line 90460 Sent news.hr-s709 Node 29]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27]
+[Line 90527 Sent news.hr-s712 Node 10]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [11]
+[Line 92334 Sent news.hr-s786 Node 18]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 92362 Sent news.hr-s787 Node 18]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADP'
+[Line 92674 Sent news.hr-s800 Node 10]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PROPN'
+[Line 92937 Sent news.hr-s807 Node 27]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (27:da:mark --> 26:samo:compound)
+[Line 93460 Sent news.hr-s823 Node 12]: [L3 Syntax leaf-cc] 'cc' not expected to have children (12:i:cc --> 11:kao:compound)
+[Line 93494 Sent news.hr-s824 Node 16]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADJ'
+[Line 94081 Sent news.hr-s852 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 94374 Sent news.hr-s921 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 94686 Sent news.hr-s941 Node 7]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (7:da:mark --> 6:samo:discourse)
+[Line 94945 Sent news.hr-s957 Node 5]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'ADP'
+[Line 94944 Sent news.hr-s957 Node 5]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (5:za:cop --> 4:i:discourse)
+[Line 95481 Sent news.hr-s985 Node 16]: [L3 Syntax leaf-cc] 'cc' not expected to have children (16:ali:cc --> 17:i:compound)
+[Line 96158 Sent news.hr-s1009 Node 15]: [L3 Syntax leaf-cc] 'cc' not expected to have children (15:i:cc --> 14:tako:discourse)
+[Line 97750 Sent news.hr-s1175 Node 20]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (20:u:case --> 19:i:discourse)
+[Line 97782 Sent news.hr-s1177 Node 3]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (3:u:case --> 2:i:discourse)
+[Line 97891 Sent news.hr-s1181 Node 11]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (11:u:case --> 10:i:discourse)
+[Line 98203 Sent news.hr-s1196 Node 5]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (5:u:case --> 4:i:discourse)
+[Line 98255 Sent news.hr-s1198 Node 19]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (19:iz:case --> 18:i:discourse)
+[Line 98506 Sent news.hr-s1208 Node 3]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'DET'
+[Line 98704 Sent news.hr-s1214 Node 26]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (26:u:case --> 25:i:discourse)
+[Line 98725 Sent news.hr-s1215 Node 7]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (7:u:case --> 8:sklopu:mark)
+[Line 98725 Sent news.hr-s1215 Node 8]: [L3 Syntax rel-upos-mark] 'mark' should not be 'NOUN'
+[Line 99046 Sent news.hr-s1231 Node 4]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (4:kako:mark --> 3:i:discourse)
+[Line 100308 Sent news.hr-s1276 Node 19]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (19:do:case --> 18:sve:discourse)
+[Line 100562 Sent news.hr-s1289 Node 11]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (11:dok:mark --> 10:sve:discourse)
+[Line 101448 Sent news.hr-s1324 Node 5]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (5:s:case --> 4:i:discourse)
+[Line 101705 Sent news.hr-s1335 Node 5]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (5:dok:mark --> 4:i:discourse)
+[Line 101762 Sent news.hr-s1337 Node 27]: [L3 Syntax leaf-cc] 'cc' not expected to have children (27:i:cc --> 26:ali:compound)
+[Line 102187 Sent news.hr-s1352 Node 2]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (2:među:case --> 1:I:discourse)
+[Line 103007 Sent news.hr-s1382 Node 8]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 103067 Sent news.hr-s1383 Node 26]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (26:na:case --> 25:kao:compound)
+[Line 103352 Sent news.hr-s1394 Node 15]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [19]
+[Line 103492 Sent news.hr-s1399 Node 26]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (26:na:case --> 25:i:discourse)
+[Line 103523 Sent news.hr-s1400 Node 24]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (24:u:case --> 23:i:discourse)
+[Line 103628 Sent news.hr-s1404 Node 4]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADP'
+[Line 104229 Sent news.hr-s1425 Node 10]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (10:bilo:cop --> 9:ni:discourse)
+[Line 104307 Sent news.hr-s1426 Node 23]: [L3 Syntax leaf-fixed] 'fixed' not expected to have children (23:jednu:fixed --> 25:njih:nmod)
+[Line 104519 Sent news.hr-s1434 Node 26]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [30]
+[Line 105098 Sent news.hr-s1457 Node 5]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [6]
+[Line 105277 Sent news.hr-s1466 Node 9]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 105275 Sent news.hr-s1466 Node 9]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (9:gladuju:cop --> 7:kad:advmod)
+[Line 105276 Sent news.hr-s1466 Node 9]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (9:gladuju:cop --> 8:tamo:advmod)
+[Line 105311 Sent news.hr-s1468 Node 8]: [L3 Syntax rel-upos-case] 'case' should not be 'AUX'
+[Line 105757 Sent news.hr-s1487 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PART'
+[Line 106327 Sent news.hr-s1528 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 107520 Sent news.hr-s1611 Node 12]: [L3 Syntax leaf-cc] 'cc' not expected to have children (12:i:cc --> 11:tako:discourse)
+[Line 108732 Sent news.hr-s1665 Node 28]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [31]
+[Line 108732 Sent news.hr-s1665 Node 28]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41]
+[Line 109468 Sent news.hr-s1696 Node 2]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'ADV'
+[Line 110490 Sent news.hr-s1729 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
+[Line 111937 Sent news.hr-s1781 Node 13]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [14]
+[Line 111937 Sent news.hr-s1781 Node 13]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [14, 15]
+[Line 112014 Sent news.hr-s1784 Node 12]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [10]
+[Line 112174 Sent news.hr-s1789 Node 52]: [L3 Syntax leaf-cc] 'cc' not expected to have children (52:i:cc --> 51:tako:discourse)
+[Line 112725 Sent news.hr-s1805 Node 10]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [11]
+[Line 112725 Sent news.hr-s1805 Node 10]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [11]
+[Line 112788 Sent news.hr-s1806 Node 51]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (51:s:case --> 50:to:discourse)
+[Line 112842 Sent news.hr-s1808 Node 21]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NUM'
+[Line 113030 Sent news.hr-s1815 Node 6]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (6:o:case --> 5:i:discourse)
+[Line 113184 Sent news.hr-s1822 Node 21]: [L3 Syntax rel-upos-case] 'case' should not be 'ADJ'
+[Line 113185 Sent news.hr-s1822 Node 22]: [L3 Syntax rel-upos-case] 'case' should not be 'ADJ'
+[Line 113434 Sent news.hr-s1835 Node 14]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (14:u:case --> 13:i:discourse)
+[Line 113654 Sent news.hr-s1844 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 113655 Sent news.hr-s1844 Node 4]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (4:u:case --> 3:kao:compound)
+[Line 113740 Sent news.hr-s1847 Node 13]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (13:prije:case --> 11:kao:compound)
+[Line 113741 Sent news.hr-s1847 Node 13]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (13:prije:case --> 12:i:discourse)
+[Line 113883 Sent news.hr-s1852 Node 24]: [L3 Syntax leaf-cc] 'cc' not expected to have children (24:i:cc --> 23:pa:compound)
+[Line 113937 Sent news.hr-s1854 Node 28]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (28:izvan:case --> 27:i:discourse)
+[Line 113941 Sent news.hr-s1854 Node 32]: [L3 Syntax leaf-cc] 'cc' not expected to have children (32:kamoli:cc --> 31:a:compound)
+[Line 114342 Sent news.hr-s1881 Node 7]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (7:za:case --> 6:i:discourse)
+[Line 114351 Sent news.hr-s1881 Node 16]: [L3 Syntax leaf-cc] 'cc' not expected to have children (16:i:cc --> 15:ali:compound)
+[Line 115081 Sent news.hr-s1942 Node 4]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (4:da:mark --> 3:i:discourse)
+[Line 115642 Sent news.hr-s1963 Node 18]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'ADV'
+[Line 115832 Sent news.hr-s1968 Node 18]: [L3 Syntax leaf-cc] 'cc' not expected to have children (18:i:cc --> 17:kao:compound)
+[Line 116991 Sent news.hr-s2018 Node 11]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'ADV'
+[Line 117200 Sent news.hr-s2028 Node 17]: [L3 Syntax leaf-cc] 'cc' not expected to have children (17:i:cc --> 16:kao:compound)
+[Line 117205 Sent news.hr-s2028 Node 22]: [L3 Syntax leaf-cc] 'cc' not expected to have children (22:i:cc --> 21:a:compound)
+[Line 117295 Sent news.hr-s2032 Node 22]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (22:do:case --> 21:i:discourse)
+[Line 117782 Sent news.hr-s2052 Node 20]: [L3 Syntax leaf-cc] 'cc' not expected to have children (20:i:cc --> 19:ali:compound)
+[Line 118822 Sent news.hr-s2172 Node 32]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (32:za:case --> 31:i:discourse)
+[Line 118825 Sent news.hr-s2172 Node 35]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (35:iznad:case --> 34:kuna:nmod)
+[Line 119035 Sent news.hr-s2178 Node 28]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [26, 27]
+[Line 119035 Sent news.hr-s2178 Node 28]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [26]
+[Line 119247 Sent news.hr-s2184 Node 36]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (36:bez:case --> 35:to:discourse)
+[Line 119495 Sent news.hr-s2192 Node 28]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (28:na:case --> 27:i:discourse)
+[Line 120214 Sent news.hr-s2232 Node 23]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (23:nije:cop --> 22:uistinu:advmod)
+[Line 121463 Sent news.hr-s2279 Node 33]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [23, 24, 25, 26, 27, 28, 29, 30, 31]
+[Line 121795 Sent news.hr-s2291 Node 16]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 122417 Sent news.hr-s2316 Node 9]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (9:dok:mark --> 8:sve:discourse)
+[Line 122856 Sent news.hr-s2411 Node 23]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (23:u:case --> 22:nego:compound)
+[Line 122890 Sent news.hr-s2412 Node 15]: [L3 Syntax leaf-cc] 'cc' not expected to have children (15:i:cc --> 14:kao:compound)
+[Line 123311 Sent news.hr-s2432 Node 2]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (2:do:case --> 1:Sve:discourse)
+[Line 123542 Sent news.hr-s2442 Node 15]: [L3 Syntax rel-upos-cc] 'cc' should not be 'VERB'
+[Line 123531 Sent news.hr-s2442 Node 15]: [L3 Syntax leaf-cc] 'cc' not expected to have children (15:ima:cc --> 4:da:mark)
+[Line 123534 Sent news.hr-s2442 Node 15]: [L3 Syntax leaf-cc] 'cc' not expected to have children (15:ima:cc --> 7:%:nsubj)
+[Line 123546 Sent news.hr-s2442 Node 15]: [L3 Syntax leaf-cc] 'cc' not expected to have children (15:ima:cc --> 19:navike:obj)
+[Line 123553 Sent news.hr-s2443 Node 4]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (4:da:mark --> 3:i:discourse)
+[Line 123934 Sent news.hr-s2455 Node 31]: [L3 Syntax leaf-cc] 'cc' not expected to have children (31:niti:cc --> 30:kao:compound)
+[Line 124042 Sent news.hr-s2460 Node 7]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (7:za:case --> 6:i:discourse)
+[Line 124225 Sent news.hr-s2468 Node 12]: [L3 Syntax leaf-cc] 'cc' not expected to have children (12:niti:cc --> 11:kao:compound)
+[Line 124267 Sent news.hr-s2471 Node 6]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (6:na:case --> 5:i:discourse)
+[Line 124319 Sent news.hr-s2473 Node 13]: [L3 Syntax leaf-cc] 'cc' not expected to have children (13:i:cc --> 12:kao:compound)
+[Line 124338 Sent news.hr-s2474 Node 11]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (11:u:case --> 10:i:discourse)
+[Line 124658 Sent news.hr-s2483 Node 27]: [L3 Syntax leaf-cc] 'cc' not expected to have children (27:i:cc --> 26:ali:compound)
+[Line 124677 Sent news.hr-s2484 Node 9]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (9:u:case --> 8:i:discourse)
+[Line 124713 Sent news.hr-s2485 Node 11]: [L3 Syntax leaf-cc] 'cc' not expected to have children (11:i:cc --> 10:ali:compound)
+[Line 125937 Sent news.hr-s2530 Node 41]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (41:radu:case --> 40:o:case)
+[Line 126419 Sent news.hr-s2545 Node 42]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 126980 Sent web.hr-s3 Node 9]: [L3 Syntax rel-upos-cc] 'cc' should not be 'VERB'
+[Line 126979 Sent web.hr-s3 Node 9]: [L3 Syntax leaf-cc] 'cc' not expected to have children (9:poboljšava:cc --> 8:dokazano:advmod)
+[Line 126982 Sent web.hr-s3 Node 9]: [L3 Syntax leaf-cc] 'cc' not expected to have children (9:poboljšava:cc --> 11:udobnost:obj)
+[Line 127111 Sent web.hr-s7 Node 22]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [23, 24, 25]
+[Line 127112 Sent web.hr-s7 Node 24]: [L3 Syntax leaf-cc] 'cc' not expected to have children (24:više:cc --> 23:možda:advmod)
+[Line 127114 Sent web.hr-s7 Node 24]: [L3 Syntax leaf-cc] 'cc' not expected to have children (24:više:cc --> 25:nego:compound)
+[Line 127150 Sent web.hr-s8 Node 14]: [L3 Syntax leaf-cc] 'cc' not expected to have children (14:kao:cc --> 15:i:compound)
+[Line 127186 Sent web.hr-s10 Node 13]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (13:tako:mark --> 14:da:compound)
+[Line 127415 Sent web.hr-s18 Node 32]: [L3 Syntax leaf-cc] 'cc' not expected to have children (32:kao:cc --> 33:i:compound)
+[Line 127569 Sent web.hr-s22 Node 14]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 127814 Sent web.hr-s36 Node 12]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (12:zato:mark --> 13:što:compound)
+[Line 127917 Sent web.hr-s39 Node 18]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADP'
+[Line 128078 Sent web.hr-s47 Node 8]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (8:tako:mark --> 9:da:compound)
+[Line 128258 Sent web.hr-s54 Node 26]: [L3 Syntax leaf-cc] 'cc' not expected to have children (26:i:cc --> 25:pa:discourse)
+[Line 128331 Sent web.hr-s57 Node 21]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PROPN'
+[Line 128503 Sent web.hr-s68 Node 8]: [L3 Syntax rel-upos-cc] 'cc' should not be 'DET'
+[Line 129162 Sent web.hr-s106 Node 17]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 129203 Sent web.hr-s108 Node 31]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (31:kao:case --> 30:i:discourse)
+[Line 129759 Sent web.hr-s133 Node 13]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (13:što:mark --> 12:kao:compound)
+[Line 129877 Sent web.hr-s138 Node 7]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (7:do:case --> 6:pa:discourse)
+[Line 129894 Sent web.hr-s140 Node 1]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 130031 Sent web.hr-s146 Node 12]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (12:što:mark --> 11:toga:compound)
+[Line 130041 Sent web.hr-s146 Node 16]: [L3 Syntax leaf-cc] 'cc' not expected to have children (16:nego:cc --> 21:želio:advcl)
+[Line 130593 Sent web.hr-s176 Node 22]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (22:kao:mark --> 23:što:compound)
+[Line 130841 Sent web.hr-s187 Node 12]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [13]
+[Line 130924 Sent web.hr-s192 Node 9]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PROPN'
+[Line 131704 Sent web.hr-s233 Node 16]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NUM'
+[Line 131708 Sent web.hr-s233 Node 20]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NUM'
+[Line 132103 Sent web.hr-s258 Node 4]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (4:nije:cop --> 3:i:discourse)
+[Line 132568 Sent web.hr-s282 Node 10]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (10:sa:case --> 9:zajedno:compound)
+[Line 132596 Sent web.hr-s283 Node 16]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADP'
+[Line 132643 Sent web.hr-s286 Node 9]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'PROPN'
+[Line 132666 Sent web.hr-s287 Node 12]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [14]
+[Line 133544 Sent web.hr-s321 Node 31]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (31:sve:mark --> 32:dok:compound)
+[Line 133599 Sent web.hr-s325 Node 1]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (1:S:case --> 2:obzirom:compound)
+[Line 133600 Sent web.hr-s325 Node 1]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (1:S:case --> 3:na:compound)
+[Line 133621 Sent web.hr-s325 Node 23]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (23:s:case --> 24:obzirom:compound)
+[Line 133622 Sent web.hr-s325 Node 23]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (23:s:case --> 25:na:compound)
+[Line 133672 Sent web.hr-s328 Node 10]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (10:umjesto:mark --> 11:da:compound)
+[Line 133834 Sent web.hr-s333 Node 31]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (31:ako:mark --> 30:pa:compound)
+[Line 133839 Sent web.hr-s333 Node 35]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 133852 Sent web.hr-s333 Node 47]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (47:s:mark --> 48:tim:compound)
+[Line 133853 Sent web.hr-s333 Node 47]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (47:s:mark --> 49:da:compound)
+[Line 133859 Sent web.hr-s333 Node 55]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
+[Line 134163 Sent web.hr-s347 Node 11]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (11:za:case --> 12:vrijeme:compound)
+[Line 134524 Sent web.hr-s363 Node 13]: [L3 Syntax leaf-cc] 'cc' not expected to have children (13:i:cc --> 12:kao:compound)
+[Line 134808 Sent web.hr-s375 Node 11]: [L3 Syntax leaf-cc] 'cc' not expected to have children (11:i:cc --> 10:ali:compound)
+[Line 134941 Sent web.hr-s381 Node 5]: [L3 Syntax leaf-cc] 'cc' not expected to have children (5:i:cc --> 4:ali:compound)
+[Line 135169 Sent web.hr-s392 Node 16]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [21]
+[Line 135471 Sent web.hr-s403 Node 21]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'NOUN'
+[Line 135474 Sent web.hr-s403 Node 21]: [L3 Syntax leaf-punct] 'punct' not expected to have children (21:tamnica:punct --> 24:predgrađu:nmod)
+[Line 135512 Sent web.hr-s405 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'AUX'
+[Line 135770 Sent web.hr-s416 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 136034 Sent web.hr-s427 Node 12]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (12:kao:case --> 13:prije:compound)
+[Line 136071 Sent web.hr-s430 Node 11]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (11:po:case --> 10:i:discourse)
+[Line 136136 Sent web.hr-s435 Node 2]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (2:zbog:case --> 1:Baš:discourse)
+[Line 136668 Sent web.hr-s463 Node 14]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
+[Line 136751 Sent web.hr-s465 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 136931 Sent web.hr-s477 Node 14]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (14:na:case --> 13:i:discourse)
+[Line 137063 Sent web.hr-s484 Node 3]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'ADJ'
+[Line 137176 Sent web.hr-s488 Node 12]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'X'
+[Line 137447 Sent web.hr-s503 Node 30]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 137549 Sent web.hr-s510 Node 5]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 137564 Sent web.hr-s510 Node 20]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 137571 Sent web.hr-s510 Node 27]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 137747 Sent web.hr-s520 Node 1]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'ADV'
+[Line 137809 Sent web.hr-s522 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 137894 Sent web.hr-s525 Node 17]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 138020 Sent web.hr-s530 Node 14]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 138096 Sent web.hr-s532 Node 16]: [L3 Syntax rel-upos-expl] 'expl' should normally be 'PRON' but it is 'ADV'
+[Line 138137 Sent web.hr-s534 Node 20]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 138151 Sent web.hr-s535 Node 8]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 138163 Sent web.hr-s536 Node 4]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 138244 Sent web.hr-s542 Node 10]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 138289 Sent web.hr-s544 Node 13]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 138361 Sent web.hr-s547 Node 26]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 138418 Sent web.hr-s549 Node 25]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 138480 Sent web.hr-s553 Node 5]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 138515 Sent web.hr-s555 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 138527 Sent web.hr-s555 Node 14]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PART'
+[Line 138604 Sent web.hr-s560 Node 5]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 138622 Sent web.hr-s560 Node 23]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 138646 Sent web.hr-s561 Node 12]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 138681 Sent web.hr-s562 Node 9]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 138715 Sent web.hr-s563 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 138814 Sent web.hr-s569 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 138822 Sent web.hr-s569 Node 10]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 138982 Sent web.hr-s577 Node 4]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PART'
+[Line 139013 Sent web.hr-s577 Node 35]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 139120 Sent web.hr-s582 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'AUX'
+[Line 139123 Sent web.hr-s582 Node 6]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 139149 Sent web.hr-s584 Node 14]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 139192 Sent web.hr-s586 Node 4]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [5]
+[Line 139192 Sent web.hr-s586 Node 4]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [5]
+[Line 139463 Sent web.hr-s598 Node 23]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 139499 Sent web.hr-s601 Node 20]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 139546 Sent web.hr-s603 Node 6]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 139571 Sent web.hr-s603 Node 31]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 139580 Sent web.hr-s603 Node 40]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 139609 Sent web.hr-s606 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 139641 Sent web.hr-s607 Node 24]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'ADV'
+[Line 139660 Sent web.hr-s609 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PART'
+[Line 139661 Sent web.hr-s609 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 139698 Sent web.hr-s611 Node 15]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'X'
+[Line 139700 Sent web.hr-s611 Node 17]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'X'
+[Line 139733 Sent web.hr-s612 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PART'
+[Line 139775 Sent web.hr-s614 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 139812 Sent web.hr-s615 Node 17]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 139945 Sent web.hr-s620 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 139957 Sent web.hr-s620 Node 15]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 140044 Sent web.hr-s623 Node 29]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 140054 Sent web.hr-s624 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 140072 Sent web.hr-s626 Node 5]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 140092 Sent web.hr-s628 Node 10]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 140271 Sent web.hr-s634 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'AUX'
+[Line 140384 Sent web.hr-s638 Node 6]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 140483 Sent web.hr-s641 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PART'
+[Line 140497 Sent web.hr-s642 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 140564 Sent web.hr-s646 Node 16]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 140590 Sent web.hr-s647 Node 8]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 140630 Sent web.hr-s650 Node 4]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 140635 Sent web.hr-s650 Node 9]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 140670 Sent web.hr-s652 Node 9]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 140792 Sent web.hr-s661 Node 15]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 140814 Sent web.hr-s664 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 140890 Sent web.hr-s669 Node 9]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 140911 Sent web.hr-s671 Node 16]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 140960 Sent web.hr-s674 Node 27]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 140990 Sent web.hr-s675 Node 8]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 141083 Sent web.hr-s679 Node 12]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 141096 Sent web.hr-s679 Node 25]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 141216 Sent web.hr-s684 Node 7]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 141255 Sent web.hr-s685 Node 15]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 141310 Sent web.hr-s689 Node 4]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 141316 Sent web.hr-s689 Node 10]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 141374 Sent web.hr-s692 Node 8]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 141402 Sent web.hr-s692 Node 36]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 141452 Sent web.hr-s693 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 141467 Sent web.hr-s693 Node 18]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [20]
+[Line 141467 Sent web.hr-s693 Node 18]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [19, 20]
+[Line 141506 Sent web.hr-s695 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PART'
+[Line 141572 Sent web.hr-s698 Node 35]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'ADP'
+[Line 142422 Sent web.hr-s748 Node 7]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'NOUN'
+[Line 142425 Sent web.hr-s748 Node 7]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (7:autor:cop --> 10:bestsellera:obl)
+[Line 142455 Sent web.hr-s749 Node 12]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADP'
+[Line 142491 Sent web.hr-s751 Node 5]: [L3 Syntax leaf-cc] 'cc' not expected to have children (5:kao:cc --> 6:i:compound)
+[Line 142659 Sent web.hr-s758 Node 16]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [19]
+[Line 142659 Sent web.hr-s758 Node 16]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [17, 18, 19]
+[Line 142832 Sent web.hr-s770 Node 10]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PROPN'
+[Line 143670 Sent web.hr-s815 Node 9]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [11]
+[Line 143670 Sent web.hr-s815 Node 9]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [11]
+[Line 143744 Sent web.hr-s818 Node 7]: [L3 Syntax rel-upos-compound] 'compound' should not be 'AUX'
+[Line 144021 Sent web.hr-s831 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 144085 Sent web.hr-s833 Node 12]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [13, 15]
+[Line 144180 Sent web.hr-s837 Node 28]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'PRON'
+[Line 144273 Sent web.hr-s846 Node 18]: [L3 Syntax leaf-cc] 'cc' not expected to have children (18:kao:cc --> 19:i:compound)
+[Line 144530 Sent web.hr-s854 Node 6]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (6:su:aux --> 44:stav:parataxis)
+[Line 144554 Sent web.hr-s854 Node 68]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42]
+[Line 144983 Sent web.hr-s880 Node 2]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (2:kao:mark --> 3:da:compound)
+[Line 145289 Sent web.hr-s894 Node 11]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (11:kao:mark --> 12:što:compound)
+[Line 145418 Sent web.hr-s902 Node 14]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (14:u:case --> 13:kao:compound)
+[Line 145439 Sent web.hr-s904 Node 15]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (15:na:case --> 14:i:discourse)
+[Line 145820 Sent web.hr-s923 Node 28]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'PROPN'
+[Line 145849 Sent web.hr-s924 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 146287 Sent web.hr-s946 Node 6]: [L3 Syntax rel-upos-compound] 'compound' should not be 'AUX'
+[Line 146578 Sent web.hr-s966 Node 6]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (6:do:case --> 5:i:discourse)
+[Line 146626 Sent web.hr-s967 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 147358 Sent web.hr-s1008 Node 4]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (4:o:case --> 3:i:discourse)
+[Line 147447 Sent web.hr-s1011 Node 6]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (6:u:case --> 5:i:discourse)
+[Line 147840 Sent web.hr-s1029 Node 21]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (21:kao:case --> 20:baš:dislocated)
+[Line 148039 Sent web.hr-s1037 Node 33]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (33:do:case --> 32:i:mark)
+[Line 148180 Sent web.hr-s1048 Node 6]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (6:od:case --> 5:i:discourse)
+[Line 148283 Sent web.hr-s1054 Node 10]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (10:kao:mark --> 9:baš:discourse)
+[Line 148599 Sent web.hr-s1069 Node 17]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (17:u:case --> 16:niti:discourse)
+[Line 148735 Sent web.hr-s1073 Node 24]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (24:od:case --> 23:još:amod)
+[Line 148942 Sent web.hr-s1081 Node 27]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (27:od:case --> 26:i:discourse)
+[Line 149277 Sent web.hr-s1102 Node 9]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 149288 Sent web.hr-s1103 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 149327 Sent web.hr-s1106 Node 28]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 149492 Sent web.hr-s1119 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 149497 Sent web.hr-s1119 Node 10]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 149535 Sent web.hr-s1120 Node 24]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 149556 Sent web.hr-s1122 Node 6]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 149626 Sent web.hr-s1126 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 149633 Sent web.hr-s1126 Node 9]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 149752 Sent web.hr-s1131 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 149770 Sent web.hr-s1131 Node 20]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PART'
+[Line 149782 Sent web.hr-s1132 Node 5]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 149796 Sent web.hr-s1133 Node 4]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 149810 Sent web.hr-s1133 Node 18]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 149838 Sent web.hr-s1137 Node 14]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 149844 Sent web.hr-s1137 Node 20]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 149882 Sent web.hr-s1138 Node 12]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 149894 Sent web.hr-s1139 Node 5]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 149937 Sent web.hr-s1140 Node 36]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 149951 Sent web.hr-s1141 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 150000 Sent web.hr-s1144 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 150061 Sent web.hr-s1149 Node 7]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 150130 Sent web.hr-s1154 Node 27]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 150172 Sent web.hr-s1156 Node 21]: [L3 Syntax rel-upos-expl] 'expl' should normally be 'PRON' but it is 'ADV'
+[Line 150178 Sent web.hr-s1156 Node 27]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 150190 Sent web.hr-s1157 Node 6]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 150285 Sent web.hr-s1162 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 150297 Sent web.hr-s1165 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 150330 Sent web.hr-s1167 Node 6]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 150353 Sent web.hr-s1167 Node 29]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 150387 Sent web.hr-s1168 Node 10]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 150436 Sent web.hr-s1171 Node 9]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 150467 Sent web.hr-s1171 Node 40]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PART'
+[Line 150476 Sent web.hr-s1173 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 150539 Sent web.hr-s1176 Node 9]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 150826 Sent web.hr-s1192 Node 21]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 150855 Sent web.hr-s1195 Node 21]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 150867 Sent web.hr-s1196 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 150911 Sent web.hr-s1197 Node 31]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 151028 Sent web.hr-s1204 Node 6]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 151098 Sent web.hr-s1208 Node 11]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 151133 Sent web.hr-s1211 Node 18]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [19]
+[Line 151133 Sent web.hr-s1211 Node 18]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [19]
+[Line 151140 Sent web.hr-s1211 Node 25]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [28]
+[Line 151140 Sent web.hr-s1211 Node 25]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [27, 28]
+[Line 151302 Sent web.hr-s1218 Node 20]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 151367 Sent web.hr-s1222 Node 11]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 151399 Sent web.hr-s1223 Node 16]: [L3 Syntax rel-upos-expl] 'expl' should normally be 'PRON' but it is 'ADV'
+[Line 151461 Sent web.hr-s1226 Node 12]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 151499 Sent web.hr-s1229 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 151533 Sent web.hr-s1230 Node 20]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 151619 Sent web.hr-s1233 Node 14]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 151639 Sent web.hr-s1234 Node 6]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 151647 Sent web.hr-s1234 Node 14]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 151651 Sent web.hr-s1234 Node 18]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 151727 Sent web.hr-s1239 Node 14]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 151762 Sent web.hr-s1240 Node 18]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 151961 Sent web.hr-s1252 Node 24]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 152086 Sent web.hr-s1255 Node 22]: [L3 Syntax rel-upos-case] 'case' should not be 'PROPN'
+[Line 152087 Sent web.hr-s1255 Node 23]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PROPN'
+[Line 152118 Sent web.hr-s1260 Node 5]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 152161 Sent web.hr-s1262 Node 16]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 152198 Sent web.hr-s1264 Node 4]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 152199 Sent web.hr-s1264 Node 5]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PART'
+[Line 152276 Sent web.hr-s1268 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 152295 Sent web.hr-s1268 Node 21]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 152314 Sent web.hr-s1271 Node 13]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 152387 Sent web.hr-s1275 Node 6]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 152391 Sent web.hr-s1275 Node 10]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 152428 Sent web.hr-s1277 Node 9]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 152476 Sent web.hr-s1279 Node 15]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 152522 Sent web.hr-s1281 Node 13]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 152695 Sent web.hr-s1286 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 152705 Sent web.hr-s1286 Node 13]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 152711 Sent web.hr-s1286 Node 19]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 152725 Sent web.hr-s1287 Node 9]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 152736 Sent web.hr-s1287 Node 20]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 152739 Sent web.hr-s1287 Node 23]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 152886 Sent web.hr-s1289 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 152895 Sent web.hr-s1289 Node 11]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 152913 Sent web.hr-s1292 Node 9]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 153068 Sent web.hr-s1303 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 153366 Sent web.hr-s1316 Node 1]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (1:Nakon:mark --> 2:što:compound)
+[Line 153519 Sent web.hr-s1321 Node 20]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'ADJ'
+[Line 153568 Sent web.hr-s1322 Node 24]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADP'
+[Line 153892 Sent web.hr-s1340 Node 4]: [L3 Syntax leaf-cc] 'cc' not expected to have children (4:kao:cc --> 5:i:compound)
+[Line 153908 Sent web.hr-s1340 Node 21]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 154086 Sent web.hr-s1348 Node 3]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (3:nisu:aux --> 2:i:discourse)
+[Line 154327 Sent web.hr-s1359 Node 13]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (13:osim:mark --> 14:ako:compound)
+[Line 154442 Sent web.hr-s1365 Node 18]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (18:osim:mark --> 19:ako:compound)
+[Line 154699 Sent web.hr-s1380 Node 38]: [L3 Syntax leaf-cc] 'cc' not expected to have children (38:kao:cc --> 39:i:compound)
+[Line 154963 Sent web.hr-s1394 Node 1]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (1:Nakon:mark --> 2:što:compound)
+[Line 155063 Sent web.hr-s1400 Node 18]: [L3 Syntax leaf-cc] 'cc' not expected to have children (18:kao:cc --> 19:i:compound)
+[Line 155381 Sent web.hr-s1419 Node 10]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (10:tako:mark --> 11:da:compound)
+[Line 155417 Sent web.hr-s1422 Node 1]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (1:Kao:case --> 2:iz:compound)
+[Line 155519 Sent web.hr-s1428 Node 10]: [L3 Syntax leaf-cc] 'cc' not expected to have children (10:kao:cc --> 11:i:compound)
+[Line 155596 Sent web.hr-s1430 Node 17]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (17:tako:mark --> 18:da:compound)
+[Line 155829 Sent web.hr-s1439 Node 15]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (15:zato:mark --> 16:što:compound)
+[Line 155905 Sent web.hr-s1443 Node 7]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'DET'
+[Line 155948 Sent web.hr-s1445 Node 21]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'amod'.
+[Line 156335 Sent web.hr-s1465 Node 1]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (1:Osim:mark --> 2:što:compound)
+[Line 156462 Sent web.hr-s1471 Node 14]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (14:tako:mark --> 15:da:compound)
+[Line 156675 Sent web.hr-s1480 Node 8]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (8:osim:mark --> 9:što:compound)
+[Line 156853 Sent web.hr-s1488 Node 5]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 157106 Sent web.hr-s1500 Node 10]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [11]
+[Line 157106 Sent web.hr-s1500 Node 10]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [11]
+[Line 157586 Sent web.hr-s1534 Node 39]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 157665 Sent web.hr-s1537 Node 10]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 158164 Sent web.hr-s1560 Node 11]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'X'
+[Line 158300 Sent web.hr-s1568 Node 14]: [L3 Syntax leaf-cc] 'cc' not expected to have children (14:a:cc --> 15:i:compound)
+[Line 158945 Sent web.hr-s1601 Node 13]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (13:uz:case --> 12:i:discourse)
+[Line 159011 Sent web.hr-s1602 Node 28]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (28:na:case --> 27:i:discourse)
+[Line 159033 Sent web.hr-s1603 Node 9]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON'
+[Line 159093 Sent web.hr-s1606 Node 21]: [L3 Syntax leaf-cc] 'cc' not expected to have children (21:i:cc --> 19:možda:discourse)
+[Line 159097 Sent web.hr-s1606 Node 24]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (24:za:case --> 23:nego:discourse)
+[Line 159399 Sent web.hr-s1623 Node 2]: [L3 Syntax leaf-fixed] 'fixed' not expected to have children (2:obzirom:fixed --> 3:da:mark)
+[Line 159755 Sent web.hr-s1642 Node 7]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (7:dok:mark --> 6:sve:compound)
+[Line 159783 Sent web.hr-s1643 Node 10]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [23]
+[Line 159814 Sent web.hr-s1644 Node 1]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADJ'
+[Line 160445 Sent web.hr-s1675 Node 25]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (25:s:case --> 24:i:discourse)
+[Line 160642 Sent web.hr-s1687 Node 23]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 160640 Sent web.hr-s1687 Node 23]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (23:smije:cop --> 21:dokle:advmod)
+[Line 160641 Sent web.hr-s1687 Node 23]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (23:smije:cop --> 22:se:expl)
+[Line 160643 Sent web.hr-s1687 Node 23]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (23:smije:cop --> 24:ići:xcomp)
+[Line 160771 Sent web.hr-s1691 Node 44]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (44:po:case --> 43:i:discourse)
+[Line 161607 Sent web.hr-s1736 Node 52]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (52:do:case --> 50:pa:discourse)
+[Line 161608 Sent web.hr-s1736 Node 52]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (52:do:case --> 51:sve:discourse)
+[Line 161708 Sent web.hr-s1740 Node 15]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (15:na:case --> 14:i:discourse)
+[Line 161718 Sent web.hr-s1740 Node 25]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (25:na:case --> 24:i:discourse)
+[Line 162682 Sent web.hr-s1799 Node 10]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (10:o:case --> 9:i:discourse)
+[Line 162805 Sent web.hr-s1803 Node 31]: [L3 Syntax leaf-cc] 'cc' not expected to have children (31:i:cc --> 30:pa:compound)
+[Line 162875 Sent web.hr-s1806 Node 8]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (8:kao:case --> 9:i:discourse)
+[Line 163090 Sent web.hr-s1820 Node 12]: [L3 Syntax leaf-cc] 'cc' not expected to have children (12:ali:cc --> 13:i:compound)
+[Line 163488 Sent web.hr-s1842 Node 31]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (31:u:case --> 30:i:discourse)
+[Line 163567 Sent web.hr-s1846 Node 23]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (23:na:case --> 22:i:discourse)
+[Line 163680 Sent web.hr-s1851 Node 28]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (28:protiv:case --> 27:i:discourse)
+[Line 163705 Sent web.hr-s1851 Node 53]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (53:makar:mark --> 52:pa:discourse)
+[Line 164199 Sent web.hr-s1874 Node 4]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (4:na:case --> 2:različitih:amod)
+[Line 164514 Sent web.hr-s1889 Node 9]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (9:kao:case --> 8:i:discourse)
+[Line 165107 Sent web.hr-s1916 Node 2]: [L3 Syntax leaf-fixed] 'fixed' not expected to have children (2:dr.:fixed --> 3:sc.:fixed)
+[Line 165374 Sent web.hr-s1931 Node 6]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'CCONJ'
+[Line 165623 Sent web.hr-s1944 Node 16]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [17, 21]
+[Line 165626 Sent web.hr-s1944 Node 20]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (20:sa:case --> 19:ni:discourse)
+[Line 166141 Sent web.hr-s1967 Node 28]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (28:za:case --> 27:i:discourse)
+[Line 166159 Sent web.hr-s1968 Node 11]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 166284 Sent web.hr-s1972 Node 55]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 166327 Sent web.hr-s1973 Node 24]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'amod'.
+[Line 166809 Sent web.hr-s1994 Node 21]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (21:bio:cop --> 20:i:discourse)
+[Line 166875 Sent web.hr-s1998 Node 30]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (30:da:mark --> 29:pa:compound)
+[Line 167640 Sent web.hr-s2041 Node 26]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADJ'
+[Line 167747 Sent web.hr-s2048 Node 40]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'AUX'
+[Line 168246 Sent web.hr-s2074 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
+[Line 168326 Sent web.hr-s2078 Node 17]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (17:da:mark --> 16:bilo:discourse)
+[Line 168625 Sent web.hr-s2094 Node 3]: [L3 Syntax rel-upos-case] 'case' should not be 'DET'
+[Line 168635 Sent web.hr-s2094 Node 13]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [15]
+[Line 168635 Sent web.hr-s2094 Node 13]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [14, 15, 16, 17, 18, 19]
+[Line 168644 Sent web.hr-s2094 Node 24]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (24:na:case --> 22:čak:discourse)
+[Line 168645 Sent web.hr-s2094 Node 24]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (24:na:case --> 23:i:discourse)
+[Line 168667 Sent web.hr-s2094 Node 47]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (47:s:case --> 45:i:discourse)
+[Line 168668 Sent web.hr-s2094 Node 47]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (47:s:case --> 46:to:discourse)
+[Line 169009 Sent web.hr-s2107 Node 17]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (17:do:case --> 16:sve:discourse)
+[Line 169929 Sent web.hr-s2145 Node 28]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 170296 Sent web.hr-s2165 Node 7]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (7:tako:mark --> 8:da:compound)
+[Line 170449 Sent web.hr-s2172 Node 21]: [L3 Syntax leaf-cc] 'cc' not expected to have children (21:kao:cc --> 22:i:compound)
+[Line 171987 Sent web.hr-s2242 Node 38]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (38:nakon:mark --> 39:što:compound)
+[Line 172318 Sent web.hr-s2257 Node 3]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (3:bilo:mark --> 4:da:compound)
+[Line 172329 Sent web.hr-s2257 Node 14]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (14:bilo:mark --> 15:da:compound)
+[Line 172750 Sent web.hr-s2278 Node 4]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (4:kao:case --> 5:i:compound)
+[Line 172785 Sent web.hr-s2280 Node 3]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (3:kao:mark --> 4:da:compound)
+[Line 173089 Sent web.hr-s2294 Node 17]: [L3 Syntax leaf-cc] 'cc' not expected to have children (17:kao:cc --> 18:i:compound)
+[Line 173464 Sent web.hr-s2309 Node 51]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [52]
+[Line 173657 Sent web.hr-s2320 Node 3]: [L3 Syntax rel-upos-mark] 'mark' should not be 'NOUN'
+[Line 173658 Sent web.hr-s2320 Node 3]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (3:obzirom:mark --> 4:da:compound)
+[Line 173792 Sent web.hr-s2324 Node 61]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (61:kao:mark --> 62:što:compound)
+Syntax errors: 801
+*** FAILED *** with 801 errors
