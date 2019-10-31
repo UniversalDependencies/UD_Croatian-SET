@@ -16208,7 +16208,7 @@
 2	dojke	dojka	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 3	(	(	PUNCT	Z	_	4	punct	_	SpaceAfter=No
 4	mamilla	Mamilla	X	Xf	_	1	appos	_	_
-5	mammae	Mammae	X	Xf	_	4	flat:foreign	_	SpaceAfter=No
+5	mammae	Mammae	X	Xf	_	4	flat	_	SpaceAfter=No
 6	)	)	PUNCT	Z	_	4	punct	_	_
 7	i	i	CCONJ	Cc	_	8	cc	_	_
 8	pojas	pojas	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
@@ -16217,7 +16217,7 @@
 11	okružuje	okruživati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_
 12	(	(	PUNCT	Z	_	13	punct	_	SpaceAfter=No
 13	areola	Areola	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	8	appos	_	_
-14	mammae	Mammae	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	13	flat:foreign	_	SpaceAfter=No
+14	mammae	Mammae	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	13	flat	_	SpaceAfter=No
 15	)	)	PUNCT	Z	_	13	punct	_	_
 16	pokriveni	pokriti	ADJ	Appmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 17	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
@@ -23630,8 +23630,8 @@
 6	:	:	PUNCT	Z	_	8	punct	_	_
 7	I	i	X	Xf	_	8	nmod	_	_
 8	told	told	X	Xf	_	5	parataxis	_	_
-9	you	you	X	Xf	_	8	flat:foreign	_	_
-10	so	sti	X	Xf	_	8	flat:foreign	_	SpaceAfter=No
+9	you	you	X	Xf	_	8	flat	_	_
+10	so	sti	X	Xf	_	8	flat	_	SpaceAfter=No
 11	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = web.hr-s765

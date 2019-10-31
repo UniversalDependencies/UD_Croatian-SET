@@ -23269,16 +23269,16 @@
 18	"	"	PUNCT	Z	_	20	punct	_	SpaceAfter=No
 19	The	the	X	Xf	_	20	nmod	_	_
 20	Rise	rise	X	Xf	_	17	appos	_	_
-21	and	and	X	Xf	_	20	flat:foreign	_	_
-22	Fall	fall	X	Xf	_	20	flat:foreign	_	_
+21	and	and	X	Xf	_	20	flat	_	_
+22	Fall	fall	X	Xf	_	20	flat	_	_
 23	of	of	X	Xf	_	24	nmod	_	_
-24	Ziggy	Ziggy	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	22	flat:foreign	_	_
-25	Stardust	Stardust	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	24	flat:foreign	_	_
-26	and	and	X	Xf	_	20	flat:foreign	_	_
+24	Ziggy	Ziggy	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	22	flat	_	_
+25	Stardust	Stardust	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	24	flat	_	_
+26	and	and	X	Xf	_	20	flat	_	_
 27	the	the	X	Xf	_	28	nmod	_	_
-28	Spiders	spiders	X	Xf	_	20	flat:foreign	_	_
+28	Spiders	spiders	X	Xf	_	20	flat	_	_
 29	from	fra	X	Xf	_	30	nmod	_	_
-30	Mars	mars	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	28	flat:foreign	_	SpaceAfter=No
+30	Mars	mars	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	28	flat	_	SpaceAfter=No
 31	"	"	PUNCT	Z	_	20	punct	_	SpaceAfter=No
 32	.	.	PUNCT	Z	_	8	punct	_	_
 
@@ -23567,8 +23567,8 @@
 30	nazvan	nazvati	ADJ	Appmsann	Animacy=Inan|Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	25	parataxis	_	_
 31	»	»	PUNCT	Z	_	32	punct	_	SpaceAfter=No
 32	Men	men	X	Xf	_	30	obl	_	_
-33	with	with	X	Xf	_	32	flat:foreign	_	_
-34	pens	pens	X	Xf	_	32	flat:foreign	_	SpaceAfter=No
+33	with	with	X	Xf	_	32	flat	_	_
+34	pens	pens	X	Xf	_	32	flat	_	SpaceAfter=No
 35	«	«	PUNCT	Z	_	32	punct	_	SpaceAfter=No
 36	)	)	PUNCT	Z	_	30	punct	_	SpaceAfter=No
 37	,	,	PUNCT	Z	_	10	punct	_	_
