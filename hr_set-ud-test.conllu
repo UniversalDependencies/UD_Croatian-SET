@@ -1836,7 +1836,7 @@
 15	kulturi	kultura	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_
 16	i	i	CCONJ	Cc	_	7	cc	_	ToDo=cc-without-conj
 17	ne	ne	PART	Qz	Polarity=Neg	18	advmod	_	_
-18	žele	željeti	AUX	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+18	žele	željeti	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 19	biti	biti	AUX	Van	VerbForm=Inf	20	cop	_	_
 20	dio	dio	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	18	xcomp	_	_
 21	toga	taj	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	20	nmod	_	SpaceAfter=No
@@ -20753,7 +20753,7 @@
 25	,	,	PUNCT	Z	_	20	punct	_	_
 26	ukupni	ukupan	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	27	amod	_	_
 27	krediti	kredit	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	_
-28	banaka	banka	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	nmod	_	_
+28	banaka	banka	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	_
 29	povećani	povećati	ADJ	Appmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	12	acl	_	_
 30	za	za	ADP	Sa	Case=Acc	32	case	_	_
 31	26,3	26	NUM	Mdc	NumType=Card	32	nummod	_	_
@@ -21203,7 +21203,7 @@
 15	Van	Van	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
 16	Rompuy	Rompuy	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	15	flat	_	_
 17	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	18	expl	_	_
-18	nakostriješi	nakostriješiti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+18	nakostriješi	nakostriješiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 19	.	.	PUNCT	Z	_	18	punct	_	_
 
 # sent_id = news.hr-s2570

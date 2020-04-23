@@ -22069,7 +22069,7 @@
 8	sjajna	sjajan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
 9	prigoda	prigoda	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 10	da	da	SCONJ	Cs	_	13	mark	_	_
-11	budemo	budeti	AUX	Vmr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	budemo	biti	AUX	Vmr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	_
 12	i	i	CCONJ	Cc	_	13	discourse	_	_
 13	ljubazni	ljubazan	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	9	acl	_	SpaceAfter=No
 14	.	.	PUNCT	Z	_	9	punct	_	_
@@ -24487,7 +24487,7 @@
 10	16	16	NUM	Mdc	NumType=Card	11	nummod	_	_
 11	godina	godina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	7	obj	_	_
 12	kada	kada	ADV	Rgp	Degree=Pos|PronType=Int,Rel	14	advmod	_	_
-13	ja	ja	AUX	Pp1-sn	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	aux	_	_
+13	ja	biti	AUX	Pp1-sn	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	aux	_	_
 14	odveden	odvesti	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	advcl	_	_
 15	iz	iz	ADP	Sg	Case=Gen	16	case	_	_
 16	Srebrenice	Srebrenica	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
