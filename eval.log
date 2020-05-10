@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Croatian-SET:
-commit 3918ab088bc6c5da3261df8ae37200009a764110
-Merge: 9ba6f78 1b18dce
+commit f5f9b87ca1b799a19eec19fd9c87d6e7935f64b1
+Merge: 8e58270 47f9392
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 199409 of 199409 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.5907159838308.
@@ -15,73 +15,28 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 159794 out of 199409 total words have one or more features.
+Features: 159796 out of 199409 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 1904 bugs.
+Udapi: found 1423 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 199409 words.
 Genres: found 3 out of 17 known.
 validate.py --lang hr --max-err=10 UD_Croatian-SET/hr_set-ud-dev.conllu
-[Line 129 Sent set.hr-s7 Node 17]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
-[Line 188 Sent set.hr-s10 Node 9]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [13, 16]
-[Line 188 Sent set.hr-s10 Node 9]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [10, 11, 12, 13, 14, 15, 16, 17, 18]
-[Line 257 Sent set.hr-s12 Node 21]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
-[Line 288 Sent set.hr-s13 Node 8]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
-[Line 295 Sent set.hr-s13 Node 15]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
-[Line 340 Sent set.hr-s15 Node 15]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
-[Line 406 Sent set.hr-s18 Node 8]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
-[Line 421 Sent set.hr-s18 Node 23]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
-...suppressing further errors regarding Syntax
-Syntax errors: 141
-*** FAILED *** with 141 errors
-Exit code: 1
+*** PASSED ***
 validate.py --lang hr --max-err=10 UD_Croatian-SET/hr_set-ud-test.conllu
-[Line 1186 Sent set.hr-s444 Node 21]: [L3 Syntax leaf-cc] 'cc' not expected to have children (21:kao:cc --> 22:i:mark)
-[Line 1375 Sent set.hr-s449 Node 29]: [L3 Syntax rel-upos-compound] 'compound' should not be 'AUX'
-[Line 1839 Sent set.hr-s468 Node 18]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
-[Line 1840 Sent set.hr-s468 Node 18]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (18:žele:cop --> 19:biti:xcomp)
-[Line 1839 Sent set.hr-s468 Node 18]: [L5 Syntax cop-lemma] 'željeti' is not a copula in language [hr]
-[Line 2448 Sent set.hr-s512 Node 2]: [L3 Syntax rel-upos-case] 'case' should not be 'AUX'
-[Line 3052 Sent set.hr-s733 Node 26]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [29]
-[Line 3340 Sent set.hr-s745 Node 19]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
-[Line 4466 Sent set.hr-s1209 Node 15]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [16]
-...suppressing further errors regarding Syntax
-[Line 20756 Sent news.hr-s2398 Node 28]: [L5 Morpho aux-lemma] 'banka' is not an auxiliary verb in language [hr]
-[Line 21206 Sent news.hr-s2569 Node 18]: [L5 Morpho aux-lemma] 'nakostriješiti' is not an auxiliary verb in language [hr]
-Morpho errors: 2
-Syntax errors: 100
-*** FAILED *** with 102 errors
-Exit code: 1
+*** PASSED ***
 validate.py --lang hr --max-err=10 UD_Croatian-SET/hr_set-ud-train.conllu
-[Line 293 Sent set.hr-s45 Node 6]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
-[Line 582 Sent set.hr-s54 Node 5]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
-[Line 968 Sent set.hr-s70 Node 11]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADP'
-[Line 1008 Sent set.hr-s71 Node 36]: [L3 Syntax leaf-cc] 'cc' not expected to have children (36:i:cc --> 35:kao:compound)
-[Line 1042 Sent set.hr-s73 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
-[Line 1183 Sent set.hr-s80 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
-[Line 1318 Sent set.hr-s87 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
-[Line 1385 Sent set.hr-s90 Node 10]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
-[Line 1534 Sent set.hr-s98 Node 14]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [15]
-...suppressing further errors regarding Syntax
-[Line 82752 Sent news.hr-s338 Node 6]: [L5 Morpho aux-lemma] 'bilo' is not an auxiliary verb in language [hr]
-[Line 107035 Sent news.hr-s1579 Node 14]: [L5 Morpho aux-lemma] 'bilo' is not an auxiliary verb in language [hr]
-[Line 113335 Sent news.hr-s1831 Node 14]: [L5 Morpho aux-lemma] 'bilo' is not an auxiliary verb in language [hr]
-[Line 132658 Sent web.hr-s287 Node 4]: [L5 Morpho aux-lemma] 'moći' is not an auxiliary verb in language [hr]
-[Line 171423 Sent web.hr-s2219 Node 22]: [L5 Morpho aux-lemma] 'susretati' is not an auxiliary verb in language [hr]
-Morpho errors: 5
-Syntax errors: 818
-*** FAILED *** with 823 errors
-Exit code: 1
-Validity: 0.01
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.766581585197045) = 0.196559380819755
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.904517850247481) = 0.278313184691533
+(weight=0.307692307692308) * (score{udapi}=0.928639128625087) = 0.285735116500027
 (weight=0.0769230769230769) * (score{udeprels}=0.918918918918919) = 0.0706860706860707
-(TOTAL score=0.795030732728279) * (availability=1) * (validity=0.01) = 0.00795030732728279
-STARS = 0
-UD_Croatian-SET	0.00795030732728279	0
+(TOTAL score=0.802452664536773) * (availability=1) * (validity=1) = 0.802452664536773
+STARS = 4
+UD_Croatian-SET	0.802452664536773	4
