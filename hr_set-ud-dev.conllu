@@ -4389,10 +4389,10 @@
 34	--	--	PUNCT	Z	_	35	punct	_	_
 35	Ruška	Ruška	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	30	appos	_	_
 36	Paparoska	Paparoska	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	35	flat	_	_
-37	(	(	PUNCT	Z	_	39	punct	_	SpaceAfter=No
+37	(	(	PUNCT	Z	_	38	punct	_	SpaceAfter=No
 38	područje	područje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	35	parataxis	_	_
 39	Štipa	Štip	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
-40	)	)	PUNCT	Z	_	39	punct	_	SpaceAfter=No
+40	)	)	PUNCT	Z	_	38	punct	_	SpaceAfter=No
 41	,	,	PUNCT	Z	_	42	punct	_	_
 42	Miruša	Miruša	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	35	conj	_	_
 43	Elenovska	Elenovska	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	42	flat	_	_
@@ -7753,7 +7753,7 @@
 25	trajanju	trajanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	23	nmod	_	_
 26	od	od	ADP	Sg	Case=Gen	27	case	_	_
 27	pet	pet	NUM	Mlc	NumType=Card	31	nummod	_	SpaceAfter=No
-28	,	,	PUNCT	Z	_	30	punct	_	_
+28	,	,	PUNCT	Z	_	29	punct	_	_
 29	odnosno	odnosno	ADV	Rgp	Degree=Pos	31	advmod	_	_
 30	tri	tri	NUM	Mlc	NumType=Card	27	conj	_	_
 31	mjeseca	mjesec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
