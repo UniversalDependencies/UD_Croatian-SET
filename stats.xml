@@ -15,7 +15,7 @@
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">24138</tag><!-- velik, nov, drugi, sav, prvi, hrvatski, dobar, europski, politički, međunarodni -->
+    <tag name="ADJ">24139</tag><!-- velik, nov, drugi, sav, prvi, hrvatski, dobar, europski, politički, međunarodni -->
     <tag name="ADP">19089</tag><!-- u, na, za, sa, od, o, iz, do, nakon, prema -->
     <tag name="ADV">8428</tag><!-- samo, mnogo, još, također, već, posto, kada, sada, međutim, dobro -->
     <tag name="AUX">12566</tag><!-- biti, htjeti -->
@@ -26,7 +26,7 @@
     <tag name="NUM">3148</tag><!-- jedan, dva, tri, pet, četiri, 20, 10, šest, deset, 15 -->
     <tag name="PART">2092</tag><!-- ne, i, li, sve, ni, čak, tek, bilo, niti, baš -->
     <tag name="PRON">5302</tag><!-- sebe, on, što, oni, mi, ja, vi, tko, nešto, nitko -->
-    <tag name="PROPN">12849</tag><!-- EU, Hrvatska, Kosovo, Srbija, BiH, Makedonija, Turska, Europa, SETimes, NATO -->
+    <tag name="PROPN">12848</tag><!-- EU, Hrvatska, Kosovo, Srbija, BiH, Makedonija, Turska, Europa, SETimes, NATO -->
     <tag name="PUNCT">24165</tag><!-- ,, ., ", ), (, -, :, –, ', ? -->
     <tag name="SCONJ">4929</tag><!-- da, kako, kao, što, jer, dok, ako, iako, nakon, ukoliko -->
     <tag name="SYM">119</tag><!-- %, 50%, 20%, 30%, 13%, 14%, 16%, 40%, 45%, 60% -->
@@ -42,7 +42,7 @@
     <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">32306</feat><!-- od, iz, do, godine, nakon, zbog, milijuna, eura, godina, kuna -->
     <feat name="Case" value="Ins" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">6186</feat><!-- s, sa, među, pod, kojim, za, obzirom, kojima, tim, time -->
     <feat name="Case" value="Loc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">17663</feat><!-- u, na, o, prema, po, hrvatskoj, kojoj, kojem, tome, godini -->
-    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">31061</feat><!-- koji, to, koja, što, koje, jedan, predsjednik, hrvatska, ministar, vlada -->
+    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">31060</feat><!-- koji, to, koja, što, koje, jedan, predsjednik, hrvatska, ministar, vlada -->
     <feat name="Case" value="Voc" upos="ADJ,DET,NOUN,PRON,PROPN">34</feat><!-- gospodine, Bože, Isuse, Najdraži, Nespretni, Radoviću, Uzoriti, akademiče, braćo, budale -->
     <feat name="Definite" value="Def" upos="ADJ">20684</feat><!-- novi, sve, svi, vanjskih, glavni, novih, nove, prošle, hrvatski, moguće -->
     <feat name="Definite" value="Ind" upos="ADJ">1452</feat><!-- velik, sam, dobar, važan, poznat, održan, otvoren, postignut, rođen, siguran -->
@@ -51,7 +51,7 @@
     <feat name="Degree" value="Sup" upos="ADJ,ADV,DET">642</feat><!-- najveći, najviše, najbolje, najbolji, najmanje, najveća, najčešće, najveće, najvećih, najboljeg -->
     <feat name="Foreign" value="Yes" upos="X">732</feat><!-- online, of, the, de, Company, and, world, European, International, Freedom -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">36752</feat><!-- godine, koje, koja, godina, BiH, zemlje, kuna, ove, bila, zemalja -->
-    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">49119</feat><!-- koji, EU, izjavio, bio, milijuna, jedan, rekao, eura, kazao, ljudi -->
+    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">49118</feat><!-- koji, EU, izjavio, bio, milijuna, jedan, rekao, eura, kazao, ljudi -->
     <feat name="Gender" value="Neut" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">14438</feat><!-- to, što, bilo, toga, Kosova, vrijeme, koje, sve, tome, Kosovo -->
     <feat name="Gender[psor]" value="Fem" upos="DET">127</feat><!-- njezina, njezine, njezin, njen, njezinu, njezinih, njene, njezino, njezinom, njena -->
     <feat name="Gender[psor]" value="Masc,Neut" upos="DET">229</feat><!-- njegova, njegov, njegove, njegovu, njegovim, njegovoj, njegovog, njegovo, njegovih, njegovom -->
@@ -59,12 +59,12 @@
     <feat name="Mood" value="Imp" upos="AUX,VERB">221</feat><!-- kliknite, recimo, izbjegavajte, koristite, potražite, pročitajte, čuvajte, daj, nemojte, odaberite -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">18332</feat><!-- je, su, će, nije, smo, može, ima, kaže, treba, mogu -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">33131</feat><!-- su, koji, koje, smo, će, bi, godina, milijuna, eura, ljudi -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">86559</feat><!-- je, će, to, koji, bi, godine, nije, koja, EU, može -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">86558</feat><!-- je, će, to, koji, bi, godine, nije, koja, EU, može -->
     <feat name="Number[psor]" value="Plur" upos="DET">415</feat><!-- njihov, naše, njihova, naš, njihove, naša, njihovu, našim, naših, njihovo -->
     <feat name="Number[psor]" value="Sing" upos="DET">414</feat><!-- njegova, njegov, njegove, njegovu, njezina, moj, njegovim, njezine, moja, njegovoj -->
     <feat name="NumType" value="Card" upos="NUM">2981</feat><!-- jedan, tri, dva, dvije, jedna, pet, četiri, 20, 10, šest -->
     <feat name="NumType" value="Mult" upos="NUM,SYM">186</feat><!-- obje, oba, desetak, dvoje, obiju, dvadesetak, stotinjak, troje, 50%, 6-4 -->
-    <feat name="NumType" value="Ord" upos="ADJ">1172</feat><!-- 1., 2004., 2008., 2007., 2009., 2006., 2., 2005., 2010., 21. -->
+    <feat name="NumType" value="Ord" upos="ADJ">1173</feat><!-- 1., 2004., 2008., 2007., 2009., 2006., 2., 2005., 2010., 21. -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">1899</feat><!-- smo, sam, mi, nam, ćemo, nas, možemo, ja, naše, mislim -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">888</feat><!-- ćete, možete, vam, ste, biste, vas, ti, želite, kliknite, vi -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">18956</feat><!-- je, su, će, bi, nije, može, ima, kaže, treba, ih -->
@@ -92,9 +92,9 @@
   <deps unique="38">
     <dep name="acl">3851</dep>
     <dep name="advcl">1785</dep>
-    <dep name="advmod">7610</dep>
+    <dep name="advmod">7611</dep>
     <dep name="advmod:emph">42</dep>
-    <dep name="amod">19538</dep>
+    <dep name="amod">19539</dep>
     <dep name="appos">999</dep>
     <dep name="aux">8446</dep>
     <dep name="case">19369</dep>
@@ -110,18 +110,18 @@
     <dep name="discourse">2046</dep>
     <dep name="dislocated">7</dep>
     <dep name="expl">2360</dep>
-    <dep name="fixed">899</dep>
+    <dep name="fixed">895</dep>
     <dep name="flat">5498</dep>
     <dep name="flat:foreign">61</dep>
     <dep name="iobj">682</dep>
     <dep name="list">24</dep>
     <dep name="mark">4052</dep>
     <dep name="nmod">18797</dep>
-    <dep name="nsubj">14074</dep>
+    <dep name="nsubj">14075</dep>
     <dep name="nummod">982</dep>
     <dep name="nummod:gov">1712</dep>
     <dep name="obj">8800</dep>
-    <dep name="obl">12643</dep>
+    <dep name="obl">12644</dep>
     <dep name="orphan">142</dep>
     <dep name="parataxis">2296</dep>
     <dep name="punct">24164</dep>
