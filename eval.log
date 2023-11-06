@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Croatian-SET:
-commit f4acb1be07b40ef286498ae4004301e1306cfb6e
+commit c618e75a14e31e23cba9bcee0105cf6556b3eab7
+Merge: c69a061 4a72e43
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 14 10:15:55 2022 +0100
 Size: counted 199409 of 199409 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.5907159838308.
 Size: maximum value 13.815511 is for 1000000 words or more.
