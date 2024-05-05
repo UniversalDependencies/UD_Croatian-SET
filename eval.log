@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Croatian-SET:
-commit c618e75a14e31e23cba9bcee0105cf6556b3eab7
-Merge: c69a061 4a72e43
+commit cae73c199d411bed10572c38da824ef82cdd9c26
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 6 11:39:10 2023 +0100
 Size: counted 199409 of 199409 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.5907159838308.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,15 +20,31 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       1101
-Udapi: found 1101 bugs.
+               TOTAL       1093
+Udapi: found 1093 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 199409 words.
 Genres: found 3 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang hr --max-err=10 UD_Croatian-SET/hr_set-ud-dev.conllu
+[Line 23275 Sent web.hr-s1557 Node 24]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 23276 Sent web.hr-s1557 Node 25]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 23275 Sent web.hr-s1557 Node 24]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 23281 Sent web.hr-s1557 Node 30]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+Warnings: 4
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang hr --max-err=10 UD_Croatian-SET/hr_set-ud-test.conllu
+[Line 16220 Sent wiki.hr-s65 Node 14]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 16219 Sent wiki.hr-s65 Node 13]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+Warnings: 2
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang hr --max-err=10 UD_Croatian-SET/hr_set-ud-train.conllu
+[Line 86423 Sent news.hr-s539 Node 9]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 86730 Sent news.hr-s552 Node 12]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 110902 Sent news.hr-s1744 Node 8]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 110902 Sent news.hr-s1744 Node 8]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 110906 Sent news.hr-s1744 Node 12]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 110902 Sent news.hr-s1744 Node 8]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 126361 Sent news.hr-s2544 Node 26]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+Warnings: 7
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
@@ -37,8 +53,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.766581585197045) = 0.196559380819755
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.944786845127351) = 0.29070364465457
+(weight=0.307692307692308) * (score{udapi}=0.945188030630513) = 0.29082708634785
 (weight=0.0769230769230769) * (score{udeprels}=0.918918918918919) = 0.0706860706860707
-(TOTAL score=0.807421192691316) * (availability=1) * (validity=1) = 0.807421192691316
+(TOTAL score=0.807544634384596) * (availability=1) * (validity=1) = 0.807544634384596
 STARS = 4
-UD_Croatian-SET	0.807421192691316	4
+UD_Croatian-SET	0.807544634384596	4
