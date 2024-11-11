@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Croatian-SET:
-commit cae73c199d411bed10572c38da824ef82cdd9c26
+commit fc8fe299d3320433e21c432472c9792b6e758ff8
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 11:39:10 2023 +0100
+Date:   Sun May 5 12:02:38 2024 +0200
 Size: counted 199409 of 199409 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.5907159838308.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,11 +25,14 @@ Udapi: found 1093 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 199409 words.
 Genres: found 3 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang hr --max-err=10 UD_Croatian-SET/hr_set-ud-dev.conllu
+[Line 15493 Sent news.hr-s1038 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:posto:det --> 16:64:nummod)
+[Line 15627 Sent news.hr-s1042 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:posto:det --> 7:44:nummod)
+[Line 17336 Sent news.hr-s2076 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:posto:det --> 3:46:nummod)
 [Line 23275 Sent web.hr-s1557 Node 24]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 23276 Sent web.hr-s1557 Node 25]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 23275 Sent web.hr-s1557 Node 24]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 23281 Sent web.hr-s1557 Node 30]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-Warnings: 4
+Warnings: 7
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang hr --max-err=10 UD_Croatian-SET/hr_set-ud-test.conllu
 [Line 16220 Sent wiki.hr-s65 Node 14]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
@@ -37,14 +40,18 @@ Warnings: 4
 Warnings: 2
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang hr --max-err=10 UD_Croatian-SET/hr_set-ud-train.conllu
+[Line 61673 Sent set.hr-s3333 Node 16]: [L3 Warning leaf-det] 'det' not expected to have children (16:nekoliko:det --> 15:prvih:amod)
+[Line 66696 Sent set.hr-s3584 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:puno:det --> 6:još:amod)
 [Line 86423 Sent news.hr-s539 Node 9]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 86730 Sent news.hr-s552 Node 12]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 110902 Sent news.hr-s1744 Node 8]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 110902 Sent news.hr-s1744 Node 8]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 110906 Sent news.hr-s1744 Node 12]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 110902 Sent news.hr-s1744 Node 8]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 126361 Sent news.hr-s2544 Node 26]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-Warnings: 7
+[Line 114558 Sent news.hr-s1908 Node 18]: [L3 Warning leaf-det] 'det' not expected to have children (18:posto:det --> 17:70:nummod)
+[Line 124948 Sent news.hr-s2493 Node 13]: [L3 Warning leaf-det] 'det' not expected to have children (13:pola:det --> 12:prvih:amod)
+...suppressing further errors regarding Warning
+Warnings: 15
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
