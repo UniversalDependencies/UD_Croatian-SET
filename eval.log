@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Croatian-SET:
-commit fc8fe299d3320433e21c432472c9792b6e758ff8
+commit b104933098c1ca35100b5bc49683a69d245c5a12
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 12:02:38 2024 +0200
+Date:   Mon Nov 11 15:10:20 2024 +0100
 Size: counted 199409 of 199409 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.5907159838308.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,48 +20,79 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       1093
-Udapi: found 1093 bugs.
+               TOTAL        282
+Udapi: found 282 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 199409 words.
-Genres: found 3 out of 17 known.
+Genres: found 3 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang hr --max-err=10 UD_Croatian-SET/hr_set-ud-dev.conllu
-[Line 15493 Sent news.hr-s1038 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:posto:det --> 16:64:nummod)
-[Line 15627 Sent news.hr-s1042 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:posto:det --> 7:44:nummod)
-[Line 17336 Sent news.hr-s2076 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:posto:det --> 3:46:nummod)
-[Line 23275 Sent web.hr-s1557 Node 24]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 23276 Sent web.hr-s1557 Node 25]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 23275 Sent web.hr-s1557 Node 24]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 23281 Sent web.hr-s1557 Node 30]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-Warnings: 7
-*** PASSED ***
+[Line 141 Sent set.hr-s8 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 's obzirom da' does not have the 'ExtPos' feature
+[Line 204 Sent set.hr-s10 Node 25]: [L3 Warning fixed-without-extpos] Fixed expression 'zato što' does not have the 'ExtPos' feature
+[Line 237 Sent set.hr-s12 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Nakon što' does not have the 'ExtPos' feature
+[Line 261 Sent set.hr-s12 Node 25]: [L3 Warning fixed-without-extpos] Fixed expression 's obzirom da' does not have the 'ExtPos' feature
+[Line 345 Sent set.hr-s15 Node 20]: [L3 Warning fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
+[Line 545 Sent set.hr-s23 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 's obzirom da' does not have the 'ExtPos' feature
+[Line 995 Sent set.hr-s481 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
+[Line 1857 Sent set.hr-s586 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'čak i' does not have the 'ExtPos' feature
+[Line 2139 Sent set.hr-s799 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'budući da' does not have the 'ExtPos' feature
+[Line 2292 Sent set.hr-s804 Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'nakon što' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 15493 Sent news.hr-s1038 Node 17]: [L3 Syntax leaf-det] 'det' not expected to have children (17:posto:det --> 16:64:nummod)
+[Line 15627 Sent news.hr-s1042 Node 8]: [L3 Syntax leaf-det] 'det' not expected to have children (8:posto:det --> 7:44:nummod)
+[Line 17336 Sent news.hr-s2076 Node 4]: [L3 Syntax leaf-det] 'det' not expected to have children (4:posto:det --> 3:46:nummod)
+Syntax errors: 3
+Warnings: 84
+*** FAILED *** with 3 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang hr --max-err=10 UD_Croatian-SET/hr_set-ud-test.conllu
-[Line 16220 Sent wiki.hr-s65 Node 14]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 16219 Sent wiki.hr-s65 Node 13]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-Warnings: 2
+[Line 240 Sent set.hr-s305 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 's obzirom da' does not have the 'ExtPos' feature
+[Line 981 Sent set.hr-s438 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'no što' does not have the 'ExtPos' feature
+[Line 1185 Sent set.hr-s444 Node 21]: [L3 Warning fixed-without-extpos] Fixed expression 'kao i' does not have the 'ExtPos' feature
+[Line 1561 Sent set.hr-s456 Node 28]: [L3 Warning fixed-without-extpos] Fixed expression 'prije nego što' does not have the 'ExtPos' feature
+[Line 2053 Sent set.hr-s495 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'još uvijek' does not have the 'ExtPos' feature
+[Line 2263 Sent set.hr-s504 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'prije nego' does not have the 'ExtPos' feature
+[Line 2681 Sent set.hr-s721 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'prije nego' does not have the 'ExtPos' feature
+[Line 2857 Sent set.hr-s727 Node 37]: [L3 Warning fixed-without-extpos] Fixed expression 'u svezi sa' does not have the 'ExtPos' feature
+[Line 2908 Sent set.hr-s729 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'osim ako' does not have the 'ExtPos' feature
+[Line 3172 Sent set.hr-s738 Node 25]: [L3 Warning fixed-without-extpos] Fixed expression 'u ime' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Warnings: 91
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang hr --max-err=10 UD_Croatian-SET/hr_set-ud-train.conllu
-[Line 61673 Sent set.hr-s3333 Node 16]: [L3 Warning leaf-det] 'det' not expected to have children (16:nekoliko:det --> 15:prvih:amod)
-[Line 66696 Sent set.hr-s3584 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:puno:det --> 6:još:amod)
-[Line 86423 Sent news.hr-s539 Node 9]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 86730 Sent news.hr-s552 Node 12]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 110902 Sent news.hr-s1744 Node 8]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 110902 Sent news.hr-s1744 Node 8]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 110906 Sent news.hr-s1744 Node 12]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 110902 Sent news.hr-s1744 Node 8]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 114558 Sent news.hr-s1908 Node 18]: [L3 Warning leaf-det] 'det' not expected to have children (18:posto:det --> 17:70:nummod)
-[Line 124948 Sent news.hr-s2493 Node 13]: [L3 Warning leaf-det] 'det' not expected to have children (13:pola:det --> 12:prvih:amod)
+[Line 159 Sent set.hr-s41 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'zato što' does not have the 'ExtPos' feature
+[Line 440 Sent set.hr-s48 Node 29]: [L3 Warning fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
+[Line 554 Sent set.hr-s53 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
+[Line 580 Sent set.hr-s54 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'li da' does not have the 'ExtPos' feature
+[Line 797 Sent set.hr-s63 Node 28]: [L3 Warning fixed-without-extpos] Fixed expression 'nakon što' does not have the 'ExtPos' feature
+[Line 1008 Sent set.hr-s71 Node 35]: [L3 Warning fixed-without-extpos] Fixed expression 'kao i' does not have the 'ExtPos' feature
+[Line 1201 Sent set.hr-s80 Node 20]: [L3 Warning fixed-without-extpos] Fixed expression 's obzirom na' does not have the 'ExtPos' feature
+[Line 1258 Sent set.hr-s83 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
+[Line 1529 Sent set.hr-s98 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'ne samo' does not have the 'ExtPos' feature
+[Line 1535 Sent set.hr-s98 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'nego i' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 15
-*** PASSED ***
-Validity: 1
+[Line 61673 Sent set.hr-s3333 Node 16]: [L3 Syntax leaf-det] 'det' not expected to have children (16:nekoliko:det --> 15:prvih:amod)
+[Line 66696 Sent set.hr-s3584 Node 7]: [L3 Syntax leaf-det] 'det' not expected to have children (7:puno:det --> 6:još:amod)
+[Line 75928 Sent news.hr-s109 Node 15]: [L3 Syntax rel-upos-mark] 'mark' should not be 'NOUN' word 'obzirom'
+[Line 76051 Sent news.hr-s112 Node 19]: [L3 Syntax rel-upos-mark] 'mark' should not be 'NOUN' word 'obzirom'
+[Line 76356 Sent news.hr-s122 Node 7]: [L3 Syntax rel-upos-mark] 'mark' should not be 'NOUN' word 'obzirom'
+[Line 103111 Sent news.hr-s1385 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'X' word 'a'
+[Line 114558 Sent news.hr-s1908 Node 18]: [L3 Syntax leaf-det] 'det' not expected to have children (18:posto:det --> 17:70:nummod)
+[Line 124948 Sent news.hr-s2493 Node 13]: [L3 Syntax leaf-det] 'det' not expected to have children (13:pola:det --> 12:prvih:amod)
+[Line 125564 Sent news.hr-s2516 Node 8]: [L3 Syntax leaf-det] 'det' not expected to have children (8:posto:det --> 7:3:nummod)
+[Line 150248 Sent web.hr-s1159 Node 18]: [L3 Syntax leaf-det] 'det' not expected to have children (18:svoje:det --> 19:vlastite:amod)
+...suppressing further errors regarding Syntax
+Syntax errors: 13
+Warnings: 629
+*** FAILED *** with 13 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
+(weight=0.0769230769230769) * (score{genres}=0.166666666666667) = 0.0128205128205128
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.766581585197045) = 0.196559380819755
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.945188030630513) = 0.29082708634785
+(weight=0.307692307692308) * (score{udapi}=0.985858211013545) = 0.303340988004168
 (weight=0.0769230769230769) * (score{udeprels}=0.918918918918919) = 0.0706860706860707
-(TOTAL score=0.807544634384596) * (availability=1) * (validity=1) = 0.807544634384596
-STARS = 4
-UD_Croatian-SET	0.807544634384596	4
+(TOTAL score=0.819304388227942) * (availability=1) * (validity=0.01) = 0.00819304388227942
+STARS = 0
+UD_Croatian-SET	0.00819304388227942	0
