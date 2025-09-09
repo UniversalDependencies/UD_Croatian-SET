@@ -85,6 +85,7 @@ See file LICENSE.txt for further licensing information.
 Data available since: UD v1.1
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: news web wiki
 Lemmas: converted from manual
 UPOS: converted from manual
