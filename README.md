@@ -54,6 +54,9 @@ See file LICENSE.txt for further licensing information.
 
 # Changelog
 
+* 2025-10-13 v2.16
+  * add parallel corpus information to machine-readable metadata
+  * add parallel data support with parallel_id metadata
 * 2018-04-30 v2.4
   * Sentences renamed so that not the old split is encoded, but the source of the data
   * Data split made compatible on the document level with the parallel data in UD_Serbian-SET.
@@ -85,7 +88,7 @@ See file LICENSE.txt for further licensing information.
 Data available since: UD v1.1
 License: CC BY-SA 4.0
 Includes text: yes
-Parallel: no
+Parallel: set
 Genre: news web wiki
 Lemmas: converted from manual
 UPOS: converted from manual
