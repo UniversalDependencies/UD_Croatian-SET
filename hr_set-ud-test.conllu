@@ -348,7 +348,7 @@
 6	sporazume	sporazum	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
 7	kao	kao	SCONJ	Cs	_	8	case	_	_
 8	nešto	nešto	PRON	Pi3n-a	Case=Acc|Gender=Neut|PronType=Ind	5	obl	_	_
-9	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	11	obj	_	_
+9	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	11	nsubj	_	_
 10	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	unaprijediti	unaprijediti	VERB	Vmn	VerbForm=Inf	8	acl	_	_
 12	život	život	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
@@ -10082,7 +10082,7 @@
 4	samo	samo	ADV	Rgp	Degree=Pos	5	advmod	_	_
 5	59	59	NUM	Mdc	NumType=Card	6	nummod:gov	_	_
 6	tvrtki	tvrtka	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	3	nsubj	_	_
-7	kojima	koji	DET	Pi-fpd	Case=Dat|Gender=Fem|Number=Plur|PronType=Int,Rel	11	obj	_	_
+7	kojima	koji	DET	Pi-fpd	Case=Dat|Gender=Fem|Number=Plur|PronType=Int,Rel	11	obl	_	_
 8	bi	biti	AUX	Vaa3p	Mood=Cnd|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
 9	crnogorske	crnogorski	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
 10	banke	banka	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
@@ -16892,7 +16892,7 @@
 # sent_id = wiki.hr-s73
 # text = Subjekti nastavom stječu: znanja, vještine, sposobnosti i navike.
 1	Subjekti	subjekt	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
-2	nastavom	nastava	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	3	obj	_	_
+2	nastavom	nastava	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
 3	stječu	stjecati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	:	:	PUNCT	Z	_	3	punct	_	_
 5	znanja	znanje	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	SpaceAfter=No
@@ -17997,7 +17997,7 @@
 1	Peder	peder	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	3	obj	_	_
 3	raduje	radovati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	vikendu	vikend	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+4	vikendu	vikend	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
 5	,	,	PUNCT	Z	_	8	punct	_	_
 6	a	a	CCONJ	Cc	_	8	cc	_	_
 7	ne	ne	PART	Qz	Polarity=Neg	8	advmod	_	_
@@ -24690,7 +24690,7 @@
 27	turista	turist	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
 28	,	,	PUNCT	Z	_	26	punct	_	_
 29	osobe	osoba	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	26	appos	_	_
-30	kojima	koji	DET	Pi-fpd	Case=Dat|Gender=Fem|Number=Plur|PronType=Int,Rel	33	obj	_	_
+30	kojima	koji	DET	Pi-fpd	Case=Dat|Gender=Fem|Number=Plur|PronType=Int,Rel	33	obl	_	_
 31	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
 32	djeca	dijete	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	33	nsubj	_	_
 33	završila	završiti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	29	acl	_	_
@@ -26337,7 +26337,7 @@
 17	Hrvatskoj	Hrvatska	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	18	obl	_	_
 18	bavili	baviti	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	22	advcl	_	_
 19	robinzonskim	robinzonski	ADJ	Agpmsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
-20	turizmom	turizam	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+20	turizmom	turizam	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
 21	,	,	PUNCT	Z	_	18	punct	_	_
 22	trebate	trebati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 23	proći	proći	VERB	Vmn	VerbForm=Inf	22	xcomp	_	_
@@ -26808,7 +26808,7 @@
 2	Zahvaljujem	zahvaljivati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	2	obj	_	_
 4	svim	sav	ADJ	Agpmpdy	Case=Dat|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
-5	biračima	birač	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	2	obj	_	_
+5	biračima	birač	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	_
 6	koji	koji	DET	Pi-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	11	nsubj	_	_
 7	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 8	na	na	ADP	Sl	Case=Loc	10	case	_	_

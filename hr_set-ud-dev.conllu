@@ -1430,7 +1430,7 @@
 24	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
 25	uvedena	uvesti	ADJ	Appnpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur|VerbForm=Part|Voice=Pass	22	acl	_	_
 26	ciparskim	ciparski	ADJ	Agpmpdy	Case=Dat|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	27	amod	_	_
-27	Turcima	Turčin	PROPN	Npmpd	Case=Dat|Gender=Masc|Number=Plur	25	obj	_	SpaceAfter=No
+27	Turcima	Turčin	PROPN	Npmpd	Case=Dat|Gender=Masc|Number=Plur	25	obl	_	SpaceAfter=No
 28	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set.hr-s493
@@ -13851,7 +13851,7 @@
 23	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	22	obj	_	_
 24	na	na	ADP	Sa	Case=Acc	25	case	_	_
 25	vlast	vlast	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	22	obl	_	_
-26	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	28	obj	_	_
+26	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	28	obl	_	_
 27	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	28	obj	_	_
 28	gadi	gaditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 29	.	.	PUNCT	Z	_	28	punct	_	_
@@ -13918,7 +13918,7 @@
 19	okladi	okladiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
 20	da	da	SCONJ	Cs	_	32	mark	_	_
 21	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
-22	mu	on	PRON	Pp3msd	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	obj	_	_
+22	mu	on	PRON	Pp3msd	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	obl	_	_
 23	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	32	obj	_	_
 24	ona	on	PRON	Pp3fsn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	SpaceAfter=No
 25	,	,	PUNCT	Z	_	28	punct	_	_
@@ -14517,7 +14517,7 @@
 8	programskim	programski	ADJ	Agpnpdy	Case=Dat|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	_
 9	rješenjima	rješenje	NOUN	Ncnpd	Case=Dat|Gender=Neut|Number=Plur	5	obj	_	_
 10	90	90	NUM	Mdc	NumType=Card	13	nummod:gov	_	_
-11	posto	posto	DET	Rgp	Degree=Pos	10	flat	_	_
+11	posto	posto	ADV	Rgp	Degree=Pos	10	flat	_	_
 12	uređivačkog	uređivački	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
 13	posla	posao	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	16	obj	_	_
 14	na	na	ADP	Sl	Case=Loc	15	case	_	_
@@ -15133,7 +15133,7 @@
 9	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	mjesto	mjesto	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	1	parataxis	_	_
 11	na	na	ADP	Sl	Case=Loc	12	case	_	_
-12	koje	koji	DET	Pi-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	18	obj	_	_
+12	koje	koji	DET	Pi-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	18	obl	_	_
 13	će	htjeti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
 14	ljudi	čovjek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
 15	na	na	ADP	Sa	Case=Acc	16	case	_	_
@@ -15981,8 +15981,8 @@
 13	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 14	da	da	SCONJ	Cs	_	19	mark	_	_
 15	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
-16	64	64	NUM	Mdc	NumType=Card	17	nummod:gov	_	_
-17	posto	posto	DET	Rgp	Degree=Pos	18	det:numgov	_	_
+16	64	64	NUM	Mdc	NumType=Card	18	nummod:gov	_	_
+17	posto	posto	ADV	Rgp	Degree=Pos	16	flat	_	_
 18	Britanaca	Britanac	PROPN	Npmpg	Case=Gen|Gender=Masc|Number=Plur	19	nsubj	_	_
 19	željelo	željeti	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	ccomp	_	_
 20	Williama	William	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_
@@ -16115,8 +16115,8 @@
 4	pokazala	pokazati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	da	da	SCONJ	Cs	_	9	mark	_	_
 6	ih	oni	PRON	Pp3-pg	Case=Gen|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
-7	44	44	NUM	Mdc	NumType=Card	8	nummod:gov	_	_
-8	posto	posto	DET	Rgp	Degree=Pos	6	det:numgov	_	_
+7	44	44	NUM	Mdc	NumType=Card	9	nummod:gov	_	_
+8	posto	posto	ADV	Rgp	Degree=Pos	7	flat	_	_
 9	misli	misliti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
 10	kako	kako	SCONJ	Cs	_	13	mark	_	_
 11	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
@@ -16132,7 +16132,7 @@
 21	,	,	PUNCT	Z	_	28	punct	_	_
 22	nasuprot	nasuprot	ADP	Sd	Case=Dat	25	case	_	_
 23	37	37	NUM	Mdc	NumType=Card	25	nummod:gov	_	_
-24	posto	posto	DET	Rgp	Degree=Pos	23	flat	_	_
+24	posto	posto	ADV	Rgp	Degree=Pos	23	flat	_	_
 25	ispitanika	ispitanik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	28	obl	_	_
 26	koliko	koliko	ADV	Rgp	Degree=Pos|PronType=Int,Rel	27	advmod	_	_
 27	ih	oni	PRON	Pp3-pg	Case=Gen|Number=Plur|Person=3|PronType=Prs	28	nsubj	_	_
@@ -16684,7 +16684,7 @@
 6	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	7	obj	_	_
 7	prilagođavaju	prilagođavati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	ekonomskim	ekonomski	ADJ	Agpfpdy	Case=Dat|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
-9	promjenama	promjena	NOUN	Ncfpd	Case=Dat|Gender=Fem|Number=Plur	7	obj	_	_
+9	promjenama	promjena	NOUN	Ncfpd	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	_
 10	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	11	nsubj	_	_
 11	stvara	stvarati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
 12	opasnost	opasnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
@@ -16875,7 +16875,7 @@
 3	predstavlja	predstavljati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	oko	oko	ADV	Rgp	Degree=Pos	5	advmod	_	_
 5	6	6	NUM	Mdc	NumType=Card	8	nummod:gov	_	_
-6	posto	posto	DET	Rgp	Degree=Pos	5	flat	_	_
+6	posto	posto	ADV	Rgp	Degree=Pos	5	flat	_	_
 7	svjetskog	svjetski	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
 8	BDP-a	BDP	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	obj	_	_
 9	i	i	CCONJ	Cc	_	10	cc	_	_
@@ -16912,7 +16912,7 @@
 24	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	25	obj	_	_
 25	pozabaviti	pozabaviti	VERB	Vmn	VerbForm=Inf	14	acl	_	_
 26	tim	taj	DET	Pd-nsi	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	27	det	_	_
-27	pitanjem	pitanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	25	obj	_	SpaceAfter=No
+27	pitanjem	pitanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	25	obl	_	SpaceAfter=No
 28	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = news.hr-s1875
@@ -17824,8 +17824,8 @@
 # text = Više od 46 posto imovine svih dobrovoljnih mirovinskih fondova uloženo je u državne obveznice.
 1	Više	mnogo	ADV	Rgc	Degree=Cmp	2	advmod	_	_
 2	od	od	ADP	Sg	Case=Gen	3	case	_	_
-3	46	46	NUM	Mdc	NumType=Card	4	nummod:gov	_	_
-4	posto	posto	DET	Rgp	Degree=Pos	5	det:numgov	_	_
+3	46	46	NUM	Mdc	NumType=Card	5	nummod:gov	_	_
+4	posto	posto	ADV	Rgp	Degree=Pos	3	flat	_	_
 5	imovine	imovina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	nsubj	_	_
 6	svih	sav	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
 7	dobrovoljnih	dobrovoljan	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
@@ -18079,7 +18079,7 @@
 23	prodajnih	prodajni	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	24	amod	_	_
 24	kanala	kanal	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	20	obl	_	_
 25	koje	koji	DET	Pi-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Int,Rel	27	obj	_	_
-26	im	oni	PRON	Pp3-pd	Case=Dat|Number=Plur|Person=3|PronType=Prs	27	obj	_	_
+26	im	oni	PRON	Pp3-pd	Case=Dat|Number=Plur|Person=3|PronType=Prs	27	obl	_	_
 27	nudi	nuditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl	_	_
 28	okrilje	okrilje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	27	nsubj	_	_
 29	banke	banka	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
@@ -18807,7 +18807,7 @@
 12	postali	postati	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 13	stvar	stvar	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	12	xcomp	_	_
 14	na	na	ADP	Sa	Case=Acc	15	case	_	_
-15	koju	koji	DET	Pi-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	17	obj	_	_
+15	koju	koji	DET	Pi-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	17	obl	_	_
 16	ne	ne	PART	Qz	Polarity=Neg	17	advmod	_	_
 17	obraćaju	obraćati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl	_	_
 18	pozornost	pozornost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
@@ -23540,7 +23540,7 @@
 11	najteži	težak	ADJ	Agsmsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	13	amod	_	_
 12	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 13	brod	brod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
-14	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	19	obj	_	_
+14	što	što	SCONJ	Cs	_	19	mark	_	_
 15	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
 16	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
 17	Europa	Europa	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
