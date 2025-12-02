@@ -95,8 +95,15 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: manual native
-Contributors: Samardžić, Tanja; Miletić, Aleksandra; Ljubešić, Nikola; Agić, Željko; Zeman, Daniel 
+Contributors: Samardžić, Tanja; Miletić, Aleksandra; Ljubešić, Nikola; Agić, Željko; Zeman, Daniel
 Contributing: elsewhere
 Contact: tanja.samardzic@uzh.ch
 ===============================================================================
 </pre>
+
+
+
+
+
+
+Contributors: Samardžić, Tanja; Miletić, Aleksandra; Ljubešić, Nikola; Agić, Željko; Zeman, Daniel 
