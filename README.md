@@ -103,7 +103,3 @@ Contact: tanja.samardzic@uzh.ch
 
 
 
-
-
-
-Contributors: Samardžić, Tanja; Miletić, Aleksandra; Ljubešić, Nikola; Agić, Željko; Zeman, Daniel 
