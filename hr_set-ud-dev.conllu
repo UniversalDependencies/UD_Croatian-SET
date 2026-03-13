@@ -277,7 +277,7 @@
 29	novi	nov	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
 30	vlasnik	vlasnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	_
 31	promijenio	promijeniti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	23	advcl	_	_
-32	njezinu	njezin	DET	Ps3fsa	Case=Acc|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	33	det	_	_
+32	njezinu	njezin	DET	Ps3fsa	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	33	det	_	Gender[psor]=Fem
 33	namjenu	namjena	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	31	obj	_	SpaceAfter=No
 34	"	"	PUNCT	Z	_	36	punct	_	SpaceAfter=No
 35	,	,	PUNCT	Z	_	36	punct	_	_
@@ -393,7 +393,7 @@
 10	glasni	glasan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
 11	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 12	kritičar	kritičar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-13	toga	taj	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	12	obl	_	SpaceAfter=No
+13	toga	taj	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	12	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	Z	_	12	punct	_	_
 
 # sent_id = set.hr-s17
@@ -1234,7 +1234,7 @@
 10	preduvjeti	preduvjet	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
 11	za	za	ADP	Sa	Case=Acc	12	case	_	_
 12	postizanje	postizanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	10	nmod	_	_
-13	dogovora	dogovor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+13	dogovora	dogovor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	Z	_	15	punct	_	_
 15	kazao	kazati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	parataxis	_	_
 16	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No
@@ -1365,7 +1365,7 @@
 10	izjavio	izjaviti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 11	kako	kako	SCONJ	Cs	_	17	mark	_	_
 12	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
-13	njegova	njegov	DET	Ps3fsn	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+13	njegova	njegov	DET	Ps3fsn	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	Gender[psor]=Masc,Neut
 14	strana	strana	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
 15	biti	biti	AUX	Van	VerbForm=Inf	17	cop	_	_
 16	"	"	PUNCT	Z	_	17	punct	_	SpaceAfter=No
@@ -1522,7 +1522,7 @@
 11	i	i	CCONJ	Cc	_	12	cc	_	_
 12	kršenjem	kršenje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	8	conj	_	_
 13	međunarodnih	međunarodni	ADJ	Agpnpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur	14	amod	_	_
-14	prava	pravo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	12	obl	_	SpaceAfter=No
+14	prava	pravo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	SpaceAfter=No
 15	"	"	PUNCT	Z	_	5	punct	_	SpaceAfter=No
 16	,	,	PUNCT	Z	_	17	punct	_	_
 17	rekao	reći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	parataxis	_	_
@@ -1553,7 +1553,7 @@
 13	kako	kako	SCONJ	Cs	_	19	mark	_	_
 14	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	19	expl	_	_
 15	situacija	situacija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
-16	njegove	njegov	DET	Ps3fsg	Case=Gen|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+16	njegove	njegov	DET	Ps3fsg	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	Gender[psor]=Masc,Neut
 17	zemlje	zemlja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
 18	ne	ne	PART	Qz	Polarity=Neg	19	advmod	_	_
 19	može	moći	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
@@ -2086,7 +2086,7 @@
 # text = U vrijeme njegovog obnašanja funkcije trenera, Grčka je izborila svoje mjesto na međunarodnoj nogometnoj karti.
 1	U	u	ADP	Sa	Case=Acc	2	case	_	_
 2	vrijeme	vrijeme	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
-3	njegovog	njegov	DET	Ps3nsg	Case=Gen|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+3	njegovog	njegov	DET	Ps3nsg	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	Gender[psor]=Masc,Neut
 4	obnašanja	obnašanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
 5	funkcije	funkcija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
 6	trenera	trener	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
@@ -2245,7 +2245,7 @@
 # parallel_id = set/dev84
 # text = U njegove zasluge spadaju Europsko prvenstvo 2004., kvalifikacija na turnir UEFA-e 2008., kvalifikacija na Svjetski kup u Južnoafričkoj Republici i, naravno, strelovit uspon grčke reprezentacije na međunarodnoj ljestvici FIFA-e.
 1	U	u	ADP	Sa	Case=Acc	3	case	_	_
-2	njegove	njegov	DET	Ps3fpa	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+2	njegove	njegov	DET	Ps3fpa	Case=Acc|Gender=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	Gender[psor]=Masc,Neut
 3	zasluge	zasluga	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	4	obl	_	_
 4	spadaju	spadati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	Europsko	europski	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
@@ -2313,7 +2313,7 @@
 3	pokazati	pokazati	VERB	Vmn	VerbForm=Inf	0	root	_	_
 4	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 5	li	li	PART	Qq	_	11	mark	_	_
-6	njegov	njegov	DET	Ps3msn	Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+6	njegov	njegov	DET	Ps3msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	Gender[psor]=Masc,Neut
 7	odlazak	odlazak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 8	bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	cop	_	_
 9	zajednički	zajednički	ADV	Rgp	Degree=Pos	10	advmod	_	_
@@ -2414,9 +2414,9 @@
 12	"	"	PUNCT	Z	_	13	punct	_	SpaceAfter=No
 13	pomlađivanje	pomlađivanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No
 14	"	"	PUNCT	Z	_	13	punct	_	_
-15	momčadi	momčad	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+15	momčadi	momčad	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
 16	u	u	ADP	Sl	Case=Loc	17	case	_	_
-17	kojoj	koji	DET	Pi-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Int,Rel	26	obl	_	ToDo=nmod
+17	kojoj	koji	DET	Pi-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Int,Rel	26	nmod	_	ToDo=nmod
 18	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
 19	najistaknutiji	istaknut	ADJ	Agsmpny	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Plur	20	amod	_	_
 20	igrači	igrač	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	_
@@ -2530,7 +2530,7 @@
 15	startovima	start	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	11	nmod	_	_
 16	na	na	ADP	Sa	Case=Acc	17	case	_	_
 17	zvijezde	zvijezda	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	15	nmod	_	_
-18	njegove	njegov	DET	Ps3fsg	Case=Gen|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+18	njegove	njegov	DET	Ps3fsg	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	19	det	_	Gender[psor]=Masc,Neut
 19	momčadi	momčad	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
 20	pokazale	pokazati	VERB	Vmp-pf	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 21	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
@@ -3461,7 +3461,7 @@
 13	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	_
 14	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	15	expl	_	_
 15	utvrdila	utvrditi	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	advcl	_	_
-16	njena	njen	DET	Ps3fsn	Case=Nom|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+16	njena	njen	DET	Ps3fsn	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	Gender[psor]=Fem
 17	autentičnost	autentičnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No
 18	.	.	PUNCT	Z	_	9	punct	_	_
 
@@ -3597,7 +3597,7 @@
 39	kako	kako	SCONJ	Cs	_	44	mark	_	_
 40	ju	on	PRON	Pp3fsa	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	44	obj	_	_
 41	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	_
-42	njen	njen	DET	Ps3msn	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	43	det	_	_
+42	njen	njen	DET	Ps3msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	43	det	_	Gender[psor]=Fem
 43	suprug	suprug	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	44	nsubj	_	_
 44	udario	udariti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	38	acl	_	SpaceAfter=No
 45	.	.	PUNCT	Z	_	31	punct	_	_
@@ -5271,7 +5271,7 @@
 6	ustavu	ustav	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
 7	"	"	PUNCT	Z	_	4	punct	_	_
 8	prije	prije	ADP	Sg	Case=Gen	9	case	_	_
-9	svega	sav	DET	Pi-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Tot	1	obl	_	_
+9	svega	sav	DET	Pi-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Tot	1	nmod	_	_
 10	jest	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 11	pomoći	pomoći	VERB	Vmn	VerbForm=Inf	1	csubj	_	_
 12	ogromnoj	ogroman	ADJ	Agpfsdy	Case=Dat|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
@@ -6097,7 +6097,7 @@
 # text = Država i njezini građani suočavaju se s golemim dugovima, a izlaz nije ni na vidiku.
 1	Država	država	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 2	i	i	CCONJ	Cc	_	4	cc	_	_
-3	njezini	njezin	DET	Ps3mpn	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+3	njezini	njezin	DET	Ps3mpn	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	Gender[psor]=Fem
 4	građani	građanin	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
 5	suočavaju	suočavati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	_
@@ -6688,7 +6688,7 @@
 12	za	za	ADP	Sa	Case=Acc	13	case	_	_
 13	ulaganja	ulaganje	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	11	obl	_	_
 14	u	u	ADP	Sa	Case=Acc	15	case	_	_
-15	tvrtke	tvrtka	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	13	obl	_	_
+15	tvrtke	tvrtka	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	13	nmod	_	_
 16	koje	koji	DET	Pi-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	19	nsubj	_	_
 17	će	htjeti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
 18	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	19	expl	_	_
@@ -7617,7 +7617,7 @@
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	obećao	obećati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	rješenje	rješenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
-5	legalizacije	legalizacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+5	legalizacije	legalizacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
 6	i	i	CCONJ	Cc	_	7	cc	_	_
 7	pitanja	pitanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	5	conj	_	_
 8	imovine	imovina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
@@ -7641,10 +7641,10 @@
 13	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
 14	biti	biti	AUX	Van	VerbForm=Inf	15	cop	_	_
 15	protukandidat	protukandidat	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	acl	_	_
-16	Rami	Rama	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	_
+16	Rami	Rama	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	15	nmod	_	_
 17	u	u	ADP	Sl	Case=Loc	19	case	_	_
 18	izbornoj	izborni	ADJ	Agpfsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
-19	utrci	utrka	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	15	obl	_	ToDo=nmod
+19	utrci	utrka	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	ToDo=nmod
 20	za	za	ADP	Sa	Case=Acc	21	case	_	_
 21	gradonačelnika	gradonačelnik	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	19	nmod	_	_
 22	Tirane	Tirana	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
@@ -7680,7 +7680,7 @@
 25	Socijaldemokratskom	socijaldemokratski	ADJ	Agpfsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
 26	strankom	stranka	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	23	conj	_	_
 27	u	u	ADP	Sa	Case=Acc	29	case	_	_
-28	njegovu	njegov	DET	Ps3fsa	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	29	det	_	_
+28	njegovu	njegov	DET	Ps3fsa	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	29	det	_	Gender[psor]=Masc,Neut
 29	jezgru	jezgra	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	Z	_	13	punct	_	_
 
@@ -7981,7 +7981,7 @@
 13	ministra	ministar	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
 14	kulture	kultura	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
 15	i	i	CCONJ	Cc	_	17	cc	_	_
-16	njegova	njegov	DET	Ps3msay	Animacy=Anim|Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+16	njegova	njegov	DET	Ps3msay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	Gender[psor]=Masc,Neut
 17	pomoćnika	pomoćnik	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	13	conj	_	_
 18	za	za	ADP	Sa	Case=Acc	19	case	_	_
 19	nepoštivanje	nepoštivanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
@@ -8017,7 +8017,7 @@
 11	lijevo	lijevo	ADV	Rgp	Degree=Pos	6	parataxis	_	SpaceAfter=No
 12	)	)	PUNCT	Z	_	11	punct	_	_
 13	i	i	CCONJ	Cc	_	15	cc	_	_
-14	njegova	njegov	DET	Ps3msay	Animacy=Anim|Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+14	njegova	njegov	DET	Ps3msay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det	_	Gender[psor]=Masc,Neut
 15	savjetnika	savjetnik	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	conj	_	_
 16	Bajrusha	Bajrush	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	15	flat	_	_
 17	Morinu	Morina	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	16	flat	_	_
@@ -8037,7 +8037,7 @@
 5	Astrit	Astrit	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	_
 6	Haraqija	Haraqija	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	_
 7	i	i	CCONJ	Cc	_	9	cc	_	_
-8	njegov	njegov	DET	Ps3msn	Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+8	njegov	njegov	DET	Ps3msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	Gender[psor]=Masc,Neut
 9	pomoćnik	pomoćnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
 10	Bajrush	Bajrush	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	_
 11	Morina	Morina	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	10	flat	_	_
@@ -8277,7 +8277,7 @@
 5	nadležnost	nadležnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
 6	i	i	CCONJ	Cc	_	7	cc	_	_
 7	slijedio	slijediti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	conj	_	_
-8	njegove	njegov	DET	Ps3mpa	Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+8	njegove	njegov	DET	Ps3mpa	Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	Gender[psor]=Masc,Neut
 9	naputke	naputak	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
 10	da	da	SCONJ	Cs	_	11	mark	_	_
 11	izvrši	izvršiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	_
@@ -9597,7 +9597,7 @@
 # sent_id = set.hr-s2126
 # parallel_id = set/dev361
 # text = Njegove nove odgovornosti uključuju provedbu proračunskih pravila i jačanje koordinacije makroekonomske politike Unije.
-1	Njegove	njegov	DET	Ps3fpn	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+1	Njegove	njegov	DET	Ps3fpn	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	Gender[psor]=Masc,Neut
 2	nove	nov	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
 3	odgovornosti	odgovornost	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
 4	uključuju	uključivati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9857,7 +9857,7 @@
 18	razlozima	razlog	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	14	obl	_	_
 19	--	--	PUNCT	Z	_	14	punct	_	_
 20	za	za	ADP	Si	Case=Ins	23	case	_	_
-21	njezinim	njezin	DET	Ps3nsi	Case=Ins|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	23	det	_	_
+21	njezinim	njezin	DET	Ps3nsi	Case=Ins|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	23	det	_	Gender[psor]=Fem
 22	manjim	mali	ADJ	Agcnsiy	Case=Ins|Definite=Def|Degree=Cmp|Gender=Neut|Number=Sing	23	amod	_	_
 23	uplitanjem	uplitanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	11	nmod	_	_
 24	u	u	ADP	Sa	Case=Acc	26	case	_	_
@@ -9941,7 +9941,7 @@
 9	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	ostavljena	ostaviti	ADJ	Appfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	conj	_	_
 11	mogućnost	mogućnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
-12	njezinog	njezin	DET	Ps3nsg	Case=Gen|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+12	njezinog	njezin	DET	Ps3nsg	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	Gender[psor]=Fem
 13	ujedinjenja	ujedinjenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
 14	u	u	ADP	Sl	Case=Loc	15	case	_	_
 15	budućnosti	budućnost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
@@ -10185,7 +10185,7 @@
 5	širokog	širok	ADJ	Agpnsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
 6	tumačenja	tumačenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
 7	svoga	svoj	DET	Px-msg	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	_
-8	mandata	mandat	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+8	mandata	mandat	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	Z	_	13	punct	_	_
 10	kojeg	koji	DET	Pi-msay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	13	obj	_	_
 11	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
@@ -10889,7 +10889,7 @@
 13	pluralizam	pluralizam	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	conj	_	_
 14	i	i	CCONJ	Cc	_	15	cc	_	_
 15	funkcioniranje	funkcioniranje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	10	conj	_	_
-16	vlade	vlada	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	15	obl	_	_
+16	vlade	vlada	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
 17	kao	kao	SCONJ	Cs	_	19	cc	_	_
 18	i	i	CCONJ	Cc	_	17	fixed	_	_
 19	slobodu	sloboda	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	10	conj	_	_
@@ -11083,7 +11083,7 @@
 24	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
 25	da	da	SCONJ	Cs	_	32	mark	_	_
 26	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	32	expl	_	_
-27	njezina	njezin	DET	Ps3fsn	Case=Nom|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	28	det	_	_
+27	njezina	njezin	DET	Ps3fsn	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	28	det	_	Gender[psor]=Fem
 28	ocjena	ocjena	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	32	nsubj	_	_
 29	za	za	ADP	Sa	Case=Acc	31	case	_	_
 30	građanske	građanski	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	31	amod	_	_
@@ -11096,7 +11096,7 @@
 37	,	,	PUNCT	Z	_	42	punct	_	_
 38	te	te	CCONJ	Cc	_	42	cc	_	_
 39	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	42	expl	_	_
-40	njezin	njezin	DET	Ps3msn	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	41	det	_	_
+40	njezin	njezin	DET	Ps3msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	41	det	_	Gender[psor]=Fem
 41	status	status	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	42	nsubj	_	_
 42	poboljša	poboljšati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	conj	_	_
 43	s	sa	ADP	Sg	Case=Gen	45	case	_	_
@@ -11714,7 +11714,7 @@
 4	Branko	Branko	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
 5	Vukelić	Vukelić	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	_
 6	i	i	CCONJ	Cc	_	9	cc	_	_
-7	njegov	njegov	DET	Ps3msn	Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+7	njegov	njegov	DET	Ps3msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	Gender[psor]=Masc,Neut
 8	srbijanski	srbijanski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
 9	kolega	kolega	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
 10	Dragan	Dragan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	_
@@ -12008,10 +12008,10 @@
 14	u	u	ADP	Sl	Case=Loc	15	case	_	_
 15	smjeru	smjer	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_
 16	unaprjeđenja	unaprjeđenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
-17	vladavine	vladavina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	obl	_	_
+17	vladavine	vladavina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
 18	zakona	zakon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
 19	na	na	ADP	Sl	Case=Loc	20	case	_	_
-20	Kosovu	Kosovo	PROPN	Npnsl	Case=Loc|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No
+20	Kosovu	Kosovo	PROPN	Npnsl	Case=Loc|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	Z	_	22	punct	_	_
 22	ukazuje	ukazivati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 23	misija	misija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	SpaceAfter=No
@@ -13795,7 +13795,7 @@
 16	sa	sa	ADP	Si	Case=Ins	19	case	_	_
 17	12,5	12	NUM	Mdc	NumType=Card	19	nummod:gov	_	_
 18	%	%	SYM	Z	_	17	flat	_	_
-19	tržišta	tržište	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|ToDo=nmod
+19	tržišta	tržište	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No|ToDo=nmod
 20	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = news.hr-s369
@@ -14046,7 +14046,7 @@
 30	da	da	SCONJ	Cs	_	38	mark	_	_
 31	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
 32	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	38	obj	_	_
-33	njegova	njegov	DET	Ps3fsn	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	34	det	_	_
+33	njegova	njegov	DET	Ps3fsn	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	34	det	_	Gender[psor]=Masc,Neut
 34	stranka	stranka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	38	nsubj	_	_
 35	na	na	ADP	Sl	Case=Loc	37	case	_	_
 36	predstojećim	predstojeći	ADJ	Agpmply	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	37	amod	_	_
@@ -15100,7 +15100,7 @@
 10	nema	nemati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
 11	potrebe	potreba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	obj	_	_
 12	za	za	ADP	Sa	Case=Acc	14	case	_	_
-13	njenim	njen	DET	Ps3msi	Case=Ins|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+13	njenim	njen	DET	Ps3msi	Case=Ins|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	Gender[psor]=Fem
 14	radom	rad	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
 15	,	,	PUNCT	Z	_	21	punct	_	_
 16	a	a	CCONJ	Cc	_	21	cc	_	_
@@ -15741,7 +15741,7 @@
 12	ukazao	ukazati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	conj	_	_
 13	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 14	na	na	ADP	Sa	Case=Acc	17	case	_	_
-15	njegovu	njegov	DET	Ps3fsa	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+15	njegovu	njegov	DET	Ps3fsa	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	Gender[psor]=Masc,Neut
 16	iznimnu	izniman	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
 17	veličinu	veličina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
 18	.	.	PUNCT	Z	_	7	punct	_	_
@@ -15929,7 +15929,7 @@
 1	Princ	princ	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 2	William	William	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
 3	i	i	CCONJ	Cc	_	5	cc	_	_
-4	njegova	njegov	DET	Ps3fsn	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+4	njegova	njegov	DET	Ps3fsn	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	Gender[psor]=Masc,Neut
 5	zaručnica	zaručnica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
 6	Kate	Kate	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	5	flat	_	_
 7	Middleton	Middleton	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	6	flat	_	_
@@ -15947,7 +15947,7 @@
 19	princa	princ	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	18	appos	_	_
 20	Charlesa	Charles	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	19	flat	_	_
 21	i	i	CCONJ	Cc	_	23	cc	_	_
-22	njegove	njegov	DET	Ps3fsg	Case=Gen|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	23	det	_	_
+22	njegove	njegov	DET	Ps3fsg	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	23	det	_	Gender[psor]=Masc,Neut
 23	supruge	supruga	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	19	conj	_	_
 24	Camille	Camilla	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	23	flat	_	SpaceAfter=No
 25	,	,	PUNCT	Z	_	26	punct	_	_
@@ -15987,7 +15987,7 @@
 19	željelo	željeti	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	ccomp	_	_
 20	Williama	William	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_
 21	i	i	CCONJ	Cc	_	24	cc	_	_
-22	njegovu	njegov	DET	Ps3fsa	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
+22	njegovu	njegov	DET	Ps3fsa	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	Gender[psor]=Masc,Neut
 23	buduću	budući	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
 24	mladenku	mladenka	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	20	conj	_	_
 25	vidjeti	vidjeti	VERB	Vmn	VerbForm=Inf	19	xcomp	_	_
@@ -16038,7 +16038,7 @@
 14	kojem	koji	DET	Pi-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Int,Rel	16	obl	_	_
 15	sada	sada	ADV	Rgp	Degree=Pos|PronType=Dem	16	advmod	_	_
 16	sjedi	sjediti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	_
-17	njegova	njegov	DET	Ps3fsn	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
+17	njegova	njegov	DET	Ps3fsn	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det	_	Gender[psor]=Masc,Neut
 18	majka	majka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	SpaceAfter=No
 19	,	,	PUNCT	Z	_	23	punct	_	_
 20	84	84	NUM	Mdc	NumType=Card	22	nummod	_	_
@@ -16191,7 +16191,7 @@
 15	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 16	nekad	nekad	ADV	Rgp	Degree=Pos|PronType=Ind	17	advmod	_	_
 17	uspjela	uspjeti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	advcl	_	_
-18	njegova	njegov	DET	Ps3fsn	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+18	njegova	njegov	DET	Ps3fsn	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	19	det	_	Gender[psor]=Masc,Neut
 19	majka	majka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	SpaceAfter=No
 20	.	.	PUNCT	Z	_	3	punct	_	_
 
@@ -17437,7 +17437,7 @@
 # text = Trgovina i njezini uvjeti, upozorava Bilić, poseban su problem.
 1	Trgovina	trgovina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
 2	i	i	CCONJ	Cc	_	4	cc	_	_
-3	njezini	njezin	DET	Ps3mpn	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+3	njezini	njezin	DET	Ps3mpn	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	Gender[psor]=Fem
 4	uvjeti	uvjet	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
 5	,	,	PUNCT	Z	_	6	punct	_	_
 6	upozorava	upozoravati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
@@ -17522,7 +17522,7 @@
 # sent_id = news.hr-s2065
 # text = Prema njegovom mišljenju, srpanjskim izmjenama poreznog zakona opet je uveden svojevrsni mišung koji nosi niz potencijalnih problema.
 1	Prema	prema	ADP	Sl	Case=Loc	3	case	_	_
-2	njegovom	njegov	DET	Ps3nsl	Case=Loc|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod	_	_
+2	njegovom	njegov	DET	Ps3nsl	Case=Loc|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod	_	Gender[psor]=Masc,Neut
 3	mišljenju	mišljenje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
 4	,	,	PUNCT	Z	_	3	punct	_	_
 5	srpanjskim	srpanjski	ADJ	Agpfpiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
@@ -17692,7 +17692,7 @@
 13	kolika	koliki	DET	Pi-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	17	det	_	_
 14	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
 15	biti	biti	AUX	Van	VerbForm=Inf	12	acl	_	_
-16	njegova	njegov	DET	Ps3fsn	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+16	njegova	njegov	DET	Ps3fsn	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	Gender[psor]=Masc,Neut
 17	mirovina	mirovina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
 18	u	u	ADP	Sl	Case=Loc	19	case	_	_
 19	slučaju	slučaj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
@@ -20417,7 +20417,7 @@
 18	a	a	CCONJ	Cc	_	24	cc	_	_
 19	svećenice	svećenica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	24	nsubj	_	_
 20	u	u	ADP	Sl	Case=Loc	22	case	_	_
-21	njezinom	njezin	DET	Ps3msl	Case=Loc|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	22	det	_	_
+21	njezinom	njezin	DET	Ps3msl	Case=Loc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	22	det	_	Gender[psor]=Fem
 22	hramu	hram	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	24	obl	_	_
 23	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
 24	prakticirale	prakticirati	VERB	Vmp-pf	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	_
@@ -22310,7 +22310,7 @@
 5	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
 6	čisti	čistiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
 7	od	od	ADP	Sg	Case=Gen	9	case	_	_
-8	njegove	njegov	DET	Ps3fsg	Case=Gen|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+8	njegove	njegov	DET	Ps3fsg	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	Gender[psor]=Masc,Neut
 9	bolesti	bolest	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 10	.	.	PUNCT	Z	_	1	punct	_	_
 
@@ -22663,7 +22663,7 @@
 # sent_id = web.hr-s1151
 # text = Nakon njezina ustanovljenja, vlast je predana lokalnom fašističkom pokretu, ustašama, kojima je na čelu bio njihov Poglavnik Ante Pavelić.
 1	Nakon	nakon	ADP	Sg	Case=Gen	3	case	_	_
-2	njezina	njezin	DET	Ps3nsg	Case=Gen|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+2	njezina	njezin	DET	Ps3nsg	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	Gender[psor]=Fem
 3	ustanovljenja	ustanovljenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
 4	,	,	PUNCT	Z	_	3	punct	_	_
 5	vlast	vlast	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -22937,7 +22937,7 @@
 # text = I dok njegov otac ostaje teško ozlijeđen u kokpitu, Kitai mora prijeći opasan teren kako bi aktivirao signal za spašavanje.
 1	I	i	CCONJ	Cc	_	12	cc	_	_
 2	dok	dok	SCONJ	Cs	_	5	mark	_	_
-3	njegov	njegov	DET	Ps3msn	Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+3	njegov	njegov	DET	Ps3msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	Gender[psor]=Masc,Neut
 4	otac	otac	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 5	ostaje	ostajati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
 6	teško	teško	ADV	Rgp	Degree=Pos	7	advmod	_	_
@@ -24019,7 +24019,7 @@
 22	samih	sam	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	_
 23	izvođača	izvođač	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
 24	te	te	CCONJ	Cc	_	27	cc	_	_
-25	njegovu	njegov	DET	Ps3fsa	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	27	det	_	_
+25	njegovu	njegov	DET	Ps3fsa	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	27	det	_	Gender[psor]=Masc,Neut
 26	uvjetovanu	uvjetovan	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
 27	kondiciju	kondicija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
 28	.	.	PUNCT	Z	_	6	punct	_	_
@@ -24072,7 +24072,7 @@
 44	nakon	nakon	ADP	Sg	Case=Gen	45	case	_	_
 45	priznanja	priznanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	40	obl	_	_
 46	da	da	SCONJ	Cs	_	50	mark	_	_
-47	njegovim	njegov	DET	Ps3nsi	Case=Ins|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	49	det	_	_
+47	njegovim	njegov	DET	Ps3nsi	Case=Ins|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	49	det	_	Gender[psor]=Masc,Neut
 48	vještim	vješt	ADJ	Agpnsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	49	amod	_	_
 49	perom	pero	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	50	obl	_	_
 50	upravlja	upravljati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	acl	_	_
@@ -25482,7 +25482,7 @@
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	potražnja	potražnja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
 4	za	za	ADP	Si	Case=Ins	7	case	_	_
-5	njenim	njen	DET	Ps3mpi	Case=Ins|Gender=Masc|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod	_	_
+5	njenim	njen	DET	Ps3mpi	Case=Ins|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod	_	Gender[psor]=Fem
 6	cvjetnim	cvjetan	ADJ	Agpmpiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
 7	motivima	motiv	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	Z	_	10	punct	_	_
@@ -25635,7 +25635,7 @@
 31	jest	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 32	da	da	SCONJ	Cs	_	43	mark	_	_
 33	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	44	expl	_	_
-34	njen	njen	DET	Ps3msn	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	35	det	_	_
+34	njen	njen	DET	Ps3msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	35	det	_	Gender[psor]=Fem
 35	odlazak	odlazak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	43	nsubj	_	_
 36	iz	iz	ADP	Sg	Case=Gen	37	case	_	_
 37	Zagreba	Zagreb	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	_
