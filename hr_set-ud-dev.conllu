@@ -10621,12 +10621,13 @@
 # sent_id = set.hr-s2588
 # parallel_id = set/dev402
 # text = Kosovo se pomaknulo s "neslobodne" na "djelomice slobodnu" zemlju u ovogodišnjem izvješću.
+# tags = NEW
 1	Kosovo	Kosovo	PROPN	Npnsn	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	_
 3	pomaknulo	pomaknuti	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	s	sa	ADP	Sg	Case=Gen	6	case	_	orig_deprel=case
 5	"	"	PUNCT	Z	_	6	punct	_	SpaceAfter=No
-6	neslobodne	neslobodan	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	13	obl	_	orig_deprel=amod|SpaceAfter=No
+6	neslobodne	neslobodan	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	obl	_	orig_deprel=amod|SpaceAfter=No
 7	"	"	PUNCT	Z	_	6	punct	_	_
 8	na	na	ADP	Sa	Case=Acc	13	case	_	_
 9	"	"	PUNCT	Z	_	11	punct	_	SpaceAfter=No
