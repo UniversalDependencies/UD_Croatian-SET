@@ -34,7 +34,7 @@
     <tag name="X">771</tag><!-- online, of, the, A1, de, times, international, and, company, world -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="52">
+  <feats unique="50">
     <feat name="Animacy" value="Anim" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">631</feat><!-- kojeg, predsjednika, bivšeg, jednog, kandidata, najboljeg, novog, boga, ministra, premijera -->
     <feat name="Animacy" value="Inan" upos="ADJ,DET,NOUN,NUM,PROPN">4767</feat><!-- SETimes, svoj, način, ponedjeljak, koji, utorak, petak, četvrtak, EU, prvi -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">26529</feat><!-- se, za, u, na, to, uz, koje, svoje, sve, ga -->
@@ -53,8 +53,6 @@
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">36752</feat><!-- godine, koje, koja, godina, BiH, zemlje, kuna, ove, bila, zemalja -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">49118</feat><!-- koji, EU, izjavio, bio, milijuna, jedan, rekao, eura, kazao, ljudi -->
     <feat name="Gender" value="Neut" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">14436</feat><!-- to, što, bilo, toga, Kosova, vrijeme, koje, sve, tome, Kosovo -->
-    <feat name="Gender[psor]" value="Fem" upos="DET">127</feat><!-- njezina, njezine, njezin, njen, njezinu, njezinih, njene, njezino, njezinom, njena -->
-    <feat name="Gender[psor]" value="Masc,Neut" upos="DET">229</feat><!-- njegova, njegov, njegove, njegovu, njegovim, njegovoj, njegovog, njegovo, njegovih, njegovom -->
     <feat name="Mood" value="Cnd" upos="AUX">773</feat><!-- bi, biste, bismo, bih -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">221</feat><!-- kliknite, recimo, izbjegavajte, koristite, potražite, pročitajte, čuvajte, daj, nemojte, odaberite -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">18332</feat><!-- je, su, će, nije, smo, može, ima, kaže, treba, mogu -->
@@ -92,7 +90,7 @@
   <deps unique="38">
     <dep name="acl">3851</dep>
     <dep name="advcl">1785</dep>
-    <dep name="advmod">7611</dep>
+    <dep name="advmod">7610</dep>
     <dep name="advmod:emph">42</dep>
     <dep name="amod">19538</dep>
     <dep name="appos">999</dep>
@@ -111,17 +109,17 @@
     <dep name="dislocated">7</dep>
     <dep name="expl">2360</dep>
     <dep name="fixed">895</dep>
-    <dep name="flat">5504</dep>
+    <dep name="flat">5502</dep>
     <dep name="flat:foreign">61</dep>
     <dep name="iobj">682</dep>
     <dep name="list">24</dep>
     <dep name="mark">4050</dep>
-    <dep name="nmod">18797</dep>
+    <dep name="nmod">18928</dep>
     <dep name="nsubj">14081</dep>
     <dep name="nummod">981</dep>
-    <dep name="nummod:gov">1713</dep>
+    <dep name="nummod:gov">1714</dep>
     <dep name="obj">8726</dep>
-    <dep name="obl">12713</dep>
+    <dep name="obl">12584</dep>
     <dep name="orphan">142</dep>
     <dep name="parataxis">2296</dep>
     <dep name="punct">24164</dep>
