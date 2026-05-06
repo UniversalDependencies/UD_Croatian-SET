@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Croatian-SET:
-commit 87dc83b83d6c2b3f29ed39e3ef4640646d161792
-Merge: 0492d82 9c1a808
+commit 2a6ddd0bca5f7dc4f1704a6f6bd861c517d87739
+Merge: 03cacf8 9a49ebe
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'hr_set'
@@ -25,46 +25,79 @@ Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 3 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang hr --max-err=10 UD_Croatian-SET/hr_set-ud-dev.conllu
-[Line 149 Sent set.hr-s8]: [L3 Warning fixed-without-extpos] Fixed expression 's obzirom da' does not have the 'ExtPos' feature
-[Line 214 Sent set.hr-s10]: [L3 Warning fixed-without-extpos] Fixed expression 'zato što' does not have the 'ExtPos' feature
-[Line 249 Sent set.hr-s12]: [L3 Warning fixed-without-extpos] Fixed expression 'Nakon što' does not have the 'ExtPos' feature
-[Line 273 Sent set.hr-s12]: [L3 Warning fixed-without-extpos] Fixed expression 's obzirom da' does not have the 'ExtPos' feature
-[Line 360 Sent set.hr-s15]: [L3 Warning fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
-[Line 480 Sent set.hr-s20]: [L3 Warning pron-det-without-prontype] The word 'Više' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 568 Sent set.hr-s23]: [L3 Warning fixed-without-extpos] Fixed expression 's obzirom da' does not have the 'ExtPos' feature
-[Line 824 Sent set.hr-s34]: [L3 Warning pron-det-without-prontype] The word 'više' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1036 Sent set.hr-s481]: [L3 Warning fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
-[Line 1237 Sent set.hr-s487]: [L3 Warning obl-should-be-nmod] The parent (node [12] 'postizanje') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-...suppressing further errors regarding Warning
-Warnings: 107
+[Line 149 Sent set.hr-s8]: [L3 WARNING fixed-without-extpos] Fixed expression 's obzirom da' does not have the 'ExtPos' feature
+[Line 214 Sent set.hr-s10]: [L3 WARNING fixed-without-extpos] Fixed expression 'zato što' does not have the 'ExtPos' feature
+[Line 249 Sent set.hr-s12]: [L3 WARNING fixed-without-extpos] Fixed expression 'Nakon što' does not have the 'ExtPos' feature
+[Line 273 Sent set.hr-s12]: [L3 WARNING fixed-without-extpos] Fixed expression 's obzirom da' does not have the 'ExtPos' feature
+[Line 360 Sent set.hr-s15]: [L3 WARNING fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
+[Line 480 Sent set.hr-s20]: [L3 WARNING pron-det-without-prontype] The word 'Više' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 568 Sent set.hr-s23]: [L3 WARNING fixed-without-extpos] Fixed expression 's obzirom da' does not have the 'ExtPos' feature
+[Line 824 Sent set.hr-s34]: [L3 WARNING pron-det-without-prontype] The word 'više' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1036 Sent set.hr-s481]: [L3 WARNING fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
+[Line 1928 Sent set.hr-s586]: [L3 WARNING fixed-without-extpos] Fixed expression 'čak i' does not have the 'ExtPos' feature
+[Line 2222 Sent set.hr-s799]: [L3 WARNING fixed-without-extpos] Fixed expression 'budući da' does not have the 'ExtPos' feature
+[Line 2380 Sent set.hr-s804]: [L3 WARNING fixed-without-extpos] Fixed expression 'nakon što' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 5322 Sent set.hr-s1474]: [L3 WARNING pron-det-without-prontype] The word 'mnogo' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 10468 Sent set.hr-s2453]: [L3 WARNING pron-det-without-prontype] The word 'mnogo' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 13878 Sent news.hr-s856]: [L3 WARNING pron-det-without-prontype] The word 'previše' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 14593 Sent news.hr-s881]: [L3 WARNING pron-det-without-prontype] The word 'najviše' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 15327 Sent news.hr-s908]: [L3 WARNING pron-det-without-prontype] The word 'još' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 18266 Sent news.hr-s2089]: [L3 WARNING pron-det-without-prontype] The word 'podosta' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 19089 Sent news.hr-s2121]: [L3 WARNING pron-det-without-prontype] The word 'pola' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 19383 Sent news.hr-s2129]: [L3 WARNING pron-det-without-prontype] The word 'pola' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 99
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang hr --max-err=10 UD_Croatian-SET/hr_set-ud-test.conllu
-[Line 249 Sent set.hr-s305]: [L3 Warning fixed-without-extpos] Fixed expression 's obzirom da' does not have the 'ExtPos' feature
-[Line 1017 Sent set.hr-s438]: [L3 Warning fixed-without-extpos] Fixed expression 'no što' does not have the 'ExtPos' feature
-[Line 1227 Sent set.hr-s444]: [L3 Warning fixed-without-extpos] Fixed expression 'kao i' does not have the 'ExtPos' feature
-[Line 1615 Sent set.hr-s456]: [L3 Warning fixed-without-extpos] Fixed expression 'prije nego što' does not have the 'ExtPos' feature
-[Line 2128 Sent set.hr-s495]: [L3 Warning fixed-without-extpos] Fixed expression 'još uvijek' does not have the 'ExtPos' feature
-[Line 2131 Sent set.hr-s495]: [L3 Warning pron-det-without-prontype] The word 'dosta' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2347 Sent set.hr-s504]: [L3 Warning fixed-without-extpos] Fixed expression 'prije nego' does not have the 'ExtPos' feature
-[Line 2784 Sent set.hr-s721]: [L3 Warning fixed-without-extpos] Fixed expression 'prije nego' does not have the 'ExtPos' feature
-[Line 2966 Sent set.hr-s727]: [L3 Warning fixed-without-extpos] Fixed expression 'u svezi sa' does not have the 'ExtPos' feature
-[Line 3019 Sent set.hr-s729]: [L3 Warning fixed-without-extpos] Fixed expression 'osim ako' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-Warnings: 113
+[Line 249 Sent set.hr-s305]: [L3 WARNING fixed-without-extpos] Fixed expression 's obzirom da' does not have the 'ExtPos' feature
+[Line 1017 Sent set.hr-s438]: [L3 WARNING fixed-without-extpos] Fixed expression 'no što' does not have the 'ExtPos' feature
+[Line 1227 Sent set.hr-s444]: [L3 WARNING fixed-without-extpos] Fixed expression 'kao i' does not have the 'ExtPos' feature
+[Line 1615 Sent set.hr-s456]: [L3 WARNING fixed-without-extpos] Fixed expression 'prije nego što' does not have the 'ExtPos' feature
+[Line 2128 Sent set.hr-s495]: [L3 WARNING fixed-without-extpos] Fixed expression 'još uvijek' does not have the 'ExtPos' feature
+[Line 2131 Sent set.hr-s495]: [L3 WARNING pron-det-without-prontype] The word 'dosta' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2347 Sent set.hr-s504]: [L3 WARNING fixed-without-extpos] Fixed expression 'prije nego' does not have the 'ExtPos' feature
+[Line 2784 Sent set.hr-s721]: [L3 WARNING fixed-without-extpos] Fixed expression 'prije nego' does not have the 'ExtPos' feature
+[Line 2966 Sent set.hr-s727]: [L3 WARNING fixed-without-extpos] Fixed expression 'u svezi sa' does not have the 'ExtPos' feature
+[Line 3019 Sent set.hr-s729]: [L3 WARNING fixed-without-extpos] Fixed expression 'osim ako' does not have the 'ExtPos' feature
+[Line 3292 Sent set.hr-s738]: [L3 WARNING fixed-without-extpos] Fixed expression 'u ime' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 11047 Sent set.hr-s3091]: [L3 WARNING pron-det-without-prontype] The word 'više' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 16706 Sent wiki.hr-s65]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 16705 Sent wiki.hr-s65]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 17622 Sent news.hr-s94]: [L3 WARNING pron-det-without-prontype] The word 'posto' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 17706 Sent news.hr-s1114]: [L3 WARNING pron-det-without-prontype] The word 'malo' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 19637 Sent news.hr-s2336]: [L3 WARNING pron-det-without-prontype] The word 'puno' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 20429 Sent news.hr-s2368]: [L3 WARNING pron-det-without-prontype] The word 'previše' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 21037 Sent news.hr-s2391]: [L3 WARNING pron-det-without-prontype] The word 'više' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 21645 Sent news.hr-s2568]: [L3 WARNING pron-det-without-prontype] The word 'malo' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 102
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang hr --max-err=10 UD_Croatian-SET/hr_set-ud-train.conllu
-[Line 129 Sent set.hr-s40]: [L3 Warning obl-should-be-nmod] The parent (node [29] 'pranja') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 149 Sent set.hr-s40]: [L3 Warning obl-should-be-nmod] The parent (node [48] 'trajanju') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 152 Sent set.hr-s40]: [L3 Warning obl-should-be-nmod] The parent (node [48] 'trajanju') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 165 Sent set.hr-s41]: [L3 Warning fixed-without-extpos] Fixed expression 'zato što' does not have the 'ExtPos' feature
-[Line 453 Sent set.hr-s48]: [L3 Warning fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
-[Line 572 Sent set.hr-s53]: [L3 Warning fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
-[Line 599 Sent set.hr-s54]: [L3 Warning fixed-without-extpos] Fixed expression 'li da' does not have the 'ExtPos' feature
-[Line 825 Sent set.hr-s63]: [L3 Warning fixed-without-extpos] Fixed expression 'nakon što' does not have the 'ExtPos' feature
-[Line 1044 Sent set.hr-s71]: [L3 Warning fixed-without-extpos] Fixed expression 'kao i' does not have the 'ExtPos' feature
-[Line 1246 Sent set.hr-s80]: [L3 Warning fixed-without-extpos] Fixed expression 's obzirom na' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-Warnings: 885
+[Line 166 Sent set.hr-s41]: [L3 WARNING fixed-without-extpos] Fixed expression 'zato što' does not have the 'ExtPos' feature
+[Line 454 Sent set.hr-s48]: [L3 WARNING fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
+[Line 573 Sent set.hr-s53]: [L3 WARNING fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
+[Line 600 Sent set.hr-s54]: [L3 WARNING fixed-without-extpos] Fixed expression 'li da' does not have the 'ExtPos' feature
+[Line 826 Sent set.hr-s63]: [L3 WARNING fixed-without-extpos] Fixed expression 'nakon što' does not have the 'ExtPos' feature
+[Line 1045 Sent set.hr-s71]: [L3 WARNING fixed-without-extpos] Fixed expression 'kao i' does not have the 'ExtPos' feature
+[Line 1247 Sent set.hr-s80]: [L3 WARNING fixed-without-extpos] Fixed expression 's obzirom na' does not have the 'ExtPos' feature
+[Line 1307 Sent set.hr-s83]: [L3 WARNING fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
+[Line 1593 Sent set.hr-s98]: [L3 WARNING fixed-without-extpos] Fixed expression 'ne samo' does not have the 'ExtPos' feature
+[Line 1599 Sent set.hr-s98]: [L3 WARNING fixed-without-extpos] Fixed expression 'nego i' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 4254 Sent set.hr-s216]: [L3 WARNING pron-det-without-prontype] The word 'mnogo' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 4338 Sent set.hr-s218]: [L3 WARNING pron-det-without-prontype] The word 'mnogo' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 4694 Sent set.hr-s229]: [L3 WARNING pron-det-without-prontype] The word 'mnogo' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 6737 Sent set.hr-s336]: [L3 WARNING pron-det-without-prontype] The word 'previše' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 7393 Sent set.hr-s362]: [L3 WARNING pron-det-without-prontype] The word 'više' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 8042 Sent set.hr-s381]: [L3 WARNING pron-det-without-prontype] The word 'više' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 12590 Sent set.hr-s666]: [L3 WARNING pron-det-without-prontype] The word 'malo' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 13570 Sent set.hr-s704]: [L3 WARNING pron-det-without-prontype] The word 'Više' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 14247 Sent set.hr-s780]: [L3 WARNING pron-det-without-prontype] The word 'mnogo' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 18306 Sent set.hr-s1002]: [L3 WARNING pron-det-without-prontype] The word 'više' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 792
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
